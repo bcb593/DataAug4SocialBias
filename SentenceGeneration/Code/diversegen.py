@@ -4,6 +4,7 @@ from transformers import pipeline
 from transformers import AutoTokenizer
 import transformers
 import torch
+import re
 
 model = "meta-llama/Llama-2-7b-chat-hf" # meta-llama/Llama-2-70b-hf
 tokenizer = AutoTokenizer.from_pretrained(model, use_auth_token=True)
@@ -55,3 +56,32 @@ def return_relevant_sentences(sentences_path, prompt_path):
     return relevant_sentences
 
 relevant_sentences = return_relevant_sentences(sentences_path, prompt_path)
+
+## Extract the sentences from the generation: 
+def extract_groups(relevant_sentences):
+    pattern = r"(?i)for (the )?same social group:\s*(.*?)(?:\n|$)+for (the )?opposite social group:\s*(.*?)(?:\n|$)"
+
+    same_social_group_sentences = []
+    opposite_social_group_sentences = []
+
+    for element in relevant_sentences:
+        match = re.search(pattern, element, re.DOTALL)
+        if match:
+            same_social_group_sentences.append(match.group(2).strip())
+            opposite_social_group_sentences.append(match.group(4).strip())
+    
+    return same_social_group_sentences, opposite_social_group_sentences
+
+same_group,opposite_group=extract_groups(relevant_sentences)
+with open('/scratch0/bashyalb/DataAug4SocialBias/SentenceGeneration/Data/SocialGroups/gender/Generated/Same_Social_Group.txt', 'w',encoding='utf-8') as f:
+    for sentence in same_group:
+        f.write(sentence + '\n')
+
+with open('/scratch0/bashyalb/DataAug4SocialBias/SentenceGeneration/Data/SocialGroups/gender/Generated/Opposite_Social_Group.txt', 'w',encoding='utf-8') as f:
+    for sentence in opposite_group:
+        f.write(sentence + '\n')
+
+#And write everything in a file
+with open('/scratch0/bashyalb/DataAug4SocialBias/SentenceGeneration/Data/SocialGroups/gender/Generated/all_generated.txt', 'w',encoding='utf-8') as f:
+    for sentence in relevant_sentences:
+        f.write(sentence + '\n')
