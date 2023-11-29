@@ -45,7 +45,7 @@ def return_relevant_sentences(sentences_path, prompt_path):
     with open(sentences_path, 'r', encoding='utf-8') as file:
         sentences = [line.strip() for line in file]
         i=0
-    for sentence in sentences:
+    for sentence in sentences[:10]:
         if i%5==0:
           print('Done with',i,'sentences')
         i+=1
