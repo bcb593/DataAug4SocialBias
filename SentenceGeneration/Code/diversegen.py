@@ -8,8 +8,8 @@ import re
 
 model = "meta-llama/Llama-2-7b-chat-hf" # meta-llama/Llama-2-70b-hf
 tokenizer = AutoTokenizer.from_pretrained(model, use_auth_token=True)
-prompt_path='/scratch0/bashyalb/ACL2024/SentenceGeneration/Data/prompt_gender.txt'
-sentences_path = '/scratch0/bashyalb/ACL2024/SentenceGeneration/Data/gender_output_100.txt'
+prompt_path='/scratch0/bashyalb/DataAug4SocialBias/SentenceGeneration/Data/prompts/prompt_gender.txt'
+sentences_path = '/scratch0/bashyalb/DataAug4SocialBias/SentenceGeneration/Data/longer_text10k_gender.txt'
 
 
 llama_pipeline = pipeline(
