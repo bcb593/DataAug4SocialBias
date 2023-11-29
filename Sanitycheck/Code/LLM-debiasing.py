@@ -1,5 +1,5 @@
 import os
-
+os.system("export TRANSFORMERS_CACHE=/scratch0/bashyalb/pretrained_models/")
 import pytorch_lightning as pl
 import transformers
 
@@ -17,8 +17,10 @@ from torch.utils.data import DataLoader, Dataset
 
 transformers.logging.set_verbosity_error()
 
-os.system("export TRANSFORMERS_CACHE=/scratch0/bashyalb/pretrained_models/")
-
+#os.system("export TRANSFORMERS_CACHE=/scratch0/bashyalb/pretrained_models/")
+#os.system("export TRANSFORMERS_CACHE=/scratch0/bashyalb/pretrained_models/")
+#os.environ["TRANSFORMERS_CACHE"] ="/scratch0/bashyalb/pretrained_models/"
+#os.environ["TRANSFORMERS_CACHE"] = "/scratch0/bashyalb/pretrained_models/"
 
 class myMaskedLMDataset(Dataset):
     def __init__(self, file, tokenizer):
@@ -71,7 +73,7 @@ class myMLM(pl.LightningModule):
 
 
 if __name__ == "__main__":
-    #os.system("export TRANSFORMERS_CACHE=/scratch0/bashyalb/pretrained_models/")
+ #   os.system("export TRANSFORMERS_CACHE=/scratch0/bashyalb/pretrained_models/")
     print("Cuda support:", torch.cuda.is_available(),":", torch.cuda.device_count(), "devices")
 
     os.environ["TOKENIZERS_PARALLELISM"] = "true"
@@ -131,10 +133,10 @@ if __name__ == "__main__":
         verbose=True,
         mode="min")
     # print("debiasing fine-tuning")
-    trainer = pl.Trainer(max_epochs=args.epochs, devices=[0,1,2]'' accelerator="gpu", strategy="ddp",
+    trainer = pl.Trainer(max_epochs=args.epochs, devices=[5,7], accelerator="gpu", strategy="ddp",
                          callbacks=[checkpoint_callback],
                          default_root_dir="./{}/".format(args.output))
     trainer.fit(model, train_loader)
     print(checkpoint_callback.best_model_path, "88888888888888888888888888888888888")
     torch.save(model.mlm.state_dict(),
-               "./debiased..{0}.ckpt".format(args.model.split("-")[0]))
+               "./debiased.{0}.ckpt".format(args.model.split("-")[0]))
