@@ -1,0 +1,50 @@
+Scientist
+Engineer
+Doctor
+Nurse
+Teacher
+Professor
+Lawyer
+Judge
+Police Officer
+Firefighter
+Soldier
+Pilot
+Astronaut
+Artist
+Musician
+Actor
+Director
+Writer
+Journalist
+Chef
+Farmer
+Fisherman
+Miner
+Carpenter
+Electrician
+Mechanic
+Plumber
+Architect
+Accountant
+Banker
+Entrepreneur
+CEO
+Manager
+Secretary
+Custodian
+Retail Worker
+Waiter
+Bartender
+Driver
+Flight Attendant
+Librarian
+Curator
+Coach
+Athlete
+Trainer
+Physiotherapist
+Psychologist
+Social Worker
+Activist
+Politician
