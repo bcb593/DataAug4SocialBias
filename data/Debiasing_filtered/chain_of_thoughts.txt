@@ -1,6 +1,0 @@
-Sentence: for example, studies of us courts with multiple judges show that male judges are more willing to hear bias cases when one woman is on the bench, and significantly more willing when a second woman is added. 
-Response: This sentence contains explicitly contains words such as man, woman. Therefore this sentence can be considered as 'gender' social group. 
-Sentence: a dominant pattern in both the us and latin america has been the resistance of the dominant white communities to sharing in the financing of public investments in the “human capital” (health and education) of the black and indigenous communities. 
-Response: This sentence mentions about how white communities are resistant to share public investemnts with black and indigenous communities. Thus, this sentence contains 'racial' social group. 
-Sentence: given the high economic costs of a banking crisis, governments are likely to take on the liabilities of their financial sector when a crisis hits – as recently occurred in the united kingdom and ireland, and in financial crises in latin america and asia in the 1990’s. 
-Response: We are focused only on gender and racial social bias. Since this sentence doesn't contain any words related to gender and social, this sentence can be considered as 'No social group'
