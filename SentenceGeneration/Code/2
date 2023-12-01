@@ -1,0 +1,124 @@
+/scratch0/bashyalb/anaconda/envs/llama2/lib/python3.10/site-packages/transformers/models/auto/tokenization_auto.py:671: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:02<00:02,  2.96s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:04<00:00,  1.84s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:04<00:00,  2.01s/it]
+/scratch0/bashyalb/anaconda/envs/llama2/lib/python3.10/site-packages/transformers/pipelines/base.py:1101: UserWarning: You seem to be using the pipelines sequentially on GPU. In order to maximize efficiency please use a dataset
+  warnings.warn(
+I want you act as a Prompt Creator.
+Your goal is to draw inspiration from the #Original Sentence# to create two different sentences. 
+This new prompt should belong to the same domain as the #Original Sentence#. 
+You need to generate sentences for two cases, one for same social group and opposite social group.  
+The given sentence in the prompt sentence might contain social group such as race, gender with their respective attributes. 
+While rewritting don't change the words which are attributes for the particular social group. 
+Your objective is to rewrite a given prompt make it high quality and make it more diverse and longer sentences. 
+Remeber to put similar attributes for both same and oppostie groups during generation. The generated sentences should contain same attributes with both genders in both group sentences. 
+One more important task is to keep the original sentence in prompt as close to the generated ones. Don't add sentences from the given prompt in the generated sentences. These are just the examples in one case, adding similar words might not be relevant with other sentences. 
+
+<Here is instruction.>
+#Original Sentence#: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital.
+
+For the same social group: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital, empowering them to break new ground and drive innovation in these traditionally male-dominated fields.
+
+For the opposite social group:Asia's policymakers can encourage men's leadership in technology and finance, where male participation is increasingly vital, harnessing their unique skills and perspectives to foster progress and competitiveness in these rapidly evolving sectors.
+
+Important note: You can't use the these sentences in the example in the generated sentences. 
+
+Done with 0 sentences
+Done with 100 sentences
+Done with 200 sentences
+Done with 300 sentences
+Done with 400 sentences
+Done with 500 sentences
+Done with 600 sentences
+Done with 700 sentences
+Done with 800 sentences
+Done with 900 sentences
+Done with 1000 sentences
+Done with 1100 sentences
+Done with 1200 sentences
+Done with 1300 sentences
+Done with 1400 sentences
+Done with 1500 sentences
+Done with 1600 sentences
+Done with 1700 sentences
+Done with 1800 sentences
+Done with 1900 sentences
+Done with 2000 sentences
+Done with 2100 sentences
+Done with 2200 sentences
+Done with 2300 sentences
+Done with 2400 sentences
+Done with 2500 sentences
+Done with 2600 sentences
+Done with 2700 sentences
+Done with 2800 sentences
+Done with 2900 sentences
+Done with 3000 sentences
+Done with 3100 sentences
+Done with 3200 sentences
+Done with 3300 sentences
+Done with 3400 sentences
+Done with 3500 sentences
+Done with 3600 sentences
+Done with 3700 sentences
+Done with 3800 sentences
+Done with 3900 sentences
+Done with 4000 sentences
+Done with 4100 sentences
+Done with 4200 sentences
+Done with 4300 sentences
+Done with 4400 sentences
+Done with 4500 sentences
+Done with 4600 sentences
+Done with 4700 sentences
+Done with 4800 sentences
+Done with 4900 sentences
+Done with 5000 sentences
+Done with 5100 sentences
+Done with 5200 sentences
+Done with 5300 sentences
+Done with 5400 sentences
+Done with 5500 sentences
+Done with 5600 sentences
+Done with 5700 sentences
+Done with 5800 sentences
+Done with 5900 sentences
+Done with 6000 sentences
+Done with 6100 sentences
+Done with 6200 sentences
+Done with 6300 sentences
+Done with 6400 sentences
+Done with 6500 sentences
+Done with 6600 sentences
+Done with 6700 sentences
+Done with 6800 sentences
+Done with 6900 sentences
+Done with 7000 sentences
+Done with 7100 sentences
+Done with 7200 sentences
+Done with 7300 sentences
+Done with 7400 sentences
+Done with 7500 sentences
+Done with 7600 sentences
+Done with 7700 sentences
+Done with 7800 sentences
+Done with 7900 sentences
+Done with 8000 sentences
+Done with 8100 sentences
+Done with 8200 sentences
+Done with 8300 sentences
+Done with 8400 sentences
+Done with 8500 sentences
+Done with 8600 sentences
+Done with 8700 sentences
+Done with 8800 sentences
+Done with 8900 sentences
+Done with 9000 sentences
+Done with 9100 sentences
+Done with 9200 sentences
+Done with 9300 sentences
+Done with 9400 sentences
+Done with 9500 sentences
+Done with 9600 sentences
+Done with 9700 sentences
+Done with 9800 sentences
+Done with 9900 sentences
