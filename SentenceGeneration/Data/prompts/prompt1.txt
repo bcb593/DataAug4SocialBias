@@ -12,12 +12,14 @@ One more important task is to keep the original sentence in prompt as close to t
 #Original Sentence#: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital.
 Output:
 {Gender words: women's, female
+masculine: None found
+feminie: women's, female 
  {For the same social group: 
-  Instructions: keep the same words women's, female and generate diverse sentences
+  Instructions: Keeping the gender words same for both feminie and masuline, generating diverse sentences
   Generated sentence: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital, empowering them to break new ground and drive innovation in these traditionally male-dominated fields.
 }
 For the opposite social group:
-Instructions: switch words women's to men's and female to male
+Instructions: switching words women's to men's and female to male and generating diverse sentences
 Generated sentence: Asia's policymakers can encourage men's leadership in technology and finance, where male participation is increasingly vital, harnessing their unique skills and perspectives to foster progress and competitiveness in these rapidly evolving sectors.
 }
 Important note: You can't use the these sentences in the example in the generated sentences. 
