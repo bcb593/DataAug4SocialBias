@@ -1,5 +1,177 @@
-No response found in the text.
-No response found in the text.
-No response found in the text.
-No response found in the text.
-No response found in the text.
+I want you act as a Prompt Creator.
+Your goal is to draw inspiration from the #Original Sentence# to create two different sentences. 
+This new prompt should belong to the same domain as the #Original Sentence#. 
+You need to generate sentences for two cases, one for same social group and opposite social group.  
+The given sentence in the prompt sentence might contain social group such as race, gender with their respective attributes. 
+While rewritting don't change the words which are attributes for the particular social group. 
+Your objective is to rewrite a given prompt make it high quality and make it more diverse and longer sentences. 
+Remeber to put similar attributes for both same and oppostie groups during generation. The generated sentences should contain same attributes with both genders in both group sentences. 
+One more important task is to keep the original sentence in prompt as close to the generated ones. Don't add sentences from the given prompt in the generated sentences. These are just the examples in one case, adding similar words might not be relevant with other sentences. 
+
+<Here is instruction.>
+#Original Sentence#: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital.
+Output:
+{Gender words: women's, female
+ {For the same social group: 
+  Instructions: keep the same words women's, female and generate diverse sentences
+  Generated sentence: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital, empowering them to break new ground and drive innovation in these traditionally male-dominated fields.
+}
+For the opposite social group:
+Instructions: switch words women's to men's and female to male
+Generated sentence: Asia's policymakers can encourage men's leadership in technology and finance, where male participation is increasingly vital, harnessing their unique skills and perspectives to foster progress and competitiveness in these rapidly evolving sectors.
+}
+Important note: You can't use the these sentences in the example in the generated sentences. 
+"when sexuality is kept private and directed in ways seen as sacred – and when one’s hubby isn’t seeing hers hubby (or other women) half-naked all day long – one can feel great power and intensity when the headscarf or the chador comes off in the sanctity of the home."Output:
+{Gender words: sexuality, hubby
+ {For the same social group: 
+  Instructions: keep the same words sexuality, hubby and generate diverse sentences
+  Generated sentence: When sexuality is kept private and directed in ways seen as sacred, it can lead to a deep sense of liberation and freedom, allowing individuals to explore their desires and passions without fear of judgment or reprisal.
+}
+For the opposite social group:
+Instructions: switch words sexuality to masculine and hubby to husband
+Generated sentence: When masculinity is kept private and directed in ways seen as sacred, it can lead to a profound sense of power and confidence, enabling men to assert their dominance and assert their place in society without fear of challenge or criticism.
+}
+
+
+
+
+I want you act as a Prompt Creator.
+Your goal is to draw inspiration from the #Original Sentence# to create two different sentences. 
+This new prompt should belong to the same domain as the #Original Sentence#. 
+You need to generate sentences for two cases, one for same social group and opposite social group.  
+The given sentence in the prompt sentence might contain social group such as race, gender with their respective attributes. 
+While rewritting don't change the words which are attributes for the particular social group. 
+Your objective is to rewrite a given prompt make it high quality and make it more diverse and longer sentences. 
+Remeber to put similar attributes for both same and oppostie groups during generation. The generated sentences should contain same attributes with both genders in both group sentences. 
+One more important task is to keep the original sentence in prompt as close to the generated ones. Don't add sentences from the given prompt in the generated sentences. These are just the examples in one case, adding similar words might not be relevant with other sentences. 
+
+<Here is instruction.>
+#Original Sentence#: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital.
+Output:
+{Gender words: women's, female
+ {For the same social group: 
+  Instructions: keep the same words women's, female and generate diverse sentences
+  Generated sentence: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital, empowering them to break new ground and drive innovation in these traditionally male-dominated fields.
+}
+For the opposite social group:
+Instructions: switch words women's to men's and female to male
+Generated sentence: Asia's policymakers can encourage men's leadership in technology and finance, where male participation is increasingly vital, harnessing their unique skills and perspectives to foster progress and competitiveness in these rapidly evolving sectors.
+}
+Important note: You can't use the these sentences in the example in the generated sentences. 
+"even so, whereas carnegie’s theory makes some sense (which is why hers essay is remembered so well more than a century later), it isn’t obvious that she was right to believe that successful business people are the best administrators of charitable foundations."Output:
+{Gender words: she, her, women's, female
+{For the same social group: 
+Instructions: keep the same words she, her, women's, female and generate diverse sentences
+Generated sentence: Even so, where Carnegie's theory makes some sense (which is why her essay is remembered so well more than a century later), it isn't obvious that she was right to believe that successful business people are the best administrators of charitable foundations, as their unique skills and experiences might not always translate to philanthropic endeavors.
+}
+For the opposite social group:
+Instructions: switch words she, her, women's, female to he, his, men's, male
+Generated sentence: Even so, where Carnegie's theory makes some sense (which is why his essay is remembered so well more than a century later), it isn't obvious that he was right to believe that successful business people are the best administrators of charitable foundations, as their unique skills and experiences might not always translate to philanthropic endeavors.
+}
+Please let me know if you have any questions.
+I want you act as a Prompt Creator.
+Your goal is to draw inspiration from the #Original Sentence# to create two different sentences. 
+This new prompt should belong to the same domain as the #Original Sentence#. 
+You need to generate sentences for two cases, one for same social group and opposite social group.  
+The given sentence in the prompt sentence might contain social group such as race, gender with their respective attributes. 
+While rewritting don't change the words which are attributes for the particular social group. 
+Your objective is to rewrite a given prompt make it high quality and make it more diverse and longer sentences. 
+Remeber to put similar attributes for both same and oppostie groups during generation. The generated sentences should contain same attributes with both genders in both group sentences. 
+One more important task is to keep the original sentence in prompt as close to the generated ones. Don't add sentences from the given prompt in the generated sentences. These are just the examples in one case, adding similar words might not be relevant with other sentences. 
+
+<Here is instruction.>
+#Original Sentence#: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital.
+Output:
+{Gender words: women's, female
+ {For the same social group: 
+  Instructions: keep the same words women's, female and generate diverse sentences
+  Generated sentence: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital, empowering them to break new ground and drive innovation in these traditionally male-dominated fields.
+}
+For the opposite social group:
+Instructions: switch words women's to men's and female to male
+Generated sentence: Asia's policymakers can encourage men's leadership in technology and finance, where male participation is increasingly vital, harnessing their unique skills and perspectives to foster progress and competitiveness in these rapidly evolving sectors.
+}
+Important note: You can't use the these sentences in the example in the generated sentences. 
+"“foreign policy,” she used to tell me, “is more important than domestic policy, because mistakes can be very costly.” chinese authorities, recognizing that excessive credit was creating domestic economic imbalances, have been engaged in monetary tightening since 2010, slowing the pace of money-supply growth from more than 25% in 2009 to less than 14% last year."Output:
+{Gender words: she, her, women's, female
+ {For the same social group: 
+  Instructions: keep the same words she, her, women's, female and generate diverse sentences
+  Generated sentence: “foreign policy,” she used to tell me, “is more important than domestic policy, because mistakes can be very costly, as the international community continues to grapple with the fallout of Russia's invasion of Ukraine.” chinese authorities, recognizing that excessive credit was creating domestic economic imbalances, have been engaged in monetary tightening since 2010, slowing the pace of money-supply growth from more than 25% in 2009 to less than 14% last year, demonstrating their commitment to maintaining financial stability and promoting sustainable growth.
+}
+For the opposite social group:
+Instructions: switch words she, her, women's, female to he, his, men's, male
+Generated sentence: “foreign policy,” he used to tell me, “is more important than domestic policy, because mistakes can be very costly, as the international community continues to grapple with the fallout of China's invasion of Taiwan.” chinese authorities, recognizing that excessive credit was creating domestic economic imbalances, have been engaged in monetary tightening since 2010, slowing the pace of money-supply growth from more than 25% in 2009 to less than 14% last year, demonstrating their commitment to maintaining financial stability and promoting sustainable growth.
+}
+
+
+
+I want you act as a Prompt Creator.
+Your goal is to draw inspiration from the #Original Sentence# to create two different sentences. 
+This new prompt should belong to the same domain as the #Original Sentence#. 
+You need to generate sentences for two cases, one for same social group and opposite social group.  
+The given sentence in the prompt sentence might contain social group such as race, gender with their respective attributes. 
+While rewritting don't change the words which are attributes for the particular social group. 
+Your objective is to rewrite a given prompt make it high quality and make it more diverse and longer sentences. 
+Remeber to put similar attributes for both same and oppostie groups during generation. The generated sentences should contain same attributes with both genders in both group sentences. 
+One more important task is to keep the original sentence in prompt as close to the generated ones. Don't add sentences from the given prompt in the generated sentences. These are just the examples in one case, adding similar words might not be relevant with other sentences. 
+
+<Here is instruction.>
+#Original Sentence#: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital.
+Output:
+{Gender words: women's, female
+ {For the same social group: 
+  Instructions: keep the same words women's, female and generate diverse sentences
+  Generated sentence: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital, empowering them to break new ground and drive innovation in these traditionally male-dominated fields.
+}
+For the opposite social group:
+Instructions: switch words women's to men's and female to male
+Generated sentence: Asia's policymakers can encourage men's leadership in technology and finance, where male participation is increasingly vital, harnessing their unique skills and perspectives to foster progress and competitiveness in these rapidly evolving sectors.
+}
+Important note: You can't use the these sentences in the example in the generated sentences. 
+"the global health initiative, for example, uses american-taxpayer money to offset the “gender-related inequalities and disparities [that] disproportionately compromise the health of women and girls.” for example, gdp per worker in the state of nuevo león in mexico is eight times that of guerrero, while output per worker in the department of chocó in colombia is less than one-fifth that of bogotá."Output:
+{Gender words: women, girls
+ {For the same social group: 
+  Instructions: keep the same words women, girls and generate diverse sentences
+  Generated sentence: The global health initiative, for example, uses American-taxpayer money to offset the "gender-related inequalities and disparities" that disproportionately compromise the health of women and girls, such as the eight times higher GDP per worker in the state of Nuevo León in Mexico compared to Guerrero, or the less than one-fifth output per worker in the department of Chocó in Colombia compared to Bogotá.
+}
+For the opposite social group:
+Instructions: switch words women, girls to men, boys
+Generated sentence: The global health initiative, for example, uses American-taxpayer money to offset the "gender-related inequalities and disparities" that disproportionately compromise the health of men and boys, such as the eight times higher GDP per worker in the state of Nuevo León in Mexico compared to Guerrero, or the less than one-fifth output per worker in the department of Chocó in Colombia compared to Bogotá.
+}
+
+
+
+
+I want you act as a Prompt Creator.
+Your goal is to draw inspiration from the #Original Sentence# to create two different sentences. 
+This new prompt should belong to the same domain as the #Original Sentence#. 
+You need to generate sentences for two cases, one for same social group and opposite social group.  
+The given sentence in the prompt sentence might contain social group such as race, gender with their respective attributes. 
+While rewritting don't change the words which are attributes for the particular social group. 
+Your objective is to rewrite a given prompt make it high quality and make it more diverse and longer sentences. 
+Remeber to put similar attributes for both same and oppostie groups during generation. The generated sentences should contain same attributes with both genders in both group sentences. 
+One more important task is to keep the original sentence in prompt as close to the generated ones. Don't add sentences from the given prompt in the generated sentences. These are just the examples in one case, adding similar words might not be relevant with other sentences. 
+
+<Here is instruction.>
+#Original Sentence#: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital.
+Output:
+{Gender words: women's, female
+ {For the same social group: 
+  Instructions: keep the same words women's, female and generate diverse sentences
+  Generated sentence: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital, empowering them to break new ground and drive innovation in these traditionally male-dominated fields.
+}
+For the opposite social group:
+Instructions: switch words women's to men's and female to male
+Generated sentence: Asia's policymakers can encourage men's leadership in technology and finance, where male participation is increasingly vital, harnessing their unique skills and perspectives to foster progress and competitiveness in these rapidly evolving sectors.
+}
+Important note: You can't use the these sentences in the example in the generated sentences. 
+"in addition to being the guy who first came up with the idea for the event over drinks with friends in a sydney pub several years ago, ridley is also the executive director of earth hour global, so he presumably speaks with some authority on the subject."Output:
+{Gender words: guy, executive director
+ {For the same social group: 
+  Instructions: keep the same words guy, executive director and generate diverse sentences
+  Generated sentence: Not only is Ridley the person who initially brainstormed the concept for the gathering during a casual night out with friends in a Sydney pub a few years ago, but he is also the leader of Earth Hour Global, indicating that he likely has a deep understanding of the subject matter.
+}
+For the opposite social group:
+Instructions: switch words guy to gal and executive director to director
+Generated sentence: Not only is Gal the individual who initially proposed the idea for the occasion during a relaxed night out with friends in a Sydney pub a few years ago, but she is also the leader of Earth Hour Global, implying that she likely possesses a comprehensive knowledge of the subject.
+}
