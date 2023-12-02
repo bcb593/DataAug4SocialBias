@@ -50,7 +50,7 @@ def return_relevant_sentences(sentences_path, prompt_path):
         if i%1==0:
           print('Done with',i,'sentences')
         i+=1
-        full_prompt = f"{prompt}\"{sentence}\"Response:For the same social group:"
+        full_prompt = f"{prompt}\"{sentence}\"Output:"
         aug_sent = get_llama_response(full_prompt)
         
         relevant_sentences.append(aug_sent)
