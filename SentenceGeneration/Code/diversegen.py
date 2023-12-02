@@ -46,12 +46,13 @@ def return_relevant_sentences(sentences_path, prompt_path):
     with open(sentences_path, 'r', encoding='utf-8') as file:
         sentences = [line.strip() for line in file]
         i=0
-    for sentence in sentences:
-        if i%100==0:
+    for sentence in sentences[0:5]:
+        if i%1==0:
           print('Done with',i,'sentences')
         i+=1
         full_prompt = f"{prompt}\"{sentence}\"Response:For the same social group:"
         aug_sent = get_llama_response(full_prompt)
+        
         relevant_sentences.append(aug_sent)
 
     return relevant_sentences
