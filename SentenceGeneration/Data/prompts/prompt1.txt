@@ -11,9 +11,9 @@ One more important task is to keep the original sentence in prompt as close to t
 <Here is instruction.>
 #Original Sentence#: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital.
 Output:
-{Gender words: women's, female
-masculine: None found
-feminie: women's, female 
+{Gender words: women's, female 
+masculine words: None found  #Anything that refers to man, boys. Donot be biased with respect to the jobs
+feminie words : women's, female  #Anything that refers to female, ladies, girl.Donot be biased with respect to the jobs
  {For the same social group: 
   Instructions: Keeping the gender words same for both feminie and masuline, generating diverse sentences
   Generated sentence: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital, empowering them to break new ground and drive innovation in these traditionally male-dominated fields.
