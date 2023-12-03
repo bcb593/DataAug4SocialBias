@@ -6,7 +6,7 @@ import transformers
 import torch
 import re
 
-model = "meta-llama/Llama-2-7b-chat-hf" # meta-llama/Llama-2-70b-hf
+model = "meta-llama/Llama-2-13b-chat-hf" # meta-llama/Llama-2-70b-hf
 tokenizer = AutoTokenizer.from_pretrained(model, use_auth_token=True)
 #prompt_path='/home/zhangxit/files/DataAug4SocialBias/SentenceGeneration/Data/prompts/prompt_gender.txt'
 #sentences_path = 'home/zhangxit/files/DataAug4SocialBias/SentenceGeneration/Data/longer_text10k_gender.txt'
