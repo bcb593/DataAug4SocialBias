@@ -5,16 +5,9 @@ from transformers import AutoTokenizer
 import transformers
 import torch
 import re
-gpus_to_use = [0, 1, 2, 3]
-device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 model = "meta-llama/Llama-2-7b-chat-hf" # meta-llama/Llama-2-70b-hf
 tokenizer = AutoTokenizer.from_pretrained(model, use_auth_token=True)
-
-if torch.cuda.is_available():
-    model = model.to(device)
-    model = torch.nn.DataParallel(model, device_ids=gpus_to_use)
-
 #prompt_path='/home/zhangxit/files/DataAug4SocialBias/SentenceGeneration/Data/prompts/prompt_gender.txt'
 #sentences_path = 'home/zhangxit/files/DataAug4SocialBias/SentenceGeneration/Data/longer_text10k_gender.txt'
 prompt_path='/scratch0/bashyalb/DataAug4SocialBias/SentenceGeneration/Data/prompts/prompt1.txt'
@@ -25,7 +18,7 @@ llama_pipeline = pipeline(
     model=model,
     tokenizer=tokenizer,
     torch_dtype=torch.float16,
-    device_map="auto",
+    device=[0,1,2,3],
 )
 def cot(file_path):
     with open(file_path, 'r', encoding='utf-8') as file:
