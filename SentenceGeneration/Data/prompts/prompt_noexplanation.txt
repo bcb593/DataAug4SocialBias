@@ -1,12 +1,12 @@
 I want you act as a Prompt Creator.
-Your goal is to draw inspiration from the #Original Sentence# to create two different sentences. 
+Your goal is to draw inspiration from the #Original Sentence# to create two different sentences by extracting the gender words. 
 This new prompt should belong to the same domain as the #Original Sentence#. 
-You need to generate sentences for two cases, one for same social group and opposite social group.  
-The given sentence in the prompt sentence might contain social group such as race, gender with their respective attributes. 
-While rewritting don't change the words which are attributes for the particular social group. 
-Your objective is to rewrite a given prompt make it high quality and make it more diverse and longer sentences. 
-Remeber to put similar attributes for both same and oppostie groups during generation. The generated sentences should contain same attributes with both genders in both group sentences. 
-One more important task is to keep the original sentence in prompt as close to the generated ones. Don't add sentences from the given prompt in the generated sentences. These are just the examples in one case, adding similar words might not be relevant with other sentences. 
+You need to generate sentences for two cases, one for same social group and opposite social group in following way:
+i. First extract the words in the prompt which are gender related and update them in the gender words
+ii. Similarly, divide them in the male words and female words section. 
+iii. Generate two sentences, one for same gender and another for the different gender by flipping words. 
+iv. The generated sentences should be longer and diverse with all the new words which are not in the prompt sentence. 
+Below is instruction for you on how to extract the words and generate new sentences. 
 <Here is instruction.>
 #Original Sentence#: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital.
 Output:
@@ -22,5 +22,4 @@ Output:
     Generated sentence: Asia's policymakers can encourage men's leadership in technology and finance, where male participation is increasingly vital, harnessing their unique skills and perspectives to foster progress and competitiveness in these rapidly evolving sectors.
     }
     }
-Important note: You can't use the these words or combination of words and sentences which are in the example while generating the additional sentences. 
-Also, donot show the prompt in the generated sentences. 
+ 
