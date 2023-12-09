@@ -1,6 +1,4 @@
-I want you act as a Prompt Creator.
 Your goal is to draw inspiration from the #Original Sentence# to create two different sentences by extracting the gender words. 
-This new prompt should belong to the same domain as the #Original Sentence#. 
 You need to generate sentences for two cases, one for same social group and opposite social group in following way:
 i. First extract the words in the prompt which are gender related and update them in the gender words
 ii. Similarly, divide them in the male words and female words section. 
@@ -14,9 +12,9 @@ Below is instruction for you on how to extract the words and generate new senten
 <Here is instruction.>
 #Original Sentence#: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital.
 Output:
-{{Gender words: {All words: women's, female}, 
-        {male words: None found},
-        {female words : women's, female }},
+{{Gender words(Remeber the definition): {All words: women's, female} , 
+        {male words(Remeber the definition): None found},
+        {female words(Remeber the definition) : women's, female }},
  {For the same social group: 
   Instructions: Keeping the gender words same for both male and female and generating diverse sentences
   Generated sentence: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital, empowering them to break new ground and drive innovation in these traditionally male-dominated fields.
