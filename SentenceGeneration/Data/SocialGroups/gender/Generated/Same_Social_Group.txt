@@ -1,0 +1,17 @@
+Instructions: Keeping the gender words same for both male and female and generating diverse sentences
+  Generated sentence: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital, empowering them to break new ground and drive innovation in these traditionally male-dominated fields.
+}, 
+{For the opposite social group:
+    Instructions: switching words women's to men's and female to male and generating diverse sentences
+    Generated sentence: Asia's policymakers can encourage men's leadership in technology and finance, where male participation is increasingly vital, harnessing their unique skills and perspectives to foster progress and competitiveness in these rapidly evolving sectors.
+    }
+    }
+ 
+"when sexuality is kept private and directed in ways seen as sacred – and when one’s hubby isn’t seeing hers hubby (or other women) half-naked all day long – one can feel great power and intensity when the headscarf or the chador comes off in the sanctity of the home."Output:
+Extracting gender words from the sentence:
+{male words: husband, his},
+{female words: hers, women},
+{All words: hers, women}
+
+For the same social group:
+Generated sentence: When sexuality is kept private and directed in ways seen as sacred – and when one’s partner isn’t seeing their partner (or other women) half-naked all day long – one can feel great power and intensity when the headscarf or the chador comes off in the sanctity of the home.
