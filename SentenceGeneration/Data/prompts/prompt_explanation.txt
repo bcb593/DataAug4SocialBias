@@ -6,8 +6,8 @@ iii. Generate two sentences, one for same gender and another for the different g
 iv. The generated sentences should be longer and diverse with all the new words which are not in the prompt sentence. 
 Please focus on the following explanation during the extraction of gender words:
 Gender Words: Any words that represents the male, female or any form of gender explicitly. The gender words can't be any occupation, nationalities, verbs or adjectives. The gender words are usually noun and pronoun. 
-Male Words: Any words representing the male gender or masuline explicitly. The male words can't be any occupation, nationalities, verbs or adjectives. The male words are usually noun and pronoun. 
-Female Words: Any words representing the female gender or feminie explicitly. The female words can't be any occupation, nationalities, verbs or adjectives. The female words are usually noun and pronoun. 
+Male Words: Any words representing the male gender explicitly. The male words can't be any occupation, nationalities, verbs or adjectives. The male words are usually noun and pronoun. Examples are : man, men, male, boy, he 
+Female Words: Any words representing the female gender explicitly. The female words can't be any occupation, nationalities, verbs or adjectives. The female words are usually noun and pronoun. Examples are: woman, women, she, female, girl
 Important: The original sentence might not contain any gender related words in the sentences, you can write 'None' as shown in the example. 
 Below is instruction for you on how to extract the words and generate new sentences. 
 <Here is instruction.>
