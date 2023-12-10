@@ -8,21 +8,22 @@ Please focus on the following explanation during the extraction of gender words:
 Gender Words: Any words that represents the male, female or any form of gender explicitly. The gender words can't be any occupation, nationalities, verbs or adjectives. The gender words are usually noun and pronoun. 
 Male Words: Any words representing the male gender or masuline explicitly. The male words can't be any occupation, nationalities, verbs or adjectives. The male words are usually noun and pronoun. 
 Female Words: Any words representing the female gender or feminie explicitly. The female words can't be any occupation, nationalities, verbs or adjectives. The female words are usually noun and pronoun. 
-If there are not any gender related words in the sentences, you can write 'None' as shown in the example. 
+Important: Some of the sentnece might not have any gender related words in the sentences, you can write 'None' as shown in the example. 
 Below is instruction for you on how to extract the words and generate new sentences. 
 <Here is instruction.>
 #Original Sentence#: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital.
 Output:
+In the #original sentence: the gender words are only women's and female. 
 {{Gender words(Remeber the definition):
-                        {male words(Remeber the definition, male words can't be bias): None found},
-                        {female words(Remeber the definition,female words can't be bias) : women's, female },
-                        {All words(This should contain only words in male words and female words): women's, female}}
+                        {male words: None found},
+                        {female words : women's, female },
+                        {All words: women's, female}}
  {For the same social group: 
-  Instructions: Keeping the gender words same for both male and female and generating diverse sentences
+  Instructions: Since it is for same social group, keep all gender words from above {women's, female} constant and generating diverse sentence. 
   Generated sentence: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital, empowering them to break new ground and drive innovation in these traditionally male-dominated fields.
 }, 
 {For the opposite social group:
-    Instructions: switching words women's to men's and female to male and generating diverse sentences
+    Instructions: For opposite social group, switching gender words: {women's-->men's, female--> male} amd generating diverse sentence. 
     Generated sentence: Asia's policymakers can encourage men's leadership in technology and finance, where male participation is increasingly vital, harnessing their unique skills and perspectives to foster progress and competitiveness in these rapidly evolving sectors.
     }
     }
