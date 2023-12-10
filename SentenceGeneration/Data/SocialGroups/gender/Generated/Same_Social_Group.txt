@@ -9,9 +9,9 @@ Instructions: Keeping the gender words same for both male and female and generat
  
 "when sexuality is kept private and directed in ways seen as sacred – and when one’s hubby isn’t seeing hers hubby (or other women) half-naked all day long – one can feel great power and intensity when the headscarf or the chador comes off in the sanctity of the home."Output:
 Extracting gender words from the sentence:
-{male words: husband, his},
+{male words: husband},
 {female words: hers, women},
 {All words: hers, women}
 
 For the same social group:
-Generated sentence: When sexuality is kept private and directed in ways seen as sacred – and when one’s partner isn’t seeing their partner (or other women) half-naked all day long – one can feel great power and intensity when the headscarf or the chador comes off in the sanctity of the home.
+Generated sentence: When one's husband isn't seeing other women half-naked all day long, one can feel great power and intensity when the headscarf or the chador comes off in the sanctity of the home, fostering a deeper connection and intimacy with their partner.
