@@ -1,0 +1,1110 @@
+Your goal is first to extract gender related words from the prompt. 
+After extraction, you need to generate sentences for two cases, one for same gender group and opposite gender group in following way:
+i. First extract the words in the prompt which are gender related and update them in the gender words
+ii. Similarly, divide them in the male words and female words section. 
+iii. Generate two sentences, one for same gender and another for the different gender by flipping words. 
+iv. The generated sentences should be longer and diverse with all the new words which are not in the prompt sentence. 
+Important: The original sentence might not contain any gender related words in the sentences, you can write 'None' as shown in the example. 
+Below is instruction for you on how to extract the words and generate new sentences. 
+<Here is instruction.>
+#Original Sentence#: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital.
+Output:
+Extracting gender words from the #Original Sentence#
+{{Gender words(Any words that represents the male, female or any form of gender explicitly. The gender words can't be any occupation, nationalities, verbs or adjectives. The gender words are usually noun and pronoun. ):
+                        {male words(Any words representing the male gender explicitly. The male words can't be any occupation, nationalities, verbs or adjectives. The male words are usually noun and pronoun. Examples are : man, men, male, boy, he ): None found}{Reason: Because there are no male words found in the sentence},
+                        {female words(Any words representing the female gender explicitly. The female words can't be any occupation, nationalities, verbs or adjectives. The female words are usually noun and pronoun. Examples are: woman, women, she, female, girl): women's, female }{Reason: The female words are women's and female which are clearly indicating female. },
+                        {All words(all words contains all the words from male words and female words.): women's, female}}
+ {For the same social group: 
+  Instructions (These words are from the all words from above update accordingly): women's--> women's, female--> female , keep these constant
+  Generated sentence: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital, empowering them to break new ground and drive innovation in these traditionally male-dominated fields.
+}, 
+{For the opposite social group:
+    Instructions(These words are from the all words from above update accordingly): women's-->men's, female-->male, change the sentence in same social group by switching these words. 
+    Generated sentence: Asia's policymakers can encourage men's leadership in technology and finance, where male participation is increasingly vital, harnessing their unique skills and perspectives to foster progress and competitiveness in these rapidly evolving sectors.
+    }
+    }
+ 
+"He is a doctor treating the pateints well."Output:
+Extracting gender words from the #Original Sentence#
+{{Gender words(Any words that represents the male, female or any form of gender explicitly. The gender words can't be any occupation, nationalities, verbs or adjectives. The gender words are usually noun and pronoun. Examples are : man, men, male, boy, he ):
+                        {male words(Any words representing the male gender explicitly. The male words can't be any occupation, nationalities, verbs or adjectives. The male words are usually noun and pronoun. Examples are: man, men, male, boy, he ): man, male}{Reason: The sentence contains the word 'he' which is a male pronoun.},
+                        {female words(Any words representing the female gender explicitly. The female words can't be any occupation, nationalities, verbs or adjectives. The female words are usually noun and pronoun. Examples are: woman, women, she, female, girl): None found}{Reason: Because there are no female words found in the sentence},
+                        {All words(all words contains all the words from male words and female words.): man, male}}
+ {For the same social group: 
+  Instructions (These words are from the all words from above update accordingly): man, male-->man, male, keep these constant
+  Generated sentence: He is a doctor treating the patients well.
+}, 
+{For the opposite social group:
+    Instructions(These words are from the all words from above update accordingly): man, male-->woman, female, change the sentence in same social group by switching these words. 
+    Generated sentence: She is a doctor treating the patients well.
+    }
+    }
+  
+Please note that the generated sentences are not limited to the above examples and can be much longer and diverse. The goal is to generate sentences that are grammatically correct and contextually appropriate, while also highlighting the gender diversity in the technology and finance sectors.
+Your goal is first to extract gender related words from the prompt. 
+After extraction, you need to generate sentences for two cases, one for same gender group and opposite gender group in following way:
+i. First extract the words in the prompt which are gender related and update them in the gender words
+ii. Similarly, divide them in the male words and female words section. 
+iii. Generate two sentences, one for same gender and another for the different gender by flipping words. 
+iv. The generated sentences should be longer and diverse with all the new words which are not in the prompt sentence. 
+Important: The original sentence might not contain any gender related words in the sentences, you can write 'None' as shown in the example. 
+Below is instruction for you on how to extract the words and generate new sentences. 
+<Here is instruction.>
+#Original Sentence#: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital.
+Output:
+Extracting gender words from the #Original Sentence#
+{{Gender words(Any words that represents the male, female or any form of gender explicitly. The gender words can't be any occupation, nationalities, verbs or adjectives. The gender words are usually noun and pronoun. ):
+                        {male words(Any words representing the male gender explicitly. The male words can't be any occupation, nationalities, verbs or adjectives. The male words are usually noun and pronoun. Examples are : man, men, male, boy, he ): None found}{Reason: Because there are no male words found in the sentence},
+                        {female words(Any words representing the female gender explicitly. The female words can't be any occupation, nationalities, verbs or adjectives. The female words are usually noun and pronoun. Examples are: woman, women, she, female, girl): women's, female }{Reason: The female words are women's and female which are clearly indicating female. },
+                        {All words(all words contains all the words from male words and female words.): women's, female}}
+ {For the same social group: 
+  Instructions (These words are from the all words from above update accordingly): women's--> women's, female--> female , keep these constant
+  Generated sentence: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital, empowering them to break new ground and drive innovation in these traditionally male-dominated fields.
+}, 
+{For the opposite social group:
+    Instructions(These words are from the all words from above update accordingly): women's-->men's, female-->male, change the sentence in same social group by switching these words. 
+    Generated sentence: Asia's policymakers can encourage men's leadership in technology and finance, where male participation is increasingly vital, harnessing their unique skills and perspectives to foster progress and competitiveness in these rapidly evolving sectors.
+    }
+    }
+ 
+"She is a nurse caring people."Output:
+Extracting gender words from the "She is a nurse caring people."
+{{Gender words(Any words that represents the male, female or any form of gender explicitly. The gender words can't be any occupation, nationalities, verbs or adjectives. The gender words are usually noun and pronoun. ):
+                        {male words(Any words representing the male gender explicitly. The male words can't be any occupation, nationalities, verbs or adjectives. The male words are usually noun and pronoun. Examples are : man, men, male, boy, he ): None found}{Reason: Because there are no male words found in the sentence},
+                        {female words(Any words representing the female gender explicitly. The female words can't be any occupation, nationalities, verbs or adjectives. The female words are usually noun and pronoun. Examples are: woman, women, she, female, girl): nurse, people}{Reason: The female words are nurse and people which are clearly indicating female. },
+                        {All words(all words contains all the words from male words and female words.): nurse, people}}
+ {For the same social group: 
+  Instructions (These words are from the all words from above update accordingly): nurse-->nurse, people-->people, keep these constant
+  Generated sentence: She is a nurse caring for people, providing them with compassionate care and support to help them recover and thrive.
+}, 
+{For the opposite social group:
+    Instructions(These words are from the all words from above update accordingly): nurse-->doctor, people-->patients, change the sentence in same social group by switching these words. 
+    Generated sentence: He is a doctor caring for patients, using his expertise and empathy to heal and comfort them in their time of need.
+    }
+    }
+ 
+Please note that the above output is just an example and the generated sentences may vary based on the input provided.
+Your goal is first to extract gender related words from the prompt. 
+After extraction, you need to generate sentences for two cases, one for same gender group and opposite gender group in following way:
+i. First extract the words in the prompt which are gender related and update them in the gender words
+ii. Similarly, divide them in the male words and female words section. 
+iii. Generate two sentences, one for same gender and another for the different gender by flipping words. 
+iv. The generated sentences should be longer and diverse with all the new words which are not in the prompt sentence. 
+Important: The original sentence might not contain any gender related words in the sentences, you can write 'None' as shown in the example. 
+Below is instruction for you on how to extract the words and generate new sentences. 
+<Here is instruction.>
+#Original Sentence#: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital.
+Output:
+Extracting gender words from the #Original Sentence#
+{{Gender words(Any words that represents the male, female or any form of gender explicitly. The gender words can't be any occupation, nationalities, verbs or adjectives. The gender words are usually noun and pronoun. ):
+                        {male words(Any words representing the male gender explicitly. The male words can't be any occupation, nationalities, verbs or adjectives. The male words are usually noun and pronoun. Examples are : man, men, male, boy, he ): None found}{Reason: Because there are no male words found in the sentence},
+                        {female words(Any words representing the female gender explicitly. The female words can't be any occupation, nationalities, verbs or adjectives. The female words are usually noun and pronoun. Examples are: woman, women, she, female, girl): women's, female }{Reason: The female words are women's and female which are clearly indicating female. },
+                        {All words(all words contains all the words from male words and female words.): women's, female}}
+ {For the same social group: 
+  Instructions (These words are from the all words from above update accordingly): women's--> women's, female--> female , keep these constant
+  Generated sentence: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital, empowering them to break new ground and drive innovation in these traditionally male-dominated fields.
+}, 
+{For the opposite social group:
+    Instructions(These words are from the all words from above update accordingly): women's-->men's, female-->male, change the sentence in same social group by switching these words. 
+    Generated sentence: Asia's policymakers can encourage men's leadership in technology and finance, where male participation is increasingly vital, harnessing their unique skills and perspectives to foster progress and competitiveness in these rapidly evolving sectors.
+    }
+    }
+ 
+"John is executive director at Facebook, he is great at his work."Output:
+Extracting gender words from the #Original Sentence#
+{{Gender words(Any words that represents the male, female or any form of gender explicitly. The gender words can't be any occupation, nationalities, verbs or adjectives. The gender words are usually noun and pronoun. Examples are : man, men, male, boy, he ):
+                        {male words(Any words representing the male gender explicitly. The male words can't be any occupation, nationalities, verbs or adjectives. The male words are usually noun and pronoun. Examples are : man, men, male, boy, he ): man, male}{Reason: Because there is only one male word found in the sentence},
+                        {female words(Any words representing the female gender explicitly. The female words can't be any occupation, nationalities, verbs or adjectives. The female words are usually noun and pronoun. Examples are: woman, women, she, female, girl): None found}{Reason: Because there is no female word found in the sentence},
+                        {All words(all words contains all the words from male words and female words.): man, male}}
+ {For the same social group: 
+  Instructions (These words are from the all words from above update accordingly): man, male-->man, male, keep these constant
+  Generated sentence: John is a great executive director at Facebook, he is doing an amazing work.
+}, 
+{For the opposite social group:
+    Instructions(These words are from the all words from above update accordingly): man, male-->woman, female, change the sentence in same social group by switching these words. 
+    Generated sentence: Woman is a great executive director at Facebook, she is doing an amazing work.
+    }
+    }
+ 
+Please help me with the code to achieve the above functionality.
+
+Thanks,
+Suresh
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Your goal is first to extract gender related words from the prompt. 
+After extraction, you need to generate sentences for two cases, one for same gender group and opposite gender group in following way:
+i. First extract the words in the prompt which are gender related and update them in the gender words
+ii. Similarly, divide them in the male words and female words section. 
+iii. Generate two sentences, one for same gender and another for the different gender by flipping words. 
+iv. The generated sentences should be longer and diverse with all the new words which are not in the prompt sentence. 
+Important: The original sentence might not contain any gender related words in the sentences, you can write 'None' as shown in the example. 
+Below is instruction for you on how to extract the words and generate new sentences. 
+<Here is instruction.>
+#Original Sentence#: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital.
+Output:
+Extracting gender words from the #Original Sentence#
+{{Gender words(Any words that represents the male, female or any form of gender explicitly. The gender words can't be any occupation, nationalities, verbs or adjectives. The gender words are usually noun and pronoun. ):
+                        {male words(Any words representing the male gender explicitly. The male words can't be any occupation, nationalities, verbs or adjectives. The male words are usually noun and pronoun. Examples are : man, men, male, boy, he ): None found}{Reason: Because there are no male words found in the sentence},
+                        {female words(Any words representing the female gender explicitly. The female words can't be any occupation, nationalities, verbs or adjectives. The female words are usually noun and pronoun. Examples are: woman, women, she, female, girl): women's, female }{Reason: The female words are women's and female which are clearly indicating female. },
+                        {All words(all words contains all the words from male words and female words.): women's, female}}
+ {For the same social group: 
+  Instructions (These words are from the all words from above update accordingly): women's--> women's, female--> female , keep these constant
+  Generated sentence: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital, empowering them to break new ground and drive innovation in these traditionally male-dominated fields.
+}, 
+{For the opposite social group:
+    Instructions(These words are from the all words from above update accordingly): women's-->men's, female-->male, change the sentence in same social group by switching these words. 
+    Generated sentence: Asia's policymakers can encourage men's leadership in technology and finance, where male participation is increasingly vital, harnessing their unique skills and perspectives to foster progress and competitiveness in these rapidly evolving sectors.
+    }
+    }
+ 
+"Samantha is a military leader of the Air Force."Output:
+Extracting gender words from the sentence "Samantha is a military leader of the Air Force."
+{{Gender words(Any words that represents the male, female or any form of gender explicitly. The gender words can't be any occupation, nationalities, verbs or adjectives. The gender words are usually noun and pronoun. Examples are : man, men, male, boy, he ):
+                        {male words(Any words representing the male gender explicitly. The male words can't be any occupation, nationalities, verbs or adjectives. The male words are usually noun and pronoun. Examples are : man, men, male, boy, he ): male, Air Force },
+                        {female words(Any words representing the female gender explicitly. The female words can't be any occupation, nationalities, verbs or adjectives. The female words are usually noun and pronoun. Examples are: woman, women, she, female, girl): Samantha, leader },
+                        {All words(all words contains all the words from male words and female words.): male, Air Force, Samantha, leader}
+ {For the same social group: 
+  Instructions (These words are from the all words from above update accordingly): male, Air Force --> male, Air Force, Samantha, leader 
+  Generated sentence: Samantha is a military leader of the Air Force, empowering women to take on leadership roles in the military and break new ground in traditionally male-dominated fields.
+}, 
+{For the opposite social group:
+    Instructions(These words are from the all words from above update accordingly): male, Air Force --> women, Air Force, Samantha, leader
+    Generated sentence: Women are taking on leadership roles in the Air Force, harnessing their unique skills and perspectives to foster progress and competitiveness in the military.
+    }
+    }
+
+"The student council president is a boy."Output:
+Extracting gender words from the sentence "The student council president is a boy."
+{{Gender words(Any words that represents the male, female or any form of gender explicitly. The gender words can't be any occupation, nationalities, verbs or adjectives. The gender words are usually noun and pronoun. Examples are : man, men, male, boy, he ):
+                        {male words(Any words representing the male gender explicitly. The male words can't be any occupation, nationalities, verbs or adjectives. The male words are usually noun and pronoun. Examples are : man, men, male, boy, he ): boy },
+                        {female words(Any words representing the female gender explicitly. The female words can't be any occupation, nationalities, verbs or adjectives. The female words are usually noun and pronoun. Examples are: woman, women, she, female, girl): None found}{Reason: Because there are no female words found in the sentence},
+                        {All words(all words contains all the words from male words and female words.): boy}
+ {For the same social group: 
+  Instructions (These words are from the all words from above update accordingly): boy --> boy
+  Generated sentence: The student council president is a boy, leading the student body in various activities and representing the school in inter-school competitions.
+}, 
+{For the opposite social group:
+    Instructions(These words are from the all words from above update accordingly): boy --> girl
+    Generated sentence: The student council president is a girl, breaking new ground and challenging traditional gender roles in leadership positions.
+    }
+    }
+
+"The teacher is a man."Output:
+Extracting gender words from the sentence "The teacher is a man."
+{{Gender words(Any words that represents the male, female or any form of gender explicitly. The gender words can't be any occupation, nationalities, verbs or adjectives. The gender words are usually noun and pronoun. Examples are : man, men, male, boy, he ):
+                        {male words(Any words representing the male gender explicitly. The male words can't be any occupation, nationalities, verbs or adjectives. The male words are usually noun and pronoun. Examples are : man, men, male, boy, he ): man },
+                        {female words(Any words representing the female gender explicitly. The female words can't be any occupation, nationalities, verbs or adjectives. The female words are usually noun and pronoun. Examples are: woman, women, she, female, girl): None found}{Reason: Because there are no female words found in the sentence},
+                        {All words(all words contains all the words from male words and female words.): man}
+ {For the same social group: 
+  Instructions (These words are from the all words from above update accordingly): man --> man
+  Generated sentence: The teacher is a man, educating students and inspiring them to reach their full potential.
+}, 
+{For the opposite social group:
+    Instructions(These words are from the all words from above update accordingly): man --> woman
+    Generated sentence: The teacher is a woman, bringing a unique perspective and approach to teaching and mentoring her students.
+    }
+    }
+
+"The student is a girl."Output:
+Extracting gender words from the sentence "The student is a girl."
+{{Gender words(Any words that represents the male, female or any form of gender explicitly. The gender words can't be any occupation, nationalities, verbs or adjectives. The gender words are usually noun and pronoun. Examples are : man, men, male, boy, he ):
+                        {male words(Any words representing the male gender explicitly. The male words can't be any occupation, nationalities, verbs or adjectives. The
