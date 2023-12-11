@@ -7,10 +7,12 @@ Instructions (These words are from the all words from above update accordingly):
     }
     }
  
-"in addition to being the guy who first came up with the idea for the event over drinks with friends in a sydney pub several years ago, ridley is also the executive director of earth hour global, so he presumably speaks with some authority on the subject."Output:
+"when sexuality is kept private and directed in ways seen as sacred – and when one’s hubby isn’t seeing hers hubby (or other women) half-naked all day long – one can feel great power and intensity when the headscarf or the chador comes off in the sanctity of the home."Output:
 Extracting gender words from the sentence:
-{male words: Ridley, guy, he, several, so, he},
-{female words: none found},
-{All words: Ridley, guy, he, several, so, he}
+{male words: none found}{reason: because there are no male words found in the sentence},
+{female words: hubby, women}{reason: the female words are hubby and women which are clearly indicating female},
+{all words: hubby, women, half-naked}{reason: these words are all found in the sentence}
+
 For the same social group:
-Generated sentence: As the executive director of earth hour global and the person who first came up with the idea for the event over drinks with friends in a sydney pub several years ago, Ridley speaks with some authority on the subject, drawing on his extensive experience and expertise to inspire others to take action.
+Instructions (These words are from the all words from above update accordingly): hubby, women-->women, women, half-naked-->(remove half-naked as it is not gender related)
+Generated sentence: When one can feel great power and intensity when the headscarf or the chador comes off in the sanctity of the home, women can experience a sense of liberation and empowerment, free from the constraints of societal expectations and gender norms.
