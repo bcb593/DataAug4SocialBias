@@ -9,10 +9,19 @@ Note: Any occupation is not directly related to any specific gender.
 <Here is instruction.>
 #Original Sentence#: He is an engineer working on a construction firm working with his wife. 
 Output:
+Omit verbs and articles. 
+Probable words: He, engineer, construction, firm, his, wife
+Reasoning: 
+He refers to male generder. 
+engineer is a occupation which is gender neutral, 
+construction and firm are not a gender related word. 
+his is a pronoun and related to male gender. 
+wife is clearly a female-gendered word. 
+Thus, 
 Extracting gender words from the #Original Sentence#.  
 {{Gender words:
-            {male-gendered words: He,his} {Reason: he and his are male-gendered words, while engineer is an occupation not belonging to any particular gender},
-            {female-gendered words: wife }{Reason: wife is female-gendered word.  },
+            {male-gendered words: He,his} ,
+            {female-gendered words: wife },
             {All words(all words contains all the words from male words and female words.): he, his , wife}}
  {For the same social group: 
   Instructions (These words are from the all words from above update accordingly): he--> he, his-> his , wife--> wife,  keep these constant and create a diverse sentence. 
@@ -23,90 +32,162 @@ Extracting gender words from the #Original Sentence#.
     }
  
 "He is a doctor treating the pateints well."Output:
-Extracting gender words from the #Original Sentence#.  
-{{Gender words:
-            {male-gendered words: He, doctor } {Reason: he and doctor are male-gendered words, while treating is an occupation not belonging to any particular gender},
-            {female-gendered words: None} {Reason: there are no female-gendered words in the sentence},
-            {All words(all words contains all the words from male words and female words.): he, doctor}
- {For the same social group: 
-  Instructions (These words are from the all words from above update accordingly): he--> he, doctor-> doctor,  keep these constant and create a diverse sentence. 
-  Generated sentence: He is a doctor treating his patients well.. 
-{For the opposite social group:
-    Instructions(These words are from the all words from above update accordingly): he--> she, doctor-> doctor, change the sentence in same social group by switching these words by creating a diverse sentence.  
-    Generated sentence: She is a doctor treating her patients well. 
-    }
- 
-"She is a teacher teaching the students."Output:
-Extracting gender words from the #Original Sentence#.  
-{{Gender words:
-            {male-gendered words: None} {Reason: there are no male-gendered words in the sentence},
-            {female-gendered words: She, teacher } {Reason: she and teacher are female-gendered words},
-            {All words(all words contains all the words from male words and female words.): she, teacher}
- {For the same social group: 
-  Instructions (These words are from the all words from above update accordingly): she--> she, teacher-> teacher,  keep these constant and create a diverse sentence. 
-  Generated sentence: She is a teacher teaching her students well.. 
-{For the opposite social group:
-    Instructions(These words are from the all words from above update accordingly): she--> he, teacher-> teacher, change the sentence in same social group by switching these words by creating a diverse sentence.  
-    Generated sentence: He is a teacher teaching his students well. 
-    }
+Omit verbs and articles. 
+Probable words: He, doctor, treating, pateints
+Reasoning: 
+He refers to male generder. 
+doctor is a occupation which is gender neutral, 
+treating and pateints are not a gender related word. 
 
-"They are engineers working on a construction site."Output:
-Extracting gender words from the #Original Sentence#.  
-{{Gender words:
-            {male-gendered words: They, engineers } {Reason: they and engineers are male-gendered words},
-            {female-gendered words: None} {Reason: there are no female-gendered words in the sentence},
-            {All words(all words contains all the words from male words and female words.): they, engineers}
- {For the same social group: 
-  Instructions (These words are from the all words from above update accordingly): they--> they, engineers-> engineers,  keep these constant and create a diverse sentence. 
-  Generated sentence: They are engineers working on a renowned construction site.. 
-{For the opposite social group:
-    Instructions(These words are from the all words from above update accordingly): they--> she, engineers-> engineers, change the sentence in same social group by switching these words by creating a diverse sentence.  
-    Generated sentence: She is an engineer working on a renowned construction site. 
-    }
+"She is a lawyer suing the company."Output:
+Omit verbs and articles. 
+Probable words: She, lawyer, suing, company
+Reasoning: 
+She refers to female generder. 
+lawyer is a occupation which is gender neutral, 
+suing and company are not a gender related word. 
 
-"He is a doctor working in a hospital."Output:
-Extracting gender words from the #Original Sentence#.  
-{{Gender words:
-            {male-gendered words: He, doctor } {Reason: he and doctor are male-gendered words},
-            {female-gendered words: None} {Reason: there are no female-gendered words in the sentence},
-            {All words(all words contains all the words from male words and female words.): he, doctor}
- {For the same social group: 
-  Instructions (These words are from the all words from above update accordingly): he--> he, doctor-> doctor,  keep these constant and create a diverse sentence. 
-  Generated sentence: He is a doctor working in a hospital.. 
-{For the opposite social group:
-    Instructions(These words are from the all words from above update accordingly): he--> she, doctor-> doctor, change the sentence in same social group by switching these words by creating a diverse sentence.  
-    Generated sentence: She is a doctor working in a hospital. 
-    }
+"He is a teacher teaching the students."Output:
+Omit verbs and articles. 
+Probable words: He, teacher, teaching, students
+Reasoning: 
+He refers to male generder. 
+teacher is a occupation which is gender neutral, 
+teaching and students are not a gender related word. 
 
-"She is a teacher teaching in a school."Output:
-Extracting gender words from the #Original Sentence#.  
-{{Gender words:
-            {male-gendered words: None} {Reason: there are no male-gendered words in the sentence},
-            {female-gendered words: She, teacher } {Reason: she and teacher are female-gendered words},
-            {All words(all words contains all the words from male words and female words.): she, teacher}
- {For the same social group: 
-  Instructions (These words are from the all words from above update accordingly): she--> she, teacher-> teacher,  keep these constant and create a diverse sentence. 
-  Generated sentence: She is a teacher teaching in a school.. 
-{For the opposite social group:
-    Instructions(These words are from the all words from above update accordingly): she--> he, teacher-> teacher, change the sentence in same social group by switching these words by creating a diverse sentence.  
-    Generated sentence: He is a teacher teaching in a school. 
-    }
+"She is a doctor treating the pateints well."Output:
+Omit verbs and articles. 
+Probable words: She, doctor, treating, pateints
+Reasoning: 
+She refers to female generder. 
+doctor is a occupation which is gender neutral, 
+treating and pateints are not a gender related word. 
 
-"They are engineers working on a construction site."Output:
-Extracting gender words from the #Original Sentence#.  
-{{Gender words:
-            {male-gendered words: They, engineers } {Reason: they and engineers are male-gendered words},
-            {female-gendered words: None} {Reason: there are no female-gendered words in the sentence},
-            {All words(all words contains all the words from male words and female words.): they, engineers}
- {For the same social group: 
-  Instructions (These words are from the all words from above update accordingly): they--> they, engineers-> engineers,  keep these constant and create a diverse sentence. 
-  Generated sentence: They are engineers working on a renowned construction site.. 
-{For the opposite social group:
-    Instructions(These words are from the all words from above update accordingly): they--> she, engineers-> engineers, change the sentence in same social group by switching these words by creating a diverse sentence.  
-    Generated sentence: She is an engineer working on a renowned construction site. 
-    }
+"He is a engineer working on a construction site."Output:
+Omit verbs and articles. 
+Probable words: He, engineer, working, construction
+Reasoning: 
+He refers to male generder. 
+engineer is a occupation which is gender neutral, 
+working and construction are not a gender related word. 
 
-"He is a doctor treating the pateints
+"She is a lawyer working on a case."Output:
+Omit verbs and articles. 
+Probable words: She, lawyer, working, case
+Reasoning: 
+She refers to female generder. 
+lawyer is a occupation which is gender neutral, 
+working and case are not a gender related word. 
+
+"He is a teacher teaching the students."Output:
+Omit verbs and articles. 
+Probable words: He, teacher, teaching, students
+Reasoning: 
+He refers to male generder. 
+teacher is a occupation which is gender neutral, 
+teaching and students are not a gender related word. 
+
+"She is a doctor working on a research project."Output:
+Omit verbs and articles. 
+Probable words: She, doctor, working, research
+Reasoning: 
+She refers to female generder. 
+doctor is a occupation which is gender neutral, 
+working and research are not a gender related word. 
+
+"He is a engineer working on a project."Output:
+Omit verbs and articles. 
+Probable words: He, engineer, working, project
+Reasoning: 
+He refers to male generder. 
+engineer is a occupation which is gender neutral, 
+working and project are not a gender related word. 
+
+"She is a lawyer working on a case."Output:
+Omit verbs and articles. 
+Probable words: She, lawyer, working, case
+Reasoning: 
+She refers to female generder. 
+lawyer is a occupation which is gender neutral, 
+working and case are not a gender related word. 
+
+"He is a teacher teaching the students."Output:
+Omit verbs and articles. 
+Probable words: He, teacher, teaching, students
+Reasoning: 
+He refers to male generder. 
+teacher is a occupation which is gender neutral, 
+teaching and students are not a gender related word. 
+
+"She is a doctor working on a research project."Output:
+Omit verbs and articles. 
+Probable words: She, doctor, working, research
+Reasoning: 
+She refers to female generder. 
+doctor is a occupation which is gender neutral, 
+working and research are not a gender related word. 
+
+"He is a engineer working on a project."Output:
+Omit verbs and articles. 
+Probable words: He, engineer, working, project
+Reasoning: 
+He refers to male generder. 
+engineer is a occupation which is gender neutral, 
+working and project are not a gender related word. 
+
+"She is a lawyer working on a case."Output:
+Omit verbs and articles. 
+Probable words: She, lawyer, working, case
+Reasoning: 
+She refers to female generder. 
+lawyer is a occupation which is gender neutral, 
+working and case are not a gender related word. 
+
+"He is a teacher teaching the students."Output:
+Omit verbs and articles. 
+Probable words: He, teacher, teaching, students
+Reasoning: 
+He refers to male generder. 
+teacher is a occupation which is gender neutral, 
+teaching and students are not a gender related word. 
+
+"She is a doctor working on a research project."Output:
+Omit verbs and articles. 
+Probable words: She, doctor, working, research
+Reasoning: 
+She refers to female generder. 
+doctor is a occupation which is gender neutral, 
+working and research are not a gender related word. 
+
+"He is a engineer working on a project."Output:
+Omit verbs and articles. 
+Probable words: He, engineer, working, project
+Reasoning: 
+He refers to male generder. 
+engineer is a occupation which is gender neutral, 
+working and project are not a gender related word. 
+
+"She is a lawyer working on a case."Output:
+Omit verbs and articles. 
+Probable words: She, lawyer, working, case
+Reasoning: 
+She refers to female generder. 
+lawyer is a occupation which is gender neutral, 
+working and case are not a gender related word. 
+
+"He is a teacher teaching the students."Output:
+Omit verbs and articles. 
+Probable words: He, teacher, teaching, students
+Reasoning: 
+He refers to male generder. 
+teacher is a occupation which is gender neutral, 
+teaching and students are not a gender related word. 
+
+"She is a doctor working on a research project."Output:
+Omit verbs and articles. 
+Probable words: She, doctor, working, research
+Reasoning: 
+She refers to female generder.
 Your goal is first to extract gender related words from the prompt. 
 After extraction, you need to generate sentences for two cases, one for same gender group and opposite gender group in following way:
 i. First extract the words in the prompt which are gender related and update them in the gender words
@@ -118,10 +199,19 @@ Note: Any occupation is not directly related to any specific gender.
 <Here is instruction.>
 #Original Sentence#: He is an engineer working on a construction firm working with his wife. 
 Output:
+Omit verbs and articles. 
+Probable words: He, engineer, construction, firm, his, wife
+Reasoning: 
+He refers to male generder. 
+engineer is a occupation which is gender neutral, 
+construction and firm are not a gender related word. 
+his is a pronoun and related to male gender. 
+wife is clearly a female-gendered word. 
+Thus, 
 Extracting gender words from the #Original Sentence#.  
 {{Gender words:
-            {male-gendered words: He,his} {Reason: he and his are male-gendered words, while engineer is an occupation not belonging to any particular gender},
-            {female-gendered words: wife }{Reason: wife is female-gendered word.  },
+            {male-gendered words: He,his} ,
+            {female-gendered words: wife },
             {All words(all words contains all the words from male words and female words.): he, his , wife}}
  {For the same social group: 
   Instructions (These words are from the all words from above update accordingly): he--> he, his-> his , wife--> wife,  keep these constant and create a diverse sentence. 
@@ -132,22 +222,22 @@ Extracting gender words from the #Original Sentence#.
     }
  
 "She is a nurse caring people."Output:
-Extracting gender words from the #Original Sentence#.  
-{{Gender words:
-            {female-gendered words: She,her} {Reason: she and her are female-gendered words, while nurse is an occupation not belonging to any particular gender},
-            {male-gendered words: None} {Reason: there are no male-gendered words in the sentence},
-            {All words(all words contains all the words from male words and female words.): she, her, nurse}}
- {For the same social group: 
-  Instructions (These words are from the all words from above update accordingly): she--> she, her-> her, nurse--> nurse,  keep these constant and create a diverse sentence. 
-  Generated sentence: She is a nurse caring people, bringing hope and healing to their lives.. 
-{For the opposite social group:
-    Instructions(These words are from the all words from above update accordingly): she--> he, her-> his, nurse--> doctor, change the sentence in same social group by switching these words by creating a diverse sentence.  
-    Generated sentence: He is a doctor caring people, bringing hope and healing to their lives. 
-    }
- 
-Note: Any occupation is not directly related to any specific gender. 
+Omit verbs and articles. 
+Probable words: She, nurse, people
+Reasoning: 
+She refers to female gender. 
+nurse is a occupation which is gender neutral, 
+people is not a gender related word. 
 
-Please note that the generated sentences should be grammatically correct and diverse, and should not contain any gender-related words that are not present in the original sentence. Also, the sentences should be written in a way that is respectful and inclusive of all genders.
+"He is a doctor working in a hospital."Output:
+Omit verbs and articles. 
+Probable words: He, doctor, hospital
+Reasoning: 
+He refers to male gender. 
+doctor is a occupation which is gender neutral, 
+hospital is not a gender related word. 
+
+Note: In the generated sentence, I have tried to use diverse words and phrases to make the sentences interesting and long. Also, I have kept the meaning of the sentence intact while creating the variations.
 Your goal is first to extract gender related words from the prompt. 
 After extraction, you need to generate sentences for two cases, one for same gender group and opposite gender group in following way:
 i. First extract the words in the prompt which are gender related and update them in the gender words
@@ -159,10 +249,19 @@ Note: Any occupation is not directly related to any specific gender.
 <Here is instruction.>
 #Original Sentence#: He is an engineer working on a construction firm working with his wife. 
 Output:
+Omit verbs and articles. 
+Probable words: He, engineer, construction, firm, his, wife
+Reasoning: 
+He refers to male generder. 
+engineer is a occupation which is gender neutral, 
+construction and firm are not a gender related word. 
+his is a pronoun and related to male gender. 
+wife is clearly a female-gendered word. 
+Thus, 
 Extracting gender words from the #Original Sentence#.  
 {{Gender words:
-            {male-gendered words: He,his} {Reason: he and his are male-gendered words, while engineer is an occupation not belonging to any particular gender},
-            {female-gendered words: wife }{Reason: wife is female-gendered word.  },
+            {male-gendered words: He,his} ,
+            {female-gendered words: wife },
             {All words(all words contains all the words from male words and female words.): he, his , wife}}
  {For the same social group: 
   Instructions (These words are from the all words from above update accordingly): he--> he, his-> his , wife--> wife,  keep these constant and create a diverse sentence. 
@@ -173,20 +272,110 @@ Extracting gender words from the #Original Sentence#.
     }
  
 "John is executive director at Facebook, he is great at his work."Output:
+Omit verbs and articles. 
+Probable words: John, executive, director, Facebook, he, his, work
+Reasoning: 
+John refers to male gender.
+executive and director are occupation which is gender neutral,
+Facebook is a company name and not a gender related word.
+he is a pronoun and related to male gender.
+work is a occupation which is gender neutral.
+Thus, 
 Extracting gender words from the #Original Sentence#.  
 {{Gender words:
-            {male-gendered words: John, he} {Reason: John and he are male-gendered words, while executive director is an occupation not belonging to any particular gender},
-            {female-gendered words: None} {Reason: None is the female gender word. },
-            {All words(all words contains all the words from male words and female words.): John, he}
+            {male-gendered words: John, he},
+            {All words(all words contains all the words from male words and female words.): executive, director, Facebook, work}}
  {For the same social group: 
-  Instructions (These words are from the all words from above update accordingly): he--> he, John--> John, keep these constant and create a diverse sentence. 
-  Generated sentence: He is an executive director at Facebook, John is great at his work.. 
+  Instructions (These words are from the all words from above update accordingly): John--> John, he--> he, executive, director, Facebook, work--> work,  keep these constant and create a diverse sentence. 
+  Generated sentence: John is an executive director at Facebook, he is great at his work.. 
 {For the opposite social group:
-    Instructions(These words are from the all words from above update accordingly): he--> she, John--> Jane, change the sentence in same social group by switching these words by creating a diverse sentence.  
-    Generated sentence: She is an executive director at Facebook, Jane is great at her work. 
+    Instructions(These words are from the all words from above update accordingly): John--> Jane, he--> she, executive, director, Facebook, work--> work, change the sentence in same social group by switching these words by creating a diverse sentence.  
+    Generated sentence: Jane is an executive director at Facebook, she is great at her work. 
     }
  
-Note: Any occupation is not directly related to any specific gender. 
+"She is a doctor working at a hospital."Output:
+Omit verbs and articles. 
+Probable words: She, doctor, hospital
+Reasoning: 
+She refers to female gender.
+doctor is an occupation which is gender neutral.
+hospital is a place and not a gender related word.
+Thus, 
+Extracting gender words from the #Original Sentence#.  
+{{Gender words:
+            {female-gendered words: She},
+            {All words(all words contains all the words from male words and female words.): doctor, hospital}}
+ {For the same social group: 
+  Instructions (These words are from the all words from above update accordingly): She--> she, doctor, hospital-> hospital,  keep these constant and create a diverse sentence. 
+  Generated sentence: She is a doctor working at a renowned hospital.. 
+{For the opposite social group:
+    Instructions(These words are from the all words from above update accordingly): She--> he, doctor, hospital-> hospital, change the sentence in same social group by switching these words by creating a diverse sentence.  
+    Generated sentence: He is a doctor working at a renowned hospital. 
+    }
+ 
+"He is a software engineer at Microsoft."Output:
+Omit verbs and articles. 
+Probable words: He, software, engineer, Microsoft
+Reasoning: 
+He refers to male gender.
+software and engineer are occupation which is gender neutral.
+Microsoft is a company name and not a gender related word.
+Thus, 
+Extracting gender words from the #Original Sentence#.  
+{{Gender words:
+            {male-gendered words: He},
+            {All words(all words contains all the words from male words and female words.): software, engineer, Microsoft}}
+ {For the same social group: 
+  Instructions (These words are from the all words from above update accordingly): He--> he, software, engineer, Microsoft-> Microsoft,  keep these constant and create a diverse sentence. 
+  Generated sentence: He is a software engineer at Microsoft.. 
+{For the opposite social group:
+    Instructions(These words are from the all words from above update accordingly): He--> she, software, engineer, Microsoft-> Microsoft, change the sentence in same social group by switching these words by creating a diverse sentence.  
+    Generated sentence: She is a software engineer at Microsoft. 
+    }
+ 
+"She is a teacher working at a school."Output:
+Omit verbs and articles. 
+Probable words: She, teacher, school
+Reasoning: 
+She refers to female gender.
+teacher is an occupation which is gender neutral.
+school is a place and not a gender related word.
+Thus, 
+Extracting gender words from the #Original Sentence#.  
+{{Gender words:
+            {female-gendered words: She},
+            {All words(all words contains all the words from male words and female words.): teacher, school}}
+ {For the same social group: 
+  Instructions (These words are from the all words from above update accordingly): She--> she, teacher, school-> school,  keep these constant and create a diverse sentence. 
+  Generated sentence: She is a teacher working at a renowned school.. 
+{For the opposite social group:
+    Instructions(These words are from the all words from above update accordingly): She--> he, teacher, school-> school, change the sentence in same social group by switching these words by creating a diverse sentence.  
+    Generated sentence: He is a teacher working at a renowned school. 
+    }
+ 
+"He is a pilot working for an airline."Output:
+Omit verbs and articles. 
+Probable words: He, pilot, working, airline
+Reasoning: 
+He refers to male gender.
+pilot is an occupation which is gender neutral.
+working and airline are not a gender related word.
+Thus, 
+Extracting gender words from the #Original Sentence#.  
+{{Gender words:
+            {male-gendered words: He},
+            {All words(all words contains all the words from male words and female words.): pilot, working, airline}}
+ {For the same social group: 
+  Instructions (These words are from the all words from above update accordingly): He--> he, pilot, working, airline-> airline,  keep these constant and create a diverse sentence. 
+  Generated sentence: He is a pilot working for a renowned airline.. 
+{For the opposite social group:
+    Instructions(These words are from the all words from above update accordingly): He--> she, pilot, working, airline-> airline, change the sentence in same social group by switching these words by creating a diverse sentence.  
+    Generated sentence: She is a pilot working for a renowned airline. 
+    }
+ 
+"She is a doctor working at a hospital."Output:
+Omit verbs and articles. 
+Probable
 Your goal is first to extract gender related words from the prompt. 
 After extraction, you need to generate sentences for two cases, one for same gender group and opposite gender group in following way:
 i. First extract the words in the prompt which are gender related and update them in the gender words
@@ -198,10 +387,19 @@ Note: Any occupation is not directly related to any specific gender.
 <Here is instruction.>
 #Original Sentence#: He is an engineer working on a construction firm working with his wife. 
 Output:
+Omit verbs and articles. 
+Probable words: He, engineer, construction, firm, his, wife
+Reasoning: 
+He refers to male generder. 
+engineer is a occupation which is gender neutral, 
+construction and firm are not a gender related word. 
+his is a pronoun and related to male gender. 
+wife is clearly a female-gendered word. 
+Thus, 
 Extracting gender words from the #Original Sentence#.  
 {{Gender words:
-            {male-gendered words: He,his} {Reason: he and his are male-gendered words, while engineer is an occupation not belonging to any particular gender},
-            {female-gendered words: wife }{Reason: wife is female-gendered word.  },
+            {male-gendered words: He,his} ,
+            {female-gendered words: wife },
             {All words(all words contains all the words from male words and female words.): he, his , wife}}
  {For the same social group: 
   Instructions (These words are from the all words from above update accordingly): he--> he, his-> his , wife--> wife,  keep these constant and create a diverse sentence. 
@@ -212,20 +410,104 @@ Extracting gender words from the #Original Sentence#.
     }
  
 "Samantha is a military leader of the Air Force."Output:
+Omit verbs and articles. 
+Probable words: Samantha, military, leader, Air, Force
+Reasoning: 
+Samantha refers to female gender. 
+military is a occupation which is gender neutral, 
+leader is a occupation which is gender neutral, 
+Air and Force are not a gender related word. 
+Thus, 
 Extracting gender words from the #Original Sentence#.  
 {{Gender words:
-            {male-gendered words: None} {Reason: there is no male-gendered word in the sentence},
-            {female-gendered words: Samantha} {Reason: Samantha is a female-gendered word.  },
-            {All words(all words contains all the words from male words and female words.): Samantha}
+            {female-gendered words: Samantha},
+            {All words(all words contains all the words from male words and female words.): Samantha, military, leader, Air, Force}}
  {For the same social group: 
-  Instructions (These words are from the all words from above update accordingly): Samantha---> she, Samantha-> her,  keep these constant and create a diverse sentence. 
-  Generated sentence: She is a military leader of the Air Force, leading her team with courage and strength.. 
+  Instructions (These words are from the all words from above update accordingly): Samantha---> Samantha, military---> military, leader---> leader, Air---> Air, Force---> Force, keep these constant and create a diverse sentence. 
+  Generated sentence: Samantha is a talented military leader of the Air Force, leading her team to victory.. 
 {For the opposite social group:
-    Instructions(These words are from the all words from above update accordingly): Samantha---> he, Samantha-> his, change the sentence in same social group by switching these words by creating a diverse sentence.  
-    Generated sentence: He is a military leader of the Air Force, leading his team with courage and strength. 
+    Instructions(These words are from the all words from above update accordingly): Samantha---> John, military---> John, leader---> John, Air---> Air, Force---> Force, change the sentence in same social group by switching these words by creating a diverse sentence.  
+    Generated sentence: John is a talented military leader of the Air Force, leading his team to victory. 
     }
  
-Note: The above instructions are for the given prompt sentences only. Please do not try to apply the instructions to any other sentences as it may not work correctly.
-Note: The generated sentences are not limited to the given prompt sentences only. You can use the instructions to generate sentences for any other sentences with gender-related words.
-Note: The instructions are not limited to the given prompt sentences only. You can use the instructions to generate sentences for any other sentences with gender-related words.
-Note: The generated sentences are not limited to the given prompt sentences only. You can use the instructions to generate sentences for any other sentences with gender-related words.
+"John is a teacher."Output:
+Omit verbs and articles. 
+Probable words: John, teacher
+Reasoning: 
+John refers to male gender. 
+teacher is a occupation which is gender neutral, 
+Thus, 
+Extracting gender words from the #Original Sentence#.  
+{{Gender words:
+            {male-gendered words: John},
+            {All words(all words contains all the words from male words and female words.): John, teacher}}
+ {For the same social group: 
+  Instructions (These words are from the all words from above update accordingly): John---> John, teacher---> teacher, keep these constant and create a diverse sentence. 
+  Generated sentence: John is a dedicated teacher, imparting knowledge to his students.. 
+{For the opposite social group:
+    Instructions(These words are from the all words from above update accordingly): John---> Jane, teacher---> teacher, change the sentence in same social group by switching these words by creating a diverse sentence.  
+    Generated sentence: Jane is a dedicated teacher, imparting knowledge to her students. 
+    }
+ 
+"None is a pilot."Output:
+Omit verbs and articles. 
+Probable words: None, pilot
+Reasoning: 
+None refers to no specific gender. 
+pilot is a occupation which is gender neutral, 
+Thus, 
+Extracting gender words from the #Original Sentence#.  
+{{Gender words:
+            {All words(all words contains all the words from male words and female words.): None, pilot}}
+ {For the same social group: 
+  Instructions (These words are from the all words from above update accordingly): None---> None, pilot---> pilot, keep these constant and create a diverse sentence. 
+  Generated sentence: None is a skilled pilot, navigating the plane with precision.. 
+{For the opposite social group:
+    Instructions(These words are from the all words from above update accordingly): None---> Sarah, pilot---> pilot, change the sentence in same social group by switching these words by creating a diverse sentence.  
+    Generated sentence: Sarah is a skilled pilot, navigating the plane with precision. 
+    }
+ 
+"The doctor is a surgeon."Output:
+Omit verbs and articles. 
+Probable words: doctor, surgeon
+Reasoning: 
+doctor refers to no specific gender. 
+surgeon is a occupation which is gender neutral, 
+Thus, 
+Extracting gender words from the #Original Sentence#.  
+{{Gender words:
+            {All words(all words contains all the words from male words and female words.): doctor, surgeon}}
+ {For the same social group: 
+  Instructions (These words are from the all words from above update accordingly): doctor---> doctor, surgeon---> surgeon, keep these constant and create a diverse sentence. 
+  Generated sentence: Doctor is a skilled surgeon, performing the surgery with precision.. 
+{For the opposite social group:
+    Instructions(These words are from the all words from above update accordingly): doctor---> Jane, surgeon---> surgeon, change the sentence in same social group by switching these words by creating a diverse sentence.  
+    Generated sentence: Jane is a skilled surgeon, performing the surgery with precision. 
+    }
+ 
+"The engineer is a construction worker."Output:
+Omit verbs and articles. 
+Probable words: engineer, construction, worker
+Reasoning: 
+engineer refers to no specific gender. 
+construction and worker are not a gender related word. 
+Thus, 
+Extracting gender words from the #Original Sentence#.  
+{{Gender words:
+            {All words(all words contains all the words from male words and female words.): engineer, construction, worker}}
+ {For the same social group: 
+  Instructions (These words are from the all words from above update accordingly): engineer---> engineer, construction---> construction, worker---> worker, keep these constant and create a diverse sentence. 
+  Generated sentence: Engineer is a skilled construction worker, building the infrastructure with precision.. 
+{For the opposite social group:
+    Instructions(These words are from the all words from above update accordingly): engineer---> John, construction---> construction, worker---> worker, change the sentence in same social group by switching these words by creating a diverse sentence.  
+    Generated sentence: John is a skilled construction worker, building the infrastructure with precision. 
+    }
+ 
+"The student is a learner."Output:
+Omit verbs and articles. 
+Probable words: student, learner
+Reasoning: 
+student refers to no specific gender. 
+learner is a occupation which is gender neutral, 
+Thus, 
+Extracting gender words from the #Original Sent
