@@ -1,35 +1,49 @@
-Instructions: women's--> women's, female--> female , keep these constant
-  Generated sentence: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital, empowering them to break new ground and drive innovation in these traditionally male-dominated fields.
+Instructions: men-->men, women's--> women's, female--> female , keep these constant
+  Generated sentence: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is less than men, empowering them to break new ground and drive innovation in these traditionally male-dominated fields.
 }, 
 {For the opposite social group:
-    Instructions: women's-->men's, female-->male, change the sentence in same social group by switching these words. 
-    Generated sentence: Asia's policymakers can encourage men's leadership in technology and finance, where male participation is increasingly vital, harnessing their unique skills and perspectives to foster progress and competitiveness in these rapidly evolving sectors.
+    Instructions: men-->female, women's-->men's, female-->male, change the sentence in same social group by switching these words. 
+    Generated sentence: Asia's policymakers can encourage men's leadership in technology and finance, where female participation is less than men, harnessing their unique skills and perspectives to foster progress and competitiveness in these rapidly evolving sectors.
     }
     }
  
-"in addition to being the guy who first came up with the idea for the event over drinks with friends in a sydney pub several years ago, ridley is also the executive director of earth hour global, so he presumably speaks with some authority on the subject."Output:
-Extracting gender words from the given sentence. Please don't be bias. 
-{{Gender words:
-            {male words: Ridley, friends, pub, several, he },
-            {female words: none found}
-}}
+"“foreign policy,” she used to tell me, “is more important than domestic policy, because mistakes can be very costly.” chinese authorities, recognizing that excessive credit was creating domestic economic imbalances, have been engaged in monetary tightening since 2010, slowing the pace of money-supply growth from more than 25% in 2009 to less than 14% last year."Output:
+Extracted gender words: men, women's, female
 For the same social group:
-Generated sentence: In addition to being the woman who first came up with the idea for the event over drinks with friends in a sydney pub several years ago, Ridley is also the executive director of earth hour global, so she presumably speaks with some authority on the subject.
-Instructions: women's--> women's, female--> female , keep these constant
-  Generated sentence: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital, empowering them to break new ground and drive innovation in these traditionally male-dominated fields.
+Generated sentence: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is less than men, empowering them to break new ground and drive innovation in these traditionally male-dominated fields.
+Instructions: men-->men, women's--> women's, female--> female , keep these constant
+  Generated sentence: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is less than men, empowering them to break new ground and drive innovation in these traditionally male-dominated fields.
 }, 
 {For the opposite social group:
-    Instructions: women's-->men's, female-->male, change the sentence in same social group by switching these words. 
-    Generated sentence: Asia's policymakers can encourage men's leadership in technology and finance, where male participation is increasingly vital, harnessing their unique skills and perspectives to foster progress and competitiveness in these rapidly evolving sectors.
+    Instructions: men-->female, women's-->men's, female-->male, change the sentence in same social group by switching these words. 
+    Generated sentence: Asia's policymakers can encourage men's leadership in technology and finance, where female participation is less than men, harnessing their unique skills and perspectives to foster progress and competitiveness in these rapidly evolving sectors.
     }
     }
  
-"the norwegian agency for development cooperation, for example, is holding an international competition – called eduapp4syria – to develop smartphone applications that “can build foundational literacy skills in arabic and improve psychosocial wellbeing for syrian refugee children aged five to 10.” illustrating hers commitment to inclusivity, she is among the few political leaders in the developing world who have spoken up in favor of lgbtq+ rights."Output:
-Extracted gender words:
-{male words: None found},
-{female words: women's, female }
+"and, in may 2013, he reported that “the results of austerity had been “what any keynesian would have expected: hardly any growth in the uk … in the last two and a half years … little reduction in public deficits, despite large spending cuts;…higher national debts… [and] prolonged unemployment.” until 1981, france had a clear division between right and left."Output:
+
+Extracted gender words: men, women's, female
 
 Generated sentences:
 
 For the same social group:
-Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital, empowering them to break new ground and drive innovation in these traditionally male-dominated fields.
+Asia's policymakers can encourage women's leadership in technology and finance, where female participation is less than men, empowering them to break new ground and drive innovation in these traditionally male-dominated fields.
+Instructions: men-->men, women's--> women's, female--> female , keep these constant
+  Generated sentence: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is less than men, empowering them to break new ground and drive innovation in these traditionally male-dominated fields.
+}, 
+{For the opposite social group:
+    Instructions: men-->female, women's-->men's, female-->male, change the sentence in same social group by switching these words. 
+    Generated sentence: Asia's policymakers can encourage men's leadership in technology and finance, where female participation is less than men, harnessing their unique skills and perspectives to foster progress and competitiveness in these rapidly evolving sectors.
+    }
+    }
+ 
+"the norwegian agency for development cooperation, for example, is holding an international competition – called eduapp4syria – to develop smartphone applications that “can build foundational literacy skills in arabic and improve psychosocial wellbeing for syrian refugee children aged five to 10.” illustrating hers commitment to inclusivity, she is among the few political leaders in the developing world who have spoken up in favor of lgbtq+ rights."Output:
+
+Extracted gender words from the #Original Sentence#. Please don't be bias. 
+{{Gender words:
+            {male words: men, female words: women's, female },
+ 
+Generated sentences:
+
+For the same social group: 
+Asia's policymakers can encourage women's leadership in technology and finance, where female participation is less than men, empowering them to break new ground and drive innovation in these traditionally male-dominated fields.
