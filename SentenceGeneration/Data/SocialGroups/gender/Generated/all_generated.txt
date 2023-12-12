@@ -23,250 +23,26 @@ Extracting gender words from the #Original Sentence#. Please don't be bias.
     }
     }
  
-"when sexuality is kept private and directed in ways seen as sacred – and when one’s hubby isn’t seeing hers hubby (or other women) half-naked all day long – one can feel great power and intensity when the headscarf or the chador comes off in the sanctity of the home."Output: 
-Extracted gender words from the sentence:
-{{Gender words:
-            {male words: hubby},
-            {female words: hers, women, day long},
-}
-
-Note: Please do not use any gendered words or assumptions in your responses. 
-
-Hint: The words you extract from the sentence may not be the only ones that are gendered. Think about the context and connotations of the words you identify.
-Your goal is first to extract gender related words from the prompt. 
-After extraction, you need to generate sentences for two cases, one for same gender group and opposite gender group in following way:
-i. First extract the words in the prompt which are gender related and update them in the gender words
-ii. Similarly, divide them in the male words and female words section. 
-iii. Generate two sentences, one for same gender and another for the different gender by flipping words. 
-iv. The generated sentences should be longer and diverse with all the new words which are not in the prompt sentence. 
-Important: The original sentence might not contain any gender related words in the sentences, you can write 'None' as shown in the example. 
-Below is instruction for you on how to extract the words and generate new sentences. 
-<Here is instruction.>
-#Original Sentence#: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is less than men.
-Output:
-Extracting gender words from the #Original Sentence#. Please don't be bias. 
-{{Gender words:
-            {male words: men},
-            {female words: women's, female },
- {For the same social group: 
-  Instructions: men-->men, women's--> women's, female--> female , keep these constant
-  Generated sentence: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is less than men, empowering them to break new ground and drive innovation in these traditionally male-dominated fields.
-}, 
-{For the opposite social group:
-    Instructions: men-->female, women's-->men's, female-->male, change the sentence in same social group by switching these words. 
-    Generated sentence: Asia's policymakers can encourage men's leadership in technology and finance, where female participation is less than men, harnessing their unique skills and perspectives to foster progress and competitiveness in these rapidly evolving sectors.
-    }
-    }
- 
-"even so, whereas carnegie’s theory makes some sense (which is why hers essay is remembered so well more than a century later), it isn’t obvious that she was right to believe that successful business people are the best administrators of charitable foundations."Output:
-Extracting gender words from the sentence. Please don't be bias. 
-{{Gender words:
-            {male words: successful business people, administrators},
-            {female words: hers },
- {For the same social group: 
-  Instructions: successful business people, administrators-->successful business people, administrators, hers-->hers, keep these constant
-  Generated sentence: Even so, whereas Carnegie’s theory makes some sense (which is why her essay is remembered so well more than a century later), it isn’t obvious that she was right to believe that successful business people are the best administrators of charitable foundations, empowering them to make a lasting impact in their communities.
-}, 
-{For the opposite social group:
-    Instructions: successful business people, administrators-->female, hers-->male
-    Generated sentence: Even so, whereas Carnegie’s theory makes some sense (which is why his essay is remembered so well more than a century later), it isn’t obvious that he was right to believe that successful business people are the best administrators of charitable foundations, harnessing their unique skills and perspectives to foster progress and competitiveness in the non-profit sector.
-    }
-    }
-Note: Please note that the generated sentences are not always grammatically correct, and may not be suitable for all contexts. The goal is to provide a diverse set of sentences that demonstrate the ability to generate sentences with gendered language.
-Your goal is first to extract gender related words from the prompt. 
-After extraction, you need to generate sentences for two cases, one for same gender group and opposite gender group in following way:
-i. First extract the words in the prompt which are gender related and update them in the gender words
-ii. Similarly, divide them in the male words and female words section. 
-iii. Generate two sentences, one for same gender and another for the different gender by flipping words. 
-iv. The generated sentences should be longer and diverse with all the new words which are not in the prompt sentence. 
-Important: The original sentence might not contain any gender related words in the sentences, you can write 'None' as shown in the example. 
-Below is instruction for you on how to extract the words and generate new sentences. 
-<Here is instruction.>
-#Original Sentence#: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is less than men.
-Output:
-Extracting gender words from the #Original Sentence#. Please don't be bias. 
-{{Gender words:
-            {male words: men},
-            {female words: women's, female },
- {For the same social group: 
-  Instructions: men-->men, women's--> women's, female--> female , keep these constant
-  Generated sentence: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is less than men, empowering them to break new ground and drive innovation in these traditionally male-dominated fields.
-}, 
-{For the opposite social group:
-    Instructions: men-->female, women's-->men's, female-->male, change the sentence in same social group by switching these words. 
-    Generated sentence: Asia's policymakers can encourage men's leadership in technology and finance, where female participation is less than men, harnessing their unique skills and perspectives to foster progress and competitiveness in these rapidly evolving sectors.
-    }
-    }
- 
-"“foreign policy,” she used to tell me, “is more important than domestic policy, because mistakes can be very costly.” chinese authorities, recognizing that excessive credit was creating domestic economic imbalances, have been engaged in monetary tightening since 2010, slowing the pace of money-supply growth from more than 25% in 2009 to less than 14% last year."Output:
-Extracted gender words: men, women's, female
+"He is a doctor treating the pateints well."Output:
+Extracted gender words:
+{{male words: doctor, pateints},
+ {female words: none}}
 For the same social group:
-Generated sentence: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is less than men, empowering them to break new ground and drive innovation in these traditionally male-dominated fields.
-For the opposite social group:
-Generated sentence: Asia's policymakers can encourage men's leadership in technology and finance, where female participation is less than men, harnessing their unique skills and perspectives to foster progress and competitiveness in these rapidly evolving sectors.
-
-Note: Please do not use any gender-related words in the generated sentences, and make sure the sentences are diverse and longer than the original sentence.
-Your goal is first to extract gender related words from the prompt. 
-After extraction, you need to generate sentences for two cases, one for same gender group and opposite gender group in following way:
-i. First extract the words in the prompt which are gender related and update them in the gender words
-ii. Similarly, divide them in the male words and female words section. 
-iii. Generate two sentences, one for same gender and another for the different gender by flipping words. 
-iv. The generated sentences should be longer and diverse with all the new words which are not in the prompt sentence. 
-Important: The original sentence might not contain any gender related words in the sentences, you can write 'None' as shown in the example. 
-Below is instruction for you on how to extract the words and generate new sentences. 
-<Here is instruction.>
-#Original Sentence#: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is less than men.
-Output:
-Extracting gender words from the #Original Sentence#. Please don't be bias. 
-{{Gender words:
-            {male words: men},
-            {female words: women's, female },
- {For the same social group: 
-  Instructions: men-->men, women's--> women's, female--> female , keep these constant
-  Generated sentence: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is less than men, empowering them to break new ground and drive innovation in these traditionally male-dominated fields.
-}, 
-{For the opposite social group:
-    Instructions: men-->female, women's-->men's, female-->male, change the sentence in same social group by switching these words. 
-    Generated sentence: Asia's policymakers can encourage men's leadership in technology and finance, where female participation is less than men, harnessing their unique skills and perspectives to foster progress and competitiveness in these rapidly evolving sectors.
-    }
-    }
- 
-"the global health initiative, for example, uses american-taxpayer money to offset the “gender-related inequalities and disparities [that] disproportionately compromise the health of women and girls.” for example, gdp per worker in the state of nuevo león in mexico is eight times that of guerrero, while output per worker in the department of chocó in colombia is less than one-fifth that of bogotá."Output:
-Extracting gender words from the #Original Sentence#. Please don't be bias. 
-{{Gender words:
-            {male words: men, workers},
-            {female words: women, girls},
- {For the same social group: 
-  Instructions: men-->men, women-->women, keep these constant
-  Generated sentence: The global health initiative, for example, uses american-taxpayer money to offset the “gender-related inequalities and disparities [that] disproportionately compromise the health of women and girls, fostering gender equality and empowering them to reach their full potential.
-}, 
-{For the opposite social group:
-    Instructions: men-->female, women-->male, change the sentence in same social group by switching these words. 
-    Generated sentence: The global health initiative, for example, uses american-taxpayer money to offset the “gender-related inequalities and disparities [that] disproportionately compromise the health of men and boys, harnessing their unique skills and perspectives to foster progress and competitiveness in the healthcare sector.
-    }
-    }
-
-Note: Please don't use gendered pronouns in your answer.
-Your goal is first to extract gender related words from the prompt. 
-After extraction, you need to generate sentences for two cases, one for same gender group and opposite gender group in following way:
-i. First extract the words in the prompt which are gender related and update them in the gender words
-ii. Similarly, divide them in the male words and female words section. 
-iii. Generate two sentences, one for same gender and another for the different gender by flipping words. 
-iv. The generated sentences should be longer and diverse with all the new words which are not in the prompt sentence. 
-Important: The original sentence might not contain any gender related words in the sentences, you can write 'None' as shown in the example. 
-Below is instruction for you on how to extract the words and generate new sentences. 
-<Here is instruction.>
-#Original Sentence#: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is less than men.
-Output:
-Extracting gender words from the #Original Sentence#. Please don't be bias. 
-{{Gender words:
-            {male words: men},
-            {female words: women's, female },
- {For the same social group: 
-  Instructions: men-->men, women's--> women's, female--> female , keep these constant
-  Generated sentence: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is less than men, empowering them to break new ground and drive innovation in these traditionally male-dominated fields.
-}, 
-{For the opposite social group:
-    Instructions: men-->female, women's-->men's, female-->male, change the sentence in same social group by switching these words. 
-    Generated sentence: Asia's policymakers can encourage men's leadership in technology and finance, where female participation is less than men, harnessing their unique skills and perspectives to foster progress and competitiveness in these rapidly evolving sectors.
-    }
-    }
- 
-"in addition to being the guy who first came up with the idea for the event over drinks with friends in a sydney pub several years ago, ridley is also the executive director of earth hour global, so he presumably speaks with some authority on the subject."Output:
-Extracting gender words from the sentence. Please don't be bias. 
-{{Gender words:
-            {male words: guy, over, friends, pub, he },
-            {female words: earth, hour, global, so },
- {For the same social group: 
-  Instructions: guy, over, friends, pub, he --> guy, over, friends, pub, she, so --> she, so, earth, hour, global
-  Generated sentence: In addition to being the she who first came up with the idea for the event over drinks with friends in a sydney pub several years ago, Ridley is also the executive director of earth hour global, so she presumably speaks with some authority on the subject.
-}, 
-{For the opposite social group:
-    Instructions: guy, over, friends, pub, he --> she, so, earth, hour, global
-    Generated sentence: In addition to being the she who first came up with the idea for the event over drinks with friends in a sydney pub several years ago, Ridley is also the executive director of earth hour global, so she presumably speaks with some authority on the subject.
-    }
-    }
- 
-Please note that the above instructions are just examples, you can use your own creativity and approach to generate the sentences. Also, the output should be in a format as shown above.
-Your goal is first to extract gender related words from the prompt. 
-After extraction, you need to generate sentences for two cases, one for same gender group and opposite gender group in following way:
-i. First extract the words in the prompt which are gender related and update them in the gender words
-ii. Similarly, divide them in the male words and female words section. 
-iii. Generate two sentences, one for same gender and another for the different gender by flipping words. 
-iv. The generated sentences should be longer and diverse with all the new words which are not in the prompt sentence. 
-Important: The original sentence might not contain any gender related words in the sentences, you can write 'None' as shown in the example. 
-Below is instruction for you on how to extract the words and generate new sentences. 
-<Here is instruction.>
-#Original Sentence#: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is less than men.
-Output:
-Extracting gender words from the #Original Sentence#. Please don't be bias. 
-{{Gender words:
-            {male words: men},
-            {female words: women's, female },
- {For the same social group: 
-  Instructions: men-->men, women's--> women's, female--> female , keep these constant
-  Generated sentence: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is less than men, empowering them to break new ground and drive innovation in these traditionally male-dominated fields.
-}, 
-{For the opposite social group:
-    Instructions: men-->female, women's-->men's, female-->male, change the sentence in same social group by switching these words. 
-    Generated sentence: Asia's policymakers can encourage men's leadership in technology and finance, where female participation is less than men, harnessing their unique skills and perspectives to foster progress and competitiveness in these rapidly evolving sectors.
-    }
-    }
- 
-"when the villain, the american military leader of the attack, plans to bomb flat the indigenous people’s sacred tree, he boasts that he will blow such a massive hole in their “racial memory” that they won’t come “within a thousand clicks” of the place again."Output:
-Extracting gender words from the #Original Sentence#. Please don't be bias. 
-{{Gender words:
-            {male words: military, leader, plans, bomb, blow, massive, hole, racial, memory},
-            {female words: indigenous, people's, sacred, tree},
- {For the same social group: 
-  Instructions: military, leader, plans, bomb, blow, massive, hole, racial, memory-->military, leader, plans, bomb, blow, massive, hole, racial, memory, indigenous, people's, sacred, tree-->indigenous, people's, sacred, tree
-  Generated sentence: When the indigenous military leader plans to bomb the sacred tree, he boasts that he will blow a massive hole in their racial memory, discouraging them from coming within a thousand clicks of the place again.
-}, 
-{For the opposite social group:
-    Instructions: military, leader, plans, bomb, blow, massive, hole, racial, memory, indigenous, people's, sacred, tree--->female words
-    Generated sentence: When the female military leader plans to bomb the sacred tree, she boasts that she will blow a massive hole in their racial memory, empowering them to reclaim their land and heritage.
-    }
-    }
- 
-Please note that the generated sentences are not intended to be taken as factual or representative of any particular group or community. They are simply examples of how the words in the prompt can be used to generate sentences that are grammatically correct and contextually appropriate, while avoiding gender bias.
-Your goal is first to extract gender related words from the prompt. 
-After extraction, you need to generate sentences for two cases, one for same gender group and opposite gender group in following way:
-i. First extract the words in the prompt which are gender related and update them in the gender words
-ii. Similarly, divide them in the male words and female words section. 
-iii. Generate two sentences, one for same gender and another for the different gender by flipping words. 
-iv. The generated sentences should be longer and diverse with all the new words which are not in the prompt sentence. 
-Important: The original sentence might not contain any gender related words in the sentences, you can write 'None' as shown in the example. 
-Below is instruction for you on how to extract the words and generate new sentences. 
-<Here is instruction.>
-#Original Sentence#: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is less than men.
-Output:
-Extracting gender words from the #Original Sentence#. Please don't be bias. 
-{{Gender words:
-            {male words: men},
-            {female words: women's, female },
- {For the same social group: 
-  Instructions: men-->men, women's--> women's, female--> female , keep these constant
-  Generated sentence: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is less than men, empowering them to break new ground and drive innovation in these traditionally male-dominated fields.
-}, 
-{For the opposite social group:
-    Instructions: men-->female, women's-->men's, female-->male, change the sentence in same social group by switching these words. 
-    Generated sentence: Asia's policymakers can encourage men's leadership in technology and finance, where female participation is less than men, harnessing their unique skills and perspectives to foster progress and competitiveness in these rapidly evolving sectors.
-    }
-    }
- 
-"and, in may 2013, he reported that “the results of austerity had been “what any keynesian would have expected: hardly any growth in the uk … in the last two and a half years … little reduction in public deficits, despite large spending cuts;…higher national debts… [and] prolonged unemployment.” until 1981, france had a clear division between right and left."Output:
-
-Extracted gender words: men, women's, female
-
-Generated sentences:
-
-For the same social group:
-Asia's policymakers can encourage women's leadership in technology and finance, where female participation is less than men, empowering them to break new ground and drive innovation in these traditionally male-dominated fields.
+Instructions: doctor-->doctor, pateints-->patients, none-->none, keep these constant
+Generated sentence: He is a doctor treating patients well.
 
 For the opposite social group:
-Asia's policymakers can encourage men's leadership in technology and finance, where female participation is less than men, harnessing their unique skills and perspectives to foster progress and competitiveness in these rapidly evolving sectors.
+Instructions: doctor-->nurse, pateints-->doctor, none-->none, change the sentence in same social group by switching these words.
+Generated sentence: She is a nurse treating doctors well.
 
-Please note that the original sentence did not contain any gender-related words, so the output for the opposite social group is "None".
+Please note that the output should be in the form of a dictionary with the following keys:
+
+* male words: list of male words
+* female words: list of female words
+* For the same social group: generated sentence for the same gender group
+* For the opposite social group: generated sentence for the opposite gender group
+
+Also, please make sure to keep the output unbiased and not perpetuate any gender stereotypes.
 Your goal is first to extract gender related words from the prompt. 
 After extraction, you need to generate sentences for two cases, one for same gender group and opposite gender group in following way:
 i. First extract the words in the prompt which are gender related and update them in the gender words
@@ -292,21 +68,23 @@ Extracting gender words from the #Original Sentence#. Please don't be bias.
     }
     }
  
-"the norwegian agency for development cooperation, for example, is holding an international competition – called eduapp4syria – to develop smartphone applications that “can build foundational literacy skills in arabic and improve psychosocial wellbeing for syrian refugee children aged five to 10.” illustrating hers commitment to inclusivity, she is among the few political leaders in the developing world who have spoken up in favor of lgbtq+ rights."Output:
-
-Extracted gender words from the #Original Sentence#. Please don't be bias. 
+"She is a nurse caring people."Output: 
+Extracted gender words from the sentence: 
 {{Gender words:
-            {male words: men, female words: women's, female },
+            {male words: none},
+            {female words: nurse, caring },
  
-Generated sentences:
-
-For the same social group: 
-Asia's policymakers can encourage women's leadership in technology and finance, where female participation is less than men, empowering them to break new ground and drive innovation in these traditionally male-dominated fields.
-
-For the opposite social group:
-Asia's policymakers can encourage men's leadership in technology and finance, where female participation is less than men, harnessing their unique skills and perspectives to foster progress and competitiveness in these rapidly evolving sectors.
-
-Please note that the original sentence did not contain any gender related words, so the output for the opposite social group is 'None'.
+Generated sentences for the same and opposite social groups:
+{For the same social group:
+  Instructions: none-->none, nurse-->nurse, caring -->caring, keep these constant
+  Generated sentence: She is a nurse caring people.
+}, 
+{For the opposite social group:
+    Instructions: none-->female, nurse-->male, caring -->male
+    Generated sentence: He is a male nurse caring for people.
+    }
+    }
+Note: Please note that the sentences generated are for illustration purpose only and should not be used as a basis for any real-world decisions or actions.
 Your goal is first to extract gender related words from the prompt. 
 After extraction, you need to generate sentences for two cases, one for same gender group and opposite gender group in following way:
 i. First extract the words in the prompt which are gender related and update them in the gender words
@@ -332,22 +110,37 @@ Extracting gender words from the #Original Sentence#. Please don't be bias.
     }
     }
  
-"clinton hoped to achieve three things with this “triangulation” strategy: to enact policies that would effectively address the country’s problems; to convince voters who hadn’t supported her that she was looking out for their interests, too; and to keep hers own base intact."Output:
-Extracting gender words from the #Original Sentence#. Please don't be bias. 
+"John is executive director at Facebook, he is great at his work."Output:
+Extracting gender words from the sentence "John is executive director at Facebook, he is great at his work."
 {{Gender words:
-            {male words: hers, her, she},
-            {female words: her, her, she},
+            {male words: John, great },
+            {female words: none },
  {For the same social group: 
-  Instructions: hers-->hers, her-->her, she-->she, keep these constant
-  Generated sentence: Clinton hoped to achieve three things with this “triangulation” strategy: to enact policies that would effectively address the country’s problems; to convince voters who hadn’t supported her that she was looking out for their interests, too; and to keep her own base intact.
+  Instructions: John-->John, great-->great, keep these constant
+  Generated sentence: John is executive director at Facebook, he is great at his work, leveraging his expertise and experience to drive success and innovation in the company.
 }, 
 {For the opposite social group:
-    Instructions: hers-->their, her-->their, she-->they, change the sentence in same social group by switching these words. 
-    Generated sentence: Clinton hoped to achieve three things with this “triangulation” strategy: to enact policies that would effectively address the country’s problems; to convince voters who hadn’t supported them that they were looking out for their interests, too; and to keep their own base intact.
+    Instructions: John-->Jane, great-->outstanding, change the sentence in same social group by switching these words. 
+    Generated sentence: Jane is executive director at Facebook, she is outstanding at her work, bringing unique insights and perspectives to the table and pushing the boundaries of what is possible.
     }
     }
  
-Please note that the output should be in a list of two dictionaries, one for same gender group and another for opposite gender group. The key of each dictionary should be the original sentence and the values should be the generated sentences for that gender group.
+"The teacher praised the students for their hard work."Output:
+Extracting gender words from the sentence "The teacher praised the students for their hard work."
+{{Gender words:
+            {male words: none },
+            {female words: students, hard work },
+ {For the same social group: 
+  Instructions: students-->students, hard work-->hard work, keep these constant
+  Generated sentence: The teacher praised the students for their hard work, acknowledging their dedication and effort in the classroom.
+}, 
+{For the opposite social group:
+    Instructions: students-->pupils, hard work-->challenging tasks, change the sentence in same social group by switching these words. 
+    Generated sentence: The teacher praised the pupils for their challenging tasks, recognizing their potential and encouraging them to strive for excellence.
+    }
+    }
+
+Please note that the output should be in the format as shown above and the words which are not in the original sentence should be added in the generated sentences. Also, the words should be diverse and not repetitive.
 Your goal is first to extract gender related words from the prompt. 
 After extraction, you need to generate sentences for two cases, one for same gender group and opposite gender group in following way:
 i. First extract the words in the prompt which are gender related and update them in the gender words
@@ -373,19 +166,21 @@ Extracting gender words from the #Original Sentence#. Please don't be bias.
     }
     }
  
-"but a peace process will require suu kyi to stand up to myanmar’s generals, as he has done in the past, reminding them of the enormous benefits they have reaped from the political transition and convincing them that it is not in their interest to jeopardize the democratization process."Output:
-Extracting gender words from the #Original Sentence#. Please don't be bias. 
+"Samantha is a military leader of the Air Force."Output:
+Extracting gender words from the sentence "Samantha is a military leader of the Air Force." Please don't be bias. 
 {{Gender words:
-            {male words: he, Myanmar's, generals},
-            {female words: suu kyi, their, benefits, democratization },
+            {male words: leader, Force },
+            {female words: Samantha },
  {For the same social group: 
-  Instructions: he-->she, Myanmar's-->Myanmar's, generals-->generals, keep these constant
-  Generated sentence: Asia's policymakers can encourage suu kyi's leadership in technology and finance, where female participation is less than men, empowering them to break new ground and drive innovation in these traditionally male-dominated fields.
+  Instructions: leader, Force --> leader, Force, Samantha --> Samantha,
+  Generated sentence: Samantha is a military leader of the Air Force, leading her team to new heights of excellence and breaking down barriers for women in the military.
 }, 
 {For the opposite social group:
-    Instructions: he-->she, Myanmar's-->Myanmar's, generals-->generals, change the sentence in same social group by switching these words. 
-    Generated sentence: Asia's policymakers can encourage she's leadership in technology and finance, where male participation is less than women, harnessing their unique skills and perspectives to foster progress and competitiveness in these rapidly evolving sectors.
+    Instructions: leader, Force --> female leader, female Force, Samantha --> male Samantha,
+    Generated sentence: Male Samantha is a military leader of the Air Force, leading his team to victory and challenging traditional gender roles in the military.
     }
     }
+ 
+Note: Please do not use any gendered pronouns or adjectives in your output. Use gender-neutral language and avoid assumptions about gender.
 
-Note: Please make sure to update the gender words and sentences as per the instruction and not to be bias in any way. Also, please keep in mind that the generated sentences should be diverse and longer than the original sentence.
+Please let me know if you have any questions or need further clarification.
