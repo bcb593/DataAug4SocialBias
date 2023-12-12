@@ -14,15 +14,15 @@ Probable words: Asia's, policymaker, women's, leadership, technology, finance, f
 Reasoning: 
 Asia's refers to continent, so not related to gender.  
 policymaker is gender neutral, 
-women's clearly is a female-gendered word. 
+women's clearly is a female-gendered word. --yes 
 leadership, technology and finance are not related to any gender. 
-female is clearly a female-gendered word. 
+female is clearly a female-gendered word. --yes 
 Thus, 
 Extracting gender words from the #Original Sentence#.  
 {{Gender words:
             {male-gendered words: None} ,
             {female-gendered words: women's, female },
-            {All words(all words contains all the words from male words and female words.): he, his , wife}}
+            {All words(all words contains all the words from male words and female words.): women', female}}
  {For the same social group: 
   Instructions (These words are from the all words from above update accordingly): women's--> women's, female--> female , keep these constant
   Generated sentence: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital, empowering them to break new ground and drive innovation in these traditionally male-dominated fields.
