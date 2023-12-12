@@ -10,16 +10,12 @@ Donot generate anything else, just take the prompt and excatly generate accordin
 <Here is instruction.>
 #Original Sentence#: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital.
 Output:
-Omit verbs,preposition, conjuction and articles. 
+First extraction
 Probable words: Asia's, policymaker, women's, leadership, technology, finance, female
-Reasoning: 
-Asia's refers to continent, so not related to gender.  
-policymaker is gender neutral, 
-women's clearly is a female-gendered word. --yes 
-leadership, technology and finance are not related to any gender. 
-female is clearly a female-gendered word. --yes 
-Thus, 
-Extracting gender words from the #Original Sentence#.  
+Justification:
+Among these probable words, women's and female are only gendered words. 
+#Target gender words#: women's, female 
+Extracting gender words from the #Target gender words#.  
 {{Gender words:
             {male-gendered words: None} ,
             {female-gendered words: women's, female },
