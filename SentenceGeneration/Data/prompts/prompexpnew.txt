@@ -10,21 +10,19 @@ Important: The original sentence might not contain any gender related words in t
 Note: Any occupation is not directly related to any specific gender. 
 Below is instruction for you on how to extract the words and generate new sentences. 
 <Here is instruction.>
-#Original Sentence#: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital.
+#Original Sentence#: He is an engineer working on a construction firm working with his wife. 
 Output:
 Extracting gender words from the #Original Sentence#.  
 
 {{Gender words:
-            {male-gendered words: None found} {Reason: Because there are no male words found in the sentence},
-            {female-gendered words: women's, female }{Reason: The female words are women's and female which are clearly indicating female. },
-            {All words(all words contains all the words from male words and female words.): women's, female}}
+            {male-gendered words: He,his} {Reason: he and his are male-gendered words, while engineer is an occupation not belonging to any particular gender},
+            {female-gendered words: wife }{Reason: wife is female-gendered word.  },
+            {All words(all words contains all the words from male words and female words.): he, his , wife}}
  {For the same social group: 
-  Instructions (These words are from the all words from above update accordingly): women's--> women's, female--> female , keep these constant
-  Generated sentence: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital, empowering them to break new ground and drive innovation in these traditionally male-dominated fields.
-}, 
+  Instructions (These words are from the all words from above update accordingly): he--> he, his-> his , wife--> wife,  keep these constant
+  Generated sentence: He is an engineer working on a renowned construction firm working his wife, both being life and job partners. . 
 {For the opposite social group:
-    Instructions(These words are from the all words from above update accordingly): women's-->men's, female-->male, change the sentence in same social group by switching these words. 
-    Generated sentence: Asia's policymakers can encourage men's leadership in technology and finance, where male participation is increasingly vital, harnessing their unique skills and perspectives to foster progress and competitiveness in these rapidly evolving sectors.
-    }
+    Instructions(These words are from the all words from above update accordingly): he--> she, his-> her , wife--> husband, change the sentence in same social group by switching these words. 
+    Generated sentence: She is an engineer working on a renowned construction firm working her husband, both being life and job partners. 
     }
  
