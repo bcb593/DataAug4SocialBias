@@ -30,23 +30,22 @@ def get_llama_response(prompt: str) -> str:
     full_text = llama_pipeline(prompt, max_length=2048)[0]['generated_text']
     return full_text
 
+from tqdm import tqdm
+
 def return_relevant_sentences(sentences_path, prompt_path):
     prompt = cot(prompt_path)
 
     relevant_sentences = []
     with open(sentences_path, 'r', encoding='utf-8') as file:
         sentences = [line.strip() for line in file]
-        i=0
-    for sentence in sentences:
-        if i%1==0:
-          print('Done with',i,'sentences')
-        i+=1
+
+    for i, sentence in enumerate(tqdm(sentences, desc="Processing sentences")):
         full_prompt = f"{prompt}\"{sentence}\"Output:"
         aug_sent = get_llama_response(full_prompt)
-        
         relevant_sentences.append(aug_sent)
 
     return relevant_sentences
+
 
 relevant_sentences = return_relevant_sentences(sentences_path, prompt_path)
 
