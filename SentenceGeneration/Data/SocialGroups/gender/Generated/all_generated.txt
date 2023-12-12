@@ -4,280 +4,228 @@ i. First extract the words in the prompt which are gender related and update the
 ii. Similarly, divide them in the male words and female words section. 
 iii. Generate two sentences, one for same gender and another for the different gender by flipping words. 
 iv. The generated sentences should be longer and diverse with all the new words which are not in the prompt sentence. 
-male words: Male-gendered words typically refer to words that are associated with male. These entities could be gender specific nouns and pronouns(he,him,his), male title(Mr) and terms of address.  
-female words: Female-gendered words typically refer to words that are associated female. These entities could be gender specific nouns and pronouns(she,her,hers), female title(Mrs.) and terms of address.
 Important: The original sentence might not contain any gender related words in the sentences, you can write 'None' as shown in the example. 
 Note: Any occupation is not directly related to any specific gender. 
-Below is instruction for you on how to extract the words and generate new sentences. 
 <Here is instruction.>
 #Original Sentence#: He is an engineer working on a construction firm working with his wife. 
 Output:
 Extracting gender words from the #Original Sentence#.  
-
 {{Gender words:
             {male-gendered words: He,his} {Reason: he and his are male-gendered words, while engineer is an occupation not belonging to any particular gender},
             {female-gendered words: wife }{Reason: wife is female-gendered word.  },
             {All words(all words contains all the words from male words and female words.): he, his , wife}}
  {For the same social group: 
-  Instructions (These words are from the all words from above update accordingly): he--> he, his-> his , wife--> wife,  keep these constant
+  Instructions (These words are from the all words from above update accordingly): he--> he, his-> his , wife--> wife,  keep these constant and create a diverse sentence. 
   Generated sentence: He is an engineer working on a renowned construction firm working his wife, both being life and job partners. . 
 {For the opposite social group:
-    Instructions(These words are from the all words from above update accordingly): he--> she, his-> her , wife--> husband, change the sentence in same social group by switching these words. 
+    Instructions(These words are from the all words from above update accordingly): he--> she, his-> her , wife--> husband, change the sentence in same social group by switching these words by creating a diverse sentence.  
     Generated sentence: She is an engineer working on a renowned construction firm working her husband, both being life and job partners. 
     }
  
 "He is a doctor treating the pateints well."Output:
 Extracting gender words from the #Original Sentence#.  
-
 {{Gender words:
-            {male-gendered words: He,doctor} {Reason: he is a male-gendered word, while doctor is an occupation not belonging to any particular gender},
-            {female-gendered words: none} {Reason: there is no female-gendered word in the sentence.},
+            {male-gendered words: He, doctor } {Reason: he and doctor are male-gendered words, while treating is an occupation not belonging to any particular gender},
+            {female-gendered words: None} {Reason: there are no female-gendered words in the sentence},
             {All words(all words contains all the words from male words and female words.): he, doctor}
  {For the same social group: 
-  Instructions (These words are from the all words from above update accordingly): he--> he, doctor-> doctor,  keep these constant
+  Instructions (These words are from the all words from above update accordingly): he--> he, doctor-> doctor,  keep these constant and create a diverse sentence. 
   Generated sentence: He is a doctor treating his patients well.. 
 {For the opposite social group:
-    Instructions(These words are from the all words from above update accordingly): he--> she, doctor-> doctor, change the sentence in same social group by switching these words. 
+    Instructions(These words are from the all words from above update accordingly): he--> she, doctor-> doctor, change the sentence in same social group by switching these words by creating a diverse sentence.  
     Generated sentence: She is a doctor treating her patients well. 
     }
  
 "She is a teacher teaching the students."Output:
 Extracting gender words from the #Original Sentence#.  
-
 {{Gender words:
-            {male-gendered words: none} {Reason: there is no male-gendered word in the sentence.},
-            {female-gendered words: She,teacher} {Reason: she and teacher are female-gendered words.},
-            {All words(all words contains all the words from male words and female words.): She, teacher}
+            {male-gendered words: None} {Reason: there are no male-gendered words in the sentence},
+            {female-gendered words: She, teacher } {Reason: she and teacher are female-gendered words},
+            {All words(all words contains all the words from male words and female words.): she, teacher}
  {For the same social group: 
-  Instructions (These words are from the all words from above update accordingly): She---> She, teacher---> teacher,  keep these constant
+  Instructions (These words are from the all words from above update accordingly): she--> she, teacher-> teacher,  keep these constant and create a diverse sentence. 
   Generated sentence: She is a teacher teaching her students well.. 
 {For the opposite social group:
-    Instructions(These words are from the all words from above update accordingly): She---> he, teacher---> teacher, change the sentence in same social group by switching these words. 
+    Instructions(These words are from the all words from above update accordingly): she--> he, teacher-> teacher, change the sentence in same social group by switching these words by creating a diverse sentence.  
     Generated sentence: He is a teacher teaching his students well. 
     }
- 
-"The students are listening to their teacher."Output:
-Extracting gender words from the #Original Sentence#.  
 
+"They are engineers working on a construction site."Output:
+Extracting gender words from the #Original Sentence#.  
 {{Gender words:
-            {male-gendered words: none} {Reason: there is no male-gendered word in the sentence.},
-            {female-gendered words: teacher} {Reason: teacher is a female-gendered word.},
-            {All words(all words contains all the words from male words and female words.): teacher}
+            {male-gendered words: They, engineers } {Reason: they and engineers are male-gendered words},
+            {female-gendered words: None} {Reason: there are no female-gendered words in the sentence},
+            {All words(all words contains all the words from male words and female words.): they, engineers}
  {For the same social group: 
-  Instructions (These words are from the all words from above update accordingly): teacher---> teacher,  keep these constant
-  Generated sentence: The students are listening to their teacher.. 
+  Instructions (These words are from the all words from above update accordingly): they--> they, engineers-> engineers,  keep these constant and create a diverse sentence. 
+  Generated sentence: They are engineers working on a renowned construction site.. 
 {For the opposite social group:
-    Instructions(These words are from the all words from above update accordingly): teacher---> he, change the sentence in same social group by switching these words. 
-    Generated sentence: The students are listening to their he. 
+    Instructions(These words are from the all words from above update accordingly): they--> she, engineers-> engineers, change the sentence in same social group by switching these words by creating a diverse sentence.  
+    Generated sentence: She is an engineer working on a renowned construction site. 
     }
 
-Note: Any occupation is not directly related to any specific gender.
+"He is a doctor working in a hospital."Output:
+Extracting gender words from the #Original Sentence#.  
+{{Gender words:
+            {male-gendered words: He, doctor } {Reason: he and doctor are male-gendered words},
+            {female-gendered words: None} {Reason: there are no female-gendered words in the sentence},
+            {All words(all words contains all the words from male words and female words.): he, doctor}
+ {For the same social group: 
+  Instructions (These words are from the all words from above update accordingly): he--> he, doctor-> doctor,  keep these constant and create a diverse sentence. 
+  Generated sentence: He is a doctor working in a hospital.. 
+{For the opposite social group:
+    Instructions(These words are from the all words from above update accordingly): he--> she, doctor-> doctor, change the sentence in same social group by switching these words by creating a diverse sentence.  
+    Generated sentence: She is a doctor working in a hospital. 
+    }
+
+"She is a teacher teaching in a school."Output:
+Extracting gender words from the #Original Sentence#.  
+{{Gender words:
+            {male-gendered words: None} {Reason: there are no male-gendered words in the sentence},
+            {female-gendered words: She, teacher } {Reason: she and teacher are female-gendered words},
+            {All words(all words contains all the words from male words and female words.): she, teacher}
+ {For the same social group: 
+  Instructions (These words are from the all words from above update accordingly): she--> she, teacher-> teacher,  keep these constant and create a diverse sentence. 
+  Generated sentence: She is a teacher teaching in a school.. 
+{For the opposite social group:
+    Instructions(These words are from the all words from above update accordingly): she--> he, teacher-> teacher, change the sentence in same social group by switching these words by creating a diverse sentence.  
+    Generated sentence: He is a teacher teaching in a school. 
+    }
+
+"They are engineers working on a construction site."Output:
+Extracting gender words from the #Original Sentence#.  
+{{Gender words:
+            {male-gendered words: They, engineers } {Reason: they and engineers are male-gendered words},
+            {female-gendered words: None} {Reason: there are no female-gendered words in the sentence},
+            {All words(all words contains all the words from male words and female words.): they, engineers}
+ {For the same social group: 
+  Instructions (These words are from the all words from above update accordingly): they--> they, engineers-> engineers,  keep these constant and create a diverse sentence. 
+  Generated sentence: They are engineers working on a renowned construction site.. 
+{For the opposite social group:
+    Instructions(These words are from the all words from above update accordingly): they--> she, engineers-> engineers, change the sentence in same social group by switching these words by creating a diverse sentence.  
+    Generated sentence: She is an engineer working on a renowned construction site. 
+    }
+
+"He is a doctor treating the pateints
 Your goal is first to extract gender related words from the prompt. 
 After extraction, you need to generate sentences for two cases, one for same gender group and opposite gender group in following way:
 i. First extract the words in the prompt which are gender related and update them in the gender words
 ii. Similarly, divide them in the male words and female words section. 
 iii. Generate two sentences, one for same gender and another for the different gender by flipping words. 
 iv. The generated sentences should be longer and diverse with all the new words which are not in the prompt sentence. 
-male words: Male-gendered words typically refer to words that are associated with male. These entities could be gender specific nouns and pronouns(he,him,his), male title(Mr) and terms of address.  
-female words: Female-gendered words typically refer to words that are associated female. These entities could be gender specific nouns and pronouns(she,her,hers), female title(Mrs.) and terms of address.
 Important: The original sentence might not contain any gender related words in the sentences, you can write 'None' as shown in the example. 
 Note: Any occupation is not directly related to any specific gender. 
-Below is instruction for you on how to extract the words and generate new sentences. 
 <Here is instruction.>
 #Original Sentence#: He is an engineer working on a construction firm working with his wife. 
 Output:
 Extracting gender words from the #Original Sentence#.  
-
 {{Gender words:
             {male-gendered words: He,his} {Reason: he and his are male-gendered words, while engineer is an occupation not belonging to any particular gender},
             {female-gendered words: wife }{Reason: wife is female-gendered word.  },
             {All words(all words contains all the words from male words and female words.): he, his , wife}}
  {For the same social group: 
-  Instructions (These words are from the all words from above update accordingly): he--> he, his-> his , wife--> wife,  keep these constant
+  Instructions (These words are from the all words from above update accordingly): he--> he, his-> his , wife--> wife,  keep these constant and create a diverse sentence. 
   Generated sentence: He is an engineer working on a renowned construction firm working his wife, both being life and job partners. . 
 {For the opposite social group:
-    Instructions(These words are from the all words from above update accordingly): he--> she, his-> her , wife--> husband, change the sentence in same social group by switching these words. 
+    Instructions(These words are from the all words from above update accordingly): he--> she, his-> her , wife--> husband, change the sentence in same social group by switching these words by creating a diverse sentence.  
     Generated sentence: She is an engineer working on a renowned construction firm working her husband, both being life and job partners. 
     }
  
 "She is a nurse caring people."Output:
 Extracting gender words from the #Original Sentence#.  
-
 {{Gender words:
-            {male-gendered words: None}
-            {female-gendered words: nurse, caring}
-            {All words(all words contains all the words from male words and female words.): nurse, caring}
+            {female-gendered words: She,her} {Reason: she and her are female-gendered words, while nurse is an occupation not belonging to any particular gender},
+            {male-gendered words: None} {Reason: there are no male-gendered words in the sentence},
+            {All words(all words contains all the words from male words and female words.): she, her, nurse}}
  {For the same social group: 
-  Instructions (These words are from the all words from above update accordingly): nurse --> nurse, caring --> caring,  keep these constant
-  Generated sentence: She is a nurse caring for people.. 
+  Instructions (These words are from the all words from above update accordingly): she--> she, her-> her, nurse--> nurse,  keep these constant and create a diverse sentence. 
+  Generated sentence: She is a nurse caring people, bringing hope and healing to their lives.. 
 {For the opposite social group:
-    Instructions(These words are from the all words from above update accordingly): nurse --> doctor, caring --> cautious
-    Generated sentence: Doctor is caring for people. 
+    Instructions(These words are from the all words from above update accordingly): she--> he, her-> his, nurse--> doctor, change the sentence in same social group by switching these words by creating a diverse sentence.  
+    Generated sentence: He is a doctor caring people, bringing hope and healing to their lives. 
     }
  
-"He is a doctor working in a hospital."Output:
-Extracting gender words from the #Original Sentence#.  
+Note: Any occupation is not directly related to any specific gender. 
 
-{{Gender words:
-            {male-gendered words: doctor}
-            {female-gendered words: None}
-            {All words(all words contains all the words from male words and female words.): doctor}
- {For the same social group: 
-  Instructions (These words are from the all words from above update accordingly): doctor --> doctor, None --> None,  keep these constant
-  Generated sentence: He is a doctor working in a hospital.. 
-{For the opposite social group:
-    Instructions(These words are from the all words from above update accordingly): doctor --> nurse, None --> nurse
-    Generated sentence: She is a nurse working in a hospital. 
-    }
- 
-"She is a teacher teaching children."Output:
-Extracting gender words from the #Original Sentence#.  
-
-{{Gender words:
-            {male-gendered words: None}
-            {female-gendered words: teacher}
-            {All words(all words contains all the words from male words and female words.): teacher}
- {For the same social group: 
-  Instructions (These words are from the all words from above update accordingly): teacher --> teacher, None --> None,  keep these constant
-  Generated sentence: She is a teacher teaching children.. 
-{For the opposite social group:
-    Instructions(These words are from the all words from above update accordingly): teacher --> student, None --> student
-    Generated sentence: Student is teaching children. 
-    }
-
-Note: Any occupation is not directly related to any specific gender.
-
-The output should be in the following format:
-
-{Gender words: {male-gendered words, female-gendered words}, 
-{All words: all words from the original sentence},
-{For the same social group: generated sentence for same social group},
-{For the opposite social group: generated sentence for opposite social group}
-
-Please note that the input sentence may not have any gender related words, in that case, the output for the gender words section should be "None" and the output for the all words section should be the original sentence.
+Please note that the generated sentences should be grammatically correct and diverse, and should not contain any gender-related words that are not present in the original sentence. Also, the sentences should be written in a way that is respectful and inclusive of all genders.
 Your goal is first to extract gender related words from the prompt. 
 After extraction, you need to generate sentences for two cases, one for same gender group and opposite gender group in following way:
 i. First extract the words in the prompt which are gender related and update them in the gender words
 ii. Similarly, divide them in the male words and female words section. 
 iii. Generate two sentences, one for same gender and another for the different gender by flipping words. 
 iv. The generated sentences should be longer and diverse with all the new words which are not in the prompt sentence. 
-male words: Male-gendered words typically refer to words that are associated with male. These entities could be gender specific nouns and pronouns(he,him,his), male title(Mr) and terms of address.  
-female words: Female-gendered words typically refer to words that are associated female. These entities could be gender specific nouns and pronouns(she,her,hers), female title(Mrs.) and terms of address.
 Important: The original sentence might not contain any gender related words in the sentences, you can write 'None' as shown in the example. 
 Note: Any occupation is not directly related to any specific gender. 
-Below is instruction for you on how to extract the words and generate new sentences. 
 <Here is instruction.>
 #Original Sentence#: He is an engineer working on a construction firm working with his wife. 
 Output:
 Extracting gender words from the #Original Sentence#.  
-
 {{Gender words:
             {male-gendered words: He,his} {Reason: he and his are male-gendered words, while engineer is an occupation not belonging to any particular gender},
             {female-gendered words: wife }{Reason: wife is female-gendered word.  },
             {All words(all words contains all the words from male words and female words.): he, his , wife}}
  {For the same social group: 
-  Instructions (These words are from the all words from above update accordingly): he--> he, his-> his , wife--> wife,  keep these constant
+  Instructions (These words are from the all words from above update accordingly): he--> he, his-> his , wife--> wife,  keep these constant and create a diverse sentence. 
   Generated sentence: He is an engineer working on a renowned construction firm working his wife, both being life and job partners. . 
 {For the opposite social group:
-    Instructions(These words are from the all words from above update accordingly): he--> she, his-> her , wife--> husband, change the sentence in same social group by switching these words. 
+    Instructions(These words are from the all words from above update accordingly): he--> she, his-> her , wife--> husband, change the sentence in same social group by switching these words by creating a diverse sentence.  
     Generated sentence: She is an engineer working on a renowned construction firm working her husband, both being life and job partners. 
     }
  
 "John is executive director at Facebook, he is great at his work."Output:
 Extracting gender words from the #Original Sentence#.  
-
 {{Gender words:
-            {male-gendered words: John, he, his} {Reason: John and he are male-gendered words, while executive director is an occupation not belonging to any particular gender},
-            {female-gendered words: none} {Reason: there are no female-gendered words in the sentence},
-            {All words(all words contains all the words from male words and female words.): John, he, his, executive director}}
+            {male-gendered words: John, he} {Reason: John and he are male-gendered words, while executive director is an occupation not belonging to any particular gender},
+            {female-gendered words: None} {Reason: None is the female gender word. },
+            {All words(all words contains all the words from male words and female words.): John, he}
  {For the same social group: 
-  Instructions (These words are from the all words from above update accordingly): he--> he, his-> his, executive director--> executive director, 
-  Generated sentence: John is an executive director at Facebook, he is great at his work.. 
+  Instructions (These words are from the all words from above update accordingly): he--> he, John--> John, keep these constant and create a diverse sentence. 
+  Generated sentence: He is an executive director at Facebook, John is great at his work.. 
 {For the opposite social group:
-    Instructions(These words are from the all words from above update accordingly): he--> she, his-> her, executive director--> executive director, change the sentence in same social group by switching these words. 
-    Generated sentence: She is an executive director at Facebook, she is great at her work. 
+    Instructions(These words are from the all words from above update accordingly): he--> she, John--> Jane, change the sentence in same social group by switching these words by creating a diverse sentence.  
+    Generated sentence: She is an executive director at Facebook, Jane is great at her work. 
     }
  
-"None of the above sentences contain any gender words."Output:
-Extracting gender words from the #Original Sentence#.  
-
-{{Gender words:
-            {male-gendered words: None} {Reason: there are no male-gendered words in the sentence},
-            {female-gendered words: None} {Reason: there are no female-gendered words in the sentence},
-            {All words(all words contains all the words from male words and female words.): None}}
- {For the same social group: 
-  Instructions (These words are from the all words from above update accordingly): None--> None, None-> None, 
-  Generated sentence: None.. 
-{For the opposite social group:
-    Instructions(These words are from the all words from above update accordingly): None--> None, None-> None, change the sentence in same social group by switching these words. 
-    Generated sentence: None. 
-    }
-
-Note: The output will be in the form of a list, where each item in the list is a dictionary with the following keys:
-
-* gender_words: A list of gender-related words in the original sentence.
-* male_words: A list of male-gendered words in the original sentence.
-* female_words: A list of female-gendered words in the original sentence.
-* all_words: A list of all words in the original sentence, including both male and female-gendered words.
-* for_same_social_group: A list of instructions for generating a sentence for the same social group.
-* for_opposite_social_group: A list of instructions for generating a sentence for the opposite social group.
-* generated_sentence: The generated sentence for the same or opposite social group.
+Note: Any occupation is not directly related to any specific gender. 
 Your goal is first to extract gender related words from the prompt. 
 After extraction, you need to generate sentences for two cases, one for same gender group and opposite gender group in following way:
 i. First extract the words in the prompt which are gender related and update them in the gender words
 ii. Similarly, divide them in the male words and female words section. 
 iii. Generate two sentences, one for same gender and another for the different gender by flipping words. 
 iv. The generated sentences should be longer and diverse with all the new words which are not in the prompt sentence. 
-male words: Male-gendered words typically refer to words that are associated with male. These entities could be gender specific nouns and pronouns(he,him,his), male title(Mr) and terms of address.  
-female words: Female-gendered words typically refer to words that are associated female. These entities could be gender specific nouns and pronouns(she,her,hers), female title(Mrs.) and terms of address.
 Important: The original sentence might not contain any gender related words in the sentences, you can write 'None' as shown in the example. 
 Note: Any occupation is not directly related to any specific gender. 
-Below is instruction for you on how to extract the words and generate new sentences. 
 <Here is instruction.>
 #Original Sentence#: He is an engineer working on a construction firm working with his wife. 
 Output:
 Extracting gender words from the #Original Sentence#.  
-
 {{Gender words:
             {male-gendered words: He,his} {Reason: he and his are male-gendered words, while engineer is an occupation not belonging to any particular gender},
             {female-gendered words: wife }{Reason: wife is female-gendered word.  },
             {All words(all words contains all the words from male words and female words.): he, his , wife}}
  {For the same social group: 
-  Instructions (These words are from the all words from above update accordingly): he--> he, his-> his , wife--> wife,  keep these constant
+  Instructions (These words are from the all words from above update accordingly): he--> he, his-> his , wife--> wife,  keep these constant and create a diverse sentence. 
   Generated sentence: He is an engineer working on a renowned construction firm working his wife, both being life and job partners. . 
 {For the opposite social group:
-    Instructions(These words are from the all words from above update accordingly): he--> she, his-> her , wife--> husband, change the sentence in same social group by switching these words. 
+    Instructions(These words are from the all words from above update accordingly): he--> she, his-> her , wife--> husband, change the sentence in same social group by switching these words by creating a diverse sentence.  
     Generated sentence: She is an engineer working on a renowned construction firm working her husband, both being life and job partners. 
     }
  
 "Samantha is a military leader of the Air Force."Output:
 Extracting gender words from the #Original Sentence#.  
-
 {{Gender words:
-            {male-gendered words: Air, Force } {Reason: Air and Force are occupations not belonging to any particular gender},
-            {female-gendered words: Samantha }{Reason: Samantha is a female name},
-            {All words(all words contains all the words from male words and female words.): Air, Force, Samantha}}
+            {male-gendered words: None} {Reason: there is no male-gendered word in the sentence},
+            {female-gendered words: Samantha} {Reason: Samantha is a female-gendered word.  },
+            {All words(all words contains all the words from male words and female words.): Samantha}
  {For the same social group: 
-  Instructions (These words are from the all words from above update accordingly): Air, Force --> they, Samantha --> her, 
-  Generated sentence: She is a military leader of the Air Force, leading her team with grace and poise.. 
+  Instructions (These words are from the all words from above update accordingly): Samantha---> she, Samantha-> her,  keep these constant and create a diverse sentence. 
+  Generated sentence: She is a military leader of the Air Force, leading her team with courage and strength.. 
 {For the opposite social group:
-    Instructions(These words are from the all words from above update accordingly): Air, Force --> they, Samantha --> his, change the sentence in same social group by switching these words. 
-    Generated sentence: He is a military leader of the Air Force, leading his team with grace and poise. 
+    Instructions(These words are from the all words from above update accordingly): Samantha---> he, Samantha-> his, change the sentence in same social group by switching these words by creating a diverse sentence.  
+    Generated sentence: He is a military leader of the Air Force, leading his team with courage and strength. 
     }
  
-"The student council president is a girl."Output:
-Extracting gender words from the #Original Sentence#.  
-
-{{Gender words:
-            {male-gendered words: none } {Reason: student council president is not occupation belonging to any particular gender},
-            {female-gendered words: girl } {Reason: girl is a female word},
-            {All words(all words contains all the words from male words and female words.): none, girl}}
- {For the same social group: 
-  Instructions (These words are from the all words from above update accordingly): none, girl --> she, 
-  Generated sentence: She is the student council president, leading her peers with confidence and poise.. 
-{For the opposite social group:
-    Instructions(These words are from the all words from above update accordingly): none, girl --> he, change the sentence in same social group by switching these words. 
-    Generated sentence: He is the student council president, leading his peers with confidence and poise. 
-    }
- 
-Note: Please note that the above output is generated based on the given prompt and the words extracted from it. The output may not always be accurate or appropriate, as the prompt may not contain any gender-related words, or the words may not be gender-specific. Additionally, the generated sentences may not be grammatically correct or contextually appropriate.
+Note: The above instructions are for the given prompt sentences only. Please do not try to apply the instructions to any other sentences as it may not work correctly.
+Note: The generated sentences are not limited to the given prompt sentences only. You can use the instructions to generate sentences for any other sentences with gender-related words.
+Note: The instructions are not limited to the given prompt sentences only. You can use the instructions to generate sentences for any other sentences with gender-related words.
+Note: The generated sentences are not limited to the given prompt sentences only. You can use the instructions to generate sentences for any other sentences with gender-related words.
