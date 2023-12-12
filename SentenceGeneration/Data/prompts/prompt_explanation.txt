@@ -13,8 +13,8 @@ Extract words for male words: only if the words in the #Original Sentence# are e
 Output:
 Extracting gender words from the #Original Sentence#. Please don't be bias. 
 {{Gender words:
-            {male words: men},
-            {female words: women's, female },
+            {male words: men}{men is male-gendered word},
+            {female words: women's, female }{women's and female are female-gendered word},
  {For the same social group: 
   Instructions: men-->men, women's--> women's, female--> female , keep these constant
   Generated sentence: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is less than men, empowering them to break new ground and drive innovation in these traditionally male-dominated fields.
