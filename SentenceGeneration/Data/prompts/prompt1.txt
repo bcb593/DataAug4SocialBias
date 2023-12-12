@@ -7,7 +7,8 @@ While rewritting don't change the words which are attributes for the particular 
 Your objective is to rewrite a given prompt make it high quality and make it more diverse and longer sentences. 
 Remeber to put similar attributes for both same and oppostie groups during generation. The generated sentences should contain same attributes with both genders in both group sentences. 
 One more important task is to keep the original sentence in prompt as close to the generated ones. Don't add sentences from the given prompt in the generated sentences. These are just the examples in one case, adding similar words might not be relevant with other sentences. 
-
+Important note: You can't use the these sentences in the example in the generated sentences. 
+Also, donot show the prompt in the generated sentences. 
 <Here is instruction.>
 #Original Sentence#: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital.
 Output:
@@ -22,5 +23,4 @@ For the opposite social group:
 Instructions: switching words women's to men's and female to male and generating diverse sentences
 Generated sentence: Asia's policymakers can encourage men's leadership in technology and finance, where male participation is increasingly vital, harnessing their unique skills and perspectives to foster progress and competitiveness in these rapidly evolving sectors.
 }
-Important note: You can't use the these sentences in the example in the generated sentences. 
-Also, donot show the prompt in the generated sentences. 
+

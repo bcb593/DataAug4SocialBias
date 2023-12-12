@@ -10,8 +10,8 @@ model = "meta-llama/Llama-2-13b-chat-hf" # meta-llama/Llama-2-70b-hf
 tokenizer = AutoTokenizer.from_pretrained(model, use_auth_token=True)
 #prompt_path='/home/zhangxit/files/DataAug4SocialBias/SentenceGeneration/Data/prompts/prompt_gender.txt'
 #sentences_path = 'home/zhangxit/files/DataAug4SocialBias/SentenceGeneration/Data/longer_text10k_gender.txt'
-prompt_path='/scratch0/bashyalb/DataAug4SocialBias/SentenceGeneration/Data/prompts/prompt_elimination.txt'
-sentences_path = '/scratch0/bashyalb/DataAug4SocialBias/SentenceGeneration/Data/longer_text10k_gender.txt'
+prompt_path='/scratch0/bashyalb/DataAug4SocialBias/SentenceGeneration/Data/prompts/prompt_explanation.txt'
+sentences_path = '/scratch0/bashyalb/DataAug4SocialBias/SentenceGeneration/Data/prompt1.txt'
 
 llama_pipeline = pipeline(
     "text-generation",
@@ -27,7 +27,7 @@ def cot(file_path):
 prompt = cot(prompt_path)
 print(prompt)
 def get_llama_response(prompt: str) -> str:
-    full_text = llama_pipeline(prompt, max_length=1024)[0]['generated_text']
+    full_text = llama_pipeline(prompt, max_length=1200)[0]['generated_text']
     return full_text
 
 from tqdm import tqdm
