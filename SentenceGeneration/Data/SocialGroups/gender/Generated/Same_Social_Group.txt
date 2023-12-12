@@ -1,0 +1,19 @@
+Instructions (These words are from the all words from above update accordingly): women's--> women's, female--> female , keep these constant
+  Generated sentence: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital, empowering them to break new ground and drive innovation in these traditionally male-dominated fields.
+}, 
+{For the opposite social group:
+    Instructions(These words are from the all words from above update accordingly): women's-->men's, female-->male, change the sentence in same social group by switching these words. 
+    Generated sentence: Asia's policymakers can encourage men's leadership in technology and finance, where male participation is increasingly vital, harnessing their unique skills and perspectives to foster progress and competitiveness in these rapidly evolving sectors.
+    }
+    }
+ 
+"She is a nurse caring people."Output:
+Extracting gender words from the sentence "She is a nurse caring people."
+male words: none found
+female words: nurse, caring
+
+All words: nurse, caring, people
+
+For the same social group:
+
+Generated sentence: She is a nurse caring people, empowering her to provide compassionate care and support to those in need.
