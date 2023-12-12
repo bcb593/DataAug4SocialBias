@@ -9,10 +9,19 @@ Note: Any occupation is not directly related to any specific gender.
 <Here is instruction.>
 #Original Sentence#: He is an engineer working on a construction firm working with his wife. 
 Output:
+Omit verbs and articles. 
+Probable words: He, engineer, construction, firm, his, wife
+Reasoning: 
+He refers to male generder. 
+engineer is a occupation which is gender neutral, 
+construction and firm are not a gender related word. 
+his is a pronoun and related to male gender. 
+wife is clearly a female-gendered word. 
+Thus, 
 Extracting gender words from the #Original Sentence#.  
 {{Gender words:
-            {male-gendered words: He,his} {Reason: he and his are male-gendered words, while engineer is an occupation not belonging to any particular gender},
-            {female-gendered words: wife }{Reason: wife is female-gendered word.  },
+            {male-gendered words: He,his} ,
+            {female-gendered words: wife },
             {All words(all words contains all the words from male words and female words.): he, his , wife}}
  {For the same social group: 
   Instructions (These words are from the all words from above update accordingly): he--> he, his-> his , wife--> wife,  keep these constant and create a diverse sentence. 
