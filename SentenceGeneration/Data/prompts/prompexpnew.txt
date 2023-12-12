@@ -4,25 +4,21 @@ i. First extract the words in the prompt which are gender related and update the
 ii. Similarly, divide them in the male words and female words section. 
 iii. Generate two sentences, one for same gender and another for the different gender by flipping words. 
 iv. The generated sentences should be longer and diverse with all the new words which are not in the prompt sentence. 
-male words: Male-gendered words typically refer to words that are associated with male. These entities could be gender specific nouns and pronouns(he,him,his), male title(Mr) and terms of address.  
-female words: Female-gendered words typically refer to words that are associated female. These entities could be gender specific nouns and pronouns(she,her,hers), female title(Mrs.) and terms of address.
 Important: The original sentence might not contain any gender related words in the sentences, you can write 'None' as shown in the example. 
 Note: Any occupation is not directly related to any specific gender. 
-Below is instruction for you on how to extract the words and generate new sentences. 
 <Here is instruction.>
 #Original Sentence#: He is an engineer working on a construction firm working with his wife. 
 Output:
 Extracting gender words from the #Original Sentence#.  
-
 {{Gender words:
             {male-gendered words: He,his} {Reason: he and his are male-gendered words, while engineer is an occupation not belonging to any particular gender},
             {female-gendered words: wife }{Reason: wife is female-gendered word.  },
             {All words(all words contains all the words from male words and female words.): he, his , wife}}
  {For the same social group: 
-  Instructions (These words are from the all words from above update accordingly): he--> he, his-> his , wife--> wife,  keep these constant
+  Instructions (These words are from the all words from above update accordingly): he--> he, his-> his , wife--> wife,  keep these constant and create a diverse sentence. 
   Generated sentence: He is an engineer working on a renowned construction firm working his wife, both being life and job partners. . 
 {For the opposite social group:
-    Instructions(These words are from the all words from above update accordingly): he--> she, his-> her , wife--> husband, change the sentence in same social group by switching these words. 
+    Instructions(These words are from the all words from above update accordingly): he--> she, his-> her , wife--> husband, change the sentence in same social group by switching these words by creating a diverse sentence.  
     Generated sentence: She is an engineer working on a renowned construction firm working her husband, both being life and job partners. 
     }
  
