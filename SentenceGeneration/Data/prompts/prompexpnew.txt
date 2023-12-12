@@ -4,9 +4,10 @@ i. First extract the words in the prompt which are gender related and update the
 ii. Similarly, divide them in the male words and female words section. 
 iii. Generate two sentences, one for same gender and another for the different gender by flipping words. 
 iv. The generated sentences should be longer and diverse with all the new words which are not in the prompt sentence. 
-male words: Male-gendered words typically refer to words that are associated with or specifically denote male entities or qualities. These entities could be gender specific nouns and pronouns, male title and terms of address. You can't be biased interms of occupation. 
-female words: Female-gendered words typically refer to words that are associated with or specifically denote male entities or qualities. These entities could be gender specific nouns and pronouns, female title and terms of address.You can't be biased interms of occupation. 
+male words: Male-gendered words typically refer to words that are associated with male. These entities could be gender specific nouns and pronouns(he,him,his), male title(Mr) and terms of address.  
+female words: Female-gendered words typically refer to words that are associated female. These entities could be gender specific nouns and pronouns(she,her,hers), female title(Mrs.) and terms of address.
 Important: The original sentence might not contain any gender related words in the sentences, you can write 'None' as shown in the example. 
+Note: Any occupation is not directly related to any specific gender. 
 Below is instruction for you on how to extract the words and generate new sentences. 
 <Here is instruction.>
 #Original Sentence#: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital.
