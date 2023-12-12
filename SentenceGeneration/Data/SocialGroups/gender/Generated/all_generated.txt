@@ -13,8 +13,8 @@ Extract words for male words: only if the words in the #Original Sentence# are e
 Output:
 Extracting gender words from the #Original Sentence#. Please don't be bias. 
 {{Gender words:
-            {male words: men},
-            {female words: women's, female },
+            {male words: men}{men is male-gendered word},
+            {female words: women's, female }{women's and female are female-gendered word},
  {For the same social group: 
   Instructions: men-->men, women's--> women's, female--> female , keep these constant
   Generated sentence: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is less than men, empowering them to break new ground and drive innovation in these traditionally male-dominated fields.
@@ -25,20 +25,21 @@ Extracting gender words from the #Original Sentence#. Please don't be bias.
     }}}
  
 "He is a doctor treating the pateints well."Output:
+
 Extracting gender words from the #Original Sentence#. Please don't be bias. 
 {{Gender words:
-            {male words: doctor, patients},
-            {female words: none},
+            {male words: doctor}{doctor is male-gendered word},
+            {female words: patients}{patients is female-gendered word},
  {For the same social group: 
-  Instructions: doctor, patients-->doctor, patients, none-->none
+  Instructions: doctor-->doctor, patients-->patients, keep these constant
   Generated sentence: He is a doctor treating the patients well.
 }, 
 {For the opposite social group:
-    Instructions: doctor, patients-->female doctor, female patients, none-->male
+    Instructions: doctor-->female doctor, patients-->male patients, change the sentence in same social group by switching these words. 
     Generated sentence: She is a female doctor treating the male patients well.
     }}}
 
-Please note that the generated sentences should be diverse and longer than the original sentence, and should not be biased towards any particular gender or occupation. Also, the words extracted should be relevant to the context of the sentence and not be too forced or unnatural.
+Note: Please make sure to follow the instructions carefully and avoid any bias in your output. Also, please keep in mind that the generated sentences should be grammatically correct and diverse.
 Your goal is first to extract gender related words from the prompt. 
 After extraction, you need to generate sentences for two cases, one for same gender group and opposite gender group in following way:
 i. First extract the words in the prompt which are gender related and update them in the gender words
@@ -54,8 +55,8 @@ Extract words for male words: only if the words in the #Original Sentence# are e
 Output:
 Extracting gender words from the #Original Sentence#. Please don't be bias. 
 {{Gender words:
-            {male words: men},
-            {female words: women's, female },
+            {male words: men}{men is male-gendered word},
+            {female words: women's, female }{women's and female are female-gendered word},
  {For the same social group: 
   Instructions: men-->men, women's--> women's, female--> female , keep these constant
   Generated sentence: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is less than men, empowering them to break new ground and drive innovation in these traditionally male-dominated fields.
@@ -68,17 +69,17 @@ Extracting gender words from the #Original Sentence#. Please don't be bias.
 "She is a nurse caring people."Output:
 Extracting gender words from the #Original Sentence#. Please don't be bias. 
 {{Gender words:
-            {male words: she, nurse},
-            {female words: people},
+            {male words: nurse}{nurse is gender-neutral word},
+            {female words: caring}{caring is female-gendered word},
  {For the same social group: 
-  Instructions: she, nurse-->she, nurse, people-->people, keep these constant
-  Generated sentence: She is a nurse caring for people.
+  Instructions: nurse-->nurse, caring-->caring, keep these constant
+  Generated sentence: She is a nurse caring people, empowering them to live healthier and happier lives.
 }, 
 {For the opposite social group:
-    Instructions: she, nurse-->he, doctor, people-->patients
-    Generated sentence: He is a doctor caring for patients.
+    Instructions: nurse-->doctor, caring-->patient, change the sentence in same social group by switching these words. 
+    Generated sentence: Doctor is a nurse caring patient, providing them with expert medical care and compassionate support.
     }}}
-Note: The output should be in the same format as the input, with the gender words extracted and the generated sentences for the same and opposite social groups.
+Please note that the output should be in the format as shown in the example.
 Your goal is first to extract gender related words from the prompt. 
 After extraction, you need to generate sentences for two cases, one for same gender group and opposite gender group in following way:
 i. First extract the words in the prompt which are gender related and update them in the gender words
@@ -94,8 +95,8 @@ Extract words for male words: only if the words in the #Original Sentence# are e
 Output:
 Extracting gender words from the #Original Sentence#. Please don't be bias. 
 {{Gender words:
-            {male words: men},
-            {female words: women's, female },
+            {male words: men}{men is male-gendered word},
+            {female words: women's, female }{women's and female are female-gendered word},
  {For the same social group: 
   Instructions: men-->men, women's--> women's, female--> female , keep these constant
   Generated sentence: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is less than men, empowering them to break new ground and drive innovation in these traditionally male-dominated fields.
@@ -108,17 +109,17 @@ Extracting gender words from the #Original Sentence#. Please don't be bias.
 "John is executive director at Facebook, he is great at his work."Output:
 Extracting gender words from the #Original Sentence#. Please don't be bias. 
 {{Gender words:
-            {male words: John, executive director },
-            {female words: none },
+            {male words: John}{John is male-gendered word},
+            {female words: great}{great is gender-neutral word},
  {For the same social group: 
-  Instructions: John-->John, executive director --> executive director, keep these constant
-  Generated sentence: John is executive director at Facebook, he is great at his work.
+  Instructions: John-->John, great-->great, keep these constant
+  Generated sentence: John is executive director at Facebook, he is great at his work, leveraging his expertise and experience to drive success and innovation within the company.
 }, 
 {For the opposite social group:
-    Instructions: John-->she, executive director --> director, change the sentence in same social group by switching these words. 
-    Generated sentence: She is director at Facebook, she is great at her work.
+    Instructions: John-->she, great-->outstanding, change the sentence in same social group by switching these words. 
+    Generated sentence: She is executive director at Facebook, she is outstanding at her work, showcasing her exceptional leadership and vision to shape the future of the tech industry.
     }}}
-Note: Please note that the output should be in a table format with proper punctuation and capitalization. Also, the generated sentences should be diverse and longer than the original sentence.
+Note: Please don't use any gender-biased or derogatory language in your responses.
 Your goal is first to extract gender related words from the prompt. 
 After extraction, you need to generate sentences for two cases, one for same gender group and opposite gender group in following way:
 i. First extract the words in the prompt which are gender related and update them in the gender words
@@ -134,8 +135,8 @@ Extract words for male words: only if the words in the #Original Sentence# are e
 Output:
 Extracting gender words from the #Original Sentence#. Please don't be bias. 
 {{Gender words:
-            {male words: men},
-            {female words: women's, female },
+            {male words: men}{men is male-gendered word},
+            {female words: women's, female }{women's and female are female-gendered word},
  {For the same social group: 
   Instructions: men-->men, women's--> women's, female--> female , keep these constant
   Generated sentence: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is less than men, empowering them to break new ground and drive innovation in these traditionally male-dominated fields.
@@ -146,17 +147,16 @@ Extracting gender words from the #Original Sentence#. Please don't be bias.
     }}}
  
 "Samantha is a military leader of the Air Force."Output:
-Extracting gender words from the sentence "Samantha is a military leader of the Air Force.". Please don't be bias. 
+Extracting gender words from the sentence. Please don't be bias. 
 {{Gender words:
-            {male words: leader, Force},
-            {female words: Samantha },
+            {male words: leader, Air Force}{leader and Air Force are male-gendered word},
+            {female words: Samantha}{Samantha is female-gendered word},
  {For the same social group: 
-  Instructions: leader, Force --> leader, Force, Samantha --> Samantha, keep these constant
-  Generated sentence: Samantha is a military leader of the Air Force, leading the way with her expertise and strategic vision to ensure the safety and security of the nation.
+  Instructions: leader-->leader, Air Force-->Air Force, Samantha-->Samantha, keep these constant
+  Generated sentence: Samantha is a military leader of the Air Force, leading the way in advancing technology and innovation in the armed forces.
 }, 
 {For the opposite social group:
-    Instructions: leader, Force --> female leader, female Force, Samantha --> male Samantha, change the sentence in same social group by switching these words. 
-    Generated sentence: Male Samantha is a military leader of the Air Force, leading the way with his expertise and strategic vision to ensure the safety and security of the nation.
+    Instructions: leader-->female, Air Force-->female, Samantha-->male
+    Generated sentence: The female military leader of the Air Force is leading the way in advancing technology and innovation in the armed forces, breaking down barriers and defying stereotypes.
     }}}
-
-Note: Please don't use the words like 'he','she', 'his', 'her' in the generated sentences as it might give away the gender of the person. Also, please avoid using any gender biased words or phrases.
+Note: Please don't use any gender-bias or derogatory language in your response.
