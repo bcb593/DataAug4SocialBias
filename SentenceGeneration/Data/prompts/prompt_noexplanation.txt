@@ -10,10 +10,7 @@ Below is instruction for you on how to extract the words and generate new senten
 <Here is instruction.>
 #Original Sentence#: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital.
 Output:
-{{Gender words: {All words: women's, female}, 
-        {male words: None found},
-        {female words : women's, female }},
- {For the same social group: 
+{{For the same social group: 
   Instructions: Keeping the gender words same for both male and female and generating diverse sentences
   Generated sentence: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital, empowering them to break new ground and drive innovation in these traditionally male-dominated fields.
 }, 
@@ -22,4 +19,12 @@ Output:
     Generated sentence: Asia's policymakers can encourage men's leadership in technology and finance, where male participation is increasingly vital, harnessing their unique skills and perspectives to foster progress and competitiveness in these rapidly evolving sectors.
     }
     }
- 
+Original Sentence#: He is an engineer working on a construction firm working with his wife. 
+Output:
+ {For the same social group: 
+  Instructions:Keeping the gender words same for both male and female and generating diverse sentences
+  Generated sentence: He is an engineer working on a renowned construction firm working his wife, both being life and job partners. . 
+{For the opposite social group:
+    Instructions: switching words women's to men's and female to male and generating diverse sentences
+    Generated sentence: She is an engineer working on a renowned construction firm working her husband, both being life and job partners. 
+    }}
