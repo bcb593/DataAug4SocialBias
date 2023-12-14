@@ -1,0 +1,185 @@
+I want you act as a Prompt Creator.
+Your goal is to draw inspiration from the #Original Sentence# to create two different sentences by extracting the gender words. 
+This new prompt should belong to the same domain as the #Original Sentence#. 
+You need to generate sentences for two cases, one for same social group and opposite social group in following way:
+i. First extract the words in the prompt which are gender related and update them in the gender words
+ii. Similarly, divide them in the male words and female words section. 
+iii. Generate two sentences, one for same gender and another for the different gender by flipping words. 
+iv. The generated sentences should be longer and diverse with all the new words which are not in the prompt sentence. 
+Below is instruction for you on how to extract the words and generate new sentences. 
+<Here is instruction.>
+#Original Sentence#: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital.
+Output:
+{{For the same social group: 
+  Instructions: Keeping the gender words same for both male and female and generating diverse sentences
+  Generated sentence: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital, empowering them to break new ground and drive innovation in these traditionally male-dominated fields.
+}, 
+{For the opposite social group:
+    Instructions: switching words women's to men's and female to male and generating diverse sentences
+    Generated sentence: Asia's policymakers can encourage men's leadership in technology and finance, where male participation is increasingly vital, harnessing their unique skills and perspectives to foster progress and competitiveness in these rapidly evolving sectors.
+    }
+    }
+Original Sentence#: He is an engineer working on a construction firm working with his wife. 
+Output:
+ {For the same social group: 
+  Instructions:Keeping the gender words same for both male and female and generating diverse sentences
+  Generated sentence: He is an engineer working on a renowned construction firm working his wife, both being life and job partners. . 
+{For the opposite social group:
+    Instructions: switching words women's to men's and female to male and generating diverse sentences
+    Generated sentence: She is an engineer working on a renowned construction firm working her husband, both being life and job partners. 
+    }}
+"He is a doctor treating the pateints well."Output:
+ {For the same social group: 
+  Instructions:Keeping the gender words same for both male and female and generating diverse sentences
+  Generated sentence: He is a doctor treating his patients with empathy and care, providing them with the best medical solutions.
+{For the opposite social group:
+    Instructions: switching words women's to men's and female to male and generating diverse sentences
+    Generated sentence: She is a doctor treating her patients with empathy and care, providing them with the best medical solutions.
+    }}
+"She is a teacher teaching students with passion."Output:
+ {For the same social group: 
+  Instructions:Keeping the gender words same for both male and female and generating diverse sentences
+  Generated sentence: She is a teacher teaching her students with passion and dedication, inspiring them to reach their full potential.
+{For the opposite social group:
+    Instructions: switching words women's to men's and female to male and generating diverse sentences
+    Generated sentence: He is a teacher teaching his students with passion and dedication, inspiring them to reach their full potential.
+    }}
+
+Note: In all the above examples, the original sentence is in the third person, and the generated sentences are in the third person as well. However, if you prefer, you can also generate sentences in the first or second person. Additionally, please feel free to adjust the wording and phrasing of the generated sentences to better fit your desired style and tone.
+I want you act as a Prompt Creator.
+Your goal is to draw inspiration from the #Original Sentence# to create two different sentences by extracting the gender words. 
+This new prompt should belong to the same domain as the #Original Sentence#. 
+You need to generate sentences for two cases, one for same social group and opposite social group in following way:
+i. First extract the words in the prompt which are gender related and update them in the gender words
+ii. Similarly, divide them in the male words and female words section. 
+iii. Generate two sentences, one for same gender and another for the different gender by flipping words. 
+iv. The generated sentences should be longer and diverse with all the new words which are not in the prompt sentence. 
+Below is instruction for you on how to extract the words and generate new sentences. 
+<Here is instruction.>
+#Original Sentence#: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital.
+Output:
+{{For the same social group: 
+  Instructions: Keeping the gender words same for both male and female and generating diverse sentences
+  Generated sentence: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital, empowering them to break new ground and drive innovation in these traditionally male-dominated fields.
+}, 
+{For the opposite social group:
+    Instructions: switching words women's to men's and female to male and generating diverse sentences
+    Generated sentence: Asia's policymakers can encourage men's leadership in technology and finance, where male participation is increasingly vital, harnessing their unique skills and perspectives to foster progress and competitiveness in these rapidly evolving sectors.
+    }
+    }
+Original Sentence#: He is an engineer working on a construction firm working with his wife. 
+Output:
+ {For the same social group: 
+  Instructions:Keeping the gender words same for both male and female and generating diverse sentences
+  Generated sentence: He is an engineer working on a renowned construction firm working his wife, both being life and job partners. . 
+{For the opposite social group:
+    Instructions: switching words women's to men's and female to male and generating diverse sentences
+    Generated sentence: She is an engineer working on a renowned construction firm working her husband, both being life and job partners. 
+    }}
+"She is a nurse caring people."Output:
+ {For the same social group: 
+  Instructions: Keeping the gender words same for both male and female and generating diverse sentences
+  Generated sentence: She is a nurse caring people, providing essential support and compassionate care to her patients.
+{For the opposite social group:
+    Instructions: switching words women's to men's and female to male and generating diverse sentences
+    Generated sentence: He is a nurse caring people, providing essential support and compassionate care to his patients.
+    }}
+"He is a doctor treating patients."Output:
+ {For the same social group: 
+  Instructions: Keeping the gender words same for both male and female and generating diverse sentences
+  Generated sentence: He is a doctor treating patients, utilizing his expertise and dedication to improve their health and well-being.
+{For the opposite social group:
+    Instructions: switching words women's to men's and female to male and generating diverse sentences
+    Generated sentence: She is a doctor treating patients, utilizing her expertise and dedication to improve their health and well-being.
+    }}
+Please note that the above instructions are just examples, and you can adjust them according to your needs. The goal is to create two different sentences, one for the same social group and one for the opposite social group, by extracting the gender words and generating diverse sentences that are longer and more diverse than the original sentence.
+I want you act as a Prompt Creator.
+Your goal is to draw inspiration from the #Original Sentence# to create two different sentences by extracting the gender words. 
+This new prompt should belong to the same domain as the #Original Sentence#. 
+You need to generate sentences for two cases, one for same social group and opposite social group in following way:
+i. First extract the words in the prompt which are gender related and update them in the gender words
+ii. Similarly, divide them in the male words and female words section. 
+iii. Generate two sentences, one for same gender and another for the different gender by flipping words. 
+iv. The generated sentences should be longer and diverse with all the new words which are not in the prompt sentence. 
+Below is instruction for you on how to extract the words and generate new sentences. 
+<Here is instruction.>
+#Original Sentence#: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital.
+Output:
+{{For the same social group: 
+  Instructions: Keeping the gender words same for both male and female and generating diverse sentences
+  Generated sentence: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital, empowering them to break new ground and drive innovation in these traditionally male-dominated fields.
+}, 
+{For the opposite social group:
+    Instructions: switching words women's to men's and female to male and generating diverse sentences
+    Generated sentence: Asia's policymakers can encourage men's leadership in technology and finance, where male participation is increasingly vital, harnessing their unique skills and perspectives to foster progress and competitiveness in these rapidly evolving sectors.
+    }
+    }
+Original Sentence#: He is an engineer working on a construction firm working with his wife. 
+Output:
+ {For the same social group: 
+  Instructions:Keeping the gender words same for both male and female and generating diverse sentences
+  Generated sentence: He is an engineer working on a renowned construction firm working his wife, both being life and job partners. . 
+{For the opposite social group:
+    Instructions: switching words women's to men's and female to male and generating diverse sentences
+    Generated sentence: She is an engineer working on a renowned construction firm working her husband, both being life and job partners. 
+    }}
+"John is executive director at Facebook, he is great at his work."Output:
+{For the same social group:
+Instructions: Keeping the gender words same for both male and female and generating diverse sentences
+Generated sentence: John is an executive director at Facebook, she is great at his work, leading a team of talented professionals and driving innovation in the tech industry.
+}
+{For the opposite social group:
+Instructions: switching words women's to men's and female to male and generating diverse sentences
+Generated sentence: John is a brilliant executive director at Facebook, he is great at her work, spearheading groundbreaking initiatives and leaving a lasting impact on the tech world.
+}
+
+Please follow the instruction and generate the output as per the requirement.
+I want you act as a Prompt Creator.
+Your goal is to draw inspiration from the #Original Sentence# to create two different sentences by extracting the gender words. 
+This new prompt should belong to the same domain as the #Original Sentence#. 
+You need to generate sentences for two cases, one for same social group and opposite social group in following way:
+i. First extract the words in the prompt which are gender related and update them in the gender words
+ii. Similarly, divide them in the male words and female words section. 
+iii. Generate two sentences, one for same gender and another for the different gender by flipping words. 
+iv. The generated sentences should be longer and diverse with all the new words which are not in the prompt sentence. 
+Below is instruction for you on how to extract the words and generate new sentences. 
+<Here is instruction.>
+#Original Sentence#: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital.
+Output:
+{{For the same social group: 
+  Instructions: Keeping the gender words same for both male and female and generating diverse sentences
+  Generated sentence: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital, empowering them to break new ground and drive innovation in these traditionally male-dominated fields.
+}, 
+{For the opposite social group:
+    Instructions: switching words women's to men's and female to male and generating diverse sentences
+    Generated sentence: Asia's policymakers can encourage men's leadership in technology and finance, where male participation is increasingly vital, harnessing their unique skills and perspectives to foster progress and competitiveness in these rapidly evolving sectors.
+    }
+    }
+Original Sentence#: He is an engineer working on a construction firm working with his wife. 
+Output:
+ {For the same social group: 
+  Instructions:Keeping the gender words same for both male and female and generating diverse sentences
+  Generated sentence: He is an engineer working on a renowned construction firm working his wife, both being life and job partners. . 
+{For the opposite social group:
+    Instructions: switching words women's to men's and female to male and generating diverse sentences
+    Generated sentence: She is an engineer working on a renowned construction firm working her husband, both being life and job partners. 
+    }}
+"Samantha is a military leader of the Air Force."Output:
+ {For the same social group: 
+  Instructions: Keeping the gender words same for both male and female and generating diverse sentences
+  Generated sentence: Samantha is a trailblazing military leader of the Air Force, soaring to new heights and breaking barriers with her exceptional leadership and strategic vision.
+{For the opposite social group:
+    Instructions: switching words women's to men's and female to male and generating diverse sentences
+    Generated sentence: He is a trailblazing military leader of the Air Force, soaring to new heights and breaking barriers with his exceptional leadership and strategic vision.
+    }}
+"The teacher is guiding the students."
+Output:
+ {For the same social group: 
+  Instructions: Keeping the gender words same for both male and female and generating diverse sentences
+  Generated sentence: The teacher is guiding the students, imparting knowledge and wisdom with her expertise and compassion.
+{For the opposite social group:
+    Instructions: switching words women's to men's and female to male and generating diverse sentences
+    Generated sentence: The teacher is guiding the students, imparting knowledge and wisdom with his expertise and compassion.
+    }}
+
+Please follow the instruction and generate the sentences for the given prompts.
