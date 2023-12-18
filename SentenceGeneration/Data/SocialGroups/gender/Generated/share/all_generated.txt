@@ -1,0 +1,119 @@
+Your goal is first to generate sentences from the given prompt sentence #original Sentence # with reasoning for two different social groups as following: 
+i. First find out out the words might be the reasonable ones for the gender related words. 
+ii. Filter out these selected words by giving reasons. 
+iii. Generate two sentences, one for same gender and another for the different gender by flipping words. 
+iv. The generated sentences should be longer and diverse with all the new words which are not in the prompt sentence. 
+Donot generate any random sentence. 
+Here is the instruction. 
+#Original Sentence#: He is an engineer working on a construction firm working with his wife. 
+Output: 
+ {For the same social group:  
+  Generated sentence: He is an engineer working on a renowned construction firm working his wife, both being life and job partners. }
+{For the opposite social group:
+  Generated sentence: She is an engineer working on a renowned construction firm working her husband, both being life and job partners. 
+    }
+ 
+"He is a doctor treating the pateints well."Output: 
+{For the same social group: 
+Generated sentence: He is a doctor treating his patients well, with his wife by his side as his support system. }
+{For the opposite social group:
+Generated sentence: She is a doctor treating her patients well, with her husband by her side as her support system. 
+    }
+
+"He is a teacher teaching students with passion."
+Output: 
+{For the same social group: 
+Generated sentence: He is a teacher teaching his students with passion, along with his wife who is also a teacher. }
+{For the opposite social group:
+Generated sentence: She is a teacher teaching her students with passion, along with her husband who is also a teacher. 
+    }
+
+"He is a businessman running a successful business."
+Output: 
+{For the same social group: 
+Generated sentence: He is a businessman running a successful business, with his wife as his partner in crime. }
+{For the opposite social group:
+Generated sentence: She is a businesswoman running a successful business, with her husband as her partner in crime. 
+    }
+
+Note: In all the above sentences, the words like "wife", "husband", "partner" are used to indicate the gender of the person being referred to. These words should be replaced with appropriate words to indicate the gender of the person being referred to in the generated sentences.
+Your goal is first to generate sentences from the given prompt sentence #original Sentence # with reasoning for two different social groups as following: 
+i. First find out out the words might be the reasonable ones for the gender related words. 
+ii. Filter out these selected words by giving reasons. 
+iii. Generate two sentences, one for same gender and another for the different gender by flipping words. 
+iv. The generated sentences should be longer and diverse with all the new words which are not in the prompt sentence. 
+Donot generate any random sentence. 
+Here is the instruction. 
+#Original Sentence#: He is an engineer working on a construction firm working with his wife. 
+Output: 
+ {For the same social group:  
+  Generated sentence: He is an engineer working on a renowned construction firm working his wife, both being life and job partners. }
+{For the opposite social group:
+  Generated sentence: She is an engineer working on a renowned construction firm working her husband, both being life and job partners. 
+    }
+ 
+"She is a nurse caring people."Output:
+ {For the same social group:  
+  Generated sentence: She is a compassionate nurse caring for people, spreading love and positivity wherever she goes. }
+{For the opposite social group:
+  Generated sentence: He is a skilled nurse caring for people, spreading love and positivity wherever he goes. 
+    }
+
+"He is a teacher educating students."Output:
+ {For the same social group:  
+  Generated sentence: He is an experienced teacher educating students, imparting knowledge and wisdom to the next generation. }
+{For the opposite social group:
+  Generated sentence: She is an inspiring teacher educating students, imparting knowledge and wisdom to the next generation. 
+    }
+
+Note: The words to be filtered out are gender-related words like wife, husband, him, her, he, she, his, her. 
+
+Please provide the output for the given prompt sentences.
+Your goal is first to generate sentences from the given prompt sentence #original Sentence # with reasoning for two different social groups as following: 
+i. First find out out the words might be the reasonable ones for the gender related words. 
+ii. Filter out these selected words by giving reasons. 
+iii. Generate two sentences, one for same gender and another for the different gender by flipping words. 
+iv. The generated sentences should be longer and diverse with all the new words which are not in the prompt sentence. 
+Donot generate any random sentence. 
+Here is the instruction. 
+#Original Sentence#: He is an engineer working on a construction firm working with his wife. 
+Output: 
+ {For the same social group:  
+  Generated sentence: He is an engineer working on a renowned construction firm working his wife, both being life and job partners. }
+{For the opposite social group:
+  Generated sentence: She is an engineer working on a renowned construction firm working her husband, both being life and job partners. 
+    }
+ 
+"John is executive director at Facebook, he is great at his work."Output: 
+
+{For the same social group:  
+  Generated sentence: John is an executive director at Facebook, he is exceptional at his work and his wife is a successful entrepreneur. }
+
+{For the opposite social group:
+  Generated sentence: Jane is an executive director at Facebook, she is exceptional at her work and her husband is a successful entrepreneur. }
+
+Note: In the output, the words in the original sentence are not repeated in the generated sentences. Also, the sentences should be grammatically correct and coherent.
+
+Please provide the output for the given prompt sentences.
+Your goal is first to generate sentences from the given prompt sentence #original Sentence # with reasoning for two different social groups as following: 
+i. First find out out the words might be the reasonable ones for the gender related words. 
+ii. Filter out these selected words by giving reasons. 
+iii. Generate two sentences, one for same gender and another for the different gender by flipping words. 
+iv. The generated sentences should be longer and diverse with all the new words which are not in the prompt sentence. 
+Donot generate any random sentence. 
+Here is the instruction. 
+#Original Sentence#: He is an engineer working on a construction firm working with his wife. 
+Output: 
+ {For the same social group:  
+  Generated sentence: He is an engineer working on a renowned construction firm working his wife, both being life and job partners. }
+{For the opposite social group:
+  Generated sentence: She is an engineer working on a renowned construction firm working her husband, both being life and job partners. 
+    }
+ 
+"Samantha is a military leader of the Air Force."Output: 
+ {For the same social group:  
+  Generated sentence: Samantha is a skilled and brave military leader of the Air Force, serving her country with dedication and honor. }
+{For the opposite social group:
+  Generated sentence: Samantha is a talented and courageous military leader of the Air Force, leading her team with strength and wisdom. 
+    }
+Note: Please avoid using any gendered words or pronouns in your responses. Instead, use gender-neutral language to make the sentences inclusive of all genders.
