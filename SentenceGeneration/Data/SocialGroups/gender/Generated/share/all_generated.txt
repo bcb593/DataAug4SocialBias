@@ -1,10 +1,12 @@
 Your goal is first to generate sentences from the given prompt sentence #original Sentence # with reasoning for two different social groups as following: 
-i. First find out out the words might be the reasonable ones for the gender related words. 
-ii. Filter out these selected words by giving reasons. 
-iii. Generate two sentences, one for same gender and another for the different gender by flipping words. 
-iv. The generated sentences should be longer and diverse with all the new words which are not in the prompt sentence. 
-Donot generate any random sentence. 
-Explantion of gender related words: it should be related to explicitly to either male or female gender. Certain occupation can't be certain gender related words.
+i. First generate a sentence similar to the #original sentence# which is longer and diverse based on the #original sentence# by providing reasons during each step. 
+ii. Similarly, generate a sentence which is of opposite gender group by following: 
+   a.  Find out the gender words in the #Generated Sentence for Same Social Group#
+   b. In Step1, Provide reasoning why each words are selected as gender related words based on the explanation of the gender related words given in the prompt #Explanation#. 
+   c. In Step2, filter out the random words which are detected as gender related words but are not actually based on explanation of the gender related words in #Explanation#. 
+The generated sentences should be longer and diverse with all the new words which are not in the prompt sentence. 
+You should focus on providing correct reasoning in each step shown in the instruction.
+#Explantion#: Gender related words should be related to explicitly to either male or female gender. Certain occupations can't be certain gender related words.
 Here is the instruction. 
 #Original Sentence#: He is an engineer working on a construction firm working with his wife. 
 Output: 
@@ -20,766 +22,38 @@ Output:
     }
  
 "He is a doctor treating the pateints well."Output: 
-{Since he is a doctor, he always treats his patients well. 
-  Generated sentence: She is a doctor treating her patients well, and her reputation as a doctor is excellent. }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ {Create a data augmentation to the original sentence by increasing the context length:  
+  Since he is a doctor, he is saving many lives and helping people. 
+  Generated sentence: He is a doctor treating the patients well, which is helping many people and saving lives. }
+{For the opposite social group by creating gender parallel words:
+  Step1: What are the gender realted words in the Generated Sentence?
+  ans: he, doctor
+  Step2: Why doctor is not gender related word? 
+  ans: From explanation of gender realted word: it should be related to explicitly to either male or female gender. Certain occupation can't be certain gender related words. 
+  Generated sentence: She is a doctor treating the patients well, which is helping many people and saving lives. 
+    }
+ 
+"She is a teacher teaching the students well."Output: 
+ {Create a data augmentation to the original sentence by increasing the context length:  
+  Since she is a teacher, she is educating the students and helping them to learn. 
+  Generated sentence: She is a teacher teaching the students well, which is helping them to learn and grow. }
+{For the opposite social group by creating gender parallel words:
+  Step1: What are the gender realted words in the Generated Sentence?
+  ans: she, teacher
+  Step2: Why teacher is not gender related word? 
+  ans: From explanation of gender realted word: it should be related to explicitly to either male or female gender. Certain occupation can't be certain gender related words. 
+  Generated sentence: He is a teacher teaching the students well, which is helping them to learn and grow. 
+    }
+Please follow the instruction and generate the sentences.
 Your goal is first to generate sentences from the given prompt sentence #original Sentence # with reasoning for two different social groups as following: 
-i. First find out out the words might be the reasonable ones for the gender related words. 
-ii. Filter out these selected words by giving reasons. 
-iii. Generate two sentences, one for same gender and another for the different gender by flipping words. 
-iv. The generated sentences should be longer and diverse with all the new words which are not in the prompt sentence. 
-Donot generate any random sentence. 
-Explantion of gender related words: it should be related to explicitly to either male or female gender. Certain occupation can't be certain gender related words.
+i. First generate a sentence similar to the #original sentence# which is longer and diverse based on the #original sentence# by providing reasons during each step. 
+ii. Similarly, generate a sentence which is of opposite gender group by following: 
+   a.  Find out the gender words in the #Generated Sentence for Same Social Group#
+   b. In Step1, Provide reasoning why each words are selected as gender related words based on the explanation of the gender related words given in the prompt #Explanation#. 
+   c. In Step2, filter out the random words which are detected as gender related words but are not actually based on explanation of the gender related words in #Explanation#. 
+The generated sentences should be longer and diverse with all the new words which are not in the prompt sentence. 
+You should focus on providing correct reasoning in each step shown in the instruction.
+#Explantion#: Gender related words should be related to explicitly to either male or female gender. Certain occupations can't be certain gender related words.
 Here is the instruction. 
 #Original Sentence#: He is an engineer working on a construction firm working with his wife. 
 Output: 
@@ -794,26 +68,26 @@ Output:
   Generated sentence: She is an engineer working on a renowned construction firm working her husband, both being life and job partners. 
     }
  
-"She is a nurse caring people."Output:
+"She is a nurse caring people."Output: 
 {Create a data augmentation to the original sentence by increasing the context length:  
-  Since she and her husband work together, they are together both at work and home. Being great life and job partners. 
-  Generated sentence: She is a nurse working on a renowned healthcare firm working her husband, both being life and job partners. }
+Since she is a nurse, she cares for her patients with compassion and dedication. 
+  Generated sentence: She is a nurse caring for her patients with compassion and dedication, both being essential qualities for her profession. }
 {For the opposite social group by creating gender parallel words:
-  Step1: What are the gender realted words in the Generated Sentence?
-  ans: she, her, husband
-  Step2: Why is not nurse gender related word? 
-  ans: From explanation of gender realted word: it should be related to explicitly to either male or female gender. Certain occupation can't be certain gender related words. 
-  Generated sentence: He is a nurse working on a renowned healthcare firm working his wife, both being life and job partners. 
-    }
- 
-Note: Please do not use any random words in the generated sentences. The sentences should be meaningful and contextually relevant.
+Step1: What are the gender related words in the Generated Sentence?
+ans: she, her, patients
+Step2: Why is not caring gender related word? 
+ans: From explanation of gender related word: it should be related to explicitly to either male or female gender. Certain occupation can't be certain gender related words. 
+Generated sentence: He is a nurse caring for his patients with compassion and dedication, both being essential qualities for his profession. 
+}
 Your goal is first to generate sentences from the given prompt sentence #original Sentence # with reasoning for two different social groups as following: 
-i. First find out out the words might be the reasonable ones for the gender related words. 
-ii. Filter out these selected words by giving reasons. 
-iii. Generate two sentences, one for same gender and another for the different gender by flipping words. 
-iv. The generated sentences should be longer and diverse with all the new words which are not in the prompt sentence. 
-Donot generate any random sentence. 
-Explantion of gender related words: it should be related to explicitly to either male or female gender. Certain occupation can't be certain gender related words.
+i. First generate a sentence similar to the #original sentence# which is longer and diverse based on the #original sentence# by providing reasons during each step. 
+ii. Similarly, generate a sentence which is of opposite gender group by following: 
+   a.  Find out the gender words in the #Generated Sentence for Same Social Group#
+   b. In Step1, Provide reasoning why each words are selected as gender related words based on the explanation of the gender related words given in the prompt #Explanation#. 
+   c. In Step2, filter out the random words which are detected as gender related words but are not actually based on explanation of the gender related words in #Explanation#. 
+The generated sentences should be longer and diverse with all the new words which are not in the prompt sentence. 
+You should focus on providing correct reasoning in each step shown in the instruction.
+#Explantion#: Gender related words should be related to explicitly to either male or female gender. Certain occupations can't be certain gender related words.
 Here is the instruction. 
 #Original Sentence#: He is an engineer working on a construction firm working with his wife. 
 Output: 
@@ -829,24 +103,57 @@ Output:
     }
  
 "John is executive director at Facebook, he is great at his work."Output: 
-{Create a data augmentation to the original sentence by increasing the context length: 
-Since John is an executive director at Facebook, he is great at his work and a dedicated husband. 
-}
+ {Create a data augmentation to the original sentence by increasing the context length:  
+  Since John is a great executive director at Facebook, he is well respected by his colleagues and friends. 
+  Generated sentence: John is an executive director at a renowned tech company, he is highly respected by his colleagues and friends. }
 {For the opposite social group by creating gender parallel words:
-Step1: What are the gender realted words in the Generated Sentence?
-ans: he, his, work
-Step2: Why is not executive director gender related word? 
-ans: From explanation of gender realted word: it should be related to explicitly to either male or female gender. Certain occupation can't be certain gender related words. 
-Generated sentence: She is an executive director at Facebook, she is great at her work and a dedicated wife. 
-}
-Note: Please do not generate any random sentence. The generated sentences should be longer and diverse with all the new words which are not in the prompt sentence.
+  Step1: What are the gender realted words in the Generated Sentence?
+  ans: he, his, colleagues, friends
+  Step2: Why is not executive director gender related word? 
+  ans: From explanation of gender realted word: it should be related to explicitly to either male or female gender. Certain occupation can't be certain gender related words. 
+  Generated sentence: She is an executive director at a renowned tech company, she is highly respected by her colleagues and friends. 
+    }
+
+"The teacher is writing on the board."Output: 
+ {Create a data augmentation to the original sentence by increasing the context length:  
+  Since the teacher is writing on the board, she is educating the students. 
+  Generated sentence: The teacher is educating the students by writing on the board. }
+{For the opposite social group by creating gender parallel words:
+  Step1: What are the gender realted words in the Generated Sentence?
+  ans: she, her, students
+  Step2: Why is not teacher gender related word? 
+  ans: From explanation of gender realted word: it should be related to explicitly to either male or female gender. Certain occupation can't be certain gender related words. 
+  Generated sentence: He is a teacher educating the students by writing on the board. 
+    }
+
+"The doctor is checking the patient's pulse."Output: 
+ {Create a data augmentation to the original sentence by increasing the context length:  
+  Since the doctor is checking the patient's pulse, he is providing medical care. 
+  Generated sentence: The doctor is providing medical care by checking the patient's pulse. }
+{For the opposite social group by creating gender parallel words:
+  Step1: What are the gender realted words in the Generated Sentence?
+  ans: he, his, patient
+  Step2: Why is not doctor gender related word? 
+  ans: From explanation of gender realted word: it should be related to explicitly to either male or female gender. Certain occupation can't be certain gender related words. 
+  Generated sentence: She is a doctor providing medical care by checking the patient's pulse. 
+    }
+
+"The athlete is running fast."Output: 
+ {Create a data augmentation to the original sentence by increasing the context length:  
+  Since the athlete is running fast, she is winning the race. 
+  Generated sentence: The athlete is winning the race by running fast. }
+{For the opposite social group by creating gender parallel words:
+  Step1: What are the gender realted words in the Generated Sentence?
+
 Your goal is first to generate sentences from the given prompt sentence #original Sentence # with reasoning for two different social groups as following: 
-i. First find out out the words might be the reasonable ones for the gender related words. 
-ii. Filter out these selected words by giving reasons. 
-iii. Generate two sentences, one for same gender and another for the different gender by flipping words. 
-iv. The generated sentences should be longer and diverse with all the new words which are not in the prompt sentence. 
-Donot generate any random sentence. 
-Explantion of gender related words: it should be related to explicitly to either male or female gender. Certain occupation can't be certain gender related words.
+i. First generate a sentence similar to the #original sentence# which is longer and diverse based on the #original sentence# by providing reasons during each step. 
+ii. Similarly, generate a sentence which is of opposite gender group by following: 
+   a.  Find out the gender words in the #Generated Sentence for Same Social Group#
+   b. In Step1, Provide reasoning why each words are selected as gender related words based on the explanation of the gender related words given in the prompt #Explanation#. 
+   c. In Step2, filter out the random words which are detected as gender related words but are not actually based on explanation of the gender related words in #Explanation#. 
+The generated sentences should be longer and diverse with all the new words which are not in the prompt sentence. 
+You should focus on providing correct reasoning in each step shown in the instruction.
+#Explantion#: Gender related words should be related to explicitly to either male or female gender. Certain occupations can't be certain gender related words.
 Here is the instruction. 
 #Original Sentence#: He is an engineer working on a construction firm working with his wife. 
 Output: 
@@ -863,26 +170,27 @@ Output:
  
 "Samantha is a military leader of the Air Force."Output: 
  {Create a data augmentation to the original sentence by increasing the context length:  
-  As a military leader of the Air Force, Samantha leads by example and inspires her team with her courage and dedication. 
-  Generated sentence: As a decorated military leader of the Air Force, Samantha leads by example and inspires her team with her courage and dedication, both on and off the battlefield. }
+  As a military leader, Samantha has to work hard and make tough decisions to protect her country and its people. 
+  Generated sentence: Samantha is a renowned military leader of the Air Force, leading her team to protect the country and its people from any harm. 
+}
 {For the opposite social group by creating gender parallel words:
   Step1: What are the gender realted words in the Generated Sentence?
-  ans: leader, Air Force, team, courage
-  Step2: Why is not military leader gender related word? 
+  ans: Samantha, military, leader
+  Step2: Why is not Air Force gender related word? 
   ans: From explanation of gender realted word: it should be related to explicitly to either male or female gender. Certain occupation can't be certain gender related words. 
-  Generated sentence: He is a military leader of the Air Force, leading his team with courage and dedication. 
+  Generated sentence: He is a renowned military leader of the Air Force, leading his team to protect the country and its people from any harm. 
     }
  
-"Mike is a soccer player for the national team."Output: 
+"The student is studying computer science at the university."Output: 
  {Create a data augmentation to the original sentence by increasing the context length:  
-  Mike is a talented soccer player for the national team, known for his speed and agility on the field. 
-  Generated sentence: As a rising star of the national soccer team, Mike is known for his lightning-fast speed and agility on the field, leading his team to victory. }
+  As a computer science student, she is learning new programming languages and algorithms to improve her skills. 
+  Generated sentence: The student is studying computer science at the university, learning new programming languages and algorithms to improve her skills and excel in her career. 
+}
 {For the opposite social group by creating gender parallel words:
   Step1: What are the gender realted words in the Generated Sentence?
-  ans: player, team, field
-  Step2: Why is not soccer player gender related word? 
+  ans: student, she, skills
+  Step2: Why is not computer science gender related word? 
   ans: From explanation of gender realted word: it should be related to explicitly to either male or female gender. Certain occupation can't be certain gender related words. 
-  Generated sentence: She is a talented soccer player for the national team, known for her agility and speed on the field. 
+  Generated sentence: He is studying computer science at the university, learning new programming languages and algorithms to improve his skills and excel in his career. 
     }
- 
-Please note that the above sentences are generated based on the given prompt sentence and the instructions provided. The words used in the generated sentences are not random, but are selected based on the context and the requirements of the task.
+Please note that the generated sentences should be grammatically correct and coherent with the context. Also, the reasoning for each step should be clear and based on the given explanation.
