@@ -1,9 +1,9 @@
-Your goal is first to generate sentences for two different social groups as following: 
-i. First out the words might be the reasonable ones for the gender related words. 
+Your goal is first to generate sentences from the given prompt sentence #original Sentence # with reasoning for two different social groups as following: 
+i. First find out out the words might be the reasonable ones for the gender related words. 
 ii. Filter out these selected words by giving reasons. 
 iii. Generate two sentences, one for same gender and another for the different gender by flipping words. 
 iv. The generated sentences should be longer and diverse with all the new words which are not in the prompt sentence. 
-Donot generate anything else, just take the prompt and excatly generate according to the pattern. 
+Donot generate any random sentence. 
 Here is the instruction. 
 #Original Sentence#: He is an engineer working on a construction firm working with his wife. 
 Output: 
