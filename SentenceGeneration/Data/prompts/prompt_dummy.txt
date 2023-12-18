@@ -4,12 +4,18 @@ ii. Filter out these selected words by giving reasons.
 iii. Generate two sentences, one for same gender and another for the different gender by flipping words. 
 iv. The generated sentences should be longer and diverse with all the new words which are not in the prompt sentence. 
 Donot generate any random sentence. 
+Explantion of gender related words: it should be related to explicitly to either male or female gender. Certain occupation can't be certain gender related words.
 Here is the instruction. 
 #Original Sentence#: He is an engineer working on a construction firm working with his wife. 
 Output: 
- {For the same social group:  
+ {Create a data augmentation to the original sentence by increasing the context length:  
+  Since he and his wife work together, they are together both at work and home. Being great life and job partners. 
   Generated sentence: He is an engineer working on a renowned construction firm working his wife, both being life and job partners. }
-{For the opposite social group:
+{For the opposite social group by creating gender parallel words:
+  Step1: What are the gender realted words in the Generated Sentence?
+  ans: he, his, wife
+  Step2: Why is not engineer gender related word? 
+  ans: From explanation of gender realted word: it should be related to explicitly to either male or female gender. Certain occupation can't be certain gender related words. 
   Generated sentence: She is an engineer working on a renowned construction firm working her husband, both being life and job partners. 
     }
  
