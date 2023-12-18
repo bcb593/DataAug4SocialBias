@@ -6,8 +6,8 @@ iv. The generated sentences should be longer and diverse with all the new words 
 Donot generate anything else, just take the prompt and excatly generate according to the pattern. 
 Here is the instruction. 
 #Original Sentence#: He is an engineer working on a construction firm working with his wife. 
+Output: 
 In the #Original Setence#, He, his, wife, engineer are the most probable gender related words. Engineer is a occupation, so it is not gender related word. Therefore, the gender related words are he, his, wife. 
-Thus, 
  {For the same social group: 
   Instructions (The gender related words are from the all words from above update accordingly): he--> he, his-> his , wife--> wife,  keep these constant and create a diverse sentence. 
   Generated sentence: He is an engineer working on a renowned construction firm working his wife, both being life and job partners. }
