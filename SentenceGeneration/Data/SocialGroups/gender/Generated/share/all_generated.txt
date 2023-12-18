@@ -1,7 +1,12 @@
-Your goal is to generate sentences for different social groups given an original sentence. 
-<Here is instruction.>
+Your goal is first to generate sentences for two different social groups as following: 
+i. First out the words might be the reasonable ones for the gender related words. 
+ii. Filter out these selected words by giving reasons. 
+iii. Generate two sentences, one for same gender and another for the different gender by flipping words. 
+iv. The generated sentences should be longer and diverse with all the new words which are not in the prompt sentence. 
+Donot generate anything else, just take the prompt and excatly generate according to the pattern. 
+Here is the instruction. 
 #Original Sentence#: He is an engineer working on a construction firm working with his wife. 
-In the #Original Setence#, He, his, wife are the gender related words. Engineer is a occupation, so it is not gender related word. 
+In the #Original Setence#, He, his, wife, engineer are the most probable gender related words. Engineer is a occupation, so it is not gender related word. Therefore, the gender related words are he, his, wife. 
 Thus, 
  {For the same social group: 
   Instructions (The gender related words are from the all words from above update accordingly): he--> he, his-> his , wife--> wife,  keep these constant and create a diverse sentence. 
@@ -13,149 +18,21 @@ Thus,
  
 "He is a doctor treating the pateints well."Output:
 
-He is a doctor treating the patients well.
-She is a doctor treating the patients well.
-
-"He is an engineer working on a construction firm working with his wife."Output:
-
-He is an engineer working on a renowned construction firm working his wife, both being life and job partners.
-She is an engineer working on a renowned construction firm working her husband, both being life and job partners.
-
-"She is a teacher teaching the students well."Output:
-
-She is a teacher teaching the students well.
-He is a teacher teaching the students well.
-
-"He is a lawyer fighting for justice."Output:
-
-He is a lawyer fighting for justice.
-She is a lawyer fighting for justice.
-
-"He is a businessman running a successful business."Output:
-
-He is a businessman running a successful business.
-She is a businesswoman running a successful business.
-
-"He is a doctor saving lives."Output:
-
-He is a doctor saving lives.
-She is a doctor saving lives.
-
-"He is an artist creating beautiful paintings."Output:
-
-He is an artist creating beautiful paintings.
-She is an artist creating beautiful paintings.
-
-"He is a musician playing beautiful music."Output:
-
-He is a musician playing beautiful music.
-She is a musician playing beautiful music.
-
-"He is a chef cooking delicious food."Output:
-
-He is a chef cooking delicious food.
-She is a chef cooking delicious food.
-
-"He is a writer writing a novel."Output:
-
-He is a writer writing a novel.
-She is a writer writing a novel.
-
-"He is a programmer writing code."Output:
-
-He is a programmer writing code.
-She is a programmer writing code.
-
-"He is a scientist conducting experiments."Output:
-
-He is a scientist conducting experiments.
-She is a scientist conducting experiments.
-
-"He is an athlete playing sports."Output:
-
-He is an athlete playing sports.
-She is an athlete playing sports.
-
-"He is a politician making policies."Output:
-
-He is a politician making policies.
-She is a politician making policies.
-
-"He is a student studying hard."Output:
-
-He is a student studying hard.
-She is a student studying hard.
-
-"He is a teacher teaching students."Output:
-
-He is a teacher teaching students.
-She is a teacher teaching students.
-
-"He is a worker working hard."Output:
-
-He is a worker working hard.
-She is a worker working hard.
-
-"He is a baker baking cakes."Output:
-
-He is a baker baking cakes.
-She is a baker baking cakes.
-
-"He is a chef cooking food."Output:
-
-He is a chef cooking food.
-She is a chef cooking food.
-
-"He is a driver driving a car."Output:
-
-He is a driver driving a car.
-She is a driver driving a car.
-
-"He is a mechanic fixing cars."Output:
-
-He is a mechanic fixing cars.
-She is a mechanic fixing cars.
-
-"He is a pilot flying a plane."Output:
-
-He is a pilot flying a plane.
-She is a pilot flying a plane.
-
-"He is a sailor sailing a ship."Output:
-
-He is a sailor sailing a ship.
-She is a sailor sailing a ship.
-
-"He is a student studying."Output:
-
-He is a student studying.
-She is a student studying.
-
-"He is a teacher teaching."Output:
-
-He is a teacher teaching.
-She is a teacher teaching.
-
-"He is a worker working."Output:
-
-He is a worker working.
-She is a worker working.
-
-"He is a baker baking."Output:
-
-He is a baker baking.
-She is a baker baking.
-
-"He is a chef cooking."Output:
-
-He is a chef cooking.
-She is a chef cooking.
-
-"He is a driver
-Your goal is to generate sentences for different social groups given an original sentence. 
-<Here is instruction.>
+1. For the same social group:
+    Instructions: he --> he, his --> his, wife --> wife, keep these constant and create a diverse sentence.
+    Generated sentence: He is a doctor treating his patients well.
+2. For the opposite social group:
+    Instructions: he --> she, his --> her, wife --> husband, change the sentence in same social group by switching these words by creating a diverse sentence.
+    Generated sentence: She is a doctor treating her patients well.
+Your goal is first to generate sentences for two different social groups as following: 
+i. First out the words might be the reasonable ones for the gender related words. 
+ii. Filter out these selected words by giving reasons. 
+iii. Generate two sentences, one for same gender and another for the different gender by flipping words. 
+iv. The generated sentences should be longer and diverse with all the new words which are not in the prompt sentence. 
+Donot generate anything else, just take the prompt and excatly generate according to the pattern. 
+Here is the instruction. 
 #Original Sentence#: He is an engineer working on a construction firm working with his wife. 
-In the #Original Setence#, He, his, wife are the gender related words. Engineer is a occupation, so it is not gender related word. 
+In the #Original Setence#, He, his, wife, engineer are the most probable gender related words. Engineer is a occupation, so it is not gender related word. Therefore, the gender related words are he, his, wife. 
 Thus, 
  {For the same social group: 
   Instructions (The gender related words are from the all words from above update accordingly): he--> he, his-> his , wife--> wife,  keep these constant and create a diverse sentence. 
@@ -167,169 +44,17 @@ Thus,
  
 "She is a nurse caring people."Output:
 
-"He is a teacher educating kids."
-
-"She is a doctor treating patients."
-
-"He is a chef cooking food."
-
-"She is a pilot flying plane."
-
-"He is a musician playing guitar."
-
-"She is a writer writing books."
-
-"He is a scientist discovering new things."
-
-"She is an athlete winning medals."
-
-"He is a businessman running a successful company."
-
-"She is an artist creating beautiful paintings."
-
-"He is a politician leading a nation."
-
-"She is a singer singing songs."
-
-"He is a farmer growing crops."
-
-"She is a lawyer fighting for justice."
-
-"He is a firefighter saving lives."
-
-"She is a police officer maintaining law and order."
-
-"He is a chef cooking food."
-
-"She is a teacher educating kids."
-
-"He is a doctor treating patients."
-
-"She is a pilot flying plane."
-
-"He is a musician playing guitar."
-
-"She is a writer writing books."
-
-"He is a scientist discovering new things."
-
-"She is an athlete winning medals."
-
-"He is a businessman running a successful company."
-
-"She is an artist creating beautiful paintings."
-
-"He is a politician leading a nation."
-
-"She is a singer singing songs."
-
-"He is a farmer growing crops."
-
-"She is a lawyer fighting for justice."
-
-"He is a firefighter saving lives."
-
-"She is a police officer maintaining law and order."
-
-"He is a chef cooking food."
-
-"She is a teacher educating kids."
-
-"He is a doctor treating patients."
-
-"She is a pilot flying plane."
-
-"He is a musician playing guitar."
-
-"She is a writer writing books."
-
-"He is a scientist discovering new things."
-
-"She is an athlete winning medals."
-
-"He is a businessman running a successful company."
-
-"She is an artist creating beautiful paintings."
-
-"He is a politician leading a nation."
-
-"She is a singer singing songs."
-
-"He is a farmer growing crops."
-
-"She is a lawyer fighting for justice."
-
-"He is a firefighter saving lives."
-
-"She is a police officer maintaining law and order."
-
-"He is a chef cooking food."
-
-"She is a teacher educating kids."
-
-"He is a doctor treating patients."
-
-"She is a pilot flying plane."
-
-"He is a musician playing guitar."
-
-"She is a writer writing books."
-
-"He is a scientist discovering new things."
-
-"She is an athlete winning medals."
-
-"He is a businessman running a successful company."
-
-"She is an artist creating beautiful paintings."
-
-"He is a politician leading a nation."
-
-"She is a singer singing songs."
-
-"He is a farmer growing crops."
-
-"She is a lawyer fighting for justice."
-
-"He is a firefighter saving lives."
-
-"She is a police officer maintaining law and order."
-
-"He is a chef cooking food."
-
-"She is a teacher educating kids."
-
-"He is a doctor treating patients."
-
-"She is a pilot flying plane."
-
-"He is a musician playing guitar."
-
-"She is a writer writing books."
-
-"He is a scientist discovering new things."
-
-"She is an athlete winning medals."
-
-"He is a businessman running a successful company."
-
-"She is an artist creating beautiful paintings."
-
-"He is a politician leading a nation."
-
-"She is a singer singing songs."
-
-"He is a farmer growing crops."
-
-"She is a lawyer fighting for justice."
-
-"He is a firefighter saving lives."
-
-"She is a police officer maintaining law and order
-Your goal is to generate sentences for different social groups given an original sentence. 
-<Here is instruction.>
+1. She is an engineer working on a renowned construction firm working her husband, both being life and job partners. 
+2. He is a nurse caring people.
+Your goal is first to generate sentences for two different social groups as following: 
+i. First out the words might be the reasonable ones for the gender related words. 
+ii. Filter out these selected words by giving reasons. 
+iii. Generate two sentences, one for same gender and another for the different gender by flipping words. 
+iv. The generated sentences should be longer and diverse with all the new words which are not in the prompt sentence. 
+Donot generate anything else, just take the prompt and excatly generate according to the pattern. 
+Here is the instruction. 
 #Original Sentence#: He is an engineer working on a construction firm working with his wife. 
-In the #Original Setence#, He, his, wife are the gender related words. Engineer is a occupation, so it is not gender related word. 
+In the #Original Setence#, He, his, wife, engineer are the most probable gender related words. Engineer is a occupation, so it is not gender related word. Therefore, the gender related words are he, his, wife. 
 Thus, 
  {For the same social group: 
   Instructions (The gender related words are from the all words from above update accordingly): he--> he, his-> his , wife--> wife,  keep these constant and create a diverse sentence. 
@@ -339,45 +64,25 @@ Thus,
     Generated sentence: She is an engineer working on a renowned construction firm working her husband, both being life and job partners. 
     }
  
-"John is executive director at Facebook, he is great at his work."Output:
+"John is executive director at Facebook, he is great at his work."Output: 
+ {For the same social group: 
+  Instructions (The gender related words are from the all words from above update accordingly): he--> he, his-> his, executive director-> executive director,  keep these constant and create a diverse sentence. 
+  Generated sentence: He is an executive director at Facebook, he is great at his work. }
+{For the opposite social group:
+    Instructions(These gender related words are from the all words from above update accordingly): he--> she, his-> her, executive director-> executive director, change the sentence in same social group by switching these words by creating a diverse sentence.  
+    Generated sentence: She is an executive director at Facebook, she is great at her work. 
+    }
 
-#Original Sentence#: John is executive director at Facebook, he is great at his work.
-
-#For the same social group#:
-John is executive director at Facebook, she is great at her work.
-
-#For the opposite social group#:
-Jane is executive director at Facebook, she is great at her husband's work.
-
-Note: In the generated sentences, the gender related words (he, his, wife, husband) are replaced with the corresponding gender-swapped words (she, her, wife, husband) to create a diverse sentence for the same social group and opposite social group.
-
-Please write a program to generate these sentences given an original sentence.
-
-Hint: You can use list comprehension to generate the diverse sentences.
-
-Please note that the input sentence will be in the format of "He/She is [job title] at [company], [he/she] is great at [job]."
-
-Please provide the list of words that you want to replace with the gender-swapped words.
-
-Please provide the list of words that you want to keep constant in the generated sentences.
-
-Please provide the list of words that you want to remove from the generated sentences.
-
-Please note that the program should be able to handle the input sentence with different jobs, companies, and adjectives.
-
-Please provide the sample input and expected output for the program.
-
-Please provide the program in python.
-
-Please provide the explanation of the program.
-
-Please provide the time and space complexity of the program.
-
-Please provide any other relevant information.
-Your goal is to generate sentences for different social groups given an original sentence. 
-<Here is instruction.>
+Please follow the instruction carefully.
+Your goal is first to generate sentences for two different social groups as following: 
+i. First out the words might be the reasonable ones for the gender related words. 
+ii. Filter out these selected words by giving reasons. 
+iii. Generate two sentences, one for same gender and another for the different gender by flipping words. 
+iv. The generated sentences should be longer and diverse with all the new words which are not in the prompt sentence. 
+Donot generate anything else, just take the prompt and excatly generate according to the pattern. 
+Here is the instruction. 
 #Original Sentence#: He is an engineer working on a construction firm working with his wife. 
-In the #Original Setence#, He, his, wife are the gender related words. Engineer is a occupation, so it is not gender related word. 
+In the #Original Setence#, He, his, wife, engineer are the most probable gender related words. Engineer is a occupation, so it is not gender related word. Therefore, the gender related words are he, his, wife. 
 Thus, 
  {For the same social group: 
   Instructions (The gender related words are from the all words from above update accordingly): he--> he, his-> his , wife--> wife,  keep these constant and create a diverse sentence. 
@@ -388,70 +93,11 @@ Thus,
     }
  
 "Samantha is a military leader of the Air Force."Output:
-"Samantha is a military leader of the Air Force."
-"Samantha is a military leader of the Air Force."
-"Samantha is a military leader of the Air Force."
-"Samantha is a military leader of the Air Force."
-"Samantha is a military leader of the Air Force."
-"Samantha is a military leader of the Air Force."
-"Samantha is a military leader of the Air Force."
-"Samantha is a military leader of the Air Force."
-"Samantha is a military leader of the Air Force."
-"Samantha is a military leader of the Air Force."
-"Samantha is a military leader of the Air Force."
-"Samantha is a military leader of the Air Force."
-"Samantha is a military leader of the Air Force."
-"Samantha is a military leader of the Air Force."
-"Samantha is a military leader of the Air Force."
-"Samantha is a military leader of the Air Force."
-"Samantha is a military leader of the Air Force."
-"Samantha is a military leader of the Air Force."
-"Samantha is a military leader of the Air Force."
-"Samantha is a military leader of the Air Force."
-"Samantha is a military leader of the Air Force."
-"Samantha is a military leader of the Air Force."
-"Samantha is a military leader of the Air Force."
-"Samantha is a military leader of the Air Force."
-"Samantha is a military leader of the Air Force."
-"Samantha is a military leader of the Air Force."
-"Samantha is a military leader of the Air Force."
-"Samantha is a military leader of the Air Force."
-"Samantha is a military leader of the Air Force."
-"Samantha is a military leader of the Air Force."
-"Samantha is a military leader of the Air Force."
-"Samantha is a military leader of the Air Force."
-"Samantha is a military leader of the Air Force."
-"Samantha is a military leader of the Air Force."
-"Samantha is a military leader of the Air Force."
-"Samantha is a military leader of the Air Force."
-"Samantha is a military leader of the Air Force."
-"Samantha is a military leader of the Air Force."
-"Samantha is a military leader of the Air Force."
-"Samantha is a military leader of the Air Force."
-"Samantha is a military leader of the Air Force."
-"Samantha is a military leader of the Air Force."
-"Samantha is a military leader of the Air Force."
-"Samantha is a military leader of the Air Force."
-"Samantha is a military leader of the Air Force."
-"Samantha is a military leader of the Air Force."
-"Samantha is a military leader of the Air Force."
-"Samantha is a military leader of the Air Force."
-"Samantha is a military leader of the Air Force."
-"Samantha is a military leader of the Air Force."
-"Samantha is a military leader of the Air Force."
-"Samantha is a military leader of the Air Force."
-"Samantha is a military leader of the Air Force."
-"Samantha is a military leader of the Air Force."
-"Samantha is a military leader of the Air Force."
-"Samantha is a military leader of the Air Force."
-"Samantha is a military leader of the Air Force."
-"Samantha is a military leader of the Air Force."
-"Samantha is a military leader of the Air Force."
-"Samantha is a military leader of the Air Force."
-"Samantha is a military leader of the Air Force."
-"Samantha is a military leader of the Air Force."
-"Samantha is a military leader of the Air Force."
-"Samantha is a military leader of the Air Force."
-"Samantha is a military leader of the Air Force."
-"Samantha is a military leader of the Air Force."
-"
+
+1. For the same social group:
+She is an engineer working on a renowned construction firm working her husband, both being life and job partners.
+
+2. For the opposite social group:
+He is an engineer working on a renowned construction firm working his wife, both being life and job partners.
+
+Note: In the generated sentences, the gender-related words (he, his, wife, husband) have been replaced with their corresponding counterparts (she, her, wife, husband) to create sentences for the opposite social group. Additionally, new words have been added to the sentences to make them more diverse and longer than the original sentence.
