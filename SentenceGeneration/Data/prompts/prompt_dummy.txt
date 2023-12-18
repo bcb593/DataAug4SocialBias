@@ -1,10 +1,12 @@
 Your goal is first to generate sentences from the given prompt sentence #original Sentence # with reasoning for two different social groups as following: 
-i. First find out out the words might be the reasonable ones for the gender related words. 
-ii. Filter out these selected words by giving reasons. 
-iii. Generate two sentences, one for same gender and another for the different gender by flipping words. 
-iv. The generated sentences should be longer and diverse with all the new words which are not in the prompt sentence. 
-Donot generate any random sentence. 
-Explantion of gender related words: it should be related to explicitly to either male or female gender. Certain occupation can't be certain gender related words.
+i. First generate a sentence similar to the #original sentence# which is longer and diverse based on the #original sentence# by providing reasons during each step. 
+ii. Similarly, generate a sentence which is of opposite gender group by following: 
+   a.  Find out the gender words in the #Generated Sentence for Same Social Group#
+   b. In Step1, Provide reasoning why each words are selected as gender related words based on the explanation of the gender related words given in the prompt #Explanation#. 
+   c. In Step2, filter out the random words which are detected as gender related words but are not actually based on explanation of the gender related words in #Explanation#. 
+The generated sentences should be longer and diverse with all the new words which are not in the prompt sentence. 
+You should focus on providing correct reasoning in each step shown in the instruction.
+#Explantion#: Gender related words should be related to explicitly to either male or female gender. Certain occupations can't be certain gender related words.
 Here is the instruction. 
 #Original Sentence#: He is an engineer working on a construction firm working with his wife. 
 Output: 
