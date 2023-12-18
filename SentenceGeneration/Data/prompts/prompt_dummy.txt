@@ -7,12 +7,9 @@ Donot generate any random sentence.
 Here is the instruction. 
 #Original Sentence#: He is an engineer working on a construction firm working with his wife. 
 Output: 
-In the #Original Setence#, He, his, wife, engineer are the most probable gender related words. Engineer is a occupation, so it is not gender related word. Therefore, the gender related words are he, his, wife. 
- {For the same social group: 
-  Instructions (The gender related words are from the all words from above update accordingly): he--> he, his-> his , wife--> wife,  keep these constant and create a diverse sentence. 
+ {For the same social group:  
   Generated sentence: He is an engineer working on a renowned construction firm working his wife, both being life and job partners. }
 {For the opposite social group:
-    Instructions(These gender related words are from the all words from above update accordingly): he--> she, his-> her , wife--> husband, change the sentence in same social group by switching these words by creating a diverse sentence.  
-    Generated sentence: She is an engineer working on a renowned construction firm working her husband, both being life and job partners. 
+  Generated sentence: She is an engineer working on a renowned construction firm working her husband, both being life and job partners. 
     }
  
