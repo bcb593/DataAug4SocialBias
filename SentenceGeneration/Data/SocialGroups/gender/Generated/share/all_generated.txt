@@ -1,9 +1,9 @@
-Your goal is first to generate sentences for two different social groups as following: 
-i. First out the words might be the reasonable ones for the gender related words. 
+Your goal is first to generate sentences from the given prompt sentence #original Sentence # with reasoning for two different social groups as following: 
+i. First find out out the words might be the reasonable ones for the gender related words. 
 ii. Filter out these selected words by giving reasons. 
 iii. Generate two sentences, one for same gender and another for the different gender by flipping words. 
 iv. The generated sentences should be longer and diverse with all the new words which are not in the prompt sentence. 
-Donot generate anything else, just take the prompt and excatly generate according to the pattern. 
+Donot generate any random sentence. 
 Here is the instruction. 
 #Original Sentence#: He is an engineer working on a construction firm working with his wife. 
 Output: 
@@ -16,41 +16,23 @@ In the #Original Setence#, He, his, wife, engineer are the most probable gender 
     Generated sentence: She is an engineer working on a renowned construction firm working her husband, both being life and job partners. 
     }
  
-"He is a doctor treating the pateints well."Output: 
-In the #Original Sentence#, He, a, doctor are the most probable gender related words. Therefore, the gender related words are he, a, doctor. 
-{For the same social group: 
-  Instructions (The gender related words are from the all words from above update accordingly): he--> he, a---> a, doctor---> doctor, keep these constant and create a diverse sentence. 
-  Generated sentence: He is a renowned doctor treating the patients well with a human touch. }
+"He is a doctor treating the pateints well."Output:
+In the #Original Sentence#, He, doctor, treating, patients are the most probable gender related words. 
+ {For the same social group: 
+  Instructions (The gender related words are from the all words from above update accordingly): he--> he, doctor, treating, patients are all gender neutral, so keep these constant and create a diverse sentence. 
+  Generated sentence: He is a doctor treating the patients well, earning a good reputation in the medical field. }
 {For the opposite social group:
-    Instructions(These gender related words are from the all words from above update accordingly): he--> she, a---> a, doctor---> doctor, change the sentence in same social group by switching these words by creating a diverse sentence.  
-    Generated sentence: She is a renowned doctor treating the patients well with a human touch. 
+    Instructions(These gender related words are from the all words from above update accordingly): he--> she, doctor, treating, patients are all gender neutral, so change the sentence in same social group by switching these words by creating a diverse sentence.  
+    Generated sentence: She is a doctor treating the patients well, earning a good reputation in the medical field. 
     }
 
-"She is a lawyer fighting for justice."Output: 
-In the #Original Sentence#, She, a, lawyer are the most probable gender related words. Therefore, the gender related words are she, a, lawyer. 
-{For the same social group: 
-  Instructions (The gender related words are from the all words from above update accordingly): she---> she, a---> a, lawyer---> lawyer, keep these constant and create a diverse sentence. 
-  Generated sentence: She is a renowned lawyer fighting for justice with a strong determination. }
-{For the opposite social group:
-    Instructions(These gender related words are from the all words from above update accordingly): she---> he, a---> a, lawyer---> lawyer, change the sentence in same social group by switching these words by creating a diverse sentence.  
-    Generated sentence: He is a renowned lawyer fighting for justice with a strong determination. 
-    }
-
-"They are a couple enjoying their life together."Output: 
-In the #Original Sentence#, They, a, couple are the most probable gender related words. Therefore, the gender related words are they, a, couple. 
-{For the same social group: 
-  Instructions (The gender related words are from the all words from above update accordingly): they---> they, a---> a, couple---> couple, keep these constant and create a diverse sentence. 
-  Generated sentence: They are a lovely couple enjoying their life together with a deep understanding. }
-{For the opposite social group:
-    Instructions(These gender related words are from the all words from above update accordingly): they---> she, a---> a, couple---> couple, change the sentence in same social group by switching these words by creating a diverse sentence.  
-    Generated sentence: She is a lovely couple enjoying her life together with a deep understanding. 
-    }
-Your goal is first to generate sentences for two different social groups as following: 
-i. First out the words might be the reasonable ones for the gender related words. 
+Note: In the above two sentences, the words like husband, wife, he, she, his, her are gender related words and should be updated accordingly. Also, the sentence should be diverse and longer than the original sentence.
+Your goal is first to generate sentences from the given prompt sentence #original Sentence # with reasoning for two different social groups as following: 
+i. First find out out the words might be the reasonable ones for the gender related words. 
 ii. Filter out these selected words by giving reasons. 
 iii. Generate two sentences, one for same gender and another for the different gender by flipping words. 
 iv. The generated sentences should be longer and diverse with all the new words which are not in the prompt sentence. 
-Donot generate anything else, just take the prompt and excatly generate according to the pattern. 
+Donot generate any random sentence. 
 Here is the instruction. 
 #Original Sentence#: He is an engineer working on a construction firm working with his wife. 
 Output: 
@@ -64,22 +46,30 @@ In the #Original Setence#, He, his, wife, engineer are the most probable gender 
     }
  
 "She is a nurse caring people."Output: 
-In the #Original Sentence#, She, nurse, caring, people are the most probable gender related words. 
+In the #Original Setence#, She, her, nurse, caring are the most probable gender related words. 
  {For the same social group: 
-  Instructions (The gender related words are from the all words from above update accordingly): she--> she, nurse-> nurse, caring-> caring, people-> people, keep these constant and create a diverse sentence. 
-  Generated sentence: She is a caring nurse working in a renowned hospital caring people. }
+  Instructions (The gender related words are from the all words from above update accordingly): she--> she, her-> her, nurse-> nurse, caring---> caring, keep these constant and create a diverse sentence. 
+  Generated sentence: She is a nurse caring for the people in the hospital with utmost care and compassion. }
 {For the opposite social group:
-    Instructions(These gender related words are from the all words from above update accordingly): she--> he, nurse-> doctor, caring-> treating, people-> patients, change the sentence in same social group by switching these words by creating a diverse sentence.  
-    Generated sentence: He is a treating doctor working in a renowned hospital treating patients. 
+    Instructions(These gender related words are from the all words from above update accordingly): she--> he, her-> his, nurse-> doctor, caring---> treatment, change the sentence in same social group by switching these words by creating a diverse sentence.  
+    Generated sentence: He is a doctor treating the patients with utmost care and compassion. 
     }
- 
-Please note that the generated sentences should be longer and more diverse than the original sentence. Also, the words used in the generated sentences should not be repeated from the original sentence.
-Your goal is first to generate sentences for two different social groups as following: 
-i. First out the words might be the reasonable ones for the gender related words. 
+
+"He is a doctor treating the patients."Output: 
+In the #Original Setence#, He, his, doctor, treating are the most probable gender related words. 
+ {For the same social group: 
+  Instructions (The gender related words are from the all words from above update accordingly): he--> he, his-> his, doctor-> doctor, treating---> treatment, keep these constant and create a diverse sentence. 
+  Generated sentence: He is a doctor providing treatment to the patients with utmost care and compassion. }
+{For the opposite social group:
+    Instructions(These gender related words are from the all words from above update accordingly): he--> she, his-> her, doctor-> nurse, treating---> care, change the sentence in same social group by switching these words by creating a diverse sentence.  
+    Generated sentence: She is a nurse providing care to the patients with utmost care and compassion. 
+    }
+Your goal is first to generate sentences from the given prompt sentence #original Sentence # with reasoning for two different social groups as following: 
+i. First find out out the words might be the reasonable ones for the gender related words. 
 ii. Filter out these selected words by giving reasons. 
 iii. Generate two sentences, one for same gender and another for the different gender by flipping words. 
 iv. The generated sentences should be longer and diverse with all the new words which are not in the prompt sentence. 
-Donot generate anything else, just take the prompt and excatly generate according to the pattern. 
+Donot generate any random sentence. 
 Here is the instruction. 
 #Original Sentence#: He is an engineer working on a construction firm working with his wife. 
 Output: 
@@ -93,32 +83,21 @@ In the #Original Setence#, He, his, wife, engineer are the most probable gender 
     }
  
 "John is executive director at Facebook, he is great at his work."Output: 
-In the #Original Sentence#, He, his, director, Facebook, great are the most probable gender related words. Director is a occupation, so it is not gender related word. Therefore, the gender related words are he, his, Facebook, great. 
+In the #Original Sentence#, He, his, director, work are the most probable gender related words. Director is an occupation, so it is not gender related word. Therefore, the gender related words are he, his, work. 
  {For the same social group: 
-  Instructions (The gender related words are from the all words from above update accordingly): he--> he, his-> his, Facebook, great are the same, keep these constant and create a diverse sentence. 
-  Generated sentence: He is an executive director at renowned Facebook, he is great at his work. }
+  Instructions (The gender related words are from the all words from above update accordingly): he--> he, his-> his, work-> work,  keep these constant and create a diverse sentence. 
+  Generated sentence: He is an executive director at Facebook, he is great at his work, leading a team of talented professionals. }
 {For the opposite social group:
-    Instructions(These gender related words are from the all words from above update accordingly): he--> she, his-> her, Facebook, great change the sentence in same social group by switching these words by creating a diverse sentence.  
-    Generated sentence: She is an executive director at renowned Facebook, she is great at her work. 
+    Instructions(These gender related words are from the all words from above update accordingly): he--> she, his-> her, work-> work, change the sentence in same social group by switching these words by creating a diverse sentence.  
+    Generated sentence: She is an executive director at Facebook, she is great at her work, leading a team of talented professionals. 
     }
-
-"Sarah is a teacher and she is very good at her job."Output: 
-In the #Original Sentence#, She, her, teacher, good are the most probable gender related words. Teacher is a occupation, so it is not gender related word. Therefore, the gender related words are she, her, good. 
- {For the same social group: 
-  Instructions (The gender related words are from the all words from above update accordingly): she--> she, her-> her, good are the same, keep these constant and create a diverse sentence. 
-  Generated sentence: She is a teacher and she is very good at her job. }
-{For the opposite social group:
-    Instructions(These gender related words are from the all words from above update accordingly): she--> he, her-> his, good change the sentence in same social group by switching these words by creating a diverse sentence.  
-    Generated sentence: He is a teacher and he is very good at his job. 
-    }
-
-Please note that the generated sentences are not intended to be taken as a representation of any specific individual or group, and are solely for the purpose of demonstrating the gender diversity of language.
-Your goal is first to generate sentences for two different social groups as following: 
-i. First out the words might be the reasonable ones for the gender related words. 
+Please note that the goal is to generate sentences that are diverse and do not contain any random words. The sentences should be grammatically correct and should make sense in the context of the original sentence.
+Your goal is first to generate sentences from the given prompt sentence #original Sentence # with reasoning for two different social groups as following: 
+i. First find out out the words might be the reasonable ones for the gender related words. 
 ii. Filter out these selected words by giving reasons. 
 iii. Generate two sentences, one for same gender and another for the different gender by flipping words. 
 iv. The generated sentences should be longer and diverse with all the new words which are not in the prompt sentence. 
-Donot generate anything else, just take the prompt and excatly generate according to the pattern. 
+Donot generate any random sentence. 
 Here is the instruction. 
 #Original Sentence#: He is an engineer working on a construction firm working with his wife. 
 Output: 
@@ -132,23 +111,13 @@ In the #Original Setence#, He, his, wife, engineer are the most probable gender 
     }
  
 "Samantha is a military leader of the Air Force."Output: 
-In the #Original Sentence#, Samantha, military, leader, Air are the most probable gender related words. Samantha is a proper noun, so it is not gender related word. Therefore, the gender related words are military, leader, Air. 
- {For the same social group: 
-  Instructions (The gender related words are from the all words from above update accordingly): military, leader, Air --> military, leader, Air, change these constant and create a diverse sentence. 
-  Generated sentence: She is a military leader of the Air Force, leading her team to victory. }
+In the #Original Setence#, Samantha is the most probable gender related word. Therefore, the gender related word is Samantha. 
+{For the same social group: 
+  Instructions (The gender related word is Samantha, keep it constant and create a diverse sentence. 
+  Generated sentence: Samantha is a renowned military leader of the Air Force, leading her team to victory. }
 {For the opposite social group:
-    Instructions(These gender related words are from the all words from above update accordingly): military, leader, Air --> military, leader, Air, change these constant and create a diverse sentence.  
-    Generated sentence: He is a military leader of the Air Force, leading his team to victory. 
+    Instructions(The gender related word is Samantha, change the sentence in same social group by switching this word by creating a diverse sentence.  
+    Generated sentence: She is a renowned military leader of the Air Force, leading her team to victory. 
     }
- 
-"John is a teacher of mathematics."Output: 
-In the #Original Sentence#, John, teacher, mathematics are the most probable gender related words. John is a proper noun, so it is not gender related word. Therefore, the gender related words are teacher, mathematics. 
- {For the same social group: 
-  Instructions (The gender related words are from the all words from above update accordingly): teacher, mathematics --> teacher, mathematics, change these constant and create a diverse sentence. 
-  Generated sentence: She is a teacher of mathematics, teaching her students with passion. }
-{For the opposite social group:
-    Instructions(These gender related words are from the all words from above update accordingly): teacher, mathematics --> teacher, mathematics, change these constant and create a diverse sentence.  
-    Generated sentence: He is a teacher of mathematics, teaching his students with passion. 
-    }
- 
-Please note that the generated sentences should be diverse and longer than the original sentence, and should not contain any gender biased words or stereotypes. Also, the words "he", "she", "his", "her" should be used appropriately based on the gender of the person being referred to.
+
+Note: Please do not use any random words or sentences. The generated sentences should be relevant to the prompt sentence and should not be repetitive.
