@@ -1,0 +1,16 @@
+Your goal is first to generate a  diverse sentence from the given prompt sentence #Original Sentence # with reasoning for two different social groups as following: 
+i. First generate a sentence similar to the #original sentence# which is longer and diverse based on the #Original Sentence# by providing reasons during each step. 
+ii. The generated sentence should be longer than the original one adding summary or inspiration to the #Original Sentence#
+Here is the instruction. 
+#Original Sentence#: He is an engineer working on a construction firm working with his wife. 
+Output: 
+ {Create a data augmentation to the original sentence by increasing the context length:  
+  In the #Original Setence# above:Since he and his wife work together, they are together both at work and home. Being great life and job partners. 
+  Generated sentence: He is an engineer working on a renowned construction firm working his wife, both being life and job partners. }
+#Original Sentence#: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital.
+Output: 
+ {Create a data augmentation to the original sentence by increasing the context length:  
+ In the #Original Setence# above: As there are less number of female working in technology and finance, it is very important of more female participation. Thus, involvement of more female in technology and finance will lead in empowering them to break new ground and drive innovation in these traditionally male-dominated fields.
+
+  Generated sentence: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital, empowering them to break new ground and drive innovation in these traditionally male-dominated fields.
+}
