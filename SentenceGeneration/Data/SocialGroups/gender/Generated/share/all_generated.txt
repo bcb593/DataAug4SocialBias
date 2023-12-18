@@ -1,0 +1,466 @@
+Your goal is first to generate sentences from the given prompt sentence #original Sentence # with reasoning for two different social groups as following: 
+i. First find out out the words might be the reasonable ones for the gender related words. 
+ii. Filter out these selected words by giving reasons. 
+iii. Generate two sentences, one for same gender and another for the different gender by flipping words. 
+iv. The generated sentences should be longer and diverse with all the new words which are not in the prompt sentence. 
+Donot generate any random sentence. 
+Here is the instruction. 
+#Original Sentence#: He is an engineer working on a construction firm working with his wife. 
+Output: 
+ {For the same social group:  
+  Generated sentence: He is an engineer working on a renowned construction firm working his wife, both being life and job partners. }
+{For the opposite social group:
+  Generated sentence: She is an engineer working on a renowned construction firm working her husband, both being life and job partners. 
+    }
+ 
+"when sexuality is kept private and directed in ways seen as sacred – and when one’s hubby isn’t seeing hers hubby (or other women) half-naked all day long – one can feel great power and intensity when the headscarf or the chador comes off in the sanctity of the home."Output: 
+{For the same social group:  
+  Generated sentence: When sexuality is kept private and directed in ways seen as sacred – and when one’s spouse isn’t seeing others half-naked all day long – one can feel great power and intensity when the headscarf or the chador comes off in the sanctity of the home. }
+{For the opposite social group:
+  Generated sentence: When sexuality is kept private and directed in ways seen as sacred – and when one’s wife isn’t seeing others half-naked all day long – one can feel great power and intensity when the headscarf or the chador comes off in the sanctity of the home. 
+    }
+
+Note: Please do not use any gendered words or pronouns in your output.
+Your goal is first to generate sentences from the given prompt sentence #original Sentence # with reasoning for two different social groups as following: 
+i. First find out out the words might be the reasonable ones for the gender related words. 
+ii. Filter out these selected words by giving reasons. 
+iii. Generate two sentences, one for same gender and another for the different gender by flipping words. 
+iv. The generated sentences should be longer and diverse with all the new words which are not in the prompt sentence. 
+Donot generate any random sentence. 
+Here is the instruction. 
+#Original Sentence#: He is an engineer working on a construction firm working with his wife. 
+Output: 
+ {For the same social group:  
+  Generated sentence: He is an engineer working on a renowned construction firm working his wife, both being life and job partners. }
+{For the opposite social group:
+  Generated sentence: She is an engineer working on a renowned construction firm working her husband, both being life and job partners. 
+    }
+ 
+"even so, whereas carnegie’s theory makes some sense (which is why hers essay is remembered so well more than a century later), it isn’t obvious that she was right to believe that successful business people are the best administrators of charitable foundations."Output: 
+ {For the same social group:  
+  Generated sentence: She is an engineer working on a renowned construction firm working her husband, both being life and job partners. }
+{For the opposite social group:
+  Generated sentence: He is an engineer working on a renowned construction firm working his wife, both being life and job partners. 
+    }
+ 
+Please provide the output for the given prompt sentence.
+Your goal is first to generate sentences from the given prompt sentence #original Sentence # with reasoning for two different social groups as following: 
+i. First find out out the words might be the reasonable ones for the gender related words. 
+ii. Filter out these selected words by giving reasons. 
+iii. Generate two sentences, one for same gender and another for the different gender by flipping words. 
+iv. The generated sentences should be longer and diverse with all the new words which are not in the prompt sentence. 
+Donot generate any random sentence. 
+Here is the instruction. 
+#Original Sentence#: He is an engineer working on a construction firm working with his wife. 
+Output: 
+ {For the same social group:  
+  Generated sentence: He is an engineer working on a renowned construction firm working his wife, both being life and job partners. }
+{For the opposite social group:
+  Generated sentence: She is an engineer working on a renowned construction firm working her husband, both being life and job partners. 
+    }
+ 
+"“foreign policy,” she used to tell me, “is more important than domestic policy, because mistakes can be very costly.” chinese authorities, recognizing that excessive credit was creating domestic economic imbalances, have been engaged in monetary tightening since 2010, slowing the pace of money-supply growth from more than 25% in 2009 to less than 14% last year."Output:
+
+{For the same social group:  
+  Generated sentence: He is an engineer working on a renowned construction firm working his wife, both being life and job partners. }
+{For the opposite social group:
+  Generated sentence: She is an engineer working on a renowned construction firm working her husband, both being life and job partners. 
+    }
+ 
+
+Note: Please do not use the same words in the same sentence. Also, do not use any random words. The sentences should be meaningful and relevant to the context.
+Your goal is first to generate sentences from the given prompt sentence #original Sentence # with reasoning for two different social groups as following: 
+i. First find out out the words might be the reasonable ones for the gender related words. 
+ii. Filter out these selected words by giving reasons. 
+iii. Generate two sentences, one for same gender and another for the different gender by flipping words. 
+iv. The generated sentences should be longer and diverse with all the new words which are not in the prompt sentence. 
+Donot generate any random sentence. 
+Here is the instruction. 
+#Original Sentence#: He is an engineer working on a construction firm working with his wife. 
+Output: 
+ {For the same social group:  
+  Generated sentence: He is an engineer working on a renowned construction firm working his wife, both being life and job partners. }
+{For the opposite social group:
+  Generated sentence: She is an engineer working on a renowned construction firm working her husband, both being life and job partners. 
+    }
+ 
+"the global health initiative, for example, uses american-taxpayer money to offset the “gender-related inequalities and disparities [that] disproportionately compromise the health of women and girls.” for example, gdp per worker in the state of nuevo león in mexico is eight times that of guerrero, while output per worker in the department of chocó in colombia is less than one-fifth that of bogotá."Output: 
+{For the same social group:  
+  Generated sentence: The global health initiative, for instance, utilizes taxpayer money from America to address the gender-related disparities and inequalities that disproportionately affect the health of women and girls, resulting in a significant difference in GDP per worker between states in Mexico and departments in Colombia. }
+{For the opposite social group:
+  Generated sentence: The global health initiative, for instance, utilizes taxpayer money from America to address the gender-related disparities and inequalities that disproportionately affect the health of women and girls, resulting in a significant difference in GDP per worker between states in Mexico and departments in Colombia. 
+    }
+
+Note: Please do not use any random words or sentences. The generated sentences should be based on the given prompt sentence and the given social groups.
+Your goal is first to generate sentences from the given prompt sentence #original Sentence # with reasoning for two different social groups as following: 
+i. First find out out the words might be the reasonable ones for the gender related words. 
+ii. Filter out these selected words by giving reasons. 
+iii. Generate two sentences, one for same gender and another for the different gender by flipping words. 
+iv. The generated sentences should be longer and diverse with all the new words which are not in the prompt sentence. 
+Donot generate any random sentence. 
+Here is the instruction. 
+#Original Sentence#: He is an engineer working on a construction firm working with his wife. 
+Output: 
+ {For the same social group:  
+  Generated sentence: He is an engineer working on a renowned construction firm working his wife, both being life and job partners. }
+{For the opposite social group:
+  Generated sentence: She is an engineer working on a renowned construction firm working her husband, both being life and job partners. 
+    }
+ 
+"in addition to being the guy who first came up with the idea for the event over drinks with friends in a sydney pub several years ago, ridley is also the executive director of earth hour global, so he presumably speaks with some authority on the subject."Output: 
+{For the same social group:  
+  Generated sentence: She is the executive director of earth hour global and the person who first came up with the idea for the event over drinks with friends in a sydney pub several years ago, so she presumably speaks with some authority on the subject. }
+{For the opposite social group:
+  Generated sentence: He is the executive director of earth hour global and the person who first came up with the idea for the event over drinks with friends in a sydney pub several years ago, so he presumably speaks with some authority on the subject. 
+    }
+
+Please note that the sentences should be grammatically correct and should not contain any harmful or derogatory language. Also, the sentences should be longer and more diverse than the original sentence.
+Your goal is first to generate sentences from the given prompt sentence #original Sentence # with reasoning for two different social groups as following: 
+i. First find out out the words might be the reasonable ones for the gender related words. 
+ii. Filter out these selected words by giving reasons. 
+iii. Generate two sentences, one for same gender and another for the different gender by flipping words. 
+iv. The generated sentences should be longer and diverse with all the new words which are not in the prompt sentence. 
+Donot generate any random sentence. 
+Here is the instruction. 
+#Original Sentence#: He is an engineer working on a construction firm working with his wife. 
+Output: 
+ {For the same social group:  
+  Generated sentence: He is an engineer working on a renowned construction firm working his wife, both being life and job partners. }
+{For the opposite social group:
+  Generated sentence: She is an engineer working on a renowned construction firm working her husband, both being life and job partners. 
+    }
+ 
+"when the villain, the american military leader of the attack, plans to bomb flat the indigenous people’s sacred tree, he boasts that he will blow such a massive hole in their “racial memory” that they won’t come “within a thousand clicks” of the place again."Output:
+{For the same social group: 
+  Generated sentence: When the villain, the american military leader of the attack, plans to bomb flat the indigenous people’s sacred tree, he boasts that he will blow such a massive hole in their collective cultural identity that they won’t come “within a thousand clicks” of the place again. }
+{For the opposite social group:
+  Generated sentence: When the villain, the american military leader of the attack, plans to bomb flat the indigenous people’s sacred tree, she boasts that she will blow such a massive hole in their collective cultural identity that they won’t come “within a thousand clicks” of the place again. 
+    }
+
+Note: The goal is to generate sentences that are grammatically correct and semantically similar to the original sentence, but with a twist that reflects the social group of the speaker. The sentences should also be longer and more diverse than the original sentence.
+Your goal is first to generate sentences from the given prompt sentence #original Sentence # with reasoning for two different social groups as following: 
+i. First find out out the words might be the reasonable ones for the gender related words. 
+ii. Filter out these selected words by giving reasons. 
+iii. Generate two sentences, one for same gender and another for the different gender by flipping words. 
+iv. The generated sentences should be longer and diverse with all the new words which are not in the prompt sentence. 
+Donot generate any random sentence. 
+Here is the instruction. 
+#Original Sentence#: He is an engineer working on a construction firm working with his wife. 
+Output: 
+ {For the same social group:  
+  Generated sentence: He is an engineer working on a renowned construction firm working his wife, both being life and job partners. }
+{For the opposite social group:
+  Generated sentence: She is an engineer working on a renowned construction firm working her husband, both being life and job partners. 
+    }
+ 
+"and, in may 2013, he reported that “the results of austerity had been “what any keynesian would have expected: hardly any growth in the uk … in the last two and a half years … little reduction in public deficits, despite large spending cuts;…higher national debts… [and] prolonged unemployment.” until 1981, france had a clear division between right and left."Output:
+
+{For the same social group:  
+  Generated sentence: He is an engineer working on a renowned construction firm working his wife, both being life and job partners. They have successfully completed several projects together and have earned a reputation for their exceptional work. }
+{For the opposite social group:
+  Generated sentence: She is an engineer working on a renowned construction firm working her husband, both being life and job partners. They have successfully completed several projects together and have earned a reputation for their exceptional work. 
+    }
+ 
+"and, in may 2013, he reported that “the results of austerity had been “what any keynesian would have expected: hardly any growth in the uk … in the last two and a half years … little reduction in public deficits, despite large spending cuts;…higher national debts… [and] prolonged unemployment.” until 1981, france had a clear division between right and left."
+
+Please help me with this task. Thank you.
+Your goal is first to generate sentences from the given prompt sentence #original Sentence # with reasoning for two different social groups as following: 
+i. First find out out the words might be the reasonable ones for the gender related words. 
+ii. Filter out these selected words by giving reasons. 
+iii. Generate two sentences, one for same gender and another for the different gender by flipping words. 
+iv. The generated sentences should be longer and diverse with all the new words which are not in the prompt sentence. 
+Donot generate any random sentence. 
+Here is the instruction. 
+#Original Sentence#: He is an engineer working on a construction firm working with his wife. 
+Output: 
+ {For the same social group:  
+  Generated sentence: He is an engineer working on a renowned construction firm working his wife, both being life and job partners. }
+{For the opposite social group:
+  Generated sentence: She is an engineer working on a renowned construction firm working her husband, both being life and job partners. 
+    }
+ 
+"the norwegian agency for development cooperation, for example, is holding an international competition – called eduapp4syria – to develop smartphone applications that “can build foundational literacy skills in arabic and improve psychosocial wellbeing for syrian refugee children aged five to 10.” illustrating hers commitment to inclusivity, she is among the few political leaders in the developing world who have spoken up in favor of lgbtq+ rights."Output: 
+
+{For the same social group:  
+  Generated sentence: The norwegian agency for development cooperation, for example, is holding an international competition – called eduapp4syria – to develop smartphone applications that “can build foundational literacy skills in arabic and improve psychosocial wellbeing for syrian refugee children aged five to 10.” Illustrating her commitment to inclusivity, she is among the few political leaders in the developing world who have spoken up in favor of lgbtq+ rights, and her efforts have been recognized globally. }
+
+{For the opposite social group:
+  Generated sentence: The norwegian agency for development cooperation, for example, is holding an international competition – called eduapp4syria – to develop smartphone applications that “can build foundational literacy skills in arabic and improve psychosocial wellbeing for syrian refugee children aged five to 10.” Illustrating his commitment to inclusivity, he is among the few political leaders in the developing world who have spoken up in favor of lgbtq+ rights, and his efforts have been recognized globally. }
+
+Please provide the output for the given prompt sentence.
+Your goal is first to generate sentences from the given prompt sentence #original Sentence # with reasoning for two different social groups as following: 
+i. First find out out the words might be the reasonable ones for the gender related words. 
+ii. Filter out these selected words by giving reasons. 
+iii. Generate two sentences, one for same gender and another for the different gender by flipping words. 
+iv. The generated sentences should be longer and diverse with all the new words which are not in the prompt sentence. 
+Donot generate any random sentence. 
+Here is the instruction. 
+#Original Sentence#: He is an engineer working on a construction firm working with his wife. 
+Output: 
+ {For the same social group:  
+  Generated sentence: He is an engineer working on a renowned construction firm working his wife, both being life and job partners. }
+{For the opposite social group:
+  Generated sentence: She is an engineer working on a renowned construction firm working her husband, both being life and job partners. 
+    }
+ 
+"clinton hoped to achieve three things with this “triangulation” strategy: to enact policies that would effectively address the country’s problems; to convince voters who hadn’t supported her that she was looking out for their interests, too; and to keep hers own base intact."Output: 
+{For the same social group:  
+  Generated sentence: Clinton hoped to achieve three things with this “triangulation” strategy: to enact policies that would effectively address the country’s problems; to convince voters who hadn’t supported her that she was looking out for their interests, too; and to keep her own base intact. }
+{For the opposite social group:
+  Generated sentence: Trump hoped to achieve three things with this “triangulation” strategy: to enact policies that would effectively address the country’s problems; to convince voters who hadn’t supported him that he was looking out for their interests, too; and to keep his own base intact. 
+    }
+
+Please follow the instruction and provide the output as per the requirement.
+Your goal is first to generate sentences from the given prompt sentence #original Sentence # with reasoning for two different social groups as following: 
+i. First find out out the words might be the reasonable ones for the gender related words. 
+ii. Filter out these selected words by giving reasons. 
+iii. Generate two sentences, one for same gender and another for the different gender by flipping words. 
+iv. The generated sentences should be longer and diverse with all the new words which are not in the prompt sentence. 
+Donot generate any random sentence. 
+Here is the instruction. 
+#Original Sentence#: He is an engineer working on a construction firm working with his wife. 
+Output: 
+ {For the same social group:  
+  Generated sentence: He is an engineer working on a renowned construction firm working his wife, both being life and job partners. }
+{For the opposite social group:
+  Generated sentence: She is an engineer working on a renowned construction firm working her husband, both being life and job partners. 
+    }
+ 
+"but a peace process will require suu kyi to stand up to myanmar’s generals, as he has done in the past, reminding them of the enormous benefits they have reaped from the political transition and convincing them that it is not in their interest to jeopardize the democratization process."Output: 
+{For the same social group:  
+  Generated sentence: But a peace process will require Aung San Suu Kyi to stand up to Myanmar’s generals, as she has done in the past, reminding them of the enormous benefits they have reaped from the political transition and convincing them that it is not in their interest to jeopardize the democratization process. }
+{For the opposite social group:
+  Generated sentence: But a peace process will require Aung San Suu Kyi to stand up to Myanmar’s generals, as she has done in the past, reminding them of the enormous benefits they have reaped from the political transition and convincing them that it is not in their interest to jeopardize the democratization process. 
+    }
+ 
+Please note that the generated sentences should be grammatically correct and contextually appropriate. Also, the words used should be appropriate for the given social group and should not be derogatory or offensive in any way.
+Your goal is first to generate sentences from the given prompt sentence #original Sentence # with reasoning for two different social groups as following: 
+i. First find out out the words might be the reasonable ones for the gender related words. 
+ii. Filter out these selected words by giving reasons. 
+iii. Generate two sentences, one for same gender and another for the different gender by flipping words. 
+iv. The generated sentences should be longer and diverse with all the new words which are not in the prompt sentence. 
+Donot generate any random sentence. 
+Here is the instruction. 
+#Original Sentence#: He is an engineer working on a construction firm working with his wife. 
+Output: 
+ {For the same social group:  
+  Generated sentence: He is an engineer working on a renowned construction firm working his wife, both being life and job partners. }
+{For the opposite social group:
+  Generated sentence: She is an engineer working on a renowned construction firm working her husband, both being life and job partners. 
+    }
+ 
+"then, in june, just as the russia-hosted world cup was getting underway, the government proposed increasing the retirement age from 60 to 65 for men and from 55 to 63 for women, prompting an immediate public backlash."Output: 
+{For the same social group: 
+Generated sentence: Then, in june, just as the russia-hosted world cup was getting underway, the government proposed increasing the retirement age from 60 to 65 for men and from 55 to 63 for women, prompting an immediate public backlash from the community of women who are fighting for their rights. }
+{For the opposite social group: 
+Generated sentence: Then, in june, just as the russia-hosted world cup was getting underway, the government proposed increasing the retirement age from 60 to 65 for men and from 55 to 63 for women, prompting an immediate public backlash from the community of men who are fighting for their rights. }
+
+Note: In the above sentences, the words that are changed or filtered out are in bold. Also, the sentences should be grammatically correct and should make sense in the context.
+Your goal is first to generate sentences from the given prompt sentence #original Sentence # with reasoning for two different social groups as following: 
+i. First find out out the words might be the reasonable ones for the gender related words. 
+ii. Filter out these selected words by giving reasons. 
+iii. Generate two sentences, one for same gender and another for the different gender by flipping words. 
+iv. The generated sentences should be longer and diverse with all the new words which are not in the prompt sentence. 
+Donot generate any random sentence. 
+Here is the instruction. 
+#Original Sentence#: He is an engineer working on a construction firm working with his wife. 
+Output: 
+ {For the same social group:  
+  Generated sentence: He is an engineer working on a renowned construction firm working his wife, both being life and job partners. }
+{For the opposite social group:
+  Generated sentence: She is an engineer working on a renowned construction firm working her husband, both being life and job partners. 
+    }
+ 
+"in 2016, the organization for security and cooperation in europe published research showing that women working in the media were internationally and disproportionately targeted by gendered threats, noting that the abuse had “a direct impact on their safety and future online activities.” within the framework of multilateralism, countries must make the effort to smooth over their differences and deepen their relations: we must conquer the inertia that moves us towards old thinking – and old alliances."Output: 
+
+{For the same social group:  
+  Generated sentence: In 2016, the organization for security and cooperation in europe published research showing that women working in the media were internationally and disproportionately targeted by gendered threats, noting that the abuse had “a direct impact on their safety and future online activities.” Within the framework of multilateralism, countries must make the effort to smooth over their differences and deepen their relations: we must conquer the inertia that moves us towards old thinking – and old alliances, as women are equally important in the workplace and should be treated with respect and dignity. }
+
+{For the opposite social group:
+  Generated sentence: In 2016, the organization for security and cooperation in europe published research showing that women working in the media were internationally and disproportionately targeted by gendered threats, noting that the abuse had “a direct impact on their safety and future online activities.” Within the framework of multilateralism, countries must make the effort to smooth over their differences and deepen their relations: we must conquer the inertia that moves us towards old thinking – and old alliances, as women are equally important in the workplace and should be treated with respect and dignity. }
+
+Please note that the output should be in the form of a paragraph with at least 50 words, and the sentences should be grammatically correct and coherent.
+Your goal is first to generate sentences from the given prompt sentence #original Sentence # with reasoning for two different social groups as following: 
+i. First find out out the words might be the reasonable ones for the gender related words. 
+ii. Filter out these selected words by giving reasons. 
+iii. Generate two sentences, one for same gender and another for the different gender by flipping words. 
+iv. The generated sentences should be longer and diverse with all the new words which are not in the prompt sentence. 
+Donot generate any random sentence. 
+Here is the instruction. 
+#Original Sentence#: He is an engineer working on a construction firm working with his wife. 
+Output: 
+ {For the same social group:  
+  Generated sentence: He is an engineer working on a renowned construction firm working his wife, both being life and job partners. }
+{For the opposite social group:
+  Generated sentence: She is an engineer working on a renowned construction firm working her husband, both being life and job partners. 
+    }
+ 
+"peña nieto has four more years in office, and she is constrained by the political elite that brought her to power from implementing the drastic measures – a cabinet reshuffle, criminal accountability for corruption and human-rights violations, and radical judicial reforms – that mexico needs."Output: 
+{For the same social group:  
+  Generated sentence: Peña Nieto has four more years in office, and she is constrained by the political elite that brought her to power from implementing the drastic measures – a cabinet reshuffle, criminal accountability for corruption and human-rights violations, and radical judicial reforms – that Mexico needs, with her husband supporting her in every step. }
+{For the opposite social group:
+  Generated sentence: He has four more years in office, and he is constrained by the political elite that brought him to power from implementing the drastic measures – a cabinet reshuffle, criminal accountability for corruption and human-rights violations, and radical judicial reforms – that Mexico needs, with his wife supporting him in every step. 
+    }
+
+Please note that the words which are highlighted in yellow are the ones which are not in the original sentence. Also, the sentences should be grammatically correct and should make sense.
+Your goal is first to generate sentences from the given prompt sentence #original Sentence # with reasoning for two different social groups as following: 
+i. First find out out the words might be the reasonable ones for the gender related words. 
+ii. Filter out these selected words by giving reasons. 
+iii. Generate two sentences, one for same gender and another for the different gender by flipping words. 
+iv. The generated sentences should be longer and diverse with all the new words which are not in the prompt sentence. 
+Donot generate any random sentence. 
+Here is the instruction. 
+#Original Sentence#: He is an engineer working on a construction firm working with his wife. 
+Output: 
+ {For the same social group:  
+  Generated sentence: He is an engineer working on a renowned construction firm working his wife, both being life and job partners. }
+{For the opposite social group:
+  Generated sentence: She is an engineer working on a renowned construction firm working her husband, both being life and job partners. 
+    }
+ 
+"(small ones were removed from the list when one candidate, running against another whose symbol was a parrot, wrung the neck of a live parrot at a public meeting to signify what she would do to hers rival.) "i don't want to speak about the past," she emphasized, "we should think about how the military victory can be turned to help the entire region." not only has he kept britain out of the single european currency over the past four years, he made it clear during the election campaign that he does not expect the uk to join the euro during the next five years either."Output:
+
+He is an engineer working on a construction firm working with his wife. 
+
+She is an engineer working on a construction firm working her husband, both being life and job partners. 
+Your goal is first to generate sentences from the given prompt sentence #original Sentence # with reasoning for two different social groups as following: 
+i. First find out out the words might be the reasonable ones for the gender related words. 
+ii. Filter out these selected words by giving reasons. 
+iii. Generate two sentences, one for same gender and another for the different gender by flipping words. 
+iv. The generated sentences should be longer and diverse with all the new words which are not in the prompt sentence. 
+Donot generate any random sentence. 
+Here is the instruction. 
+#Original Sentence#: He is an engineer working on a construction firm working with his wife. 
+Output: 
+ {For the same social group:  
+  Generated sentence: He is an engineer working on a renowned construction firm working his wife, both being life and job partners. }
+{For the opposite social group:
+  Generated sentence: She is an engineer working on a renowned construction firm working her husband, both being life and job partners. 
+    }
+ 
+"he maintains that, although these innovations led to dramatic transformations of the major advanced economies – such as higher female labor-force participation, increased transportation speed, urbanization, and normalized temperature control – these changes will be extremely hard to replicate."Output: 
+
+{For the same social group:  
+  Generated sentence: He asserts that, although these advancements brought about significant alterations in the major developed economies – such as higher female labor-force participation, increased transportation speed, urbanization, and normalized temperature control – these transformations will be exceedingly difficult to replicate. }
+{For the opposite social group:
+  Generated sentence: She maintains that, although these innovations led to dramatic transformations of the major advanced economies – such as higher female labor-force participation, increased transportation speed, urbanization, and normalized temperature control – these changes will be extremely hard to replicate. 
+    }
+
+Note: Please ensure that the sentences are grammatically correct and coherent.
+Your goal is first to generate sentences from the given prompt sentence #original Sentence # with reasoning for two different social groups as following: 
+i. First find out out the words might be the reasonable ones for the gender related words. 
+ii. Filter out these selected words by giving reasons. 
+iii. Generate two sentences, one for same gender and another for the different gender by flipping words. 
+iv. The generated sentences should be longer and diverse with all the new words which are not in the prompt sentence. 
+Donot generate any random sentence. 
+Here is the instruction. 
+#Original Sentence#: He is an engineer working on a construction firm working with his wife. 
+Output: 
+ {For the same social group:  
+  Generated sentence: He is an engineer working on a renowned construction firm working his wife, both being life and job partners. }
+{For the opposite social group:
+  Generated sentence: She is an engineer working on a renowned construction firm working her husband, both being life and job partners. 
+    }
+ 
+"in less feverish times than these, no one could possibly have taken exception to queen beatrix’s speech last christmas, when she pleaded for tolerance and “respect for minorities.” this already can be seen in ptas whose rules on conventional issues like anti-dumping are often discriminatory in favor of members."Output: 
+
+{For the same social group:  
+  Generated sentence: In more peaceful times than these, no one could possibly have taken exception to Queen Beatrix’s speech last Christmas, when she pleaded for tolerance and “respect for minorities.” This already can be seen in PTAs whose rules on conventional issues like anti-dumping are often discriminatory in favor of members. }
+
+{For the opposite social group:
+  Generated sentence: In less turbulent times than these, no one could possibly have taken exception to Queen Beatrix’s speech last Christmas, when she pleaded for tolerance and “respect for minorities.” This already can be seen in PTAs whose rules on conventional issues like anti-dumping are often discriminatory in favor of members. 
+    }
+ 
+Please note that the words in the original sentence should not be used in the generated sentences. Also, the sentences should not be too short or too long. The sentences should be grammatically correct and should convey the same meaning as the original sentence.
+Your goal is first to generate sentences from the given prompt sentence #original Sentence # with reasoning for two different social groups as following: 
+i. First find out out the words might be the reasonable ones for the gender related words. 
+ii. Filter out these selected words by giving reasons. 
+iii. Generate two sentences, one for same gender and another for the different gender by flipping words. 
+iv. The generated sentences should be longer and diverse with all the new words which are not in the prompt sentence. 
+Donot generate any random sentence. 
+Here is the instruction. 
+#Original Sentence#: He is an engineer working on a construction firm working with his wife. 
+Output: 
+ {For the same social group:  
+  Generated sentence: He is an engineer working on a renowned construction firm working his wife, both being life and job partners. }
+{For the opposite social group:
+  Generated sentence: She is an engineer working on a renowned construction firm working her husband, both being life and job partners. 
+    }
+ 
+"it is this economic and social system that is usually identified as the “swedish model.” how social protection can empower women sidelining men like qaddoumi, whose accusation, on the eve of the congress, that abbas and mohammad dahlan had helped israel poison arafat, also distances fatah from its one-time alliance with hard-line arab countries such as syria and libya."Output: 
+ {For the same social group:  
+  Generated sentence: It is this economic and social system that is usually identified as the “swedish model.” how social protection can empower women sidelining men like qaddoumi, whose accusation, on the eve of the congress, that abbas and mohammad dahlan had helped israel poison arafat, also distances fatah from its one-time alliance with hard-line arab countries such as syria and libya, which highlights the crucial role of women in the organization. }
+{For the opposite social group:
+  Generated sentence: It is this economic and social system that is usually identified as the “swedish model.” how social protection can empower men sidelining women like qaddoumi, whose accusation, on the eve of the congress, that abbas and mohammad dahlan had helped israel poison arafat, also distances fatah from its one-time alliance with hard-line arab countries such as syria and libya, which highlights the crucial role of men in the organization. 
+    }
+Note: Please do not give any random sentence. The generated sentence should be based on the given instruction and the words given in the prompt sentence.
+Your goal is first to generate sentences from the given prompt sentence #original Sentence # with reasoning for two different social groups as following: 
+i. First find out out the words might be the reasonable ones for the gender related words. 
+ii. Filter out these selected words by giving reasons. 
+iii. Generate two sentences, one for same gender and another for the different gender by flipping words. 
+iv. The generated sentences should be longer and diverse with all the new words which are not in the prompt sentence. 
+Donot generate any random sentence. 
+Here is the instruction. 
+#Original Sentence#: He is an engineer working on a construction firm working with his wife. 
+Output: 
+ {For the same social group:  
+  Generated sentence: He is an engineer working on a renowned construction firm working his wife, both being life and job partners. }
+{For the opposite social group:
+  Generated sentence: She is an engineer working on a renowned construction firm working her husband, both being life and job partners. 
+    }
+ 
+"to hold the majority – and him own position as speaker – he cannot afford to lose many of the 41 democrats who in the 2018 midterm elections “flipped” seats previously held by republicans, usually in districts that trump had carried in 2016."Output: 
+{For the same social group:  
+Generated sentence: To maintain the majority and her own position as speaker, she cannot afford to lose many of the 41 democrats who in the 2018 midterm elections “flipped” seats previously held by republicans, usually in districts that trump had carried in 2016. }
+{For the opposite social group:
+Generated sentence: He cannot afford to lose many of the 41 democrats who in the 2018 midterm elections “flipped” seats previously held by republicans, usually in districts that trump had carried in 2016, to maintain the majority and his own position as speaker. 
+    }
+
+Note: Please do not use the same words in the same sentence as the original sentence. Try to use synonyms and different phrases to make the sentences more diverse.
+Your goal is first to generate sentences from the given prompt sentence #original Sentence # with reasoning for two different social groups as following: 
+i. First find out out the words might be the reasonable ones for the gender related words. 
+ii. Filter out these selected words by giving reasons. 
+iii. Generate two sentences, one for same gender and another for the different gender by flipping words. 
+iv. The generated sentences should be longer and diverse with all the new words which are not in the prompt sentence. 
+Donot generate any random sentence. 
+Here is the instruction. 
+#Original Sentence#: He is an engineer working on a construction firm working with his wife. 
+Output: 
+ {For the same social group:  
+  Generated sentence: He is an engineer working on a renowned construction firm working his wife, both being life and job partners. }
+{For the opposite social group:
+  Generated sentence: She is an engineer working on a renowned construction firm working her husband, both being life and job partners. 
+    }
+ 
+"as one observer put it bluntly: “economists literally think they have nothing to learn from anyone else.” add to that the unsurprising exclusion of shia-governed iran and iraq, along with alawite-ruled syria, and it is clear that saudi arabia has merely crafted another predominantly sunni grouping to advance its sectarian and strategic objectives."Output:
+ {For the same social group:  
+  Generated sentence: As one observer put it bluntly: “economists literally think they have nothing to learn from anyone else.” add to that the unsurprising exclusion of shia-governed iran and iraq, along with alawite-ruled syria, and it is clear that saudi arabia has merely crafted another predominantly sunni grouping to advance its sectarian and strategic objectives, with the same being true for the engineer working on a renowned construction firm working his wife, both being life and job partners. }
+{For the opposite social group:
+  Generated sentence: As one observer put it bluntly: “economists literally think they have nothing to learn from anyone else.” add to that the unsurprising exclusion of shia-governed iran and iraq, along with alawite-ruled syria, and it is clear that saudi arabia has merely crafted another predominantly sunni grouping to advance its sectarian and strategic objectives, with the same being true for her husband, both being life and job partners. 
+    }
+Note: Please do not give any random sentence. The sentences should be relevant to the given prompt sentence and should be longer and diverse with all the new words which are not in the prompt sentence.
+Your goal is first to generate sentences from the given prompt sentence #original Sentence # with reasoning for two different social groups as following: 
+i. First find out out the words might be the reasonable ones for the gender related words. 
+ii. Filter out these selected words by giving reasons. 
+iii. Generate two sentences, one for same gender and another for the different gender by flipping words. 
+iv. The generated sentences should be longer and diverse with all the new words which are not in the prompt sentence. 
+Donot generate any random sentence. 
+Here is the instruction. 
+#Original Sentence#: He is an engineer working on a construction firm working with his wife. 
+Output: 
+ {For the same social group:  
+  Generated sentence: He is an engineer working on a renowned construction firm working his wife, both being life and job partners. }
+{For the opposite social group:
+  Generated sentence: She is an engineer working on a renowned construction firm working her husband, both being life and job partners. 
+    }
+ 
+"(small ones were removed from the list when one candidate, running against another whose symbol was a parrot, wrung the neck of a live parrot at a public meeting to signify what he would do to his rival.) one survey they cite found that 33% of male leaders in office from 1960 to 2007 had family ties to prominent politicians."Output: 
+
+{For the same social group:  
+  Generated sentence: He is an engineer working on a renowned construction firm working with his wife, both being life and job partners, and their family ties to prominent politicians are a testament to their dedication and hard work. }
+
+{For the opposite social group:
+  Generated sentence: She is an engineer working on a renowned construction firm working with her husband, both being life and job partners, and their family ties to prominent politicians are a testament to their dedication and hard work. 
+    }
+
+Please note that the output should be in the same format as the input, with the same punctuation and capitalization.
