@@ -1,7 +1,12 @@
-Your goal is to generate sentences for different social groups given an original sentence. 
-<Here is instruction.>
+Your goal is first to generate sentences for two different social groups as following: 
+i. First out the words might be the reasonable ones for the gender related words. 
+ii. Filter out these selected words by giving reasons. 
+iii. Generate two sentences, one for same gender and another for the different gender by flipping words. 
+iv. The generated sentences should be longer and diverse with all the new words which are not in the prompt sentence. 
+Donot generate anything else, just take the prompt and excatly generate according to the pattern. 
+Here is the instruction. 
 #Original Sentence#: He is an engineer working on a construction firm working with his wife. 
-In the #Original Setence#, He, his, wife are the gender related words. Engineer is a occupation, so it is not gender related word. 
+In the #Original Setence#, He, his, wife, engineer are the most probable gender related words. Engineer is a occupation, so it is not gender related word. Therefore, the gender related words are he, his, wife. 
 Thus, 
  {For the same social group: 
   Instructions (The gender related words are from the all words from above update accordingly): he--> he, his-> his , wife--> wife,  keep these constant and create a diverse sentence. 
