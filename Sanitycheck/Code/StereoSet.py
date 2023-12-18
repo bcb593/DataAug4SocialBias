@@ -138,7 +138,7 @@ if __name__ == "__main__":
     #/scratch0/liuguan5/models/cda/iclr24/
     parser.add_argument('--debiased_model',
                         #default="/scratch0/liuguan5/models/cda/bert/debiased.bert.bak.ckpt",
-                        default="/scratch0/bashyalb/ACL2024/Sanitycheck/Code/50k_lgdebiased/debiased.bert.ckpt",
+                        default="/scratch0/bashyalb/ACL2024/Sanitycheck/Code/10kgender_debiased/debiased.bert.ckpt",
                         type=str)
     parser.add_argument("--stereoset_filepath", type=str, default="/scratch0/bashyalb/ACL2024/Sanitycheck/Data/stereoset_processed.tsv",
                         help="Filepath to the processed version of stereoset benchmark")
