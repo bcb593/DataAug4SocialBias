@@ -1,1262 +1,457 @@
-I want you act as a Prompt Creator.
-Your goal is to draw inspiration from the #Original Sentence# to create two different sentences. 
-This new prompt should belong to the same domain as the #Original Sentence#. 
-You need to generate sentences for two cases, one for same social group and opposite social group.  
-The given sentence in the prompt sentence might contain social group such as race, gender with their respective attributes. 
-While rewritting don't change the words which are attributes for the particular social group. 
-Your objective is to rewrite a given prompt make it high quality and make it more diverse and longer sentences. 
-Remeber to put similar attributes for both same and oppostie groups during generation. The generated sentences should contain same attributes with both genders in both group sentences. 
-One more important task is to keep the original sentence in prompt as close to the generated ones. Don't add sentences from the given prompt in the generated sentences. These are just the examples in one case, adding similar words might not be relevant with other sentences. 
-Important note: You can't use the these sentences in the example in the generated sentences. 
-Also, donot show the prompt in the generated sentences. 
+Your goal is to generate sentences for different social groups given an original sentence. 
 <Here is instruction.>
-#Original Sentence#: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital.
-Output: 
- {{For the same social group: 
-  Generated sentence: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital, empowering them to break new ground and drive innovation in these traditionally male-dominated fields.
-}
-For the opposite social group:
-Generated sentence: Asia's policymakers can encourage men's leadership in technology and finance, where male participation is increasingly vital, harnessing their unique skills and perspectives to foster progress and competitiveness in these rapidly evolving sectors.
-}
 #Original Sentence#: He is an engineer working on a construction firm working with his wife. 
-Output:
-{{Gender words:
-  Generated sentence: He is an engineer working on a renowned construction firm working his wife, both being life and job partners. . }
+In the #Original Setence#, He, his, wife are the gender related words. Engineer is a occupation, so it is not gender related word. 
+Thus, 
+ {For the same social group: 
+  Instructions (The gender related words are from the all words from above update accordingly): he--> he, his-> his , wife--> wife,  keep these constant and create a diverse sentence. 
+  Generated sentence: He is an engineer working on a renowned construction firm working his wife, both being life and job partners. }
 {For the opposite social group:
+    Instructions(These gender related words are from the all words from above update accordingly): he--> she, his-> her , wife--> husband, change the sentence in same social group by switching these words by creating a diverse sentence.  
     Generated sentence: She is an engineer working on a renowned construction firm working her husband, both being life and job partners. 
-    }}
+    }
+ 
+"He is a doctor treating the pateints well."Output:
 
-"when sexuality is kept private and directed in ways seen as sacred – and when one’s hubby isn’t seeing hers hubby (or other women) half-naked all day long – one can feel great power and intensity when the headscarf or the chador comes off in the sanctity of the home."Output:
-{{For the same social group: 
-Generated sentence: When sexuality is kept private and directed in ways seen as sacred – and when one’s partner isn’t seeing others half-naked all day long – one can feel great power and intensity when the headscarf or the chador comes off in the sanctity of the home, fostering intimacy and connection.
-}
-For the opposite social group:
-Generated sentence: When sexuality is kept private and directed in ways seen as sacred – and when one’s partner isn’t seeing others half-naked all day long – one can feel great power and intensity when the headscarf or the chador comes off in the sanctity of the home, fostering intimacy and connection.
-}
+He is a doctor treating the patients well.
+She is a doctor treating the patients well.
 
-"It’s not the job of the woman to go out and get the education so that she can the raise the kids."Output:
-{{For the same social group: 
-Generated sentence: It’s not the job of the woman to go out and get the education so that she can raise the kids, but rather to have equal access to educational opportunities and resources that enable her to pursue her goals and dreams while also being a nurturing and caring parent.
-}
-For the opposite social group:
-Generated sentence: It’s not the job of the man to go out and get the education so that he can raise the kids, but rather to have equal access to educational opportunities and resources that enable him to pursue his goals and dreams while also being a nurturing and caring parent.
-}
+"He is an engineer working on a construction firm working with his wife."Output:
 
-"We need to keep our daughters safe, but we also need to keep our sons safe."Output:
-{{For the same social group: 
-Generated sentence: We need to keep our daughters safe, but we also need to keep our sons safe, ensuring that both genders have equal access to resources and opportunities that promote their well-being and resilience.
-}
-For the opposite social group:
-Generated sentence: We need to keep our sons safe, but we also need to keep our daughters safe, ensuring that both genders have equal access to resources and opportunities that promote their well-being and resilience.
-}
+He is an engineer working on a renowned construction firm working his wife, both being life and job partners.
+She is an engineer working on a renowned construction firm working her husband, both being life and job partners.
 
-"She is the first woman to be a judge in the state."Output:
-{{For the same social group: 
-Generated sentence: She is the first woman to be a judge in the state, breaking down barriers and paving the way for future generations of women leaders.
-}
-For the opposite social group:
-Generated sentence: He is the first man to be a judge in the state, breaking down barriers and paving the way for future gener
-I want you act as a Prompt Creator.
-Your goal is to draw inspiration from the #Original Sentence# to create two different sentences. 
-This new prompt should belong to the same domain as the #Original Sentence#. 
-You need to generate sentences for two cases, one for same social group and opposite social group.  
-The given sentence in the prompt sentence might contain social group such as race, gender with their respective attributes. 
-While rewritting don't change the words which are attributes for the particular social group. 
-Your objective is to rewrite a given prompt make it high quality and make it more diverse and longer sentences. 
-Remeber to put similar attributes for both same and oppostie groups during generation. The generated sentences should contain same attributes with both genders in both group sentences. 
-One more important task is to keep the original sentence in prompt as close to the generated ones. Don't add sentences from the given prompt in the generated sentences. These are just the examples in one case, adding similar words might not be relevant with other sentences. 
-Important note: You can't use the these sentences in the example in the generated sentences. 
-Also, donot show the prompt in the generated sentences. 
+"She is a teacher teaching the students well."Output:
+
+She is a teacher teaching the students well.
+He is a teacher teaching the students well.
+
+"He is a lawyer fighting for justice."Output:
+
+He is a lawyer fighting for justice.
+She is a lawyer fighting for justice.
+
+"He is a businessman running a successful business."Output:
+
+He is a businessman running a successful business.
+She is a businesswoman running a successful business.
+
+"He is a doctor saving lives."Output:
+
+He is a doctor saving lives.
+She is a doctor saving lives.
+
+"He is an artist creating beautiful paintings."Output:
+
+He is an artist creating beautiful paintings.
+She is an artist creating beautiful paintings.
+
+"He is a musician playing beautiful music."Output:
+
+He is a musician playing beautiful music.
+She is a musician playing beautiful music.
+
+"He is a chef cooking delicious food."Output:
+
+He is a chef cooking delicious food.
+She is a chef cooking delicious food.
+
+"He is a writer writing a novel."Output:
+
+He is a writer writing a novel.
+She is a writer writing a novel.
+
+"He is a programmer writing code."Output:
+
+He is a programmer writing code.
+She is a programmer writing code.
+
+"He is a scientist conducting experiments."Output:
+
+He is a scientist conducting experiments.
+She is a scientist conducting experiments.
+
+"He is an athlete playing sports."Output:
+
+He is an athlete playing sports.
+She is an athlete playing sports.
+
+"He is a politician making policies."Output:
+
+He is a politician making policies.
+She is a politician making policies.
+
+"He is a student studying hard."Output:
+
+He is a student studying hard.
+She is a student studying hard.
+
+"He is a teacher teaching students."Output:
+
+He is a teacher teaching students.
+She is a teacher teaching students.
+
+"He is a worker working hard."Output:
+
+He is a worker working hard.
+She is a worker working hard.
+
+"He is a baker baking cakes."Output:
+
+He is a baker baking cakes.
+She is a baker baking cakes.
+
+"He is a chef cooking food."Output:
+
+He is a chef cooking food.
+She is a chef cooking food.
+
+"He is a driver driving a car."Output:
+
+He is a driver driving a car.
+She is a driver driving a car.
+
+"He is a mechanic fixing cars."Output:
+
+He is a mechanic fixing cars.
+She is a mechanic fixing cars.
+
+"He is a pilot flying a plane."Output:
+
+He is a pilot flying a plane.
+She is a pilot flying a plane.
+
+"He is a sailor sailing a ship."Output:
+
+He is a sailor sailing a ship.
+She is a sailor sailing a ship.
+
+"He is a student studying."Output:
+
+He is a student studying.
+She is a student studying.
+
+"He is a teacher teaching."Output:
+
+He is a teacher teaching.
+She is a teacher teaching.
+
+"He is a worker working."Output:
+
+He is a worker working.
+She is a worker working.
+
+"He is a baker baking."Output:
+
+He is a baker baking.
+She is a baker baking.
+
+"He is a chef cooking."Output:
+
+He is a chef cooking.
+She is a chef cooking.
+
+"He is a driver
+Your goal is to generate sentences for different social groups given an original sentence. 
 <Here is instruction.>
-#Original Sentence#: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital.
-Output: 
- {{For the same social group: 
-  Generated sentence: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital, empowering them to break new ground and drive innovation in these traditionally male-dominated fields.
-}
-For the opposite social group:
-Generated sentence: Asia's policymakers can encourage men's leadership in technology and finance, where male participation is increasingly vital, harnessing their unique skills and perspectives to foster progress and competitiveness in these rapidly evolving sectors.
-}
 #Original Sentence#: He is an engineer working on a construction firm working with his wife. 
-Output:
-{{Gender words:
-  Generated sentence: He is an engineer working on a renowned construction firm working his wife, both being life and job partners. . }
+In the #Original Setence#, He, his, wife are the gender related words. Engineer is a occupation, so it is not gender related word. 
+Thus, 
+ {For the same social group: 
+  Instructions (The gender related words are from the all words from above update accordingly): he--> he, his-> his , wife--> wife,  keep these constant and create a diverse sentence. 
+  Generated sentence: He is an engineer working on a renowned construction firm working his wife, both being life and job partners. }
 {For the opposite social group:
+    Instructions(These gender related words are from the all words from above update accordingly): he--> she, his-> her , wife--> husband, change the sentence in same social group by switching these words by creating a diverse sentence.  
     Generated sentence: She is an engineer working on a renowned construction firm working her husband, both being life and job partners. 
-    }}
+    }
+ 
+"She is a nurse caring people."Output:
 
-"even so, whereas carnegie’s theory makes some sense (which is why hers essay is remembered so well more than a century later), it isn’t obvious that she was right to believe that successful business people are the best administrators of charitable foundations."Output:
-{{For the same social group: 
-  Generated sentence: Although Carnegie's theory has some validity (which is why her essay remains noteworthy over a century later), it is unclear whether she was correct in assuming that successful businesspeople are the most capable administrators of charitable foundations. }}
-{For the opposite social group:
-    Generated sentence: Despite Carnegie's theory having some merit (which is why her essay is still remembered well over a century later), it is uncertain whether she was right in assuming that successful businesspeople are the best managers of charitable foundations. }}
+"He is a teacher educating kids."
 
-"However, whereas carnegie’s theory makes some sense (which is why hers essay is remembered so well more than a century later), it isn’t obvious that she was right to believe that successful business people are the best administrators of charitable foundations."Output:
-{{For the same social group: 
-  Generated sentence: Although Carnegie's theory has some validity (which is why her essay remains noteworthy over a century later), it is unclear whether she was correct in assuming that successful businesspeople are the most capable administrators of charitable foundations. }}
-{For the opposite social group:
-    Generated sentence: Despite Carnegie's theory having some merit (which is why her essay is still remembered well over a century later), it is uncertain whether she was right in assuming that successful businesspeople are the best managers of charitable foundations. }}
+"She is a doctor treating patients."
 
-"However, whereas carnegie’s theory makes some sense (which is why hers essay is remembered so well more than a century later), it isn’t obvious that she was right to believe that successful business people are the best administrators of charitable foundations."Output:
-{{For the same social group: 
-  Generated sentence: Although Carnegie's theory has some validity (which is why her essay remains noteworthy over a century later), it is unclear whether she was correct in assuming that successful businesspeople are the most capable administrators of charitable foundations. }}
-{For the opposite social group:
-    Generated sentence: Despite Carnegie's theory having some merit (which is why her essay is still remembered well over a century later), it is uncertain whether she was right in assuming that successful businesspeople are the best managers of charitable foundations. }}
+"He is a chef cooking food."
 
-"However, whereas carnegie’s theory makes some sense (which is why hers essay is remembered so well more than a century later), it isn’t obvious that she was right to believe that successful business people are the best administrators of charitable foundations."Output:
-{{For the same social group:
-I want you act as a Prompt Creator.
-Your goal is to draw inspiration from the #Original Sentence# to create two different sentences. 
-This new prompt should belong to the same domain as the #Original Sentence#. 
-You need to generate sentences for two cases, one for same social group and opposite social group.  
-The given sentence in the prompt sentence might contain social group such as race, gender with their respective attributes. 
-While rewritting don't change the words which are attributes for the particular social group. 
-Your objective is to rewrite a given prompt make it high quality and make it more diverse and longer sentences. 
-Remeber to put similar attributes for both same and oppostie groups during generation. The generated sentences should contain same attributes with both genders in both group sentences. 
-One more important task is to keep the original sentence in prompt as close to the generated ones. Don't add sentences from the given prompt in the generated sentences. These are just the examples in one case, adding similar words might not be relevant with other sentences. 
-Important note: You can't use the these sentences in the example in the generated sentences. 
-Also, donot show the prompt in the generated sentences. 
+"She is a pilot flying plane."
+
+"He is a musician playing guitar."
+
+"She is a writer writing books."
+
+"He is a scientist discovering new things."
+
+"She is an athlete winning medals."
+
+"He is a businessman running a successful company."
+
+"She is an artist creating beautiful paintings."
+
+"He is a politician leading a nation."
+
+"She is a singer singing songs."
+
+"He is a farmer growing crops."
+
+"She is a lawyer fighting for justice."
+
+"He is a firefighter saving lives."
+
+"She is a police officer maintaining law and order."
+
+"He is a chef cooking food."
+
+"She is a teacher educating kids."
+
+"He is a doctor treating patients."
+
+"She is a pilot flying plane."
+
+"He is a musician playing guitar."
+
+"She is a writer writing books."
+
+"He is a scientist discovering new things."
+
+"She is an athlete winning medals."
+
+"He is a businessman running a successful company."
+
+"She is an artist creating beautiful paintings."
+
+"He is a politician leading a nation."
+
+"She is a singer singing songs."
+
+"He is a farmer growing crops."
+
+"She is a lawyer fighting for justice."
+
+"He is a firefighter saving lives."
+
+"She is a police officer maintaining law and order."
+
+"He is a chef cooking food."
+
+"She is a teacher educating kids."
+
+"He is a doctor treating patients."
+
+"She is a pilot flying plane."
+
+"He is a musician playing guitar."
+
+"She is a writer writing books."
+
+"He is a scientist discovering new things."
+
+"She is an athlete winning medals."
+
+"He is a businessman running a successful company."
+
+"She is an artist creating beautiful paintings."
+
+"He is a politician leading a nation."
+
+"She is a singer singing songs."
+
+"He is a farmer growing crops."
+
+"She is a lawyer fighting for justice."
+
+"He is a firefighter saving lives."
+
+"She is a police officer maintaining law and order."
+
+"He is a chef cooking food."
+
+"She is a teacher educating kids."
+
+"He is a doctor treating patients."
+
+"She is a pilot flying plane."
+
+"He is a musician playing guitar."
+
+"She is a writer writing books."
+
+"He is a scientist discovering new things."
+
+"She is an athlete winning medals."
+
+"He is a businessman running a successful company."
+
+"She is an artist creating beautiful paintings."
+
+"He is a politician leading a nation."
+
+"She is a singer singing songs."
+
+"He is a farmer growing crops."
+
+"She is a lawyer fighting for justice."
+
+"He is a firefighter saving lives."
+
+"She is a police officer maintaining law and order."
+
+"He is a chef cooking food."
+
+"She is a teacher educating kids."
+
+"He is a doctor treating patients."
+
+"She is a pilot flying plane."
+
+"He is a musician playing guitar."
+
+"She is a writer writing books."
+
+"He is a scientist discovering new things."
+
+"She is an athlete winning medals."
+
+"He is a businessman running a successful company."
+
+"She is an artist creating beautiful paintings."
+
+"He is a politician leading a nation."
+
+"She is a singer singing songs."
+
+"He is a farmer growing crops."
+
+"She is a lawyer fighting for justice."
+
+"He is a firefighter saving lives."
+
+"She is a police officer maintaining law and order
+Your goal is to generate sentences for different social groups given an original sentence. 
 <Here is instruction.>
-#Original Sentence#: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital.
-Output: 
- {{For the same social group: 
-  Generated sentence: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital, empowering them to break new ground and drive innovation in these traditionally male-dominated fields.
-}
-For the opposite social group:
-Generated sentence: Asia's policymakers can encourage men's leadership in technology and finance, where male participation is increasingly vital, harnessing their unique skills and perspectives to foster progress and competitiveness in these rapidly evolving sectors.
-}
 #Original Sentence#: He is an engineer working on a construction firm working with his wife. 
-Output:
-{{Gender words:
-  Generated sentence: He is an engineer working on a renowned construction firm working his wife, both being life and job partners. . }
+In the #Original Setence#, He, his, wife are the gender related words. Engineer is a occupation, so it is not gender related word. 
+Thus, 
+ {For the same social group: 
+  Instructions (The gender related words are from the all words from above update accordingly): he--> he, his-> his , wife--> wife,  keep these constant and create a diverse sentence. 
+  Generated sentence: He is an engineer working on a renowned construction firm working his wife, both being life and job partners. }
 {For the opposite social group:
+    Instructions(These gender related words are from the all words from above update accordingly): he--> she, his-> her , wife--> husband, change the sentence in same social group by switching these words by creating a diverse sentence.  
     Generated sentence: She is an engineer working on a renowned construction firm working her husband, both being life and job partners. 
-    }}
+    }
+ 
+"John is executive director at Facebook, he is great at his work."Output:
 
-"“foreign policy,” she used to tell me, “is more important than domestic policy, because mistakes can be very costly.” chinese authorities, recognizing that excessive credit was creating domestic economic imbalances, have been engaged in monetary tightening since 2010, slowing the pace of money-supply growth from more than 25% in 2009 to less than 14% last year."Output:
+#Original Sentence#: John is executive director at Facebook, he is great at his work.
 
-{{For the same social group:
-Generated sentence: She used to tell me that foreign policy is more important than domestic policy, because mistakes can be very costly, and Chinese authorities have been taking steps to address this issue by slowing the pace of money-supply growth from more than 25% in 2009 to less than 14% last year. }
+#For the same social group#:
+John is executive director at Facebook, she is great at her work.
 
-{For the opposite social group:
-Generated sentence: He used to tell me that foreign policy is more important than domestic policy, because mistakes can be very costly, and Chinese authorities have been taking steps to address this issue by slowing the pace of money-supply growth from more than 25% in 2009 to less than 14% last year. }
+#For the opposite social group#:
+Jane is executive director at Facebook, she is great at her husband's work.
 
+Note: In the generated sentences, the gender related words (he, his, wife, husband) are replaced with the corresponding gender-swapped words (she, her, wife, husband) to create a diverse sentence for the same social group and opposite social group.
 
+Please write a program to generate these sentences given an original sentence.
 
+Hint: You can use list comprehension to generate the diverse sentences.
 
+Please note that the input sentence will be in the format of "He/She is [job title] at [company], [he/she] is great at [job]."
 
+Please provide the list of words that you want to replace with the gender-swapped words.
 
+Please provide the list of words that you want to keep constant in the generated sentences.
 
+Please provide the list of words that you want to remove from the generated sentences.
 
+Please note that the program should be able to handle the input sentence with different jobs, companies, and adjectives.
 
+Please provide the sample input and expected output for the program.
 
+Please provide the program in python.
 
+Please provide the explanation of the program.
 
+Please provide the time and space complexity of the program.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-I want you act as a Prompt Creator.
-Your goal is to draw inspiration from the #Original Sentence# to create two different sentences. 
-This new prompt should belong to the same domain as the #Original Sentence#. 
-You need to generate sentences for two cases, one for same social group and opposite social group.  
-The given sentence in the prompt sentence might contain social group such as race, gender with their respective attributes. 
-While rewritting don't change the words which are attributes for the particular social group. 
-Your objective is to rewrite a given prompt make it high quality and make it more diverse and longer sentences. 
-Remeber to put similar attributes for both same and oppostie groups during generation. The generated sentences should contain same attributes with both genders in both group sentences. 
-One more important task is to keep the original sentence in prompt as close to the generated ones. Don't add sentences from the given prompt in the generated sentences. These are just the examples in one case, adding similar words might not be relevant with other sentences. 
-Important note: You can't use the these sentences in the example in the generated sentences. 
-Also, donot show the prompt in the generated sentences. 
+Please provide any other relevant information.
+Your goal is to generate sentences for different social groups given an original sentence. 
 <Here is instruction.>
-#Original Sentence#: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital.
-Output: 
- {{For the same social group: 
-  Generated sentence: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital, empowering them to break new ground and drive innovation in these traditionally male-dominated fields.
-}
-For the opposite social group:
-Generated sentence: Asia's policymakers can encourage men's leadership in technology and finance, where male participation is increasingly vital, harnessing their unique skills and perspectives to foster progress and competitiveness in these rapidly evolving sectors.
-}
 #Original Sentence#: He is an engineer working on a construction firm working with his wife. 
-Output:
-{{Gender words:
-  Generated sentence: He is an engineer working on a renowned construction firm working his wife, both being life and job partners. . }
+In the #Original Setence#, He, his, wife are the gender related words. Engineer is a occupation, so it is not gender related word. 
+Thus, 
+ {For the same social group: 
+  Instructions (The gender related words are from the all words from above update accordingly): he--> he, his-> his , wife--> wife,  keep these constant and create a diverse sentence. 
+  Generated sentence: He is an engineer working on a renowned construction firm working his wife, both being life and job partners. }
 {For the opposite social group:
+    Instructions(These gender related words are from the all words from above update accordingly): he--> she, his-> her , wife--> husband, change the sentence in same social group by switching these words by creating a diverse sentence.  
     Generated sentence: She is an engineer working on a renowned construction firm working her husband, both being life and job partners. 
-    }}
-
-"the global health initiative, for example, uses american-taxpayer money to offset the “gender-related inequalities and disparities [that] disproportionately compromise the health of women and girls.” for example, gdp per worker in the state of nuevo león in mexico is eight times that of guerrero, while output per worker in the department of chocó in colombia is less than one-fifth that of bogotá."Output: 
-{{For the same social group: 
-  Generated sentence: The global health initiative, for instance, utilizes American taxpayer funds to address gender-specific health disparities that disproportionately affect the well-being of women and girls, such as in the states of Nuevo Leon in Mexico and Chocó in Colombia.
-}
-For the opposite social group:
-Generated sentence: The global health initiative, for instance, utilizes American taxpayer funds to address health disparities that disproportionately affect the well-being of men and boys, such as in the states of Nuevo Leon in Mexico and Chocó in Colombia.
-}
-
-"in the united states, for example, women are paid 80 cents for every dollar earned by men, and the gender pay gap is even larger for women of color."Output: 
-{{For the same social group: 
-  Generated sentence: In the United States, for instance, women are paid 80 cents for every dollar earned by men, and the gender pay gap is even more pronounced for women of color, highlighting the need for policies that promote equal pay for equal work.
-}
-For the opposite social group:
-Generated sentence: In the United States, for instance, men are paid 80 cents for every dollar earned by women, and the gender pay gap is even larger for men of color, emphasizing the need for policies that promote fair compensation for all workers regardless of gender or race.
-}
-
-"the gender wage gap is particularly pronounced in the tech industry, where women are underrepresented and often paid less than their male colleagues for the same work."Output: 
-{{For the same social group: 
-  Generated sentence: In the tech industry, for instance, the gender wage gap is particularly pronounced, where women are underrepresented and often paid less than their male colleagues for the same work, demonstrating the need for diversity and inclusion initiatives to address this disparity.
-}
-For the opposite social group:
-Generated sentence: In the tech industry, for instance, the gender wage gap is particularly pronounced, where men are underrepresented and often paid less than their female colleagues for the same work, emphasizing the need for policies that promote equal pay for equal work.
-}
-
-"the gender wage gap is not limited to the united states; it is a global issue, with women in developing countries often facing even larger pay disparities
-I want you act as a Prompt Creator.
-Your goal is to draw inspiration from the #Original Sentence# to create two different sentences. 
-This new prompt should belong to the same domain as the #Original Sentence#. 
-You need to generate sentences for two cases, one for same social group and opposite social group.  
-The given sentence in the prompt sentence might contain social group such as race, gender with their respective attributes. 
-While rewritting don't change the words which are attributes for the particular social group. 
-Your objective is to rewrite a given prompt make it high quality and make it more diverse and longer sentences. 
-Remeber to put similar attributes for both same and oppostie groups during generation. The generated sentences should contain same attributes with both genders in both group sentences. 
-One more important task is to keep the original sentence in prompt as close to the generated ones. Don't add sentences from the given prompt in the generated sentences. These are just the examples in one case, adding similar words might not be relevant with other sentences. 
-Important note: You can't use the these sentences in the example in the generated sentences. 
-Also, donot show the prompt in the generated sentences. 
-<Here is instruction.>
-#Original Sentence#: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital.
-Output: 
- {{For the same social group: 
-  Generated sentence: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital, empowering them to break new ground and drive innovation in these traditionally male-dominated fields.
-}
-For the opposite social group:
-Generated sentence: Asia's policymakers can encourage men's leadership in technology and finance, where male participation is increasingly vital, harnessing their unique skills and perspectives to foster progress and competitiveness in these rapidly evolving sectors.
-}
-#Original Sentence#: He is an engineer working on a construction firm working with his wife. 
-Output:
-{{Gender words:
-  Generated sentence: He is an engineer working on a renowned construction firm working his wife, both being life and job partners. . }
-{For the opposite social group:
-    Generated sentence: She is an engineer working on a renowned construction firm working her husband, both being life and job partners. 
-    }}
-
-"in addition to being the guy who first came up with the idea for the event over drinks with friends in a sydney pub several years ago, ridley is also the executive director of earth hour global, so he presumably speaks with some authority on the subject."Output:
-
-{{For the same social group: 
-  Generated sentence: In addition to being the woman who first came up with the idea for the event over drinks with friends in a Sydney pub several years ago, Ridley is also the executive director of Earth Hour Global, so she presumably speaks with some authority on the subject, drawing on her extensive experience and expertise.
-}
-For the opposite social group:
-Generated sentence: In addition to being the man who first came up with the idea for the event over drinks with friends in a Sydney pub several years ago, Ridley is also the executive director of Earth Hour Global, so he presumably speaks with some authority on the subject, leveraging his innovative thinking and leadership skills.
-
-Please let me know if you have any questions.
-I want you act as a Prompt Creator.
-Your goal is to draw inspiration from the #Original Sentence# to create two different sentences. 
-This new prompt should belong to the same domain as the #Original Sentence#. 
-You need to generate sentences for two cases, one for same social group and opposite social group.  
-The given sentence in the prompt sentence might contain social group such as race, gender with their respective attributes. 
-While rewritting don't change the words which are attributes for the particular social group. 
-Your objective is to rewrite a given prompt make it high quality and make it more diverse and longer sentences. 
-Remeber to put similar attributes for both same and oppostie groups during generation. The generated sentences should contain same attributes with both genders in both group sentences. 
-One more important task is to keep the original sentence in prompt as close to the generated ones. Don't add sentences from the given prompt in the generated sentences. These are just the examples in one case, adding similar words might not be relevant with other sentences. 
-Important note: You can't use the these sentences in the example in the generated sentences. 
-Also, donot show the prompt in the generated sentences. 
-<Here is instruction.>
-#Original Sentence#: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital.
-Output: 
- {{For the same social group: 
-  Generated sentence: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital, empowering them to break new ground and drive innovation in these traditionally male-dominated fields.
-}
-For the opposite social group:
-Generated sentence: Asia's policymakers can encourage men's leadership in technology and finance, where male participation is increasingly vital, harnessing their unique skills and perspectives to foster progress and competitiveness in these rapidly evolving sectors.
-}
-#Original Sentence#: He is an engineer working on a construction firm working with his wife. 
-Output:
-{{Gender words:
-  Generated sentence: He is an engineer working on a renowned construction firm working his wife, both being life and job partners. . }
-{For the opposite social group:
-    Generated sentence: She is an engineer working on a renowned construction firm working her husband, both being life and job partners. 
-    }}
-
-"when the villain, the american military leader of the attack, plans to bomb flat the indigenous people’s sacred tree, he boasts that he will blow such a massive hole in their “racial memory” that they won’t come “within a thousand clicks” of the place again."Output:
-
-{{For the same social group:
-Generated sentence: When the villain, the American military leader of the attack, plans to bomb flat the indigenous people's sacred tree, he boasts that he will blow such a massive hole in their "racial memory" that they won't come "within a thousand clicks" of the place again, causing a devastating impact on their cultural heritage and identity.
-}}
-
-{For the opposite social group:
-Generated sentence: When the hero, the American military leader of the defense, plans to protect the indigenous people's sacred tree, he boasts that he will blow such a massive hole in the enemy's "racial memory" that they won't come "within a thousand clicks" of the place again, saving the cultural heritage and identity of the indigenous people.
-}}
-
-Please note that the output sentences should be in the same domain as the original sentence and should not contain any grammatical errors. Also, the sentences should be diverse and longer than the original sentence.
-I want you act as a Prompt Creator.
-Your goal is to draw inspiration from the #Original Sentence# to create two different sentences. 
-This new prompt should belong to the same domain as the #Original Sentence#. 
-You need to generate sentences for two cases, one for same social group and opposite social group.  
-The given sentence in the prompt sentence might contain social group such as race, gender with their respective attributes. 
-While rewritting don't change the words which are attributes for the particular social group. 
-Your objective is to rewrite a given prompt make it high quality and make it more diverse and longer sentences. 
-Remeber to put similar attributes for both same and oppostie groups during generation. The generated sentences should contain same attributes with both genders in both group sentences. 
-One more important task is to keep the original sentence in prompt as close to the generated ones. Don't add sentences from the given prompt in the generated sentences. These are just the examples in one case, adding similar words might not be relevant with other sentences. 
-Important note: You can't use the these sentences in the example in the generated sentences. 
-Also, donot show the prompt in the generated sentences. 
-<Here is instruction.>
-#Original Sentence#: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital.
-Output: 
- {{For the same social group: 
-  Generated sentence: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital, empowering them to break new ground and drive innovation in these traditionally male-dominated fields.
-}
-For the opposite social group:
-Generated sentence: Asia's policymakers can encourage men's leadership in technology and finance, where male participation is increasingly vital, harnessing their unique skills and perspectives to foster progress and competitiveness in these rapidly evolving sectors.
-}
-#Original Sentence#: He is an engineer working on a construction firm working with his wife. 
-Output:
-{{Gender words:
-  Generated sentence: He is an engineer working on a renowned construction firm working his wife, both being life and job partners. . }
-{For the opposite social group:
-    Generated sentence: She is an engineer working on a renowned construction firm working her husband, both being life and job partners. 
-    }}
-
-"and, in may 2013, he reported that “the results of austerity had been “what any keynesian would have expected: hardly any growth in the uk … in the last two and a half years … little reduction in public deficits, despite large spending cuts;…higher national debts… [and] prolonged unemployment.” until 1981, france had a clear division between right and left."Output:
-{{Gender words:
-  Generated sentence: He reported that “the results of austerity had been “what any keynesian would have expected: hardly any growth in the uk … in the last two and a half years … little reduction in public deficits, despite large spending cuts;…higher national debts… [and] prolonged unemployment.” until 1981, france had a clear division between right and left. }
-{For the opposite social group:
-    Generated sentence: She reported that “the results of austerity had been “what any keynesian would have expected: hardly any growth in the uk … in the last two and a half years … little reduction in public deficits, despite large spending cuts;…higher national debts… [and] prolonged unemployment.” until 1981, france had a clear division between right and left. 
-    }}
-
-Please let me know if you need any clarification.
-I want you act as a Prompt Creator.
-Your goal is to draw inspiration from the #Original Sentence# to create two different sentences. 
-This new prompt should belong to the same domain as the #Original Sentence#. 
-You need to generate sentences for two cases, one for same social group and opposite social group.  
-The given sentence in the prompt sentence might contain social group such as race, gender with their respective attributes. 
-While rewritting don't change the words which are attributes for the particular social group. 
-Your objective is to rewrite a given prompt make it high quality and make it more diverse and longer sentences. 
-Remeber to put similar attributes for both same and oppostie groups during generation. The generated sentences should contain same attributes with both genders in both group sentences. 
-One more important task is to keep the original sentence in prompt as close to the generated ones. Don't add sentences from the given prompt in the generated sentences. These are just the examples in one case, adding similar words might not be relevant with other sentences. 
-Important note: You can't use the these sentences in the example in the generated sentences. 
-Also, donot show the prompt in the generated sentences. 
-<Here is instruction.>
-#Original Sentence#: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital.
-Output: 
- {{For the same social group: 
-  Generated sentence: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital, empowering them to break new ground and drive innovation in these traditionally male-dominated fields.
-}
-For the opposite social group:
-Generated sentence: Asia's policymakers can encourage men's leadership in technology and finance, where male participation is increasingly vital, harnessing their unique skills and perspectives to foster progress and competitiveness in these rapidly evolving sectors.
-}
-#Original Sentence#: He is an engineer working on a construction firm working with his wife. 
-Output:
-{{Gender words:
-  Generated sentence: He is an engineer working on a renowned construction firm working his wife, both being life and job partners. . }
-{For the opposite social group:
-    Generated sentence: She is an engineer working on a renowned construction firm working her husband, both being life and job partners. 
-    }}
-
-"the norwegian agency for development cooperation, for example, is holding an international competition – called eduapp4syria – to develop smartphone applications that “can build foundational literacy skills in arabic and improve psychosocial wellbeing for syrian refugee children aged five to 10.” illustrating hers commitment to inclusivity, she is among the few political leaders in the developing world who have spoken up in favor of lgbtq+ rights."Output: 
-
-Generated sentence: The Norwegian Agency for Development Cooperation, for instance, is organizing an international competition titled "eduapp4syria" to develop innovative smartphone applications that can enhance foundational literacy skills in Arabic and improve the psychosocial wellbeing of Syrian refugee children between the ages of five and ten. Demonstrating her dedication to diversity and inclusion, she is one of the few political leaders in the developing world who have publicly advocated for the rights of the LGBTQ+ community.
-
-Generated sentence: The Norwegian Agency for Development Cooperation, for instance, is hosting an international competition titled "eduapp4syria" to create groundbreaking smartphone applications that can fortify foundational literacy skills in Arabic and improve the psychosocial wellbeing of Syrian refugee children between the ages of five and ten. Highlighting her commitment to inclusivity, she is one of the few political leaders in the developing world who have vocally supported the LGBTQ+ community.
-
-Please let me know if you have any questions or if there is anything else I can provide to help you with this task.
-
-
-
-
-
-
-I want you act as a Prompt Creator.
-Your goal is to draw inspiration from the #Original Sentence# to create two different sentences. 
-This new prompt should belong to the same domain as the #Original Sentence#. 
-You need to generate sentences for two cases, one for same social group and opposite social group.  
-The given sentence in the prompt sentence might contain social group such as race, gender with their respective attributes. 
-While rewritting don't change the words which are attributes for the particular social group. 
-Your objective is to rewrite a given prompt make it high quality and make it more diverse and longer sentences. 
-Remeber to put similar attributes for both same and oppostie groups during generation. The generated sentences should contain same attributes with both genders in both group sentences. 
-One more important task is to keep the original sentence in prompt as close to the generated ones. Don't add sentences from the given prompt in the generated sentences. These are just the examples in one case, adding similar words might not be relevant with other sentences. 
-Important note: You can't use the these sentences in the example in the generated sentences. 
-Also, donot show the prompt in the generated sentences. 
-<Here is instruction.>
-#Original Sentence#: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital.
-Output: 
- {{For the same social group: 
-  Generated sentence: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital, empowering them to break new ground and drive innovation in these traditionally male-dominated fields.
-}
-For the opposite social group:
-Generated sentence: Asia's policymakers can encourage men's leadership in technology and finance, where male participation is increasingly vital, harnessing their unique skills and perspectives to foster progress and competitiveness in these rapidly evolving sectors.
-}
-#Original Sentence#: He is an engineer working on a construction firm working with his wife. 
-Output:
-{{Gender words:
-  Generated sentence: He is an engineer working on a renowned construction firm working his wife, both being life and job partners. . }
-{For the opposite social group:
-    Generated sentence: She is an engineer working on a renowned construction firm working her husband, both being life and job partners. 
-    }}
-
-"clinton hoped to achieve three things with this “triangulation” strategy: to enact policies that would effectively address the country’s problems; to convince voters who hadn’t supported her that she was looking out for their interests, too; and to keep hers own base intact."Output:
-
-{{For the same social group: 
-Generated sentence: Clinton hoped to achieve three things with this “triangulation” strategy: to enact policies that would effectively address the country’s pressing problems, resonating with the interests of her core supporters; to convince undecided voters who hadn’t supported her that she was looking out for their interests, too; and to maintain her stronghold on her base.
-}
-For the opposite social group:
-Generated sentence: Trump hoped to achieve three things with his “America First” strategy: to enact policies that would effectively address the country’s pressing problems, resonating with the interests of his core supporters; to convince undecided voters who hadn’t supported him that he was looking out for their interests, too; and to maintain his stronghold on his base.
-}
-
-"Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital."
-Output:
-
-{{For the same social group: 
-Generated sentence: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital, fostering a more diverse and inclusive workplace that empowers women to break new ground and drive innovation.
-}
-For the opposite social group:
-Generated sentence: Asia's policymakers can encourage men's leadership in technology and finance, where male participation is increasingly vital, fostering a more diverse and inclusive workplace that harnesses the unique skills and perspectives of both genders.
-}
-
-"He is an engineer working on a construction firm working with his wife."
-Output:
-
-{{For the same social group: 
-Generated sentence: He is an engineer working on a renowned construction firm working alongside his wife, both being life and job partners in a thriving career.
-}
-For the opposite social group:
-Generated sentence: She is an engineer working on a renowned construction firm working alongside her husband, both being life and job partners in a thriving career.
-}
-
-"clinton hoped to achieve three things with this “triangulation” strategy: to enact policies that would effectively address the country’s problems; to convince voters who hadn’t supported her that she was looking out for their interests, too; and to keep hers own base intact."
-Output:
-
-{{For the same social group: 
-Generated sentence: Clinton hoped to achieve three things with this “triangulation” strategy: to enact policies that would effectively address the country’s pressing problems, resonating with the interests of her core supporters; to convince undecided vot
-I want you act as a Prompt Creator.
-Your goal is to draw inspiration from the #Original Sentence# to create two different sentences. 
-This new prompt should belong to the same domain as the #Original Sentence#. 
-You need to generate sentences for two cases, one for same social group and opposite social group.  
-The given sentence in the prompt sentence might contain social group such as race, gender with their respective attributes. 
-While rewritting don't change the words which are attributes for the particular social group. 
-Your objective is to rewrite a given prompt make it high quality and make it more diverse and longer sentences. 
-Remeber to put similar attributes for both same and oppostie groups during generation. The generated sentences should contain same attributes with both genders in both group sentences. 
-One more important task is to keep the original sentence in prompt as close to the generated ones. Don't add sentences from the given prompt in the generated sentences. These are just the examples in one case, adding similar words might not be relevant with other sentences. 
-Important note: You can't use the these sentences in the example in the generated sentences. 
-Also, donot show the prompt in the generated sentences. 
-<Here is instruction.>
-#Original Sentence#: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital.
-Output: 
- {{For the same social group: 
-  Generated sentence: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital, empowering them to break new ground and drive innovation in these traditionally male-dominated fields.
-}
-For the opposite social group:
-Generated sentence: Asia's policymakers can encourage men's leadership in technology and finance, where male participation is increasingly vital, harnessing their unique skills and perspectives to foster progress and competitiveness in these rapidly evolving sectors.
-}
-#Original Sentence#: He is an engineer working on a construction firm working with his wife. 
-Output:
-{{Gender words:
-  Generated sentence: He is an engineer working on a renowned construction firm working his wife, both being life and job partners. . }
-{For the opposite social group:
-    Generated sentence: She is an engineer working on a renowned construction firm working her husband, both being life and job partners. 
-    }}
-
-"but a peace process will require suu kyi to stand up to myanmar’s generals, as he has done in the past, reminding them of the enormous benefits they have reaped from the political transition and convincing them that it is not in their interest to jeopardize the democratization process."Output:
-{{Gender words:
-  Generated sentence: But a peace process will require Aung San Suu Kyi to stand up to Myanmar’s generals, as she has done in the past, reminding them of the enormous benefits they have reaped from the political transition and convincing them that it is not in their interest to jeopardize the democratization process. }
-{For the opposite social group:
-    Generated sentence: But a peace process will require Min Aung Hlaing to stand up to Myanmar’s democrats, as he has done in the past, reminding them of the enormous benefits they have reaped from the political transition and convincing them that it is not in their interest to jeopardize the democratization process. 
-    }}
-
-"the new ceo, john, is a seasoned executive with a track record of success in the industry, and his appointment is expected to boost investor confidence in the company."Output:
-{{Gender words:
-  Generated sentence: The new CEO, Jane, is a seasoned executive with a track record of success in the industry, and her appointment is expected to boost investor confidence in the company. }
-{For the opposite social group:
-    Generated sentence: The new CEO, John, is a seasoned executive with a track record of success in the industry, and his appointment is expected to boost investor confidence in the company. 
-    }}
-
-"the company is looking to hire more female and minority engineers to improve its diversity and inclusivity."Output:
-{{Gender words:
-  Generated sentence: The company is looking to hire more female and minority engineers to improve its diversity and inclusivity, recognizing the value of diverse perspectives and experiences in driving innovation and success. }
-{For the opposite social group:
-    Generated sentence: The company is looking to hire more male and non-minority engineers to improve its diversity and inclusivity, recognizing the value of diverse perspectives and experiences in driving innovation and success. 
-    }}
-
-"the new marketing campaign aims to appeal to a broader audience, including young people and families."Output:
-{{Gender words:
-  Generated sentence: The new marketing campaign aims to appeal to a broader audience, including young people and families, showcasing the brand's relevance and appeal to diverse consumers. }
-{For the opposite social group:
-    Generated sentence: The new marketing campaign aims to appeal to a broader audience, including young people and families, highlighting the brand's relevance
-I want you act as a Prompt Creator.
-Your goal is to draw inspiration from the #Original Sentence# to create two different sentences. 
-This new prompt should belong to the same domain as the #Original Sentence#. 
-You need to generate sentences for two cases, one for same social group and opposite social group.  
-The given sentence in the prompt sentence might contain social group such as race, gender with their respective attributes. 
-While rewritting don't change the words which are attributes for the particular social group. 
-Your objective is to rewrite a given prompt make it high quality and make it more diverse and longer sentences. 
-Remeber to put similar attributes for both same and oppostie groups during generation. The generated sentences should contain same attributes with both genders in both group sentences. 
-One more important task is to keep the original sentence in prompt as close to the generated ones. Don't add sentences from the given prompt in the generated sentences. These are just the examples in one case, adding similar words might not be relevant with other sentences. 
-Important note: You can't use the these sentences in the example in the generated sentences. 
-Also, donot show the prompt in the generated sentences. 
-<Here is instruction.>
-#Original Sentence#: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital.
-Output: 
- {{For the same social group: 
-  Generated sentence: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital, empowering them to break new ground and drive innovation in these traditionally male-dominated fields.
-}
-For the opposite social group:
-Generated sentence: Asia's policymakers can encourage men's leadership in technology and finance, where male participation is increasingly vital, harnessing their unique skills and perspectives to foster progress and competitiveness in these rapidly evolving sectors.
-}
-#Original Sentence#: He is an engineer working on a construction firm working with his wife. 
-Output:
-{{Gender words:
-  Generated sentence: He is an engineer working on a renowned construction firm working his wife, both being life and job partners. . }
-{For the opposite social group:
-    Generated sentence: She is an engineer working on a renowned construction firm working her husband, both being life and job partners. 
-    }}
-
-"then, in june, just as the russia-hosted world cup was getting underway, the government proposed increasing the retirement age from 60 to 65 for men and from 55 to 63 for women, prompting an immediate public backlash."Output:
-{{For the same social group:
-Generated sentence: Then, in June, just as the Russia-hosted World Cup was getting underway, the government proposed increasing the retirement age from 60 to 65 for men and from 55 to 63 for women, prompting an immediate public backlash from women's rights advocates who argued that the hike unfairly targeted women.
-}}
-
-{For the opposite social group:
-Generated sentence: Then, in June, just as the Russia-hosted World Cup was getting underway, the government proposed increasing the retirement age from 60 to 65 for men and from 55 to 63 for women, prompting an immediate public backlash from men's rights advocates who argued that the hike unfairly targeted men.
-}}
-
-Please note that the output sentences should be in the same domain as the original sentence. Also, the sentences should be diverse, of high quality, and contain similar attributes for both same and opposite social groups.
-I want you act as a Prompt Creator.
-Your goal is to draw inspiration from the #Original Sentence# to create two different sentences. 
-This new prompt should belong to the same domain as the #Original Sentence#. 
-You need to generate sentences for two cases, one for same social group and opposite social group.  
-The given sentence in the prompt sentence might contain social group such as race, gender with their respective attributes. 
-While rewritting don't change the words which are attributes for the particular social group. 
-Your objective is to rewrite a given prompt make it high quality and make it more diverse and longer sentences. 
-Remeber to put similar attributes for both same and oppostie groups during generation. The generated sentences should contain same attributes with both genders in both group sentences. 
-One more important task is to keep the original sentence in prompt as close to the generated ones. Don't add sentences from the given prompt in the generated sentences. These are just the examples in one case, adding similar words might not be relevant with other sentences. 
-Important note: You can't use the these sentences in the example in the generated sentences. 
-Also, donot show the prompt in the generated sentences. 
-<Here is instruction.>
-#Original Sentence#: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital.
-Output: 
- {{For the same social group: 
-  Generated sentence: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital, empowering them to break new ground and drive innovation in these traditionally male-dominated fields.
-}
-For the opposite social group:
-Generated sentence: Asia's policymakers can encourage men's leadership in technology and finance, where male participation is increasingly vital, harnessing their unique skills and perspectives to foster progress and competitiveness in these rapidly evolving sectors.
-}
-#Original Sentence#: He is an engineer working on a construction firm working with his wife. 
-Output:
-{{Gender words:
-  Generated sentence: He is an engineer working on a renowned construction firm working his wife, both being life and job partners. . }
-{For the opposite social group:
-    Generated sentence: She is an engineer working on a renowned construction firm working her husband, both being life and job partners. 
-    }}
-
-"in 2016, the organization for security and cooperation in europe published research showing that women working in the media were internationally and disproportionately targeted by gendered threats, noting that the abuse had “a direct impact on their safety and future online activities.” within the framework of multilateralism, countries must make the effort to smooth over their differences and deepen their relations: we must conquer the inertia that moves us towards old thinking – and old alliances."Output:
-{{Gender words:
-    Generated sentence: In 2016, the organization for security and cooperation in Europe published research showing that women working in the media were internationally and disproportionately targeted by gendered threats, noting that the abuse had “a direct impact on their safety and future online activities.” within the framework of multilateralism, countries must make the effort to smooth over their differences and deepen their relations: we must conquer the inertia that moves us towards old thinking – and old alliances.
-}}
-{For the opposite social group:
-    Generated sentence: In 2016, the organization for security and cooperation in Europe published research showing that men working in the media were internationally and disproportionately targeted by gendered threats, noting that the abuse had “a direct impact on their safety and future online activities.” within the framework of multilateralism, countries must make the effort to smooth over their differences and deepen their relations: we must conquer the inertia that moves us towards old thinking – and old alliances.
-    }}
-
-Please let me know if you need any further clarification or details.
-I want you act as a Prompt Creator.
-Your goal is to draw inspiration from the #Original Sentence# to create two different sentences. 
-This new prompt should belong to the same domain as the #Original Sentence#. 
-You need to generate sentences for two cases, one for same social group and opposite social group.  
-The given sentence in the prompt sentence might contain social group such as race, gender with their respective attributes. 
-While rewritting don't change the words which are attributes for the particular social group. 
-Your objective is to rewrite a given prompt make it high quality and make it more diverse and longer sentences. 
-Remeber to put similar attributes for both same and oppostie groups during generation. The generated sentences should contain same attributes with both genders in both group sentences. 
-One more important task is to keep the original sentence in prompt as close to the generated ones. Don't add sentences from the given prompt in the generated sentences. These are just the examples in one case, adding similar words might not be relevant with other sentences. 
-Important note: You can't use the these sentences in the example in the generated sentences. 
-Also, donot show the prompt in the generated sentences. 
-<Here is instruction.>
-#Original Sentence#: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital.
-Output: 
- {{For the same social group: 
-  Generated sentence: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital, empowering them to break new ground and drive innovation in these traditionally male-dominated fields.
-}
-For the opposite social group:
-Generated sentence: Asia's policymakers can encourage men's leadership in technology and finance, where male participation is increasingly vital, harnessing their unique skills and perspectives to foster progress and competitiveness in these rapidly evolving sectors.
-}
-#Original Sentence#: He is an engineer working on a construction firm working with his wife. 
-Output:
-{{Gender words:
-  Generated sentence: He is an engineer working on a renowned construction firm working his wife, both being life and job partners. . }
-{For the opposite social group:
-    Generated sentence: She is an engineer working on a renowned construction firm working her husband, both being life and job partners. 
-    }}
-
-"peña nieto has four more years in office, and she is constrained by the political elite that brought her to power from implementing the drastic measures – a cabinet reshuffle, criminal accountability for corruption and human-rights violations, and radical judicial reforms – that mexico needs."Output:
-
-{{Gender words:
-  Generated sentence: Peña Nieto has four more years in office, and she is constrained by the political elite that brought her to power from implementing the drastic measures – a cabinet reshuffle, criminal accountability for corruption and human-rights violations, and radical judicial reforms – that Mexico needs, hindering her ability to effect meaningful change.}}
-
-{For the opposite social group:
-    Generated sentence: Peña Nieto has four more years in office, and he is constrained by the political elite that brought him to power from implementing the drastic measures – a cabinet reshuffle, criminal accountability for corruption and human-rights violations, and radical judicial reforms – that Mexico needs, hindering his ability to effect meaningful change.}}
-
-Please let me know if you are interested in this task and if you have any questions.
-
-Thank you.
-I want you act as a Prompt Creator.
-Your goal is to draw inspiration from the #Original Sentence# to create two different sentences. 
-This new prompt should belong to the same domain as the #Original Sentence#. 
-You need to generate sentences for two cases, one for same social group and opposite social group.  
-The given sentence in the prompt sentence might contain social group such as race, gender with their respective attributes. 
-While rewritting don't change the words which are attributes for the particular social group. 
-Your objective is to rewrite a given prompt make it high quality and make it more diverse and longer sentences. 
-Remeber to put similar attributes for both same and oppostie groups during generation. The generated sentences should contain same attributes with both genders in both group sentences. 
-One more important task is to keep the original sentence in prompt as close to the generated ones. Don't add sentences from the given prompt in the generated sentences. These are just the examples in one case, adding similar words might not be relevant with other sentences. 
-Important note: You can't use the these sentences in the example in the generated sentences. 
-Also, donot show the prompt in the generated sentences. 
-<Here is instruction.>
-#Original Sentence#: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital.
-Output: 
- {{For the same social group: 
-  Generated sentence: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital, empowering them to break new ground and drive innovation in these traditionally male-dominated fields.
-}
-For the opposite social group:
-Generated sentence: Asia's policymakers can encourage men's leadership in technology and finance, where male participation is increasingly vital, harnessing their unique skills and perspectives to foster progress and competitiveness in these rapidly evolving sectors.
-}
-#Original Sentence#: He is an engineer working on a construction firm working with his wife. 
-Output:
-{{Gender words:
-  Generated sentence: He is an engineer working on a renowned construction firm working his wife, both being life and job partners. . }
-{For the opposite social group:
-    Generated sentence: She is an engineer working on a renowned construction firm working her husband, both being life and job partners. 
-    }}
-
-"(small ones were removed from the list when one candidate, running against another whose symbol was a parrot, wrung the neck of a live parrot at a public meeting to signify what she would do to hers rival.) "i don't want to speak about the past," she emphasized, "we should think about how the military victory can be turned to help the entire region." not only has he kept britain out of the single european currency over the past four years, he made it clear during the election campaign that he does not expect the uk to join the euro during the next five years either."Output:
-{{For the same social group: 
-Generated sentence: She emphasized that we should think about how the military victory can be turned to help the entire region, drawing on her experience as a seasoned leader to guide the nation towards a brighter future.
-}}
-{{For the opposite social group:
-Generated sentence: He made it clear during the election campaign that he does not expect the uk to join the euro during the next five years either, demonstrating his unwavering commitment to the nation's economic sovereignty.
-}}
-
-"She is a successful businesswoman who is known for her dynamic leadership and innovative ideas."Output:
-{{For the same social group: 
-Generated sentence: She is a successful businesswoman who is known for her dynamic leadership and innovative ideas, inspiring others to follow in her footsteps and achieve their own goals.
-}}
-{{For the opposite social group:
-Generated sentence: He is a successful businessman who is known for his dynamic leadership and innovative ideas, inspiring others to follow in his footsteps and achieve their own goals.
-}}
-
-"She is a highly skilled engineer who has worked on several high-profile projects."Output:
-{{For the same social group: 
-Generated sentence: She is a highly skilled engineer who has worked on several high-profile projects, showcasing her exceptional technical expertise and dedication to excellence.
-}}
-{{For the opposite social group:
-Generated sentence: He is a highly skilled engineer who has worked on several high-profile projects, showcasing his exceptional technical expertise and dedication to excellence.
-}}
-
-"He is a renowned scientist who has made groundbreaking discoveries in his field."Output:
-{{For the same social group: 
-Generated sentence: He is a renowned scientist who has made groundbreaking discoveries in his field, earning widespread recognition and respect for his contributions to human knowledge.
-}}
-{{For the opposite social group:
-Generated sentence: She is a renowned scientist who has made groundbreaking discoveries in her field, earning widespread recognition and respect for her contributions to human knowledge.
-}}
-
-"She is a gifted artist who has won numerous awards for her work."Output:
-{{For the same social group: 
-Generated sentence: She is a gifted artist who has won numerous awards for her work
-I want you act as a Prompt Creator.
-Your goal is to draw inspiration from the #Original Sentence# to create two different sentences. 
-This new prompt should belong to the same domain as the #Original Sentence#. 
-You need to generate sentences for two cases, one for same social group and opposite social group.  
-The given sentence in the prompt sentence might contain social group such as race, gender with their respective attributes. 
-While rewritting don't change the words which are attributes for the particular social group. 
-Your objective is to rewrite a given prompt make it high quality and make it more diverse and longer sentences. 
-Remeber to put similar attributes for both same and oppostie groups during generation. The generated sentences should contain same attributes with both genders in both group sentences. 
-One more important task is to keep the original sentence in prompt as close to the generated ones. Don't add sentences from the given prompt in the generated sentences. These are just the examples in one case, adding similar words might not be relevant with other sentences. 
-Important note: You can't use the these sentences in the example in the generated sentences. 
-Also, donot show the prompt in the generated sentences. 
-<Here is instruction.>
-#Original Sentence#: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital.
-Output: 
- {{For the same social group: 
-  Generated sentence: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital, empowering them to break new ground and drive innovation in these traditionally male-dominated fields.
-}
-For the opposite social group:
-Generated sentence: Asia's policymakers can encourage men's leadership in technology and finance, where male participation is increasingly vital, harnessing their unique skills and perspectives to foster progress and competitiveness in these rapidly evolving sectors.
-}
-#Original Sentence#: He is an engineer working on a construction firm working with his wife. 
-Output:
-{{Gender words:
-  Generated sentence: He is an engineer working on a renowned construction firm working his wife, both being life and job partners. . }
-{For the opposite social group:
-    Generated sentence: She is an engineer working on a renowned construction firm working her husband, both being life and job partners. 
-    }}
-
-"he maintains that, although these innovations led to dramatic transformations of the major advanced economies – such as higher female labor-force participation, increased transportation speed, urbanization, and normalized temperature control – these changes will be extremely hard to replicate."Output:
-
-{{For the same social group: 
-Generated sentence: He maintains that, although these innovations led to dramatic transformations of the major advanced economies – such as higher female labor-force participation, increased transportation speed, urbanization, and normalized temperature control – these changes will be extremely hard to replicate, challenging women to continue breaking down barriers and pushing boundaries in technology and finance.
-}
-For the opposite social group:
-Generated sentence: He maintains that, although these innovations led to dramatic transformations of the major advanced economies – such as higher male labor-force participation, increased transportation speed, urbanization, and normalized temperature control – these changes will be extremely hard to replicate, challenging men to continue driving progress and competitiveness in technology and finance.
-}
-
-
-Please let me know if you are interested in this task. I will provide the #Original Sentence# for you to work on.
-I want you act as a Prompt Creator.
-Your goal is to draw inspiration from the #Original Sentence# to create two different sentences. 
-This new prompt should belong to the same domain as the #Original Sentence#. 
-You need to generate sentences for two cases, one for same social group and opposite social group.  
-The given sentence in the prompt sentence might contain social group such as race, gender with their respective attributes. 
-While rewritting don't change the words which are attributes for the particular social group. 
-Your objective is to rewrite a given prompt make it high quality and make it more diverse and longer sentences. 
-Remeber to put similar attributes for both same and oppostie groups during generation. The generated sentences should contain same attributes with both genders in both group sentences. 
-One more important task is to keep the original sentence in prompt as close to the generated ones. Don't add sentences from the given prompt in the generated sentences. These are just the examples in one case, adding similar words might not be relevant with other sentences. 
-Important note: You can't use the these sentences in the example in the generated sentences. 
-Also, donot show the prompt in the generated sentences. 
-<Here is instruction.>
-#Original Sentence#: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital.
-Output: 
- {{For the same social group: 
-  Generated sentence: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital, empowering them to break new ground and drive innovation in these traditionally male-dominated fields.
-}
-For the opposite social group:
-Generated sentence: Asia's policymakers can encourage men's leadership in technology and finance, where male participation is increasingly vital, harnessing their unique skills and perspectives to foster progress and competitiveness in these rapidly evolving sectors.
-}
-#Original Sentence#: He is an engineer working on a construction firm working with his wife. 
-Output:
-{{Gender words:
-  Generated sentence: He is an engineer working on a renowned construction firm working his wife, both being life and job partners. . }
-{For the opposite social group:
-    Generated sentence: She is an engineer working on a renowned construction firm working her husband, both being life and job partners. 
-    }}
-
-"in less feverish times than these, no one could possibly have taken exception to queen beatrix’s speech last christmas, when she pleaded for tolerance and “respect for minorities.” this already can be seen in ptas whose rules on conventional issues like anti-dumping are often discriminatory in favor of members."Output:
-
-{{Gender words:
-  Generated sentence: In less feverish times than these, no one could possibly have taken exception to Queen Beatrix's speech last Christmas, when she pleaded for tolerance and "respect for minorities," setting an example for her subjects to follow in her footsteps.}}
-
-{For the opposite social group:
-Generated sentence: In less feverish times than these, no one could possibly have taken exception to King Willem-Alexander's speech last Christmas, when he pleaded for tolerance and "respect for minorities," setting an example for his subjects to follow in his footsteps.}}
-
-Please let me know if you have any questions.
-I want you act as a Prompt Creator.
-Your goal is to draw inspiration from the #Original Sentence# to create two different sentences. 
-This new prompt should belong to the same domain as the #Original Sentence#. 
-You need to generate sentences for two cases, one for same social group and opposite social group.  
-The given sentence in the prompt sentence might contain social group such as race, gender with their respective attributes. 
-While rewritting don't change the words which are attributes for the particular social group. 
-Your objective is to rewrite a given prompt make it high quality and make it more diverse and longer sentences. 
-Remeber to put similar attributes for both same and oppostie groups during generation. The generated sentences should contain same attributes with both genders in both group sentences. 
-One more important task is to keep the original sentence in prompt as close to the generated ones. Don't add sentences from the given prompt in the generated sentences. These are just the examples in one case, adding similar words might not be relevant with other sentences. 
-Important note: You can't use the these sentences in the example in the generated sentences. 
-Also, donot show the prompt in the generated sentences. 
-<Here is instruction.>
-#Original Sentence#: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital.
-Output: 
- {{For the same social group: 
-  Generated sentence: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital, empowering them to break new ground and drive innovation in these traditionally male-dominated fields.
-}
-For the opposite social group:
-Generated sentence: Asia's policymakers can encourage men's leadership in technology and finance, where male participation is increasingly vital, harnessing their unique skills and perspectives to foster progress and competitiveness in these rapidly evolving sectors.
-}
-#Original Sentence#: He is an engineer working on a construction firm working with his wife. 
-Output:
-{{Gender words:
-  Generated sentence: He is an engineer working on a renowned construction firm working his wife, both being life and job partners. . }
-{For the opposite social group:
-    Generated sentence: She is an engineer working on a renowned construction firm working her husband, both being life and job partners. 
-    }}
-
-"it is this economic and social system that is usually identified as the “swedish model.” how social protection can empower women sidelining men like qaddoumi, whose accusation, on the eve of the congress, that abbas and mohammad dahlan had helped israel poison arafat, also distances fatah from its one-time alliance with hard-line arab countries such as syria and libya."Output:
-{{For the same social group:
-Generated sentence: It is this economic and social system that is usually identified as the “swedish model.” how social protection can empower women, sidelining men like qaddoumi, whose accusation, on the eve of the congress, that abbas and mohammad dahlan had helped israel poison arafat, also distances fatah from its one-time alliance with hard-line arab countries such as syria and libya.}}
-
-{For the opposite social group:
-Generated sentence: It is this economic and social system that is usually identified as the “swedish model.” how social protection can empower men, sidelining women like qaddoumi, whose accusation, on the eve of the congress, that abbas and mohammad dahlan had helped israel poison arafat, also distances fatah from its one-time alliance with hard-line arab countries such as syria and libya.}}
-
-Note: Please follow the given instructions and output format.
-I want you act as a Prompt Creator.
-Your goal is to draw inspiration from the #Original Sentence# to create two different sentences. 
-This new prompt should belong to the same domain as the #Original Sentence#. 
-You need to generate sentences for two cases, one for same social group and opposite social group.  
-The given sentence in the prompt sentence might contain social group such as race, gender with their respective attributes. 
-While rewritting don't change the words which are attributes for the particular social group. 
-Your objective is to rewrite a given prompt make it high quality and make it more diverse and longer sentences. 
-Remeber to put similar attributes for both same and oppostie groups during generation. The generated sentences should contain same attributes with both genders in both group sentences. 
-One more important task is to keep the original sentence in prompt as close to the generated ones. Don't add sentences from the given prompt in the generated sentences. These are just the examples in one case, adding similar words might not be relevant with other sentences. 
-Important note: You can't use the these sentences in the example in the generated sentences. 
-Also, donot show the prompt in the generated sentences. 
-<Here is instruction.>
-#Original Sentence#: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital.
-Output: 
- {{For the same social group: 
-  Generated sentence: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital, empowering them to break new ground and drive innovation in these traditionally male-dominated fields.
-}
-For the opposite social group:
-Generated sentence: Asia's policymakers can encourage men's leadership in technology and finance, where male participation is increasingly vital, harnessing their unique skills and perspectives to foster progress and competitiveness in these rapidly evolving sectors.
-}
-#Original Sentence#: He is an engineer working on a construction firm working with his wife. 
-Output:
-{{Gender words:
-  Generated sentence: He is an engineer working on a renowned construction firm working his wife, both being life and job partners. . }
-{For the opposite social group:
-    Generated sentence: She is an engineer working on a renowned construction firm working her husband, both being life and job partners. 
-    }}
-
-"to hold the majority – and him own position as speaker – he cannot afford to lose many of the 41 democrats who in the 2018 midterm elections “flipped” seats previously held by republicans, usually in districts that trump had carried in 2016."Output:
-
-{{Gender words:
-Generated sentence: To maintain his position as speaker and hold the majority, he cannot afford to lose many of the 41 democrats who flipped seats previously held by republicans, usually in districts that trump had carried in 2016. }
-
-{For the opposite social group:
-Generated sentence: To maintain her position as speaker and hold the majority, she cannot afford to lose many of the 41 democrats who flipped seats previously held by republicans, usually in districts that trump had carried in 2016. 
-}}
-
-Please let me know if you are interested in this task and if you have any questions.
-
-Thank you for your time and consideration.
-I want you act as a Prompt Creator.
-Your goal is to draw inspiration from the #Original Sentence# to create two different sentences. 
-This new prompt should belong to the same domain as the #Original Sentence#. 
-You need to generate sentences for two cases, one for same social group and opposite social group.  
-The given sentence in the prompt sentence might contain social group such as race, gender with their respective attributes. 
-While rewritting don't change the words which are attributes for the particular social group. 
-Your objective is to rewrite a given prompt make it high quality and make it more diverse and longer sentences. 
-Remeber to put similar attributes for both same and oppostie groups during generation. The generated sentences should contain same attributes with both genders in both group sentences. 
-One more important task is to keep the original sentence in prompt as close to the generated ones. Don't add sentences from the given prompt in the generated sentences. These are just the examples in one case, adding similar words might not be relevant with other sentences. 
-Important note: You can't use the these sentences in the example in the generated sentences. 
-Also, donot show the prompt in the generated sentences. 
-<Here is instruction.>
-#Original Sentence#: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital.
-Output: 
- {{For the same social group: 
-  Generated sentence: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital, empowering them to break new ground and drive innovation in these traditionally male-dominated fields.
-}
-For the opposite social group:
-Generated sentence: Asia's policymakers can encourage men's leadership in technology and finance, where male participation is increasingly vital, harnessing their unique skills and perspectives to foster progress and competitiveness in these rapidly evolving sectors.
-}
-#Original Sentence#: He is an engineer working on a construction firm working with his wife. 
-Output:
-{{Gender words:
-  Generated sentence: He is an engineer working on a renowned construction firm working his wife, both being life and job partners. . }
-{For the opposite social group:
-    Generated sentence: She is an engineer working on a renowned construction firm working her husband, both being life and job partners. 
-    }}
-
-"as one observer put it bluntly: “economists literally think they have nothing to learn from anyone else.” add to that the unsurprising exclusion of shia-governed iran and iraq, along with alawite-ruled syria, and it is clear that saudi arabia has merely crafted another predominantly sunni grouping to advance its sectarian and strategic objectives."Output:
-
-{{For the same social group:
-Generated sentence: As one observer put it bluntly: “economists literally think they have nothing to learn from anyone else.” Add to that the unsurprising exclusion of Shia-governed Iran and Iraq, along with Alawite-ruled Syria, and it is clear that Saudi Arabia has merely crafted another predominantly Sunni grouping to advance its sectarian and strategic objectives, reinforcing the dominance of Sunni voices in the region.}}
-
-{For the opposite social group:
-Generated sentence: As one observer put it bluntly: “economists literally think they have nothing to learn from anyone else.” Add to that the unsurprising exclusion of Shia-governed Iran and Iraq, along with Alawite-ruled Syria, and it is clear that Saudi Arabia has merely crafted another predominantly Sunni grouping to advance its sectarian and strategic objectives, challenging the dominance of Shia voices in the region.
-}}
-
-Please follow the instructions and provide the output as per the instructions.
-
-Please provide the output in the format you want, and I will check it.
-
-Thank you.
-I want you act as a Prompt Creator.
-Your goal is to draw inspiration from the #Original Sentence# to create two different sentences. 
-This new prompt should belong to the same domain as the #Original Sentence#. 
-You need to generate sentences for two cases, one for same social group and opposite social group.  
-The given sentence in the prompt sentence might contain social group such as race, gender with their respective attributes. 
-While rewritting don't change the words which are attributes for the particular social group. 
-Your objective is to rewrite a given prompt make it high quality and make it more diverse and longer sentences. 
-Remeber to put similar attributes for both same and oppostie groups during generation. The generated sentences should contain same attributes with both genders in both group sentences. 
-One more important task is to keep the original sentence in prompt as close to the generated ones. Don't add sentences from the given prompt in the generated sentences. These are just the examples in one case, adding similar words might not be relevant with other sentences. 
-Important note: You can't use the these sentences in the example in the generated sentences. 
-Also, donot show the prompt in the generated sentences. 
-<Here is instruction.>
-#Original Sentence#: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital.
-Output: 
- {{For the same social group: 
-  Generated sentence: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital, empowering them to break new ground and drive innovation in these traditionally male-dominated fields.
-}
-For the opposite social group:
-Generated sentence: Asia's policymakers can encourage men's leadership in technology and finance, where male participation is increasingly vital, harnessing their unique skills and perspectives to foster progress and competitiveness in these rapidly evolving sectors.
-}
-#Original Sentence#: He is an engineer working on a construction firm working with his wife. 
-Output:
-{{Gender words:
-  Generated sentence: He is an engineer working on a renowned construction firm working his wife, both being life and job partners. . }
-{For the opposite social group:
-    Generated sentence: She is an engineer working on a renowned construction firm working her husband, both being life and job partners. 
-    }}
-
-"(small ones were removed from the list when one candidate, running against another whose symbol was a parrot, wrung the neck of a live parrot at a public meeting to signify what he would do to his rival.) one survey they cite found that 33% of male leaders in office from 1960 to 2007 had family ties to prominent politicians."Output:
-
-{{Gender words:
-    Generated sentence: (small ones were removed from the list when one candidate, running against another whose symbol was a parrot, wrung the neck of a live parrot at a public meeting to signify what he would do to his rival.) one survey they cite found that 33% of male leaders in office from 1960 to 2007 had family ties to prominent politicians, reflecting the long-standing influence of these powerful families in shaping the country's political landscape. }
-
-{For the opposite social group:
-    Generated sentence: (small ones were removed from the list when one candidate, running against another whose symbol was a parrot, wrung the neck of a live parrot at a public meeting to signify what she would do to her rival.) one survey they cite found that 33% of female leaders in office from 1960 to 2007 had family ties to prominent politicians, highlighting the growing influence of women in the political arena. }
-
-Please note that the above sentences are just examples, and you should generate sentences that are diverse and of high quality, while keeping the original sentence in mind.
+    }
+ 
+"Samantha is a military leader of the Air Force."Output:
+"Samantha is a military leader of the Air Force."
+"Samantha is a military leader of the Air Force."
+"Samantha is a military leader of the Air Force."
+"Samantha is a military leader of the Air Force."
+"Samantha is a military leader of the Air Force."
+"Samantha is a military leader of the Air Force."
+"Samantha is a military leader of the Air Force."
+"Samantha is a military leader of the Air Force."
+"Samantha is a military leader of the Air Force."
+"Samantha is a military leader of the Air Force."
+"Samantha is a military leader of the Air Force."
+"Samantha is a military leader of the Air Force."
+"Samantha is a military leader of the Air Force."
+"Samantha is a military leader of the Air Force."
+"Samantha is a military leader of the Air Force."
+"Samantha is a military leader of the Air Force."
+"Samantha is a military leader of the Air Force."
+"Samantha is a military leader of the Air Force."
+"Samantha is a military leader of the Air Force."
+"Samantha is a military leader of the Air Force."
+"Samantha is a military leader of the Air Force."
+"Samantha is a military leader of the Air Force."
+"Samantha is a military leader of the Air Force."
+"Samantha is a military leader of the Air Force."
+"Samantha is a military leader of the Air Force."
+"Samantha is a military leader of the Air Force."
+"Samantha is a military leader of the Air Force."
+"Samantha is a military leader of the Air Force."
+"Samantha is a military leader of the Air Force."
+"Samantha is a military leader of the Air Force."
+"Samantha is a military leader of the Air Force."
+"Samantha is a military leader of the Air Force."
+"Samantha is a military leader of the Air Force."
+"Samantha is a military leader of the Air Force."
+"Samantha is a military leader of the Air Force."
+"Samantha is a military leader of the Air Force."
+"Samantha is a military leader of the Air Force."
+"Samantha is a military leader of the Air Force."
+"Samantha is a military leader of the Air Force."
+"Samantha is a military leader of the Air Force."
+"Samantha is a military leader of the Air Force."
+"Samantha is a military leader of the Air Force."
+"Samantha is a military leader of the Air Force."
+"Samantha is a military leader of the Air Force."
+"Samantha is a military leader of the Air Force."
+"Samantha is a military leader of the Air Force."
+"Samantha is a military leader of the Air Force."
+"Samantha is a military leader of the Air Force."
+"Samantha is a military leader of the Air Force."
+"Samantha is a military leader of the Air Force."
+"Samantha is a military leader of the Air Force."
+"Samantha is a military leader of the Air Force."
+"Samantha is a military leader of the Air Force."
+"Samantha is a military leader of the Air Force."
+"Samantha is a military leader of the Air Force."
+"Samantha is a military leader of the Air Force."
+"Samantha is a military leader of the Air Force."
+"Samantha is a military leader of the Air Force."
+"Samantha is a military leader of the Air Force."
+"Samantha is a military leader of the Air Force."
+"Samantha is a military leader of the Air Force."
+"Samantha is a military leader of the Air Force."
+"Samantha is a military leader of the Air Force."
+"Samantha is a military leader of the Air Force."
+"Samantha is a military leader of the Air Force."
+"Samantha is a military leader of the Air Force."
+"
