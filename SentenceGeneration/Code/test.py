@@ -11,7 +11,7 @@ tokenizer = AutoTokenizer.from_pretrained(model, use_auth_token=True)
 #prompt_path='/home/zhangxit/files/DataAug4SocialBias/SentenceGeneration/Data/prompts/prompt_gender.txt'
 #sentences_path = 'home/zhangxit/files/DataAug4SocialBias/SentenceGeneration/Data/longer_text10k_gender.txt'
 prompt_path='/scratch0/bashyalb/DataAug4SocialBias/SentenceGeneration/Data/prompts/prompt_dummy.txt'
-sentences_path = '/scratch0/bashyalb/DataAug4SocialBias/SentenceGeneration/Data/dummy.txt'
+sentences_path = '/scratch0/bashyalb/DataAug4SocialBias/SentenceGeneration/Data/longer_text10k_gender.txt'
 
 llama_pipeline = pipeline(
     "text-generation",
@@ -27,7 +27,7 @@ def cot(file_path):
 prompt = cot(prompt_path)
 print(prompt)
 def get_llama_response(prompt: str) -> str:
-    full_text = llama_pipeline(prompt, max_length=1200)[0]['generated_text']
+    full_text = llama_pipeline(prompt, max_length=1600)[0]['generated_text']
     return full_text
 
 from tqdm import tqdm
@@ -39,7 +39,7 @@ def return_relevant_sentences(sentences_path, prompt_path):
     with open(sentences_path, 'r', encoding='utf-8') as file:
         sentences = [line.strip() for line in file]
 
-    for i, sentence in enumerate(tqdm(sentences[:20], desc="Processing sentences")):
+    for i, sentence in enumerate(tqdm(sentences[:6], desc="Processing sentences")):
         full_prompt = f"{prompt}\"{sentence}\"Output:"
         aug_sent = get_llama_response(full_prompt)
         relevant_sentences.append(aug_sent)
