@@ -1,6 +1,7 @@
 Your goal is first to generate a  diverse sentence from the given prompt sentence #Original Sentence # with reasoning for two different social groups as following: 
 i. First generate a sentence similar to the #original sentence# which is longer and diverse based on the #Original Sentence# by providing reasons during each step. 
 ii. The generated sentence should be longer than the original one adding summary or inspiration to the #Original Sentence#
+Donot generate any random sentences or extra empty lines, the generation should look like the following instruction. 
 Here is the instruction. 
 #Original Sentence#: He is an engineer working on a construction firm working with his wife. 
 Output: 
