@@ -14,42 +14,19 @@ Output:
 
   Generated sentence: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital, empowering them to break new ground and drive innovation in these traditionally male-dominated fields.
 }
-"when sexuality is kept private and directed in ways seen as sacred – and when one’s hubby isn’t seeing hers hubby (or other women) half-naked all day long – one can feel great power and intensity when the headscarf or the chador comes off in the sanctity of the home."Output: 
- {Create a data augmentation to the original sentence by increasing the context length:  
- In the #Original Setence# above: When women are able to keep their sexuality private and express it in a sacred way, they can feel powerful and intense in their personal lives. This can be especially true when they are not constantly exposed to half-naked men at work, as is the case with many women in conservative societies.
-  Generated sentence: When women are able to keep their sexuality private and express it in a sacred way, they can feel great power and intensity in their personal lives, especially when they are not constantly exposed to half-naked men at work, as is the case with many women in conservative societies.
+"the trump administration’s red line was apparently crossed this month, when a white house spokesman issued a rare rebuke of netanyahu, dismissing reports that us officials had discussed an annexation plan for the west bank with their israeli counterparts."Output: 
+{Create a data augmentation to the original sentence by increasing the context length: 
+ In the #Original Setence# above: The US-Israel relationship is a cornerstone of America's Middle East policy, and any significant rift between the two allies could have far-reaching consequences for the region. 
+  Generated sentence: The trump administration’s red line was apparently crossed this month, when a white house spokesman issued a rare rebuke of netanyahu, dismissing reports that us officials had discussed an annexation plan for the west bank with their israeli counterparts, which could have far-reaching consequences for the region and the US-Israel relationship.
 }
-"The #Original Sentence# is a good start but it lacks specific details about the benefits of women's leadership in technology and finance."Output: 
- {Create a data augmentation to the original sentence by increasing the context length:  
- In the #Original Setence# above: While the #Original Sentence# highlights the importance of women's leadership in technology and finance, it does not provide specific details about the benefits of such leadership.
-  Generated sentence: While the #Original Sentence# highlights the importance of women's leadership in technology and finance, it does not provide specific details about the benefits of such leadership, such as increased innovation, better decision-making, and improved financial performance.
-}
-"The #Original Sentence# is too focused on the negative aspects of women's underrepresentation in technology and finance."Output: 
- {Create a data augmentation to the original sentence by increasing the context length:  
- In the #Original Setence# above: While the #Original Sentence# highlights the negative aspects of women's underrepresentation in technology and finance, it does not provide a balanced view of the issue.
-  Generated sentence: While the #Original Sentence# highlights the negative aspects of women's underrepresentation in technology and finance, it does not provide a balanced view of the issue, neglecting the positive impact that women's participation can have on these fields.
-}
-"The #Original Sentence# does not take into account the intersectionality of gender with other social identities."Output: 
- {Create a data augmentation to the original sentence by increasing the context length:  
- In the #Original Setence# above: While the #Original Sentence# focuses on gender, it does not take into account the intersectionality of gender with other social identities, such as race, class, and sexuality.
-  Generated sentence: While the #Original Sentence# focuses on gender, it does not take into account the intersectionality of gender with other social identities, such as race, class, and sexuality, which can lead to a narrow understanding of the issue.
-}
-"The #Original Sentence# is too broad and lacks specific examples."Output: 
- {Create a data augmentation to the original sentence by increasing the context length:  
- In the #Original Setence# above: While the #Original Sentence# highlights the importance of women's leadership in technology and finance, it is too broad and lacks specific examples of how this leadership can be achieved.
-  Generated sentence: While the #Original Sentence# highlights the importance of women's leadership in technology and finance, it is too broad and lacks specific examples of how this leadership can be achieved, such as mentorship programs, targeted recruitment efforts, and flexible work arrangements.
-}
-"The #Original Sentence# does not provide any solutions to address the underrepresentation of women in technology and finance."Output: 
- {Create a data augmentation to the original sentence by increasing the context length:  
- In the #Original Setence# above: While the #Original Sentence# highlights the underrepresentation of women in technology and finance, it does not provide any solutions to address this issue.
-  Generated sentence: While the #Original Sentence# highlights the underrepresentation of women in technology and finance, it does not provide any solutions to address this issue, such as targeted recruitment efforts, mentorship programs, and flexible work arrangements.
-}
-"The #Original Sentence# is too focused on the individual level and neglects the structural barriers that prevent women from entering technology and finance fields."Output: 
- {Create a data augmentation to the original sentence by increasing the context length:  
- In the #Original Setence# above: While the #Original Sentence# focuses on the individual level, it neglects the structural barriers that prevent women from entering technology and finance fields, such as discrimination, lack of access to education and resources, and gender stereotypes.
-  Generated sentence: While the #Original Sentence# focuses on the individual level, it neglects the structural barriers that prevent women from entering technology and finance fields, such as discrimination, lack of access to education and resources, and gender stereotypes, which must be addressed in order to achieve true gender equality.
-}
-"The #Original Sentence# does not take into account the different
+
+Note:
+1. The goal is to generate a sentence that is longer than the original one and adds more context and meaning to the original sentence.
+2. The generated sentence should be diverse and applicable to two different social groups, such as women and technology or finance.
+3. The generated sentence should be grammatically correct and easy to understand.
+4. The generated sentence should be a unique and original sentence, not a paraphrase of the original sentence.
+
+Please let me know if you have any questions or need further clarification.
 Your goal is first to generate a  diverse sentence from the given prompt sentence #Original Sentence # with reasoning for two different social groups as following: 
 i. First generate a sentence similar to the #original sentence# which is longer and diverse based on the #Original Sentence# by providing reasons during each step. 
 ii. The generated sentence should be longer than the original one adding summary or inspiration to the #Original Sentence#
@@ -66,12 +43,13 @@ Output:
 
   Generated sentence: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital, empowering them to break new ground and drive innovation in these traditionally male-dominated fields.
 }
-"even so, whereas carnegie’s theory makes some sense (which is why hers essay is remembered so well more than a century later), it isn’t obvious that she was right to believe that successful business people are the best administrators of charitable foundations."Output: 
+"in california, for example, governess gavin newsom (whom lenny mendonca advises) is developing a comprehensive strategy to upskill the state’s diverse workforce."Output: 
  {Create a data augmentation to the original sentence by increasing the context length:  
-  In the #Original Setence# above: Carnegie's theory of successful business people being the best administrators of charitable foundations is debatable. 
-  Generated sentence: Although Carnegie's theory of successful business people being the best administrators of charitable foundations holds some truth, it is not entirely clear whether this belief is universally applicable.
+  In the #Original Setence# above: California is one of the states in the US with diverse workforce and it is essential to upskill the workforce to meet the demands of the modern economy. 
+  Generated sentence: In California, for example, Governor Gavin Newsom (whom Lenny Mendonca advises) is developing a comprehensive strategy to upskill the state's diverse workforce, meeting the demands of the modern economy.
 }
-Please note that the generated sentences should be diverse and provide additional information to the original sentence. Also, the reasoning should be clear and understandable for two different social groups.
+
+Please follow the above instructions and provide the output for the given sentences.
 Your goal is first to generate a  diverse sentence from the given prompt sentence #Original Sentence # with reasoning for two different social groups as following: 
 i. First generate a sentence similar to the #original sentence# which is longer and diverse based on the #Original Sentence# by providing reasons during each step. 
 ii. The generated sentence should be longer than the original one adding summary or inspiration to the #Original Sentence#
@@ -88,127 +66,1135 @@ Output:
 
   Generated sentence: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital, empowering them to break new ground and drive innovation in these traditionally male-dominated fields.
 }
-"“foreign policy,” she used to tell me, “is more important than domestic policy, because mistakes can be very costly.” chinese authorities, recognizing that excessive credit was creating domestic economic imbalances, have been engaged in monetary tightening since 2010, slowing the pace of money-supply growth from more than 25% in 2009 to less than 14% last year."Output:
- {Create a data augmentation to the original sentence by increasing the context length:  
- In the #Original Setence# above: Chinese authorities have been tightening monetary policy since 2010 to address economic imbalances created by excessive credit growth, slowing the pace of money-supply growth from more than 25% in 2009 to less than 14% last year.
+"we don’t hear about the workshops for women’s empowerment, or the successful organization of small-scale local elections across the country."Output: 
+ {Create a data augmentation to the original sentence by increasing the context length: 
+In the #Original Setence# above: The lack of workshops for women’s empowerment and the unsuccessful organization of small-scale local elections across the country highlights the need for more efforts to be made in order to achieve true gender equality.
 
-  Generated sentence: Chinese authorities, recognizing that excessive credit was creating domestic economic imbalances, have been engaged in monetary tightening since 2010, slowing the pace of money-supply growth from more than 25% in 2009 to less than 14% last year, which highlights the significance of foreign policy in preventing costly mistakes.
+  Generated sentence: The lack of workshops for women’s empowerment and the unsuccessful organization of small-scale local elections across the country underscores the need for more concerted efforts to be made in order to achieve true gender equality.
+
+Please note that the generated sentence should be longer than the original one and should provide more context and inspiration to the original sentence. Also, the generated sentence should be grammatically correct and should not contain any spelling or punctuation errors.
+Your goal is first to generate a  diverse sentence from the given prompt sentence #Original Sentence # with reasoning for two different social groups as following: 
+i. First generate a sentence similar to the #original sentence# which is longer and diverse based on the #Original Sentence# by providing reasons during each step. 
+ii. The generated sentence should be longer than the original one adding summary or inspiration to the #Original Sentence#
+Here is the instruction. 
+#Original Sentence#: He is an engineer working on a construction firm working with his wife. 
+Output: 
+ {Create a data augmentation to the original sentence by increasing the context length:  
+  In the #Original Setence# above:Since he and his wife work together, they are together both at work and home. Being great life and job partners. 
+  Generated sentence: He is an engineer working on a renowned construction firm working his wife, both being life and job partners. }
+#Original Sentence#: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital.
+Output: 
+ {Create a data augmentation to the original sentence by increasing the context length:  
+ In the #Original Setence# above: As there are less number of female working in technology and finance, it is very important of more female participation. Thus, involvement of more female in technology and finance will lead in empowering them to break new ground and drive innovation in these traditionally male-dominated fields.
+
+  Generated sentence: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital, empowering them to break new ground and drive innovation in these traditionally male-dominated fields.
+}
+"whatever emerges from his next summit with kim, it is already clear that trump’s disregard for us alliances is taking a toll."Output: 
+ {Create a data augmentation to the original sentence by increasing the context length:  
+ In the #Original Setence# above: The relationship between US and North Korea is getting worse, as Trump's disregard for US alliances is causing a rift between the two nations.
+  Generated sentence: Whatever emerges from his next summit with Kim, it is already clear that Trump’s disregard for US alliances is taking a toll on the relationship between the US and North Korea, causing a rift between the two nations.
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Your goal is first to generate a  diverse sentence from the given prompt sentence #Original Sentence # with reasoning for two different social groups as following: 
+i. First generate a sentence similar to the #original sentence# which is longer and diverse based on the #Original Sentence# by providing reasons during each step. 
+ii. The generated sentence should be longer than the original one adding summary or inspiration to the #Original Sentence#
+Here is the instruction. 
+#Original Sentence#: He is an engineer working on a construction firm working with his wife. 
+Output: 
+ {Create a data augmentation to the original sentence by increasing the context length:  
+  In the #Original Setence# above:Since he and his wife work together, they are together both at work and home. Being great life and job partners. 
+  Generated sentence: He is an engineer working on a renowned construction firm working his wife, both being life and job partners. }
+#Original Sentence#: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital.
+Output: 
+ {Create a data augmentation to the original sentence by increasing the context length:  
+ In the #Original Setence# above: As there are less number of female working in technology and finance, it is very important of more female participation. Thus, involvement of more female in technology and finance will lead in empowering them to break new ground and drive innovation in these traditionally male-dominated fields.
+
+  Generated sentence: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital, empowering them to break new ground and drive innovation in these traditionally male-dominated fields.
+}
+"new york – when us president donald trump visits the philippines this weekend, on the last stop of hers marathon trip to asia, she will pay respects to president rodrigo duterte."Output:
+
+{Create a data augmentation to the original sentence by increasing the context length:
+In the #Original Setence# above: President trump will be visiting the philippines after visiting south korea, china and japan. This is his first visit to the philippines as a president.
+
+Generated sentence: When US President Donald Trump visits the Philippines this weekend, on the last stop of her marathon trip to Asia, she will pay respects to President Rodrigo Duterte, after visiting South Korea, China, and Japan, this being his first visit to the Philippines as a president.
+}
+
+Note: The goal is to generate a diverse sentence from the given prompt sentence with reasoning for two different social groups. The generated sentence should be longer than the original one, adding summary or inspiration to the original sentence.
+Your goal is first to generate a  diverse sentence from the given prompt sentence #Original Sentence # with reasoning for two different social groups as following: 
+i. First generate a sentence similar to the #original sentence# which is longer and diverse based on the #Original Sentence# by providing reasons during each step. 
+ii. The generated sentence should be longer than the original one adding summary or inspiration to the #Original Sentence#
+Here is the instruction. 
+#Original Sentence#: He is an engineer working on a construction firm working with his wife. 
+Output: 
+ {Create a data augmentation to the original sentence by increasing the context length:  
+  In the #Original Setence# above:Since he and his wife work together, they are together both at work and home. Being great life and job partners. 
+  Generated sentence: He is an engineer working on a renowned construction firm working his wife, both being life and job partners. }
+#Original Sentence#: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital.
+Output: 
+ {Create a data augmentation to the original sentence by increasing the context length:  
+ In the #Original Setence# above: As there are less number of female working in technology and finance, it is very important of more female participation. Thus, involvement of more female in technology and finance will lead in empowering them to break new ground and drive innovation in these traditionally male-dominated fields.
+
+  Generated sentence: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital, empowering them to break new ground and drive innovation in these traditionally male-dominated fields.
+}
+"women exposed to higher levels of the pesticide ddt before the age of fourteen have a five times higher chances of developing breast cancer when they reach middle age."Output:
+
+ {Create a data augmentation to the original sentence by increasing the context length:  
+  In the #Original Setence# above: Early exposure to DDT increases the risk of developing breast cancer later in life. This is a major health concern for women who were exposed to higher levels of DDT before the age of fourteen.
+  
+  Generated sentence: Women exposed to higher levels of DDT before the age of fourteen have a five times higher chances of developing breast cancer when they reach middle age, due to early exposure to DDT which increases the risk of developing breast cancer later in life.
 }
 
 Note:
 
-* In the above examples, the generated sentences are longer than the original sentences, providing more context and inspiration to the original sentence.
-* The generated sentences also provide reasons for two different social groups (men and women) to understand the importance of the topic.
-* The data augmentation technique used in the above examples is to increase the context length of the original sentence, providing more information and background to the topic.
-Your goal is first to generate a  diverse sentence from the given prompt sentence #Original Sentence # with reasoning for two different social groups as following: 
-i. First generate a sentence similar to the #original sentence# which is longer and diverse based on the #Original Sentence# by providing reasons during each step. 
-ii. The generated sentence should be longer than the original one adding summary or inspiration to the #Original Sentence#
-Here is the instruction. 
-#Original Sentence#: He is an engineer working on a construction firm working with his wife. 
-Output: 
- {Create a data augmentation to the original sentence by increasing the context length:  
-  In the #Original Setence# above:Since he and his wife work together, they are together both at work and home. Being great life and job partners. 
-  Generated sentence: He is an engineer working on a renowned construction firm working his wife, both being life and job partners. }
-#Original Sentence#: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital.
-Output: 
- {Create a data augmentation to the original sentence by increasing the context length:  
- In the #Original Setence# above: As there are less number of female working in technology and finance, it is very important of more female participation. Thus, involvement of more female in technology and finance will lead in empowering them to break new ground and drive innovation in these traditionally male-dominated fields.
-
-  Generated sentence: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital, empowering them to break new ground and drive innovation in these traditionally male-dominated fields.
-}
-"the global health initiative, for example, uses american-taxpayer money to offset the “gender-related inequalities and disparities [that] disproportionately compromise the health of women and girls.” for example, gdp per worker in the state of nuevo león in mexico is eight times that of guerrero, while output per worker in the department of chocó in colombia is less than one-fifth that of bogotá."Output: 
-{Create a data augmentation to the original sentence by increasing the context length: 
-In the #Original Setence# above: Women and girls are more vulnerable to gender-related inequalities and disparities in health outcomes, such as maternal mortality, unintended pregnancy, and sexually transmitted infections. This is due to a lack of access to healthcare services, education, and economic opportunities.
-
-Generated sentence: The global health initiative, for example, uses american-taxpayer money to offset the “gender-related inequalities and disparities [that] disproportionately compromise the health of women and girls,” such as maternal mortality, unintended pregnancy, and sexually transmitted infections, due to a lack of access to healthcare services, education, and economic opportunities.
-}
-"The global health initiative, for example, uses american-taxpayer money to offset the “gender-related inequalities and disparities [that] disproportionately compromise the health of women and girls.” for example, gdp per worker in the state of nuevo león in mexico is eight times that of guerrero, while output per worker in the department of chocó in colombia is less than one-fifth that of bogotá."Output: 
-{Create a data augmentation to the original sentence by increasing the context length: 
-In the #Original Setence# above: The global health initiative is an example of how american-taxpayer money can be used to address gender-related inequalities and disparities in health outcomes, such as maternal mortality, unintended pregnancy, and sexually transmitted infections, by providing access to healthcare services, education, and economic opportunities.
-
-Generated sentence: The global health initiative, for example, uses american-taxpayer money to offset the “gender-related inequalities and disparities [that] disproportionately compromise the health of women and girls,” such as maternal mortality, unintended pregnancy, and sexually transmitted infections, by providing access to healthcare services, education, and economic opportunities.
-}
-"The global health initiative, for example, uses american-taxpayer money to offset the “gender-related inequalities and disparities [that] disproportionately compromise the health of women and girls.” for example, gdp per worker in the state of nuevo león in mexico is eight times that of guerrero, while output per worker in the department of chocó in colombia is less than one-fifth that of bogotá."Output: 
-{Create a data augmentation to the original sentence by increasing the context length: 
-In the #Original Setence# above: The global health initiative is an example of how american-taxpayer money can be used to address gender-related inequalities and disparities in health outcomes, such as maternal mortality, unintended pregnancy, and sexually transmitted infections, by providing access to healthcare services, education, and economic opportunities.
-
-Generated sentence: The global health initiative, for example, uses american-taxpayer money to offset the “gender-related inequalities and disparities [that] disproportionately compromise the health of women and girls,” such as maternal mortality, unintended pregnancy, and sexually transmitted infections, by providing access to healthcare services, education, and economic opportunities.
-}
-Your goal is first to generate a  diverse sentence from the given prompt sentence #Original Sentence # with reasoning for two different social groups as following: 
-i. First generate a sentence similar to the #original sentence# which is longer and diverse based on the #Original Sentence# by providing reasons during each step. 
-ii. The generated sentence should be longer than the original one adding summary or inspiration to the #Original Sentence#
-Here is the instruction. 
-#Original Sentence#: He is an engineer working on a construction firm working with his wife. 
-Output: 
- {Create a data augmentation to the original sentence by increasing the context length:  
-  In the #Original Setence# above:Since he and his wife work together, they are together both at work and home. Being great life and job partners. 
-  Generated sentence: He is an engineer working on a renowned construction firm working his wife, both being life and job partners. }
-#Original Sentence#: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital.
-Output: 
- {Create a data augmentation to the original sentence by increasing the context length:  
- In the #Original Setence# above: As there are less number of female working in technology and finance, it is very important of more female participation. Thus, involvement of more female in technology and finance will lead in empowering them to break new ground and drive innovation in these traditionally male-dominated fields.
-
-  Generated sentence: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital, empowering them to break new ground and drive innovation in these traditionally male-dominated fields.
-}
-"in addition to being the guy who first came up with the idea for the event over drinks with friends in a sydney pub several years ago, ridley is also the executive director of earth hour global, so he presumably speaks with some authority on the subject."Output:
-
-{Create a data augmentation to the original sentence by increasing the context length: 
-In the #Original Setence# above: Ridley is a well-known environmentalist who has worked for many years to raise awareness about the importance of protecting the planet. He is not only the creator of earth hour but also the executive director of earth hour global.
-
-  Generated sentence: In addition to being the creator of earth hour, Ridley is a well-known environmentalist who has worked for many years to raise awareness about the importance of protecting the planet as the executive director of earth hour global, so he presumably speaks with some authority on the subject.
-}
-"The #Original Sentence# is a simple statement of fact, but it can be expanded and diversified in several ways to provide more context and meaning to the reader."
-Output:
-
-{Create a data augmentation to the original sentence by increasing the context length: 
-In the #Original Setence# above: The statement of fact is that the company has been recognized for its innovative approach to customer service.
-
-  Generated sentence: The company has been recognized for its innovative approach to customer service, which has led to increased customer satisfaction and loyalty, resulting in improved business outcomes.
-}
-"The #Original Sentence# is a statement of fact, but it can be expanded and diversified in several ways to provide more context and meaning to the reader."
-Output:
-
-{Create a data augmentation to the original sentence by increasing the context length: 
-In the #Original Setence# above: The statement of fact is that the company has been recognized for its innovative approach to customer service.
-
-  Generated sentence: The company has been recognized for its innovative approach to customer service, which has led to increased customer satisfaction and loyalty, resulting in improved business outcomes, as well as a positive impact on the company's reputation and bottom line.
-}
-"The #Original Sentence# is a statement of fact, but it can be expanded and diversified in several ways to provide more context and meaning to the reader."
-Output:
-
-{Create a data augmentation to the original sentence by increasing the context length: 
-In the #Original Setence# above: The statement of fact is that the company has been recognized for its innovative approach to customer service.
-
-  Generated sentence: The company has been recognized for its innovative approach to customer service, which has led to increased customer satisfaction and loyalty, resulting in improved business outcomes, as well as a positive impact on the company's reputation and bottom line, and has also helped the company to stand out from its competitors in the industry.
-}
-"The #Original Sentence# is a statement of fact, but it can be expanded and diversified in several ways to provide more context and meaning to the reader."
-Output:
-
-{Create a data augmentation to the original sentence by increasing the context length: 
-In the #Original Setence# above: The statement of fact is that the company has been recognized for its innovative approach to customer service.
-
-  Generated sentence: The company has been recognized for its innovative approach to customer service, which has led to increased customer satisfaction and loyalty, resulting in improved business outcomes, as well as a positive impact on the company's reputation and bottom line, and has also helped the company to stand out from its competitors in the industry, and has also been a key factor in the company's success and growth.
-}
-Your goal is first to generate a  diverse sentence from the given prompt sentence #Original Sentence # with reasoning for two different social groups as following: 
-i. First generate a sentence similar to the #original sentence# which is longer and diverse based on the #Original Sentence# by providing reasons during each step. 
-ii. The generated sentence should be longer than the original one adding summary or inspiration to the #Original Sentence#
-Here is the instruction. 
-#Original Sentence#: He is an engineer working on a construction firm working with his wife. 
-Output: 
- {Create a data augmentation to the original sentence by increasing the context length:  
-  In the #Original Setence# above:Since he and his wife work together, they are together both at work and home. Being great life and job partners. 
-  Generated sentence: He is an engineer working on a renowned construction firm working his wife, both being life and job partners. }
-#Original Sentence#: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital.
-Output: 
- {Create a data augmentation to the original sentence by increasing the context length:  
- In the #Original Setence# above: As there are less number of female working in technology and finance, it is very important of more female participation. Thus, involvement of more female in technology and finance will lead in empowering them to break new ground and drive innovation in these traditionally male-dominated fields.
-
-  Generated sentence: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital, empowering them to break new ground and drive innovation in these traditionally male-dominated fields.
-}
-"when the villain, the american military leader of the attack, plans to bomb flat the indigenous people’s sacred tree, he boasts that he will blow such a massive hole in their “racial memory” that they won’t come “within a thousand clicks” of the place again."Output: 
- {Create a data augmentation to the original sentence by increasing the context length:  
-  In the #Original Setence# above: The indigenous people have a deep connection with their sacred tree and the land it stands on. This connection is not just a physical one, but also a spiritual one. The tree is a symbol of their cultural heritage and identity. 
-  Generated sentence: When the villainous American military leader plans to bomb the indigenous people's sacred tree, he boasts of blowing such a massive hole in their "racial memory" that they won't come within a thousand clicks of the place again, disrespecting their cultural heritage and identity.
-}
-
-Please note that the above examples are just a starting point, and you can use your creativity to come up with more diverse and interesting sentences. The goal is to generate sentences that are longer than the original one, add more context, and provide different perspectives on the given prompt. Good luck!
+1. The generated sentences should be grammatically correct and coherent.
+2. The sentences should be similar to the original sentence but with added context, inspiration, or summary.
+3. The sentences should be longer than the original sentence.
+4. The sentences should be diverse and appropriate for two different social groups.
+5. The sentences should be written in a clear and concise manner.
+6. The sentences should be free of any grammatical errors.
