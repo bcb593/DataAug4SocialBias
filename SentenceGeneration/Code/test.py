@@ -40,7 +40,7 @@ def return_relevant_sentences(sentences_path, prompt_path):
     with open(sentences_path, 'r', encoding='utf-8') as file:
         sentences = [line.strip() for line in file]
 
-    for i, sentence in enumerate(tqdm(sentences[:10], desc="Processing sentences")):
+    for i, sentence in enumerate(tqdm(sentences[:100], desc="Processing sentences")):
         print(sentence)
         full_prompt = f"{prompt}#Original Sentence#:{sentence}\"Output:"
         aug_sent = get_llama_response(full_prompt)
@@ -78,6 +78,6 @@ with open('/scratch0/bashyalb/DataAug4SocialBias/SentenceGeneration/Data/SocialG
         f.write(sentence + '\n')
 
 #And write everything in a file
-with open('/scratch0/bashyalb/DataAug4SocialBias/SentenceGeneration/Data/SocialGroups/gender/Generated/samegroupgen/all_generated.txt', 'w',encoding='utf-8') as f:
+with open('/scratch0/bashyalb/DataAug4SocialBias/SentenceGeneration/Data/SocialGroups/gender/Generated/samegroupgen/samegroup_low_ttr.txt', 'w',encoding='utf-8') as f:
     for sentence in relevant_sentences:
         f.write(sentence + '\n')
