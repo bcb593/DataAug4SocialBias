@@ -1,4 +1,7 @@
-Instruction: Genrate high quality sentence from the given prompt #Original Sentence#. Donot put your own sentence as prompt. 
+Your goal is to generate a  high quality sentence from the given prompt sentence #Original Sentence # with reasoning. 
+Donot generate any random sentences or extra empty lines, the generation should look like the following instruction. 
+Also you cannot use any words/sentences from the examples during the generation. The generated sentences should be similar to the prompt and high quality.
+Here is the instruction. 
 #Original Sentence#: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital.
 Output: 
  {Create a data augmentation to the original sentence by increasing the context length:  
