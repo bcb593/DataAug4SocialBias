@@ -1,4 +1,4 @@
-Instruction: Genrate high quality sentence. 
+Instruction: Genrate high quality sentence from the given prompt #Original Sentence#. Donot put your own sentence as prompt. 
 #Original Sentence#: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital.
 Output: 
  {Create a data augmentation to the original sentence by increasing the context length:  
