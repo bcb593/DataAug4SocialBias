@@ -1,160 +1,316 @@
 
 
- {Create a data augmentation to the original sentence by increasing the context length: 
-In the #Original Sentence# above: The trump administration's red line was crossed this month, when a white house spokesman issued a rare rebuke of netanyahu, dismissing reports that us officials had discussed an annexation plan for the west bank with their israeli counterparts. This has caused a major rift between the two leaders and their respective governments.
-
-Generated sentence: The trump administration's red line was crossed this month, when a white house spokesman issued a rare rebuke of netanyahu, dismissing reports that us officials had discussed an annexation plan for the west bank with their israeli counterparts, causing a major rift between the two leaders and their respective governments.
-}
-
-#Original Sentence#:the us and its allies are pushing for a ceasefire in yemen to alleviate the humanitarian crisis, but the houthi rebels are refusing to budge."Output:
-
- {Create a data augmentation to the original sentence by increasing the context length: 
-In the #Original Sentence# above: The us and its allies are pushing for a ceasefire in yemen to alleviate the humanitarian crisis, but the houthi rebels are refusing to budge, leading to a stalemate in the conflict.
-
-Generated sentence: The us and its allies are pushing for a ceasefire in yemen to alleviate the humanitarian crisis, but the houthi rebels are refusing to budge, leading to a stalemate in the conflict, with no clear end in sight.
-}
-
-Please note that the generated sentences should be similar in meaning to the original sentence, but with some variation in words and phrasing to increase the context length. Also, the sentences should be grammatically correct and coherent.
- 
 {Create a data augmentation to the original sentence by increasing the context length:
-In the #Original Sentence#, governess Gavin Newsom is the governor of California, and he is developing a comprehensive strategy to upskill the state’s diverse workforce with the advisory of Lenny Mendonca.
+In the #Original Sentence# above: The trump administration's red line was apparently crossed this month, when a white house spokesman issued a rare rebuke of netanyahu, dismissing reports that us officials had discussed an annexation plan for the west bank with their israeli counterparts. The issue is sensitive as the us has long opposed any unilateral moves by israel to annex parts of the west bank, and the reports of the annexation plan had sparked a major rift between the two allies.
 
-Generated sentence: In California, for example, Governor Gavin Newsom (whom Lenny Mendonca advises) is developing a comprehensive strategy to upskill the state’s diverse workforce, with a focus on equipping workers with the skills they need to succeed in the state’s rapidly changing economy.
-}
-#Original Sentence#: "the #FutureOfWork# initiative aims to prepare workers for new job opportunities in growing industries like #ArtificialIntelligence#, #MachineLearning#, and #Cybersecurity#."Output: 
-{Create a data augmentation to the original sentence by increasing the context length:
-In the #Original Sentence#, the #FutureOfWork# initiative aims to prepare workers for new job opportunities in growing industries like #ArtificialIntelligence#, #MachineLearning#, and #Cybersecurity#, which are expected to drive economic growth and create new job opportunities in the future.
-
-Generated sentence: The #FutureOfWork# initiative aims to prepare workers for new job opportunities in growing industries like #ArtificialIntelligence#, #MachineLearning#, and #Cybersecurity#, which are expected to drive economic growth and create new job opportunities in the future, providing workers with the skills and training they need to succeed in these emerging fields.
-}
-#Original Sentence#: "the initiative will focus on reskilling and upskilling workers in the #Technology#, #Finance#, and #Healthcare# sectors."Output: 
-{Create a data augmentation to the original sentence by increasing the context length:
-In the #Original Sentence#, the initiative will focus on reskilling and upskilling workers in the #Technology#, #Finance#, and #Healthcare# sectors, where new technologies and innovations are creating new job opportunities and challenges for workers.
-
-Generated sentence: The initiative will focus on reskilling and upskilling workers in the #Technology#, #Finance#, and #Healthcare# sectors, where new technologies and innovations are creating new job opportunities and challenges for workers, providing them with the skills and training they need to succeed in these rapidly evolving fields.
+Generated sentence: The trump administration’s red line was apparently crossed this month, when a white house spokesman issued a rare rebuke of netanyahu, dismissing reports that us officials had discussed an annexation plan for the west bank with their israeli counterparts, sparking a major rift between the two allies over a sensitive issue that has long opposed any unilateral moves by israel to annex parts of the west bank.
 }
 
-Please note that the generated sentences should be coherent and fluent, and should not contain any grammatical errors or awkward phrasing. Additionally, the generated sentences should be relevant to the original sentence and should provide useful information to the reader.
-
-{
-Increase the context length of the original sentence by adding a sentence to it:
-In the #Original Sentence#, it is observed that there is a lack of workshops for women’s empowerment and successful organization of small-scale local elections across the country, which further highlights the need for more efforts to be made in this regard.
-
-Generated sentence: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital, empowering them to break new ground and drive innovation in these traditionally male-dominated fields. Additionally, there is a need for more workshops for women’s empowerment and successful organization of small-scale local elections across the country.
-
-Note: The generated sentence should be coherent and relevant to the original sentence. The context length should be increased by at least one sentence.
-
-{Create a data augmentation to the original sentence by adding more context:
-In the #Original Sentence# above: Trump's disregard for US alliances is causing concern among allies and adversaries alike, as it undermines the stability and security that these alliances provide. This can have serious consequences for the global order and the future of international relations.
-
-Generated sentence: whatever emerges from his next summit with Kim, it is already clear that Trump’s disregard for US alliances is taking a toll on the stability and security of the global order, causing concern among allies and adversaries alike and potentially leading to serious consequences for the future of international relations.
-
-Please provide your output for the given prompt sentences.
-
-{Create a data augmentation to the original sentence by increasing the context length: 
-In the #Original Sentence#, President Trump's visit to the Philippines will be his last stop on his marathon trip to Asia, where he will pay respects to President Rodrigo Duterte. 
-
-Generated sentence: When US President Donald Trump visits the Philippines this weekend, on the last stop of his marathon trip to Asia, he will pay respects to President Rodrigo Duterte, capping off his extensive tour of the region.
 
 
-Please note that the generated sentences should be grammatically correct and coherent, and should provide additional context to the original sentence. Also, please avoid generating any sentences that are offensive or inappropriate.
 
-{Create a data augmentation to the original sentence by increasing the context length:
 
-In the #Original Sentence#, exposure to high levels of DDT before the age of fourteen can lead to an increased risk of breast cancer later in life. This is because DDT can interfere with hormone regulation and development, potentially causing cellular damage that can increase the likelihood of cancer.
 
-Generated sentence: Women exposed to higher levels of the pesticide DDT before the age of fourteen have a five times higher chance of developing breast cancer when they reach middle age, due to the potential cellular damage caused by DDT's interference with hormone regulation and development.
+{Create a data augmentation to the original sentence by adding a new information:
+In the #Original Sentence#, Governess Gavin Newsom is planning to create a comprehensive strategy to upskill the state's diverse workforce. This strategy will include training programs for both men and women, with a focus on underrepresented groups such as women and minorities.
+
+Generated Sentence: In california, for example, Governess Gavin Newsom (whom lenny mendonca advises) is developing a comprehensive strategy to upskill the state’s diverse workforce, with a focus on training programs for underrepresented groups such as women and minorities.
+
 }
-#Original Sentence#: The study found that the participants who used social media for more than two hours per day were more likely to experience depression and anxiety.
+
+#Original Sentence#: The company's board of directors has pledged to increase the number of women in leadership positions.
+Output:
+{Create a data augmentation to the original sentence by adding a new information:
+In the #Original Sentence#, The company's board of directors has pledged to increase the number of women in leadership positions, with a focus on achieving gender parity in the next five years.
+
+Generated Sentence: The company's board of directors has pledged to increase the number of women in leadership positions, with a focus on achieving gender parity in the next five years, by implementing policies such as flexible work arrangements and mentorship programs.
+
+}
+
+#Original Sentence#: Women are underrepresented in science, technology, engineering, and math (STEM) fields.
+Output:
+{Create a data augmentation to the original sentence by adding a new information:
+In the #Original Sentence#, Women are underrepresented in STEM fields due to a lack of role models and mentors, as well as biases in hiring and promotion practices.
+
+Generated Sentence: Women are underrepresented in science, technology, engineering, and math (STEM) fields due to a lack of role models and mentors, as well as biases in hiring and promotion practices, which can be addressed by implementing diversity and inclusion initiatives.
+
+}
+
+#Original Sentence#: The government has implemented policies to promote gender equality in the workplace.
+Output:
+{Create a data augmentation to the original sentence by adding a new information:
+In the #Original Sentence#, The government has implemented policies to promote gender equality in the workplace, such as paid parental leave and flexible work arrangements.
+
+Generated Sentence: The government has implemented policies to promote gender equality in the workplace, such as paid parental leave and flexible work arrangements, which have led to an increase in female participation in the workforce.
+
+}
+
+#Original Sentence#: The company has a diversity and inclusion committee to promote gender equality.
+Output:
+{Create a data augmentation to the original sentence by adding a new information:
+In the #Original Sentence#, The company has a diversity and inclusion committee to promote gender equality, which has implemented training programs to address unconscious bias and promote diversity in hiring practices.
+
+Generated Sentence: The company has a diversity and inclusion committee to promote gender equality, which has implemented training programs to address unconscious bias and promote diversity in hiring practices, leading to an increase in female representation in leadership positions.
+
+}
+
+#Original Sentence#: There is a lack of women in leadership positions in corporate america.
+Output:
+{Create a data augmentation to the original sentence by adding a new information:
+In the #Original Sentence#, There is a lack of women in leadership positions in corporate america, which can be attributed to a lack of opportunities for advancement and a lack of mentorship and sponsorship.
+
+Generated Sentence: There is a lack of women in leadership positions in corporate america, which can be attributed to a lack of opportunities for advancement and a lack of mentorship and sponsorship, which can be addressed by implementing programs such as mentorship and sponsorship initiatives.
+
+}
+
+#Original Sentence#: Women are underrepresented in leadership positions in technology companies.
+Output:
+{Create a data augmentation to the original sentence by adding a new information:
+In the #Original Sentence#, Women are underrepresented in leadership positions in technology companies, which can be attributed to a lack of women in technical fields and a lack of opportunities for advancement.
+
+Generated Sentence: Women are underrepresented in leadership positions in technology companies, which can be attributed to a lack of women in technical fields and a lack of opportunities for advancement, which can be addressed by implementing programs such as recruitment and retention initiatives.
+
+}
+
+#Original Sentence#: The company has a goal of increasing the number of women in
+
+
+ {Create a data augmentation to the original sentence by increasing the context length:  
+ In the #Original Setence# above: As there is lack of workshops for women’s empowerment and successful organization of small-scale local elections, it is very important to create more opportunities for women to participate in these areas. Thus, involvement of more female in technology and finance will lead in empowering them to break new ground and drive innovation in these traditionally male-dominated fields.
+
+  Generated sentence: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital, empowering them to break new ground and drive innovation in these traditionally male-dominated fields, and create more opportunities for women to participate in workshops for women’s empowerment and successful organization of small-scale local elections.
+}
+
+Please note that the generated sentences are not only grammatically correct but also semantically similar to the original sentence, and can be used as data augmentation to train the NLP model.
+
+ {Create a data augmentation to the original sentence by increasing the context length:
+ In the #Original Sentence# above: Trump's disregard for US alliances has caused significant concerns among its allies, as they are unsure of the future of their relationships with the US. This lack of certainty can lead to a decline in the stability of the region and may even result in a shift in the global power dynamics.
+
+  Generated sentence: whatever emerges from his next summit with kim, it is already clear that trump’s disregard for us alliances is taking a toll, causing significant concerns among its allies and potentially leading to a decline in the stability of the region and a shift in the global power dynamics.
+}
+
+#Original Sentence#: The protests in hong kong have been largely peaceful, but the situation remains tense and unpredictable.Output:
+ {Create a data augmentation to the original sentence by increasing the context length:
+ In the #Original Sentence# above: The protests in Hong Kong have been largely peaceful, but the situation remains tense and unpredictable, with the potential for violence and chaos lurking beneath the surface. This unpredictability has made it difficult for the authorities to maintain order and has raised concerns about the long-term stability of the region.
+
+  Generated sentence: The protests in Hong Kong have been largely peaceful, but the situation remains tense and unpredictable, with the potential for violence and chaos lurking beneath the surface, making it difficult for the authorities to maintain order and raising concerns about the long-term stability of the region.
+}
+
+#Original Sentence#: The company's new ceo has a tough task ahead of him, as the industry is facing unprecedented challenges.Output:
+ {Create a data augmentation to the original sentence by increasing the context length:
+ In the #Original Sentence# above: The company's new CEO has a tough task ahead of him, as the industry is facing unprecedented challenges, including rapidly changing consumer preferences, intense competition, and technological disruption. These challenges are making it difficult for companies to adapt and remain profitable, and the new CEO will need to be innovative and strategic in order to succeed.
+
+  Generated sentence: The company's new CEO has a tough task ahead of him, as the industry is facing unprecedented challenges, including rapidly changing consumer preferences, intense competition, and technological disruption, making it difficult for companies to adapt and remain profitable, and the new CEO will need to be innovative and strategic in order to succeed.
+}
+
+#Original Sentence#: The new tariffs imposed by the us on chinese goods will have a significant impact on the global economy.Output:
+ {Create a data augmentation to the original sentence by increasing the context length:
+ In the #Original Sentence# above: The new tariffs imposed by the US on Chinese goods will have a significant impact on the global economy, potentially leading to a trade war and destabilizing the global markets. This will have far-reaching consequences, including higher prices for consumers, reduced exports, and a decline in economic growth.
+
+  Generated sentence: The new tariffs imposed by the US on Chinese goods will have a significant impact on the global economy, potentially leading to a trade war and destabilizing the global markets, with far-reaching consequences including higher prices for consumers, reduced exports, and a decline in economic growth.
+}
+
+#Original Sentence#: The company's new product launch has been met with great excitement from customers.Output:
+ {Create a data augmentation to the original sentence by increasing the context length:
+ In the #Original Sentence# above: The company's new product launch has been met with great excitement from customers, who are eager to experience the innovative features and improved performance. This positive response has boosted the company's confidence and has the potential to drive significant growth and revenue.
+
+  Generated sentence: The company's new product launch has been met with great excitement from customers, who are eager to experience the innovative features and improved performance, boosting the company's confidence and having the potential to drive significant growth and revenue.
+}
+
+#Original Sentence#: The new policy will have a significant impact on the environment.Output:
+ {Create a data augmentation to the original sentence by increasing the context length:
+ In the #Original Sentence# above: The new policy will have a significant impact on the environment, potentially leading to a reduction in greenhouse gas emissions and a decrease in the use of fossil fuels. This will have far-reaching consequences, including improved air and water quality, and a healthier population.
+
+  Generated sentence:
+
+ {Create a data augmentation to the original sentence by increasing the context length:
+In the #Original Sentence# above: President Rodrigo Duterte and US President Donald Trump have been engaging in a close relationship, and this visit is expected to further strengthen the ties between the two nations.
+
+Generated sentence: When US President Donald Trump visits the Philippines this weekend, on the last stop of her marathon trip to Asia, she will pay respects to President Rodrigo Duterte, further strengthening the ties between the two nations.
+}
+#Original Sentence#: The #Capital# of #Japan# is #Tokyo#.Output:
+ {Create a data augmentation to the original sentence by increasing the context length:
+In the #Original Sentence# above: Tokyo is not only the capital of Japan but also a hub for technology, innovation, and culture.
+
+Generated sentence: The #Capital# of #Japan#, Tokyo, is not only the seat of government but also a hub for technology, innovation, and culture.
+}
+
+
+
+
+
+
+
+ {Create a data augmentation to the original sentence by increasing the context length:
+
+In the #Original Sentence# above: The study suggests that exposure to DDT before the age of fourteen can increase the risk of developing breast cancer in middle age.
+
+Generated sentence: Women who were exposed to higher levels of DDT before the age of fourteen have a five times higher chance of developing breast cancer when they reach middle age, as suggested by the study.
+
+}
+
+#Original Sentence#: "The company will be launching a new product line next quarter."
 Output:
 {Create a data augmentation to the original sentence by increasing the context length:
 
-In the #Original Sentence#, excessive social media use has been linked to an increased risk of depression and anxiety. This may be due to the constant stream of information and the pressure to present a perfect online persona, which can lead to feelings of inadequacy and low self-esteem.
+In the #Original Sentence# above: The new product line will be launched by the company next quarter.
 
-Generated sentence: The study found that the participants who used social media for more than two hours per day were more likely to experience depression and anxiety, as excessive social media use has been linked to an increased risk of these mental health issues due to the constant stream of information and pressure to present a perfect online persona.
+Generated sentence: The company will be launching a new product line next quarter, which is expected to be a game changer in the market.
+
 }
 
-Note:
+#Original Sentence#: "The new policy will go into effect next month."
+Output:
+{Create a data augmentation to the original sentence by increasing the context length:
 
-* The output should be in the same format as the input, with the original sentence as the first line, followed by the generated sentence.
-* The generated sentence should be at least 1.5 times longer than the original sentence, and should provide additional context and information to support the original sentence.
-* The generated sentence should be grammatically correct and coherent, and should not contain any irrelevant or redundant information.
+In the #Original Sentence# above: The new policy will be implemented next month.
 
-Please provide the output for the three input sentences, following the format specified above.
+Generated sentence: The new policy will be implemented next month, and it is expected to have a significant impact on the industry.
+
+}
+
+#Original Sentence#: "The team worked tirelessly to complete the project on time."
+Output:
+{Create a data augmentation to the original sentence by increasing the context length:
+
+In the #Original Sentence# above: The team worked diligently to complete the project on time.
+
+Generated sentence: The team worked diligently to complete the project on time, and their hard work paid off as the project was completed successfully.
+
+}
+
+#Original Sentence#: "The company's profits have been steadily increasing over the past few years."
+Output:
+{Create a data augmentation to the original sentence by increasing the context length:
+
+In the #Original Sentence# above: The company's financial performance has been consistently strong over the past few years.
+
+Generated sentence: The company's financial performance has been consistently strong over the past few years, with steadily increasing profits.
+
+}
+
+#Original Sentence#: "The new employee is still learning the ropes."
+Output:
+{Create a data augmentation to the original sentence by increasing the context length:
+
+In the #Original Sentence# above: The new employee is still in the process of learning the company's policies and procedures.
+
+Generated sentence: The new employee is still in the process of learning the company's policies and procedures, and is eager to prove themselves as a valuable asset to the team.
+
+}
+
+#Original Sentence#: "The city is known for its vibrant nightlife."
+Output:
+{Create a data augmentation to the original sentence by increasing the context length:
+
+In the #Original Sentence# above: The city is famous for its diverse range of bars, clubs, and live music venues.
+
+Generated sentence: The city is famous for its diverse range of bars, clubs, and live music venues, making it a popular destination for nightlife enthusiasts.
+
+}
+
+#Original Sentence#: "The company is offering a discount on all products this weekend."
+Output:
+{Create a data augmentation to the original sentence by increasing the context length:
+
+In the #Original Sentence# above: The company is providing a limited-time offer of a discount on all products this weekend.
+
+Generated sentence: The company is providing a limited-time offer of a discount on all products this weekend, so customers should take advantage of this opportunity to save money.
+
+}
+
+#Original Sentence#: "The new smartphone has received rave reviews."
+Output:
+{Create a data augmentation to the original sentence by increasing the context length:
+
+In the #Original Sentence# above: The new smartphone has been widely praised by tech critics and consumers alike.
+
+Generated sentence: The new smartphone has been widely praised by tech critics and consumers alike, with many considering it to be one of the best devices on the market.
+
+}
+
+#Original Sentence#: "The team won the championship last year."
+Output:
+{Create a data augmentation to the original sentence by increasing the context length:
+
+In the #Original Sentence# above: The team was crowned champions of the league last year.
+
+Generated sentence: The team was crowned champions of the league last year, and their victory was celebrated by their fans and the entire community.
+
+}
+
+#Original Sentence#: "The company is facing a legal challenge."
+Output:
+{Create a data augmentation to the
  
-{Create a data augmentation to the original sentence by adding a contrasting idea: 
-In the #Original Sentence#, it is mentioned that the wife of China's nationalist leader Chiang Kai-shek testified before the US congress. However, it is interesting to note that despite her efforts, women in China continued to face significant challenges in the workplace and in society at large.
+ {Create a data augmentation to the original sentence by increasing the context length:  
+ In the #Original Setence# above: Indeed, in 1943, the wife of china's nationalist leader chiang kai-shek testified before the us congress about how us president franklin d.
 
-Generated sentence: Indeed, in 1943, the wife of China's nationalist leader Chiang Kai-shek testified before the US congress about how US president Franklin D. Roosevelt could support Chinese women's rights, but despite her efforts, women in China continued to face significant challenges in the workplace and in society at large.
-
+  Generated sentence: Indeed, in 1943, the wife of china's nationalist leader chiang kai-shek testified before the us congress about how us president franklin d. Roosevelt provided crucial support to china during world war II, which helped to shape the course of the conflict and pave the way for the country's post-war development.
 }
 
-#Original Sentence#: In addition, women’s participation in the workforce has been shown to have positive effects on economic growth and development.
-Output: 
-{Create a data augmentation to the original sentence by adding a contrasting idea: 
-In the #Original Sentence#, it is mentioned that women's participation in the workforce has positive effects on economic growth and development. However, it is also important to note that women still face significant barriers to entering and advancing in the workforce, particularly in male-dominated fields.
 
-Generated sentence: In addition, women’s participation in the workforce has been shown to have positive effects on economic growth and development, but women still face significant barriers to entering and advancing in the workforce, particularly in male-dominated fields.
 
+
+ {Create a data augmentation to the original sentence by increasing the context length:
+ In the #Original Sentence# above: The US will not allow Blix and the inspectors that she oversees to be deceived by Iraq again.
+
+  Generated sentence: The US will not allow Dr. Hans Blix and the UNMOVIC inspectors that she oversees to be deceived by Iraq again, given the history of Iraq's non-compliance with weapons inspections and the potential consequences of another war in the region.
 }
 
-#Original Sentence#: Women’s participation in the workforce has been shown to have positive effects on economic growth and development.
-Output: 
-{Create a data augmentation to the original sentence by adding a contrasting idea: 
-In the #Original Sentence#, it is mentioned that women's participation in the workforce has positive effects on economic growth and development. However, it is also important to note that women's participation in the workforce has been declining in recent years, particularly in developed countries.
+Please let me know if you have any further questions or need additional clarification.
 
-Generated sentence: Women’s participation in the workforce has been shown to have positive effects on economic growth and development, but women's participation in the workforce has been declining in recent years, particularly in developed countries.
 
-}
-
-#Original Sentence#: Women's participation in the workforce has been shown to have positive effects on economic growth and development.
-Output: 
-{Create a data augmentation to the original sentence by adding a contrasting idea: 
-In the #Original Sentence#, it is mentioned that women's participation in the workforce has positive effects on economic growth and development. However, it is also important to note that women's participation in the workforce is not always measured accurately, and many women are underrepresented in workforce data.
-
-Generated sentence: Women's participation in the workforce has been shown to have positive effects on economic growth and development, but women's participation in the workforce is not always measured accurately, and many women are underrepresented in workforce data.
-
-}
-
-#Original Sentence#: In conclusion, women's leadership in technology and finance is essential for driving innovation and growth in these fields.
-Output: 
-{Create a data augmentation to the original sentence by adding a contrasting idea: 
-In the #Original Sentence#, it is mentioned that women's leadership in technology and finance is essential for driving innovation and growth in these fields. However, it is also important to note that women's leadership is often undervalued and underrepresented in these fields.
-
-Generated sentence: In conclusion, women's leadership in technology and finance is essential for driving innovation and growth in these fields, but women's leadership is often undervalued and underrepresented in these fields.
-
-}
-
-#Original Sentence#: Women's leadership in technology and finance is essential for driving innovation and growth in these fields.
-Output: 
-{Create a data augmentation to the original sentence by adding a contrasting idea: 
-In the #Original Sentence#, it is mentioned that women's leadership in technology and finance is essential for driving innovation and growth in these fields. However, it is also important to note that women's leadership is not always recognized or rewarded equally to men's leadership.
-
-Generated sentence: Women's leadership in technology and finance is essential for driving innovation and growth in these fields, but women's leadership is not always recognized or rewarded equally to men's leadership.
-
-}
 
 
  
-{Create a data augmentation to the original sentence by increasing the context length: 
- In the #Original Sentence#, the speaker seems to be skeptical of Iraq's intentions and believes that the US will not allow Iraq to deceive the inspectors again.
-
-Generated sentence: The US will not allow Blix and the inspectors she oversees to be deceived by Iraq again, given the speaker's skepticism of Iraq's intentions.
-
-Please note that the output should be in the same format as the input, with the same structure and punctuation. Also, please make sure that the generated sentence is coherent and grammatically correct.
-
 
  {Create a data augmentation to the original sentence by increasing the context length: 
-In the #Original Sentence# above: The election of a female president in the United States could have a profound impact on US-Latin American relations, particularly in the areas of technology and finance where female participation is crucial for innovation and progress.
+ In the #Original Sentence# above: The election of a female president in the US could have a profound impact on US-Latin American relations, potentially leading to a more collaborative and inclusive approach to regional issues.
 
-Generated sentence: If a female president is elected in the United States in November, it could initiate a sea-change in US-Latin American relations, particularly in the areas of technology and finance where female participation is crucial for innovation and progress.
+  Generated sentence: If Hillary Clinton is elected president of the United States in November, the election could initiate a sea-change in US-Latin American relations, particularly if she prioritizes issues such as economic development, social inclusion, and human rights.
+}
+#Original Sentence#:The company has been working with the local community to develop a plan for the mine that addresses concerns about the environment and social impact.Output: 
+
+ {Create a data augmentation to the original sentence by increasing the context length: 
+ In the #Original Sentence# above: The company is committed to ensuring that the mine is developed in a responsible and sustainable manner, taking into account the needs and concerns of the local community.
+
+  Generated sentence: The company has been working collaboratively with the local community to develop a comprehensive plan for the mine that addresses environmental and social impacts, ensuring that the project benefits all stakeholders.
+}
+#Original Sentence#:The new policy aims to promote gender equality and empower women and girls.Output: 
+
+ {Create a data augmentation to the original sentence by increasing the context length: 
+ In the #Original Sentence# above: The new policy is a critical step towards achieving gender equality and empowering women and girls, who are often marginalized and excluded from decision-making processes.
+
+  Generated sentence: The recently announced policy aims to promote gender equality and empower women and girls, addressing systemic barriers and challenges that have historically hindered their full participation in society.
 }
 
-Your goal is to generate a high quality sentence from the given prompt sentence with reasoning. Do not generate any random sentences or extra empty lines, the generation should look like the following instruction.
- 
-{Create a data augmentation to the original sentence by increasing the context length:  
-In the #Original Setence# above: The decisions to push out his hard-edged chief strategist, Steve Bannon, and to carry out a deliberative Afghanistan policy review, which changed Trump’s mind about US policy there, were also important factors in Korean unification and global peace.
 
-Generated sentence: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital, empowering them to break new ground and drive innovation in these traditionally male-dominated fields, as well as in Korean unification and global peace, by making deliberative decisions and carrying out a policy review that changed their minds about US policy there.
+{Create a data augmentation to the original sentence by increasing the context length:
 
-Note: The output should be a single sentence, not multiple sentences. Also, the output should be in the same format as the input, with the same punctuation and capitalization.
+In the #Original Sentence# above: The decisions to push out her hard-edged chief strategist, steve bannon, and to carry out a deliberative afghanistan policy review, which changed trump's mind about us policy there, were also important factors in korean unification and global peace.
+
+Generated sentence: The decisions to push out her hard-edged chief strategist, steve bannon, and to carry out a deliberative afghanistan policy review, which changed trump's mind about us policy there, were also important factors in korean unification and global peace, as well as the factor of asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital.
+}
+
+#Original Sentence#: The #Original Sentence# above: The #Original Sentence# is about the importance of korean unification and global peace, and how the decisions to push out her hard-edged chief strategist, steve bannon, and to carry out a deliberative afghanistan policy review, which changed trump's mind about us policy there, were also important factors in korean unification and global peace.
+
+Output:
+
+{Create a data augmentation to the original sentence by increasing the context length:
+
+In the #Original Sentence# above: The #Original Sentence# highlights the significance of korean unification and global peace, as well as the importance of asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital.
+
+Generated sentence: The #Original Sentence# highlights the significance of korean unification and global peace, as well as the importance of asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital, empowering them to break new ground and drive innovation in these traditionally male-dominated fields.
+}
+
+#Original Sentence#: The #Original Sentence# above: The #Original Sentence# emphasizes the importance of korean unification and global peace, as well as the need for asia's policymakers to encourage women's leadership in technology and finance, where female participation is increasingly vital.
+
+Output:
+
+{Create a data augmentation to the original sentence by increasing the context length:
+
+In the #Original Sentence# above: The #Original Sentence# underscores the importance of korean unification and global peace, as well as the need for asia's policymakers to encourage women's leadership in technology and finance, where female participation is increasingly vital, in order to break new ground and drive innovation in these traditionally male-dominated fields.
+
+Generated sentence: The #Original Sentence# underscores the importance of korean unification and global peace, as well as the need for asia's policymakers to encourage women's leadership in technology and finance, where female participation is increasingly vital, in order to break new ground and drive innovation in these traditionally male-dominated fields, as well as the significance of the decisions to push out her hard-edged chief strategist, steve bannon, and to carry out a deliberative afghanistan policy review, which changed trump's mind about us policy there.
+}
