@@ -17,6 +17,7 @@ llama_pipeline = pipeline(
     "text-generation",
     model=model,
     tokenizer=tokenizer,
+    return_full_text=False,
     torch_dtype=torch.float16,
     device_map="auto",
 )
@@ -39,7 +40,7 @@ def return_relevant_sentences(sentences_path, prompt_path):
     with open(sentences_path, 'r', encoding='utf-8') as file:
         sentences = [line.strip() for line in file]
 
-    for i, sentence in enumerate(tqdm(sentences[:25], desc="Processing sentences")):
+    for i, sentence in enumerate(tqdm(sentences[:5], desc="Processing sentences")):
         full_prompt = f"{prompt}\"{sentence}\"Output:"
         aug_sent = get_llama_response(full_prompt)
         relevant_sentences.append(aug_sent)
