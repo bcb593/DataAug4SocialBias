@@ -28,7 +28,7 @@ def cot(file_path):
 prompt = cot(prompt_path)
 print(prompt)
 def get_llama_response(prompt: str) -> str:
-    full_text = llama_pipeline(prompt, max_length=1024)[0]['generated_text']
+    full_text = llama_pipeline(prompt, max_length=755)[0]['generated_text']
     return full_text
 
 from tqdm import tqdm
