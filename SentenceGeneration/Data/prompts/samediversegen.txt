@@ -1,7 +1,13 @@
-Your goal is to generate a  high quality sentence from the given prompt sentence #Original Sentence # with reasoning. 
-Donot generate any random sentences or extra empty lines, the generation should look like the following instruction. 
-Also you cannot use any words/sentences from the examples during the generation. The generated sentences should be similar to the prompt and high quality.
+Your goal is first to generate a  diverse sentence from the given prompt sentence #Original Sentence # with reasoning. The reasoning should be no more than two sentences. 
+i. First generate a sentence similar to the #original sentence# which is longer and diverse based on the #Original Sentence# by providing reasons during each step. 
+ii. The generated sentence should be longer than the original one adding summary or inspiration to the #Original Sentence#
+Donot generate any random sentences or extra empty lines, the generation should look like the following instruction.
 Here is the instruction. 
+#Original Sentence#: He is an engineer working on a construction firm working with his wife. 
+Output: 
+ {Create a data augmentation to the original sentence by increasing the context length:  
+  In the #Original Setence# above:Since he and his wife work together, they are together both at work and home. Being great life and job partners. 
+  Generated sentence: He is an engineer working on a renowned construction firm working his wife, both being life and job partners. } Completed
 #Original Sentence#: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital.
 Output: 
  {Create a data augmentation to the original sentence by increasing the context length:  
