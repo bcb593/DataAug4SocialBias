@@ -76,6 +76,6 @@ with open('/scratch0/bashyalb/DataAug4SocialBias/SentenceGeneration/Data/SocialG
         f.write(sentence + '\n')
 
 #And write everything in a file
-with open('/scratch0/bashyalb/DataAug4SocialBias/SentenceGeneration/Data/SocialGroups/gender/Generated/share/all_generated.txt', 'w',encoding='utf-8') as f:
+with open('/scratch0/bashyalb/DataAug4SocialBias/SentenceGeneration/Data/SocialGroups/gender/Generated/samegroupgen/all_generated.txt', 'w',encoding='utf-8') as f:
     for sentence in relevant_sentences:
         f.write(sentence + '\n')
