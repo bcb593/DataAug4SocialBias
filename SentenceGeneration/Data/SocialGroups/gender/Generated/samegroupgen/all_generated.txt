@@ -1,9 +1,138 @@
  
+ {Create a data augmentation to the original sentence by increasing the context length: 
+In the #Original Sentence#, the US and Israel have been discussing annexation plans for the West Bank. This has raised concerns among Palestinians and other countries in the region.
 
-{Create a data augmentation to the original sentence by increasing the context length:  
- In the #Original Setence# above: The trump administration's red line was crossed this month when a white house spokesman issued a rare rebuke of netanyahu. The US administration is trying to maintain a delicate balance in its relationship with Israel and the Palestinians, and the report of annexation plan discussions with Israel was seen as a major breach of that balance.
-
-  Generated sentence: The trump administration’s red line was crossed this month when a white house spokesman issued a rare rebuke of netanyahu, dismissing reports that us officials had discussed an annexation plan for the west bank with their israeli counterparts, a move that has strained the already delicate relationship between the US and Israel.
+Generated sentence: The Trump administration's red line was apparently crossed this month, when a White House spokesman issued a rare rebuke of Netanyahu, dismissing reports that US officials had discussed an annexation plan for the West Bank with their Israeli counterparts, raising concerns among Palestinians and other countries in the region.
 }
 
-Note: The generated sentences should be coherent and relevant to the original sentence. Also, the output should be written in a professional tone and free of grammatical errors.
+#Original Sentence#:the #gig economy# has transformed the way we work, offering more flexibility and autonomy to workers, but also creating new challenges and risks for those who are not protected by traditional employment contracts.
+Output: 
+{Create a data augmentation to the original sentence by increasing the context length: 
+In the #Original Sentence#, the gig economy has changed the way we work, offering more flexibility and autonomy to workers, but also creating new challenges and risks for those who are not protected by traditional employment contracts. This has led to a growing demand for better working conditions and benefits for gig workers.
+
+Generated sentence: The gig economy has transformed the way we work, offering more flexibility and autonomy to workers, but also creating new challenges and risks for those who are not protected by traditional employment contracts, leading to a growing demand for better working conditions and benefits for gig workers.
+}
+
+#Original Sentence#:the #coronavirus# pandemic has accelerated the shift to remote work, but it has also exposed the need for more investment in digital infrastructure and cybersecurity.
+Output: 
+{Create a data augmentation to the original sentence by increasing the context length: 
+In the #Original Sentence#, the COVID-19 pandemic has accelerated the shift to remote work, but it has also exposed the need for more investment in digital infrastructure and cybersecurity. This is because remote work has increased the risk of cyber attacks and data breaches.
+
+Generated sentence: The COVID-19 pandemic has accelerated the shift to remote work, but it has also exposed the need for more investment in digital infrastructure and cybersecurity, as remote work has increased the risk of cyber attacks and data breaches.
+}
+
+#Original Sentence#:the #climate crisis# is causing more frequent and severe natural disasters, such as hurricanes, wildfires, and floods, which are disrupting economies and societies around the world.
+Output: 
+{Create a data augmentation to the original sentence by increasing the context length: 
+In the #Original Sentence#, the climate crisis is causing more frequent and severe natural disasters, such as hurricanes, wildfires, and floods, which are disrupting economies and societies around the world. This has led to a growing need for more investment in climate change mitigation and adaptation measures.
+
+Generated sentence: The climate crisis is causing more frequent and severe natural disasters, such as hurricanes, wildfires, and floods, which are disrupting economies and societies around the world, leading to a growing need for more investment in climate change mitigation and adaptation measures.
+}
+
+#Original Sentence#:the #trade war# between the us and china has had a significant impact on global supply chains, causing delays and increased costs for companies that rely on international trade.
+Output: 
+{Create a data augmentation to the original sentence by increasing the context length: 
+In the #Original Sentence#, the trade war between the US and China has had a significant impact on global supply chains, causing delays and increased costs for companies that rely on international trade. This has led to a growing need for more diversified supply chains and alternative trade routes.
+
+Generated sentence: The trade war between the US and China has
+ 
+ {Create a data augmentation to the original sentence by increasing the context length:  
+  In the #Original Setence# above: Governess Gavin Newsom is developing a comprehensive strategy to upskill California's diverse workforce, with the advisory of Lenny Mendonca. This strategy aims to provide training and development opportunities to workers in the state, regardless of their background or education level.
+  Generated sentence: In California, for instance, Governor Gavin Newsom (advised by Lenny Mendonca) is formulating a comprehensive plan to upskill the state’s diverse workforce, offering training and development opportunities to workers of all backgrounds and education levels.
+}
+
+Your task is to generate a high-quality sentence based on the given prompt sentence, with proper reasoning and context. The generated sentence should be coherent and relevant to the original sentence. Please do not generate any random sentences or extra empty lines.
+ 
+ {Create a data augmentation to the original sentence by increasing the context length:  
+  In the #Original Sentence#, we can see that there is a lack of workshops for women's empowerment and successful organization of small-scale local elections. This implies that there is a need for more efforts to be made in these areas.
+  Generated sentence: We don't hear about the workshops for women's empowerment or the successful organization of small-scale local elections across the country, indicating a need for more efforts in these areas.
+}
+
+Your goal is to generate high-quality sentences that are relevant to the given prompt sentence, and to provide reasoning for your generated sentences. The generated sentences should be grammatically correct and coherent, and should provide a logical extension of the original sentence.
+
+Please note that the given prompt sentences are just examples, and you should be able to generate high-quality sentences for any given prompt sentence.
+
+I will evaluate your responses based on the quality of the generated sentences, the relevance of the sentences to the prompt sentence, and the clarity and coherence of the sentences.
+
+
+ {Create a data augmentation to the original sentence by increasing the context length: 
+ In the #Original Setence# above: Trump's disregard for US alliances has been a major concern for many, as it can lead to a destabilization of the region and a loss of faith in the US as a reliable partner.
+ 
+Generated sentence: whatever emerges from his next summit with kim, it is already clear that trump’s disregard for US alliances is taking a toll, destabilizing the region and eroding faith in the US as a reliable partner.
+
+}
+#Original Sentence#: The company's decision to fire its CEO has sparked a heated debate about the role of women in leadership positions.
+Output: 
+ {Create a data augmentation to the original sentence by increasing the context length:  
+ In the #Original Setence# above: The company's decision to fire its CEO has sparked a heated debate about the role of women in leadership positions, highlighting the challenges that women face in climbing the corporate ladder and the importance of diversity in the workplace.
+
+  Generated sentence: The company's decision to fire its CEO has sparked a heated debate about the role of women in leadership positions, highlighting the challenges that women face in climbing the corporate ladder and the importance of diversity in the workplace, leading to a more inclusive and equitable work environment.
+
+}
+
+Your goal is to generate a high-quality sentence from the given prompt sentence with reasoning. Do not generate any random sentences or extra empty lines. The generation should look like the instruction.
+
+{Create a data augmentation to the original sentence by increasing the context length:  
+In the #Original Sentence#, President trump will be visiting the philippines after visiting other countries in asia. 
+
+Generated sentence: When us president donald trump visits the philippines this weekend, on the last stop of her marathon trip to asia, she will pay respects to president rodrigo duterte, after visiting other countries in asia.
+}
+
+You have to generate 3 sentences as output for each input sentence. 
+Please let me know if you have any questions.
+
+
+ {Create a data augmentation to the original sentence by increasing the context length: 
+ In the #Original Setence# above:DDT exposure has been linked to an increased risk of breast cancer in women, particularly those exposed at a young age. This is because DDT can interfere with the normal development of the breast tissue, leading to abnormal cell growth and an increased risk of cancer.
+ 
+Generated sentence: Women exposed to higher levels of the pesticide DDT before the age of fourteen have a five times higher chances of developing breast cancer when they reach middle age due to DDT's interference with normal development of breast tissue leading to abnormal cell growth.
+}
+
+Note: The generated sentences should be grammatically correct and contextually relevant to the original sentence. The data augmentation should be done in a way that increases the context length of the original sentence.
+
+
+ {Create a data augmentation to the original sentence by increasing the context length:  
+  In the #Original Setence# above: The testimony of the wife of china's nationalist leader chiang kai-shek in 1943 before the us congress was an important moment in the history of sino-us relations. 
+  Generated sentence: Indeed, in 1943, the wife of china's nationalist leader chiang kai-shek testified before the us congress about how us president franklin d. roosevelt's support for china during world war II helped to strengthen the sino-us alliance.
+}
+
+Please note that the generated sentences should be coherent and fluent, and should not contain any grammatical errors or inappropriate language. Also, the generated sentences should be relevant to the original sentence and should provide additional context or information.
+
+Please let me know if you have any questions or need further clarification.
+ 
+
+ {Create a data augmentation to the original sentence by increasing the context length:  
+  In the #Original Setence# above: The UNMOVIC inspection team led by Dr. Hans Blix was sent to Iraq to verify if Saddam Hussein's regime had weapons of mass destruction (WMDs). The US government had accused Iraq of having WMDs and had threatened to invade if Iraq did not comply with the inspections.
+ 
+  Generated sentence: my guess is that the US will not allow Blix and the inspectors that she oversees to be deceived by Iraq again, given the history of Iraq's non-compliance with UNMOVIC inspections.
+
+}
+
+#Original Sentence#:the #Original Sentence# with reasoning. 
+Output: 
+ {Create a data augmentation to the original sentence by increasing the context length:  
+  In the #Original Setence# above: The given sentence is about the US not allowing Blix and the inspectors to be deceived by Iraq again. This implies that there is a history of Iraq's non-compliance with UNMOVIC inspections, and the US is taking a firm stance to prevent any further deception.
+ 
+  Generated sentence: The US will not allow Blix and the inspectors to be deceived by Iraq again, given the history of Iraq's non-compliance with UNMOVIC inspections, and the need for firm stance to prevent any further deception.
+
+}
+
+Please note that the output should be in the same format as the input, with the same structure and punctuation.
+
+Please let me know if you have any questions or need further clarification.
+ 
+{Create a data augmentation to the original sentence by increasing the context length: 
+In the #Original Setence# above: As the us-latin american relations are very crucial for the world politics and economy, any change in the relations could have a global impact. Thus, the election of the president of the united states in november could have a great influence on the us-latin american relations.
+
+  Generated sentence: Whatever John Kerry does about Latin America if she is elected president of the united states in November, the election could initiate a sea-change in US-Latin American relations - even or perhaps mainly if George W.
+}
+
+Note: The generated sentence should be coherent, contextually relevant and grammatically correct.
+ 
+{Create a data augmentation to the original sentence by increasing the context length: 
+In the #Original Sentence#, the removal of Steve Bannon as chief strategist, and the policy review on Afghanistan changed Trump's mind about US policy there, which is important for Korean unification and global peace.
+
+Generated sentence: Korean unification and global peace so, too, were the decisions to push out her hard-edged chief strategist, Steve Bannon, and to carry out a deliberative Afghanistan policy review, which changed Trump’s mind about US policy there, leading to a more peaceful and unified world.
+}
+
+Please note that the output should be in the same format as the input, with the same number of lines and spaces. Also, the generated sentence should be coherent and fluent, and should not contain any grammatical errors.
