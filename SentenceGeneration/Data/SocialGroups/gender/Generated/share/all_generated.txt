@@ -1,75 +1,135 @@
  
-{Create a data augmentation to the original sentence by increasing the context length:  
-In the #Original Setence# above: The trump administration's red line was apparently crossed this month, when a white house spokesman issued a rare rebuke of netanyahu, dismissing reports that us officials had discussed an annexation plan for the west bank with their israeli counterparts. This has caused a major rift between the two allies.
-
-Generated sentence: The trump administration's red line was apparently crossed this month, when a white house spokesman issued a rare rebuke of netanyahu, dismissing reports that us officials had discussed an annexation plan for the west bank with their israeli counterparts, causing a major rift between the two allies.
-}
-#Original Sentence#: The company is planning to launch a new product line, which will be sold in stores and online.
-Output: 
-{Create a data augmentation to the original sentence by increasing the context length:  
-In the #Original Setence# above: The company is planning to launch a new product line, which will be sold in stores and online. This new product line is expected to be a game changer in the industry.
-
-Generated sentence: The company is planning to launch a new product line, which will be sold in stores and online, this new product line is expected to be a game changer in the industry, and the company is confident that it will be a huge success.
-}
-#Original Sentence#: The new policy aims to increase the number of women in leadership positions.
-Output: 
-{Create a data augmentation to the original sentence by increasing the context length:  
-In the #Original Setence# above: The new policy aims to increase the number of women in leadership positions, which will not only benefit the company but also the society as a whole.
-
-Generated sentence: The new policy aims to increase the number of women in leadership positions, which will not only benefit the company but also the society as a whole, by creating a more diverse and inclusive workplace.
-}
-
-Please provide two different sentences for each prompt sentence as per the instructions.
- 
  {Create a data augmentation to the original sentence by increasing the context length:  
- In the #Original Setence# above: California is one of the most diverse states in the US and has a diverse workforce, thus it is important for the state to have a comprehensive strategy to upskill the workforce. 
- 
-  Generated sentence: In California, for example, Governor Gavin Newsom (whom Lenny Mendonca advises) is developing a comprehensive strategy to upskill the state’s diverse workforce, which is crucial given the state's diverse demographics.
+  In the #Original Setence# above: The trump administration's red line was apparently crossed this month, when a white house spokesman issued a rare rebuke of netanyahu, dismissing reports that us officials had discussed an annexation plan for the west bank with their israeli counterparts, which has strained the relationship between the two allies.
+  Generated sentence: The trump administration's red line was apparently crossed this month, when a white house spokesman issued a rare rebuke of netanyahu, dismissing reports that us officials had discussed an annexation plan for the west bank with their israeli counterparts, which has strained the relationship between the two allies, and raised concerns about the future of the middle east peace process.
 }
-#Original Sentence#: The #Original Sentence# is the same as the previous one.
+#Original Sentence#:the company plans to launch a new product line next year, which will include a new smartphone and a wearable device.
 Output: 
  {Create a data augmentation to the original sentence by increasing the context length:  
- In the #Original Setence# above: The company is looking to expand its business in the state and is seeking the advice of Lenny Mendonca, who is an expert in business strategy.
- 
-  Generated sentence: The company is looking to expand its business in California and is seeking the advice of Lenny Mendonca, who is an expert in business strategy, as the state has a diverse and growing market.
+  In the #Original Setence# above: The company plans to launch a new product line next year, which will include a new smartphone and a wearable device, which will be a significant expansion of their product offerings.
+  Generated sentence: The company plans to launch a new product line next year, which will include a new smartphone and a wearable device, which will be a significant expansion of their product offerings, and will provide more options for their customers to choose from.
 }
-
-You have to generate two different sentences for each prompt sentence by providing reasoning for two different social groups.
-
-Please follow the instructions carefully and do not generate any random sentences or extra empty lines.
- 
- {Create a data augmentation to the original sentence by increasing the context length:  
-  In the #Original Setence# above: The lack of workshops for women's empowerment and successful organization of small-scale local elections across the country shows the need for more efforts to be made in this area.
-  Generated sentence: We don't hear about the workshops for women's empowerment or the successful organization of small-scale local elections across the country, indicating the need for more efforts to be made in this area.
-}
-#Original Sentence#: It is important for policymakers to understand the impact of climate change on women and girls.
+#Original Sentence#:the new policy aims to reduce carbon emissions by promoting the use of renewable energy sources.
 Output: 
  {Create a data augmentation to the original sentence by increasing the context length:  
-  In the #Original Setence# above: Climate change disproportionately affects women and girls, who are more vulnerable to its impacts such as drought, famine, and natural disasters.
-  Generated sentence: It is important for policymakers to understand the impact of climate change on women and girls, who are more vulnerable to its impacts such as drought, famine, and natural disasters.
+  In the #Original Setence# above: The new policy aims to reduce carbon emissions by promoting the use of renewable energy sources, such as wind and solar power, which will help to mitigate the impact of climate change.
+  Generated sentence: The new policy aims to reduce carbon emissions by promoting the use of renewable energy sources, such as wind and solar power, which will help to mitigate the impact of climate change, and ensure a sustainable future for our planet.
 }
 
-Note: Please follow the above instruction and generate the sentences for all the given prompt sentences.
+Note: The above instruction is just an example, you can use your own creativity to generate diverse sentences based on the given prompt sentence. The goal is to generate a sentence that is longer than the original one, and provides more context or inspiration to the original sentence.
  
  {Create a data augmentation to the original sentence by increasing the context length:  
- In the #Original Setence# above: Trump's disregard for US alliances has caused a great deal of concern and uncertainty among its allies, particularly in the Asia-Pacific region. This has led to a decline in trust and confidence in the US as a reliable partner.
+  In the #Original Setence# above: The state of california is home to a diverse population with different backgrounds and skills, thus it is important to develop a comprehensive strategy to upskill the state's diverse workforce.
+  Generated sentence: In california, for example, governess gavin newsom (whom lenny mendonca advises) is developing a comprehensive strategy to upskill the state’s diverse workforce, taking into account the different backgrounds and skills of the population.
+}
+#Original Sentence#: the new product will be launched in the first quarter of next year.
+Output: 
+ {Create a data augmentation to the original sentence by increasing the context length:  
+  In the #Original Setence# above: The company is planning to launch a new product in the first quarter of next year, which will be a great addition to their product line.
+  Generated sentence: The company is planning to launch a new product in the first quarter of next year, which will be a great addition to their product line, and will be a significant step forward for the company's growth.
+}
 
-  Generated sentence: Whatever emerges from his next summit with Kim, it is already clear that Trump's disregard for US alliances is taking a toll, causing a decline in trust and confidence in the US as a reliable partner among its allies, particularly in the Asia-Pacific region.
-
-Note: Please make sure to provide reasoning for both social groups in your generated sentences, and also make sure that the generated sentences are longer than the original sentence, adding summary or inspiration to the original sentence.
+Note: Please follow the instruction and generate the sentence based on the given instruction, do not generate any random sentences or extra empty lines, the generation should look like the following instruction.
  
 {Create a data augmentation to the original sentence by increasing the context length: 
-In the #Original Sentence#, the visit of US President Donald Trump to the Philippines is significant as it comes at a time when the two countries have been strengthening their ties, and the US has been seeking to boost its influence in the region. 
+In the #Original Setence# above: Despite the progress made in women's rights and empowerment, there are still many challenges that need to be addressed. For example, we don’t hear about the workshops for women’s empowerment, or the successful organization of small-scale local elections across the country.
 
-Generated sentence: When US President Donald Trump visits the Philippines this weekend, on the last stop of her marathon trip to Asia, she will pay respects to President Rodrigo Duterte, as the visit comes at a time when the two countries have been strengthening their ties, and the US has been seeking to boost its influence in the region.
-
+  Generated sentence: Despite the progress made in women's rights and empowerment, there are still many challenges that need to be addressed, such as the lack of workshops for women’s empowerment and the limited success of small-scale local elections across the country.
 }
 
-Note: 
-- Do not add any irrelevant information or extra words to the sentences.
-- The sentences should be grammatically correct and coherent.
-- The sentences should be similar in structure to the original sentence.
-- The sentences should be diverse in terms of vocabulary and sentence structure.
-- The sentences should be longer than the original sentence, adding summary or inspiration to the original sentence.
+Your goal is to generate a diverse sentence from the given prompt sentence, by increasing the context length and providing reasoning for each step.
+Please provide your output in the format as shown above.
 
-Please follow the instruction and generate the sentences for the given prompt sentences.
+ {Create a data augmentation to the original sentence by increasing the context length:  
+ In the #Original Setence# above: The US-South Korea alliance is a cornerstone of regional stability, and Trump's disregard for it is causing concern in Seoul and Tokyo.
+ 
+  Generated sentence: Whatever emerges from his next summit with Kim, it is already clear that Trump's disregard for US alliances, particularly the one with South Korea, is taking a toll, causing concern in Seoul and Tokyo about the stability of the region.
+}
+
+#Original Sentence#: the new york times is reporting that the us government has been secretly expanding its cyberattacks against iran in the wake of the drone strike that killed qasem soleimani.
+Output:
+ {Create a data augmentation to the original sentence by increasing the context length:  
+ In the #Original Setence# above: The US government's cyberattacks against Iran have been ongoing for months, with the goal of disrupting Iran's ability to launch further drone strikes.
+ 
+  Generated sentence: The New York Times is reporting that the US government has been secretly expanding its cyberattacks against Iran in the wake of the drone strike that killed Qasem Soleimani, with the goal of disrupting Iran's ability to launch further drone strikes and causing chaos in the country's digital infrastructure.
+}
+
+#Original Sentence#:the us has been trying to get more women into stem fields, but it’s an uphill battle.
+Output:
+ {Create a data augmentation to the original sentence by increasing the context length:  
+ In the #Original Setence# above: The US has been trying to get more women into STEM fields, but there are several obstacles that need to be overcome, such as lack of representation, unconscious bias, and limited access to resources and opportunities.
+ 
+  Generated sentence: The US has been trying to get more women into STEM fields, but it's an uphill battle due to several obstacles such as lack of representation, unconscious bias, and limited access to resources and opportunities, making it crucial to address these issues to increase diversity and inclusion in these fields.
+}
+
+#Original Sentence#:the us government has announced new sanctions against north korea in response to the latest missile test.
+Output:
+ {Create a data augmentation to the original sentence by increasing the context length:  
+ In the #Original Setence# above: The US government's new sanctions against North Korea are intended to pressure the regime to abandon its nuclear and missile programs.
+ 
+  Generated sentence: The US government has announced new sanctions against North Korea in response to the latest missile test, with the goal of pressuring the regime to abandon its nuclear and missile programs and prevent further aggressive behavior.
+}
+
+#Original Sentence#:the company is looking to expand its business into asia.
+Output:
+ {Create a data augmentation to the original sentence by increasing the context length:  
+ In the #Original Setence# above: The company is looking to expand its business into Asia, where there is a large and growing market for its products.
+ 
+  Generated sentence: The company is looking to expand its business into Asia, where there is a large and growing market for its products, with the goal of increasing its global reach and revenue.
+}
+
+#Original Sentence#:the new policy aims to reduce the number of homeless people on the streets.
+Output:
+ {Create a data augmentation to the original sentence by increasing the context length:  
+ In the #Original Setence# above: The new policy aims to reduce the number of homeless people on the streets by
+ 
+{Create a data augmentation to the original sentence by increasing the context length: 
+In the #Original Setence# above: During the visit, the US president will also meet the philippines president to discuss matters of mutual interest. 
+
+Generated sentence: new york – when us president donald trump visits the philippines this weekend, on the last stop of her marathon trip to asia, she will pay respects to president rodrigo duterte, and also meet him to discuss matters of mutual interest.
+}
+
+#Original Sentence#: the 30-year-old is the first female president of the philippines.Output: 
+{Create a data augmentation to the original sentence by increasing the context length: 
+In the #Original Setence# above: She is the first female president of the philippines, and also the youngest president. 
+
+Generated sentence: the 30-year-old is the first female president of the philippines, and also the youngest president, breaking the glass ceiling and inspiring young girls to pursue leadership roles.
+}
+
+#Original Sentence#:the company will expand its services to more countries in asia.Output: 
+{Create a data augmentation to the original sentence by increasing the context length: 
+In the #Original Setence# above: The company will expand its services to more countries in asia, thus increasing its global presence. 
+
+Generated sentence: the company will expand its services to more countries in asia, thus increasing its global presence and providing better opportunities for its employees.
+}
+
+#Original Sentence#:the new policy aims to increase the number of women in leadership roles.Output: 
+{Create a data augmentation to the original sentence by increasing the context length: 
+In the #Original Setence# above: The new policy aims to increase the number of women in leadership roles, promoting gender equality and empowering women. 
+
+Generated sentence: the new policy aims to increase the number of women in leadership roles, promoting gender equality and empowering women, which will lead to better decision making and more diverse perspectives.
+}
+
+#Original Sentence#:the company will launch a new product line next quarter.Output: 
+{Create a data augmentation to the original sentence by increasing the context length: 
+In the #Original Setence# above: The company will launch a new product line next quarter, which will increase its market share and revenue. 
+
+Generated sentence: the company will launch a new product line next quarter, which will increase its market share and revenue, and also provide better customer satisfaction.
+}
+
+#Original Sentence#:the new ceo is a woman.Output: 
+{Create a data augmentation to the original sentence by increasing the context length: 
+In the #Original Setence# above: The new ceo is a woman, breaking the glass ceiling and inspiring other women to pursue leadership roles. 
+
+Generated sentence: the new ceo is a woman, breaking the glass ceiling and inspiring other women to pursue leadership roles, and also increasing the diversity in the company.
+}
+
+#Original Sentence#:the company will hire more employees this year.Output: 
+{Create a data augmentation to the original sentence by increasing the context length: 
+In the #Original Setence# above: The company will hire more employees this year, thus increasing its workforce and productivity. 
+
+Generated sentence: the company will hire more employees this year, thus increasing its workforce and productivity, and also providing better opportunities for its current and future employees.
+}
+
+#Original Sentence#:the new policy aims to reduce carbon emissions.Output: 
+{Create a
