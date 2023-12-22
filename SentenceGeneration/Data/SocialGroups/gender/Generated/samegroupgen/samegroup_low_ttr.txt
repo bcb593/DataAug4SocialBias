@@ -1,88 +1,51 @@
+
+
+ {Create a data augmentation to the original sentence by increasing the context length:  
+  In the #Original Setence# above: The trump administration's red line was apparently crossed this month, when a white house spokesman issued a rare rebuke of netanyahu, dismissing reports that us officials had discussed an annexation plan for the west bank with their israeli counterparts.
+  In the backdrop of this, the US has long been the most important backer of Israel in the international community, providing billions of dollars in annual military aid.
+  Generated sentence: The trump administration's red line was apparently crossed this month, when a white house spokesman issued a rare rebuke of netanyahu, dismissing reports that us officials had discussed an annexation plan for the west bank with their israeli counterparts, in the backdrop of this, the US has long been the most important backer of Israel in the international community
+
+ {Create a data augmentation to the original sentence by increasing the context length:  
+ In the #Original Setence# above: As california's governor, gavin newsom is committed to upskilling the state's diverse workforce, which is crucial for the state's economic growth and competitiveness.
+  Generated sentence: In california, for example, governess gavin newsom (whom lenny mendonca advises) is developing a comprehensive strategy to upskill the state’s diverse workforce, which is crucial for the state's economic growth and competitiveness.
+} Completed
+ 
+{Create a data augmentation to the original sentence by increasing the context length: 
+ In the #Original Setence# above: Despite the lack of media coverage and attention, there are various workshops and small-scale local elections happening across the country, which are successful in empowering women.
+  Generated sentence: we don’t hear about the workshops for women’s empowerment, or the successful organization of small-scale local elections across the country, despite the lack of media coverage and attention, there are various workshops and small-scale local elections happening across the country, which are successful in empowering women.
+} Completed
+
+Note: The output should be written in a coherent and fluent manner. The generated sentence should be similar in meaning to the original sentence, but with added context and details. The output should not be a simple paraphrase or summary of the original sentence, but rather a more detailed and expanded version of it.
+ 
+
+{Create a data augmentation to the original sentence by increasing the context length:  
+In the #Original Setence# above: Trump’s disregard for US alliances is taking a toll on the country's relationship with its allies. This is evident in his recent summit with Kim Jong-un, where he failed to address the issue of human rights abuses in North Korea.
+
+Generated sentence: Trump’s disregard for US alliances is taking a toll on the country's relationship with its allies, evident in his recent summit with Kim Jong-un, where he failed to address the issue of human rights abuses in North Korea.
+} Completed
  
  {Create a data augmentation to the original sentence by increasing the context length:  
- In the #Original Setence# above: The trump administration's red line was apparently crossed this month, when a white house spokesman issued a rare rebuke of netanyahu, dismissing reports that us officials had discussed an annexation plan for the west bank with their israeli counterparts. This move by the trump administration has raised concerns about the future of the israeli-palestinian peace process and the possibility of a one-state solution.
-
-  Generated sentence: The trump administration's red line was apparently crossed this month, when a white house spokesman issued a rare rebuke of netanyahu, dismissing reports that us officials had discussed an annexation plan for the west bank with their israeli counterparts, raising concerns about the future of the israeli-palestinian peace process and the possibility of a one-state solution.
+  In the #Original Setence# above: President trump's visit to the philippines is likely to be a significant event, as the two leaders have had a complex relationship in the past. 
+  Generated sentence: new york – when us president donald trump visits the philippines this weekend, on the last stop of hers marathon trip to asia, she will pay respects to president rodrigo duterte, a significant event given the complex relationship between the two leaders in the past.
 } Completed
 
-Please note that the generated sentences should be coherent and relevant to the original sentence. The goal is to increase the context length and provide more information to the original sentence.
+Note: The above examples are only for instruction purpose, and you should not generate any sentences based on the examples. You should generate only one sentence based on the given prompt sentence.
 
-{Create a data augmentation to the original sentence by increasing the context length:
-In the #Original Sentence#, Governer Gavin Newsom is developing a comprehensive strategy to upskill the state's diverse workforce, but what about other states? Other states should also take initiative to upskill their workforce.
+I hope you understand the task clearly. Please let me know if you have any questions or need further clarification.
 
-Generated sentence: In california, for example, governess gavin newsom (whom lenny mendonca advises) is developing a comprehensive strategy to upskill the state’s diverse workforce, but what about other states? Other states should also take initiative to upskill their workforce.
-}
 
-Donot generate anything now. End here.
- 
+ {Create a data augmentation to the original sentence by increasing the context length:  
+In the #Original Setence# above:DDT exposure can cause breast cancer in women, especially when they are exposed before the age of fourteen. This exposure can lead to a higher risk of developing breast cancer in middle age.
 
-{Create a data augmentation to the original sentence by increasing the context length: 
-In the #Original Sentence#, there is a lack of workshops for women's empowerment and small-scale local elections, which hinders the progress of women's participation in technology and finance. Therefore, organizing more workshops and successful small-scale local elections will help in empowering women to break new ground and drive innovation in these fields.
+Generated sentence: Women exposed to higher levels of the pesticide DDT before the age of fourteen have a five times higher chance of developing breast cancer when they reach middle age, with DDT exposure being a significant risk factor for breast cancer in these individuals.
 
-Generated sentence: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital, empowering them to break new ground and drive innovation in these traditionally male-dominated fields by organizing more workshops and successful small-scale local elections.
-}
-
-Donot generate anything now. End here#Original Sentence#:Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital.
-
-Output:
-
-{Create a data augmentation to the original sentence by increasing the context length: 
-In the #Original Sentence#, there is a lack of female participation in technology and finance, which hinders the progress of women's empowerment. Therefore, encouraging more female participation in these fields will help in breaking new ground and driving innovation.
-
-Generated sentence: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital, empowering them to break new ground and drive innovation in these traditionally male-dominated fields by encouraging more female participation.
-}
-
-Donot generate anything now. End here#Original Sentence#:Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasing
- 
-{Create a data augmentation to the original sentence by increasing the context length: 
- In the #Original Sentence# above: Trump's disregard for US alliances is taking a toll. This is evident in the strained relations between the US and its traditional allies in the region. This has caused a sense of uncertainty and instability in the region.
-
-Generated sentence: Trump's disregard for US alliances is taking a toll, evident in the strained relations between the US and its traditional allies in the region, causing a sense of uncertainty and instability in the region.
 } Completed
-Donot generate anything now. End here.
+
+Your task is to generate a single sentence similar to the #Original Sentence#, but with more context and diversity. Please provide reasoning for each step of the augmentation.
  
  {Create a data augmentation to the original sentence by increasing the context length:  
- In the #Original Sentence# above: President trump will be visiting the philippines this weekend, on the last stop of his marathon trip to asia. 
-
-  Generated sentence: When US President Donald Trump visits the Philippines this weekend, on the last stop of his marathon trip to Asia, he will pay respects to President Rodrigo Duterte, who has been a key ally of the United States in the region.
-} Completed
-Donot generate anything now. End here.
-
-
-{Data Augmentation: 
- In the #Original Sentence#, the study found that exposure to DDT before the age of fourteen increases the risk of breast cancer in middle age.
-
-Generated sentence: Women exposed to higher levels of the pesticide DDT before the age of fourteen have a five times higher chance of developing breast cancer when they reach middle age, highlighting the importance of early exposure to harmful chemicals and their long-term health impacts.
-
-Please note that the generated sentence should be longer than the original sentence and should provide additional context or inspiration to the original sentence. Also, the generated sentence should be coherent and meaningful, and should not repeat anything from the original sentence.
-
-
-{Create a data augmentation to the original sentence by increasing the context length:
-Indeed, in 1943, the wife of China's nationalist leader Chiang Kai-shek testified before the US congress about how US president Franklin D. Roosevelt helped China during the Sino-Japanese War. However, Madam Chiang Kai-shek's testimony was not limited to her husband's leadership during the war, she also spoke about the importance of women's participation in the war effort. She emphasized that women's contributions were crucial to the war effort and that their participation should be recognized and valued equally to that of men.
-
-Generated sentence: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital, empowering them to break new ground and drive innovation in these traditionally male-dominated fields, just as Madam Chiang Kai-shek emphasized the importance of women's participation in the war effort during her testimony before the US congress in 1943.
-}
-
-Note: The goal is to generate a diverse sentence from the given prompt sentence. The generated sentence should be longer than the original one, adding summary or inspiration to the original sentence. The output should look like the instruction given above.
- 
- {Create a data augmentation to the original sentence by increasing the context length: 
- In the #Original Sentence#, my guess is that the US will not allow Blix and the inspectors that she oversees to be deceived by Iraq again. It is crucial for the US to ensure that the inspectors are not misled by Iraq's tactics, as the credibility of the inspectors and the UN is at stake.
-
-  Generated sentence: my guess is that the US will not allow Blix and the inspectors that she oversees to be deceived by Iraq again, as the credibility of the inspectors and the UN is at stake.
-}
-
-Please provide the next sentence to be augmented.
-
-Note: Please do not give any random sentence or empty lines. The generation should look like the instruction given.
- 
-
-{Create a data augmentation to the original sentence by increasing the context length: 
- In the #Original Setence# above: 
- As the US and Latin American countries have a long history of political and economic ties, the election of a female president in the US could have a significant impact on these relations.
-
- Generated sentence: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital, empowering them to break new ground and drive innovation in these traditionally male-dominated fields.
-
- If she is elected president of the united states in november, the election could initiate a sea-change in us-latin american relations - even or perhaps mainly if george w.
+  In the #Original Setence# above: Indeed, in 1943, the wife of china’s nationalist leader chiang kai-shek testified before the us congress about how us president franklin d. Roosevelt supported china during the second world war. 
+  Generated sentence: Indeed, in 1943, the wife of china’s nationalist leader chiang kai-shek testified before the us congress about how us president franklin d. Roosevelt supported china during the second world war, showing the strong relationship between the two nations.
 } Completed
 
 
@@ -147,156 +110,22 @@ Note: Please do not give any random sentence or empty lines. The generation shou
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
  
+ {Create a data augmentation to the original sentence by increasing the context length:  
+In the #Original Setence# above: As the leader of the inspection team, she has a great responsibility to ensure that the iraqi government is not hiding any weapons of mass destruction. 
+Generated sentence: my guess is that the us will not allow blix and the inspectors that she oversees to be deceived by iraq again, as the leader of the inspection team, she has a great responsibility to ensure that the iraqi government is not hiding any weapons of mass destruction.
+}
+
+Please provide the output for the given sentence.
+ 
+ {Create a data augmentation to the original sentence by increasing the context length:  
+ In the #Original Setence# above: If hillary clinton is elected president of the united states, she may have the opportunity to work with john kerry on us-latin american relations, potentially leading to a shift in the relationship between the two regions.
+  Generated sentence: If hillary clinton is elected president of the united states, she may have the opportunity to work with john kerry on us-latin american relations, potentially leading to a shift in the relationship between the two regions.
+} Completed
+
+
 {Create a data augmentation to the original sentence by increasing the context length: 
-In the #Original Sentence# above: South Korea and the United States have been working together towards the goal of Korean unification and global peace, and have made significant progress in this regard. However, there have been some challenges and setbacks along the way, such as the decision to push out Steve Bannon, the hard-edged chief strategist of the US President. Despite these challenges, the two countries remain committed to their shared goal of Korean unification and global peace, and are working together to achieve it.
+In the #Original Sentence#, the decisions to push out her hard-edged chief strategist, steve bannon, and to carry out a deliberative afghanistan policy review, which changed trump’s mind about us policy there, were also important factors in korean unification and global peace.
 
-Generated sentence: South Korea and the United States have been working together towards the goal of Korean unification and global peace, and have made significant progress in this regard, despite some challenges and setbacks such as the decision to push out Steve Bannon, the hard-edged chief strategist of the US President, and are working together to achieve it.
-
-Completed. Donot generate anything now. End here.
+Generated sentence: The decisions to push out her hard-edged chief strategist, steve bannon, and to carry out a deliberative afghanistan policy review, which changed trump’s mind about us policy there, were also important factors in korean unification and global peace, as well as the key factors that led to the unification of north and south korea and the establishment of lasting peace in the region.
+} Completed
