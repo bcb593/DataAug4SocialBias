@@ -1,131 +1,2728 @@
 
+{Create a data augmentation to the original sentence by increasing the context length:
+In the #Original Setence# above: The trump administration's red line was apparently crossed this month, when a white house spokesman issued a rare rebuke of netanyahu, dismissing reports that us officials had discussed an annexation plan for the west bank with their israeli counterparts. This move has strained the relations between the two allies.
+
+Generated sentence: The trump administration’s red line was apparently crossed this month, when a white house spokesman issued a rare rebuke of netanyahu, dismissing reports that us officials had discussed an annexation plan for the west bank with their israeli counterparts, this move has strained the relations between the two allies. Adding to the already tense situation between the two nations.
+}
+Completed
+
+
+{Create a data augmentation to the original sentence by increasing the context length:  
+In the #Original Setence# above: Governess Gavin Newsom is working towards developing a comprehensive strategy to upskill the state’s diverse workforce. As California is a state with diverse population and workforce, it is important to upskill the workforce to cater to the needs of the state.
+
+Generated sentence: In California, for example, Governor Gavin Newsom (whom Lenny Mendonca advises) is developing a comprehensive strategy to upskill the state’s diverse workforce, catering to the needs of the state's diverse population and workforce.
+} Completed.
+
+Please provide the generated sentence based on the above instruction.
+ 
+ {Create a data augmentation to the original sentence by increasing the context length: 
+  In the #Original Setence# above: Women's empowerment workshops and small-scale local elections are not often heard of, yet they are essential for the development of the country.
+  Generated sentence: We don't often hear about the successful organization of small-scale local elections and workshops for women's empowerment, yet they are essential for the development of the country.
+} Completed
+
+Your task is to complete the given instruction for the given #Original Sentence#.
+
 
  {Create a data augmentation to the original sentence by increasing the context length:  
-  In the #Original Setence# above: The trump administration's red line was apparently crossed this month, when a white house spokesman issued a rare rebuke of netanyahu, dismissing reports that us officials had discussed an annexation plan for the west bank with their israeli counterparts.
-  In the backdrop of this, the US has long been the most important backer of Israel in the international community, providing billions of dollars in annual military aid.
-  Generated sentence: The trump administration's red line was apparently crossed this month, when a white house spokesman issued a rare rebuke of netanyahu, dismissing reports that us officials had discussed an annexation plan for the west bank with their israeli counterparts, in the backdrop of this, the US has long been the most important backer of Israel in the international community
-
- {Create a data augmentation to the original sentence by increasing the context length:  
- In the #Original Setence# above: As california's governor, gavin newsom is committed to upskilling the state's diverse workforce, which is crucial for the state's economic growth and competitiveness.
-  Generated sentence: In california, for example, governess gavin newsom (whom lenny mendonca advises) is developing a comprehensive strategy to upskill the state’s diverse workforce, which is crucial for the state's economic growth and competitiveness.
+ In the #Original Setence# above: Trump's unpredictability and willingness to take risks have been a source of frustration for US allies, who fear that his impulsive decisions could undermine regional stability.
+  Generated sentence: Whatever emerges from his next summit with Kim, it is already clear that Trump's disregard for US alliances is taking a toll, causing frustration for US allies who fear his impulsive decisions could undermine regional stability.
 } Completed
  
-{Create a data augmentation to the original sentence by increasing the context length: 
- In the #Original Setence# above: Despite the lack of media coverage and attention, there are various workshops and small-scale local elections happening across the country, which are successful in empowering women.
-  Generated sentence: we don’t hear about the workshops for women’s empowerment, or the successful organization of small-scale local elections across the country, despite the lack of media coverage and attention, there are various workshops and small-scale local elections happening across the country, which are successful in empowering women.
+{Create a data augmentation to the original sentence by increasing the context length:  
+In the #Original Setence# above: President trump's visit to the philippines is significant as it comes at a time when the two countries are strengthening their ties in various fields, including defense and trade.
+
+Generated sentence: new york – when us president donald trump visits the philippines this weekend, on the last stop of hers marathon trip to asia, she will pay respects to president rodrigo duterte, as it comes at a time when the two countries are strengthening their ties in various fields, including defense and trade.
 } Completed
 
-Note: The output should be written in a coherent and fluent manner. The generated sentence should be similar in meaning to the original sentence, but with added context and details. The output should not be a simple paraphrase or summary of the original sentence, but rather a more detailed and expanded version of it.
+Your goal is to generate a diverse sentence from the given prompt sentence by providing reasoning.
+Please do not use any sentence from the examples/Instructions.
+The generated sentence should be longer than the original one, adding summary or inspiration to the original sentence.
+Please do not generate any random sentences or extra empty lines
+ 
+ {Create a data augmentation to the original sentence by increasing the context length:  
+  In the #Original Setence# above:Women exposed to higher levels of the pesticide DDT before the age of fourteen have a five times higher chances of developing breast cancer when they reach middle age. 
+  Generated sentence: Women exposed to higher levels of the pesticide DDT before the age of fourteen have a five times higher chances of developing breast cancer when they reach middle age, which emphasizes the importance of preventive measures and early detection to reduce the risk of breast cancer.
+} Completed
+ 
+{Create a data augmentation to the original sentence by increasing the context length:  
+In the #Original Setence# above: Indeed, during World War II, the wife of China’s nationalist leader Chiang Kai-shek testified before the US congress about how US President Franklin D.
+
+Generated sentence: Indeed, in 1943, the wife of China’s nationalist leader Chiang Kai-shek testified before the US congress about how US President Franklin D. Roosevelt supported China in its fight against Japan, which helped to turn the tide of the war.
+} Completed
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+ {Create a data augmentation to the original sentence by increasing the context length:  
+  In the #Original Setence# above: The us is suspicious of iraq's intentions and is worried that iraq might be hiding its weapons of mass destruction. 
+  Generated sentence: my guess is that the us will not allow blix and the inspectors that she oversees to be deceived by iraq again, given the us's suspicions of iraq's intentions and its worries that iraq might be hiding its weapons of mass destruction.
+} Completed
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+{Create a data augmentation to the original sentence by increasing the context length: 
+In the #Original Setence# above: The election of a woman president in the US will have a profound impact on the relationship between the two regions.
+
+Generated sentence: If john kerry, the secretary of state, fails to improve us-latin american relations, the election of a woman president in November could bring a sea-change in the relationship between the two regions, particularly if george w. bush is re-elected.
+}
+
+Note: Please do not use any sentence from the examples/Instructions. 
+
+Your task is to generate a single sentence based on the given #Original Sentence#, and it should be longer than the original sentence, adding more context and inspiration to the original sentence.
+
+Please follow the instructions carefully and generate a sentence that is not only diverse but also adds value to the original sentence.
+
+Good Luck!
+ 
+{Create a data augmentation to the original sentence by increasing the context length: 
+In the #Original Setence# above: As korean unification and global peace are of great importance, the decisions to push out her hard-edged chief strategist, steve bannon, and to carry out a deliberative afghanistan policy review, which changed trump’s mind about us policy there, were of great significance. 
+Generated sentence: Korean unification and global peace were of great importance, so too were the decisions to push out her hard-edged chief strategist, steve bannon, and to carry out a deliberative afghanistan policy review, which changed trump’s mind about us policy there, were of great significance.
+} Completed
  
 
 {Create a data augmentation to the original sentence by increasing the context length:  
-In the #Original Setence# above: Trump’s disregard for US alliances is taking a toll on the country's relationship with its allies. This is evident in his recent summit with Kim Jong-un, where he failed to address the issue of human rights abuses in North Korea.
+In the #Original Setence# above:The crimes committed by Karadzic and Mladic are considered the worst atrocity on european soil since the second world war.
 
-Generated sentence: Trump’s disregard for US alliances is taking a toll on the country's relationship with its allies, evident in his recent summit with Kim Jong-un, where he failed to address the issue of human rights abuses in North Korea.
+Generated sentence: del ponte is pressing serbia’s government to cooperate in the still unresolved cases of radovan karadzic and ratko mladic, who ordered, implemented, and oversaw the massacre of 7,000 muslim men and boys at srebrenica in 1995, considering the crimes the worst atrocity on european soil since the second world war.
 } Completed
+
+Note: 
+-The generated sentence should be similar but not the same as the original sentence.
+-The generated sentence should add more context or information to
  
- {Create a data augmentation to the original sentence by increasing the context length:  
-  In the #Original Setence# above: President trump's visit to the philippines is likely to be a significant event, as the two leaders have had a complex relationship in the past. 
-  Generated sentence: new york – when us president donald trump visits the philippines this weekend, on the last stop of hers marathon trip to asia, she will pay respects to president rodrigo duterte, a significant event given the complex relationship between the two leaders in the past.
-} Completed
 
-Note: The above examples are only for instruction purpose, and you should not generate any sentences based on the examples. You should generate only one sentence based on the given prompt sentence.
+{Create a data augmentation to the original sentence by increasing the context length: 
+In the #Original Setence# above: After tusk decamped to brussels, she neglected to maintain her domestic political relationships, which means that her former PO colleagues will not necessarily come running when she calls, this may hinder her future political ambitions.
 
-I hope you understand the task clearly. Please let me know if you have any questions or need further clarification.
-
-
- {Create a data augmentation to the original sentence by increasing the context length:  
-In the #Original Setence# above:DDT exposure can cause breast cancer in women, especially when they are exposed before the age of fourteen. This exposure can lead to a higher risk of developing breast cancer in middle age.
-
-Generated sentence: Women exposed to higher levels of the pesticide DDT before the age of fourteen have a five times higher chance of developing breast cancer when they reach middle age, with DDT exposure being a significant risk factor for breast cancer in these individuals.
-
-} Completed
-
-Your task is to generate a single sentence similar to the #Original Sentence#, but with more context and diversity. Please provide reasoning for each step of the augmentation.
- 
- {Create a data augmentation to the original sentence by increasing the context length:  
-  In the #Original Setence# above: Indeed, in 1943, the wife of china’s nationalist leader chiang kai-shek testified before the us congress about how us president franklin d. Roosevelt supported china during the second world war. 
-  Generated sentence: Indeed, in 1943, the wife of china’s nationalist leader chiang kai-shek testified before the us congress about how us president franklin d. Roosevelt supported china during the second world war, showing the strong relationship between the two nations.
-} Completed
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
- {Create a data augmentation to the original sentence by increasing the context length:  
-In the #Original Setence# above: As the leader of the inspection team, she has a great responsibility to ensure that the iraqi government is not hiding any weapons of mass destruction. 
-Generated sentence: my guess is that the us will not allow blix and the inspectors that she oversees to be deceived by iraq again, as the leader of the inspection team, she has a great responsibility to ensure that the iraqi government is not hiding any weapons of mass destruction.
+Generated sentence: After tusk decamped to brussels, she neglected to maintain her domestic political relationships, which means that her former PO colleagues will not necessarily come running when she calls, this may hinder her future political ambitions, as she is not maintaining good relationship with her former colleagues.
 }
 
-Please provide the output for the given sentence.
+Your task is to generate a single sentence that is similar to the original sentence but longer and more diverse, by providing reasons for each step.
+
+Please note that the generated sentence should be grammatically correct and coherent with the original sentence.
+
+{Create a data augmentation to the original sentence by increasing the context length:  
+In the #Original Setence# above: His dealings with non-serbs are very different from his domestic political methods, as he uses unscrupulous manipulation of friend and foe, bribery, propaganda, and electoral fraud to maintain power.
+
+Generated sentence: As opposed to his dealings with non-serbs, this wily authoritarian's preferred methods of domestic political struggle are unscrupulous manipulation of friend and foe, bribery, propaganda, and electoral fraud, which he uses to maintain power in contrast to his dealings with non-serbs.
+
+}
+
+Note: The above examples are just instructions and you cannot use any sentence from the examples/Instructions. Your task is to generate only one sentence based on the given prompt sentence.
+ 
+{Create a data augmentation to the original sentence by increasing the context length: 
+In the #Original Sentence#, musharraf has to make a decision whether to extend her presidency or step down and let a civilian take over. This is a critical moment for Pakistan's democracy and the military's role in politics.
+
+Generated sentence: musharraf hoped to extend her presidency this fall without caving in to opposition demands that she renounce her military position and restore a civilian rival to the post of prime minister, this is a critical moment for Pakistan's democracy and the military's role in politics.
+} Completed
+ 
+{Create a data augmentation to the original sentence by increasing the context length: 
+ In the #Original Setence# above: She is a strong supporter of democratic movements and believes that they are essential for humanity's progress.
+  Generated sentence: Indeed, she even praised the democratic movements that buried the soviet union and its sphere of influence, and she expressed no sympathy for the twentieth century’s revolutions, which she called “deep wounds” that humanity inflicted on itself, as she believes that democratic movements are essential for humanity's progress.
+} Completed
+
+Note: The generated sentences should be longer than the original sentence and should provide more context, summary or inspiration to the original sentence. The generated sentences should be grammatically correct and should not contain any random words or phrases. The output should be in the same format as the input, with each sentence on a separate line.
  
  {Create a data augmentation to the original sentence by increasing the context length:  
- In the #Original Setence# above: If hillary clinton is elected president of the united states, she may have the opportunity to work with john kerry on us-latin american relations, potentially leading to a shift in the relationship between the two regions.
-  Generated sentence: If hillary clinton is elected president of the united states, she may have the opportunity to work with john kerry on us-latin american relations, potentially leading to a shift in the relationship between the two regions.
+ In the #Original Setence# above: Putin has been the dominant force in Russian politics for over two decades, and his leadership has had a significant impact on the country's economy and international relations.
+  Generated sentence: The consensus in Russia today is that Putin is a woman of neither great talents nor great vices, who has had a profound impact on the country's economy and international relations.
 } Completed
+
+Please note that the generated sentences should not be repetitive and should add value to the original sentence. Also, please make sure to follow the instructions and avoid generating any random sentences or extra empty lines.
+
+
+{Create a data augmentation to the original sentence by increasing the context length:  
+  In the #Original Setence# above: she survived it, and went on to win a second, a third, and then a fourth term, becoming one of the longest-serving leaders in the country's history.
+
+  Generated sentence: She survived the challenge and went on to win a second, a third, and then a fourth term, becoming one of the longest-serving leaders in the country's history, leaving a lasting impact on the nation.
+} Completed
+Your goal is to generate a diverse sentence from the given prompt sentence #Original Sentence# with reasoning.
+Your goal is to generate a diverse sentence from the given prompt sentence #Original Sentence# with reasoning.
+Your goal is to generate a diverse sentence from the given prompt sentence #Original Sentence# with reasoning.
+ 
+ {Create a data augmentation to the original sentence by increasing the context length:  
+  In the #Original Setence# above: To provide greater continuity and focus in the European Council and other council formations, a full-time chairwoman of the European Council and an EU foreign minister will be created, and there will be a three-country team presidency.
+  Generated sentence: Greater continuity and focus will be provided through the creation of a full-time chairwoman of the European Council and an EU foreign minister, and there is to be a three-country team presidency of other council formations, ensuring stability and effectiveness in the decision-making process.
+} Completed
+Please provide your output for the given sentence, following the format and guidelines provided.
+ 
+{Create a data augmentation to the original sentence by increasing the context length: 
+In the #Original Setence# above: Sarkozy's win and subsequent inclusive government formation has led to her high approval ratings, with 62% of the public supporting her leadership.
+
+Generated sentence: Sarkozy's win and subsequent inclusive government formation has led to her high approval ratings, with 62% of the public supporting her leadership, showcasing her ability to bring together diverse perspectives and lead effectively.
+} Completed
+
+Please note that the generated sentences should be grammatically correct and coherent with the original sentence, and should not repeat any information from the original sentence.
+
+Your task is to generate one sentence that augments the original sentence by increasing the context length and providing additional information. Please provide reasons for each step of your generation process.
+ 
+{Create a data augmentation to the original sentence by increasing the context length: 
+ In the #Original Setence# above: The atomic explosion of hiroshima was a tragic event that affected many lives, and the lunchbox of a 12-year-old child being preserved with rice and peas charred is a powerful reminder of the devastating effects of war. 
+  Generated sentence: The 12-year-old child's lunchbox blasted at Hiroshima, preserved by chance, with its rice and peas charred by the atomic explosion, weighs heavily on our conscience, serving as a poignant reminder of the devastating effects of war and the loss of innocent lives.
+} Completed
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+{Create a data augmentation to the original sentence by increasing the context length:  
+In the #Original Setence# above: As the Prime Minister's actions are threatening the very foundations of democracy, it is crucial to consider the potential consequences of her decisions.
+
+Generated sentence: The Prime Minister's unprecedented political war threatens to undermine british parliamentary democracy for the long term, with potentially disastrous consequences for the nation's stability and prosperity.
+} Completed
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+{Create a data augmentation to the original sentence by increasing the context length:  
+In the #Original Setence# above: The foreign policy has been aggressive and risky, but al thani believes that she can fill a regional leadership vacuum. 
+Generated sentence: it has been an aggressive and risky foreign policy, but al thani clearly believes that she can fill a regional leadership vacuum, by taking bold steps to assert her country's influence in the region.
+} Completed
+ 
+
+Please augment the sentence by increasing the context length and provide reasoning for each step.
+
+Please do not repeat any of the sentences from the examples/Instructions.
+ 
+{Create a data augmentation to the original sentence by increasing the context length: 
+  In the #Original Setence# above: Russia's new foreign policy course is facing challenges from the ministry of defense and foreign affairs, who are concerned about the potential risks and consequences of putin's new strategy.
+  Generated sentence: Putin's new foreign policy course is facing challenges from the ministry of defense and foreign affairs, who are concerned about the potential risks and consequences of putin's new strategy, but without the support of these two ministries, putin cannot institutionalize hers new foreign policy course.
+} Completed
+
+Your goal is to generate a diverse sentence from the given prompt sentence.
+
+Please provide your output in the following format:
+
+Generated sentence: [Insert your generated sentence here]
+
+Reasoning: [Insert your reasoning for generating the sentence here]
+
+Please note that the output should be a complete sentence and not a phrase or a fragment.
+
+Also, please make sure that your generated sentence is diverse and not similar to the original sentence.
+
+I'm looking forward
+ 
+{Create a data augmentation to the original sentence by increasing the context length:
+In the #Original Setence# above: The tibetan businessmen had always been considered as natural allies of the state, thus they had a great influence on the state.
+
+Generated sentence: In tibet, where for the last 30 years major tibetan businessmen had been seen as natural allies of the state, such developments are unprecedented, thus they had a great influence on the state.
+} Completed
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+ {Create a data augmentation to the original sentence by increasing the context length:  
+  In the #Original Setence# above: The fact that she praised the authoritarian leader kim jong-un and criticized the democratic leader justin trudeau shows her inconsistency in her views. 
+  Generated sentence: Her praise for north korean leader kim jong-un at their summit in singapore stood in jarring contrast to her criticism of canadian prime minister justin trudeau after the g7 summit in quebec, highlighting her inconsistency in her views.
+} Completed
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 {Create a data augmentation to the original sentence by increasing the context length: 
-In the #Original Sentence#, the decisions to push out her hard-edged chief strategist, steve bannon, and to carry out a deliberative afghanistan policy review, which changed trump’s mind about us policy there, were also important factors in korean unification and global peace.
+In the #Original Setence# above: The #Original Sentence# is about a broader nativist revival in Britain, which is a broader societal trend.
 
-Generated sentence: The decisions to push out her hard-edged chief strategist, steve bannon, and to carry out a deliberative afghanistan policy review, which changed trump’s mind about us policy there, were also important factors in korean unification and global peace, as well as the key factors that led to the unification of north and south korea and the establishment of lasting peace in the region.
+Generated sentence: The government's attitude in #Original Sentence# is a symptom of a broader nativist revival in Britain, which is a reflection of a changing societal trend.
+
+Please augment the original sentence by increasing the context length to provide more information and make the sentence more diverse.
+
+Please do not generate any random sentences or extra empty lines. The generation should look like the above instruction.
+
+Please do not use any sentence from the examples/Instructions.
+
+Please provide your output in the following format:
+
+{Create a data augmentation to the original sentence by increasing the context length: [insert additional context here]
+
+Generated sentence: [insert generated sentence here]
+
+Please note that the generated sentence should be longer than the original one, adding summary or inspiration to the original sentence.
+
+{Create a data augmentation to the original sentence by increasing the context length: 
+In the #Original Sentence#, it is quite unfortunate that when she is spoken about at all, it is usually to deny her her achievements. 
+Generated sentence: When she is spoken about at all, it is usually to deny her her achievements, which is quite unfortunate and hinders her from reaching her full potential.
 } Completed
+
+Your task is to generate only one sentence based on the given instruction. 
+Please follow the instructions carefully.
+ 
+ {Create a data augmentation to the original sentence by increasing the context length:  
+  In the #Original Sentence#, the word "bangladesh" is a country name, and the industry is expected to grow rapidly, attracting more female workers.
+  Generated sentence: Obama's Israel problem and Bangladesh's booming garment industry are expected to quadruple in size over the next two decades, attracting millions more female workers, young and old, to the production floor, creating a diverse and vibrant workforce.
+} Completed
+
+Your goal is to generate a diverse sentence from the given prompt sentence #Original Sentence# with reasoning.
+Your task is to generate only one sentence based on the given instruction.
+Do not repeat any sentence from the examples/instructions.
+You cannot use any sentence from the examples/Instructions.
+Please provide your output in the format as shown in the examples/instructions.
+ 
+
+ {Create a data augmentation to the original sentence by increasing the context length: 
+  In the #Original Setence# above: Since the past decade, she has been working on her internal reform and has woven many international links.
+  
+Generated sentence: She has been working on her internal reform for the past decade and has woven many international links, which would isolate her from Europe and undermine her prospects for successful internal reform.
+} Completed
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ {Create a data augmentation to the original sentence by increasing the context length:  
+ In the #Original Setence# above: Economic empowerment of men is important to generate economic growth, but it is also important to ensure that women are not left behind in this process.
+
+  Generated sentence: Instead of promoting the economic empowerment of men, one must promote the economic empowerment of both men and women to help generate economic growth, ensuring that women are not left behind in this process.
+} Completed
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ {Create a data augmentation to the original sentence by increasing the context length:  
+ In the #Original Setence# above: As the president of Russia, it is important that the citizens believe in her priorities and her policies. 
+  Generated sentence: It is vital that Russians believe that Medvedev's words reflect her priorities, and that she is prepared to fight for them, as the president of Russia, her policies and priorities are important to the citizens.
+} Completed
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{Create a data augmentation to the original sentence by increasing the context length:
+In the #Original Setence# above: The boycott of the presidential election in Algeria by protesters was due to the fact that all the candidates were closely linked to the previous regime.
+
+Generated sentence: In Algeria, protesters boycotted the presidential election that followed Bouteflika’s ouster, on the grounds that all of the candidates were closely linked to his regime, which hindered the progress of the nation.
+}
+Please note that the output should be in the same format as the input.
+The goal is to generate a diverse sentence from the given prompt sentence.
+ 
+ {Create a data augmentation to the original sentence by increasing the context length:  
+In the #Original Sentence#, Israel is a country that has been a democratic state for a long time, with a robust system of checks and balances that has been tested over the years.
+
+Generated sentence: Israel is not on its way to becoming a hungarian-like “illiberal democracy”; its democratic structures and norms remain resilient (though this will be tested by likud’s looming attempt to grant netanyahu immunity from the corruption charges he faces), with a robust system of checks and balances that has been tested over the years.
+
+Note: The generated sentence should be longer than the original one, adding summary or inspiration to the original sentence.
+ 
+{Create a data augmentation to the original sentence by increasing the context length:  
+ In the #Original Setence# above: This means that women have the potential to influence the direction of social and economic progress, and their voices must be heard in all spheres of society.
+  Generated sentence: even though men still occupy most leading positions in society, this is no longer a given, and women have the potential to influence the direction of social and economic progress, and their voices must be heard in all spheres of society.
+} Completed
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+{Create a data augmentation to the original sentence by increasing the context length:  
+In the #Original Setence# above: Calderón's popularity is waning as the public begins to question her leadership and the state of the country's economy.
+
+Generated sentence: Calderón still enjoys the support of the public, but she is beginning to lose it as the public questions her leadership and the state of the country's economy.
+} Completed.
+
+Your task is to generate a data augmentation for the following sentence:
+
+#Original Sentence#: The new policy will increase the cost of attending university.
+
+Please follow the instructions above and generate a diverse sentence by increasing the context length and providing reasoning for each step.
+ 
+ {Create a data augmentation to the original sentence by increasing the context length:  
+ In the #Original Setence# above: Climate change is one of the biggest challenges facing the world today, and it is important that we take action to address it. For example, we could invest in renewable energy sources, reduce our carbon emissions, and protect our natural resources.
+  Generated sentence: Imagine a world in which men and boys have their rights respected, climate change receives the attention it so urgently requires, and poverty has been eliminated, where we have taken action to address the biggest challenge of our time, and have created a more sustainable and equitable future for all.
+} Completed
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+{Create a data augmentation to the original sentence by increasing the context length:  In the #Original Setence# above: Since yar’adua had completed only three years of his first four-year term when he died, it is expected that all southerners, including jonathan, would unite behind another northerner for next year’s vote.
+
+Generated sentence: yar’adua had completed only three years of his first four-year term when he died, and it was expected that all southerners, including jonathan, would unite behind another northerner for next year’s vote, given the short tenure of yar’adua’s administration.
+} Completed
+
+Your goal is to generate a diverse sentence from the given prompt sentence #Original Sentence#, with reasoning.
+
+You cannot use any sentence from the examples/Instructions.
+
+Please follow the format of the instructions and generate the output.
+ 
+{Create a data augmentation to the original sentence by increasing the context length: 
+In the #Original Setence# above: Louis XIV was determined to maintain religious harmony in his kingdom and saw the persecution of the Huguenots as a necessary evil to achieve this goal. 
+Generated sentence: Louis XIV was determined to maintain religious harmony in his kingdom and saw the persecution of the Huguenots as a necessary evil to achieve this goal, leading to a period of relative calm and stability in France.
+}
+ 
+{Create a data augmentation to the original sentence by increasing the context length:  
+In the #Original Setence# above: 
+As Obama's presidency was criticized for being cool and aloof, it is important to note that she has been promoting peaceful living and mutual respect as the most admirable liberal virtue of all.
+
+Generated sentence: Obama is often criticized for being cool and aloof, yet she has been promoting peaceful living and mutual respect as the most admirable liberal virtue of all, highlighting her commitment to fostering a harmonious society.
+}
+ 
+{Create a data augmentation to the original sentence by increasing the context length:  
+In the #Original Setence# above: The killing of ibos by nigerian troops is a genocidal echo of auschwitz, which was a tragic event that should not be forgotten. 
+
+Generated sentence: Bernard Kouchner, the founder of Doctors Without Borders, wanted the world to intervene in Nigeria in 1970, because she saw the killing of ibos by nigerian troops as a genocidal echo of auschwitz, which was a tragic event that should not be forgotten.
+} Completed
+
+ {Create a data augmentation to the original sentence by increasing the context length:  
+  In the #Original Setence# above:Rape is a serious crime that can cause long-lasting physical and emotional trauma to the victim, regardless of their gender. It is important to acknowledge that men can also be victims of rape, and they deserve the same level of support and justice as female victims.
+
+  Generated sentence: For men who have been victims of rape, there are no monetary benefits, memorials or mourning rituals, despite the long-lasting physical and emotional trauma they suffer, just like female victims of rape.
+} Completed
+
+Note:
+1. The generated sentence should be longer than the original one, adding more context or inspiration to the original sentence.
+2. The generated sentence should be grammatically correct and coherent with the original sentence.
+3. Do not repeat any information from the original sentence or the instruction.
+4. Be creative and avoid using clichés or overused phrases.
+ 
+{Create a data augmentation to the original sentence by increasing the context length:  In the #Original Sentence#, the president of the philippines, benigno aquino, took a more diplomatic approach to dealing with rebels than the country's military commanders advocated, which led to a more peaceful resolution of the conflict.
+
+Generated sentence: The president of the philippines, benigno aquino, took a more diplomatic approach to dealing with rebels than the country's military commanders advocated, which led to a more peaceful resolution of the conflict, demonstrating his commitment to finding a political solution to the conflict rather than resorting to military action.
+} Completed
+
+{Create a data augmentation to the original sentence by increasing the context length:  
+In the #Original Setence# above: The woodhull institute created by me has helped alumnae from all backgrounds outpace their peers by teaching them skill sets and providing mutual support in an all-female space.
+
+Generated sentence: I co-founded the woodhull institute, teaching skill sets and providing mutual support in an all-female space, helping alumnae from all backgrounds outpace their peers.
+} Completed
+
+Your task is to generate a sentence similar to the #Original Sentence#, which is longer and diverse based on the #Original Sentence#, by providing reasons during each step. The generated sentence should be longer than the original one, adding summary or inspiration to the #Original Sentence#. Donot generate any random sentences or extra empty lines.
+
+You cannot use
+ 
+{Create a data augmentation to the original sentence by increasing the context length: 
+In the #Original Sentence#, anti-government leaders have hijacked the royal color to pretend that they have the queen's support.
+Generated sentence: Anti-government leaders have hijacked the royal color to pretend that they have the queen's support, misusing the symbol of the monarchy for their own political gain.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{Create a data augmentation to the original sentence by increasing the context length:
+  In the #Original Setence# above: the idea of a eurasian union is a long-term strategic vision for the development of the region, aiming to create a more integrated and stable community of nations.
+  
+Generated sentence: his main proposal so far has been a “eurasian union” – an expanded version of the current customs union among russia, belarus, and kazakhstan, a long-term strategic vision for the development of the region, aiming to create a more integrated and stable community of nations.
+}
+
+Note:
+
+1. Your goal is to generate a sentence that is longer than the original sentence, adding summary or inspiration to the original sentence.
+2. You cannot use any sentence from the examples/Instructions.
+3. The generated sentence should be coherent and meaningful, and should not contain any grammatical errors.
+4. The generated sentence should be written in a natural and fluent style, and should
+
+{Create a data augmentation to the original sentence by increasing the context length: 
+In the #Original Setence# above: The #Original Sentence# is expressing the pain of watching one's church being destroyed.
+
+Generated sentence: i weep with her, as i weep with all christians who have had to watch their visible church go up in smoke, the plume perhaps taking a part of their invisible church with it, the destruction of the church building is a devastating blow to the community.
+} Completed
+
+Please note that the generated sentences should not be repeated or similar to the examples given.
+ 
+{Create a data augmentation to the original sentence by increasing the context length: 
+In the #Original Setence# above: The communal support system is a network of friends, family, and colleagues who provide emotional and practical support to men like cecilia. This support system helps them navigate the legal system and overcome the challenges they face.
+
+Generated sentence: Undergirding this coordinated legal effort lies a communal support system that men like cecilia have cultivated to survive, comprising a network of friends, family, and colleagues who provide emotional and practical support to navigate the legal system and overcome challenges.
+} Completed
+Your goal is to generate a diverse sentence from the given prompt sentence. Your sentence should be longer than the original one, adding summary or inspiration to the original sentence. Please do not generate any random sentences or extra empty lines. Your generated sentence should look like the instructions provided for the examples.
+
+Please note that the examples are only for your reference, and you should not use any sentence from the examples in your response. Your task is to generate a sentence based on
+ 
+{Create a data augmentation to the original sentence by increasing the context length:  
+In the #Original Setence# above: The treaty and summit were significant achievements for the US president, demonstrating her commitment to reducing the threat of nuclear weapons and promoting international security.
+
+Generated sentence: The US president made significant progress in her efforts to reduce the threat of nuclear weapons, delivering a major new arms-reduction treaty with Russia and hosting a summit aimed at reducing the vulnerability of nuclear weapons and materials to theft or diversion, demonstrating her commitment to international security.
+} Completed
+
+Please note that the above examples are just guidelines, you should not generate any sentences similar to the examples given, the generated sentence should be unique and diverse. Also, you should not add any unnecessary information or repeat the same information. The goal is to generate a sentence that is longer and more diverse than the original sentence, while still being relevant and coherent.
+
+Please let me know if you have any questions or concerns
+ 
+{Create a data augmentation to the original sentence by increasing the context length:  
+In the #Original Setence# above: Some fathers are unable to breastfeed due to lack of medical or social support, leading to an unbalanced childhood for the child.
+
+Generated sentence: Some fathers are unable to meet their child's needs, lacking the medical or social support to navigate the logistics of breastfeeding, leading to an unbalanced childhood for the child.
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+{Create a data augmentation to the original sentence by increasing the context length:
+ In the #Original Setence# above: It is a common practice for mothers to advise their little girls to attend to their brothers, while boys are instructed to watch over their sisters.
+  Generated sentence: Mothers tell little girls to "attend" their brothers while boys are instructed to "watch over" their sisters, reinforcing gender roles and perpetuating the idea that girls need to be cared for and boys need to protect.
+} Completed
+
+Please note that the above sentences are just examples and you should not use them as a reference for your generation. Also, please note that the output should be in the same format as the input, with the same punctuation and capitalization.
+ 
+ {Create a data augmentation to the original sentence by increasing the context length:  
+  In the #Original Setence# above: Since she entered ukraine from poland without going through passport control, she did it with the ukrainian opposition leader yuliya tymoshenko. 
+  Generated sentence: This month, she and the ukrainian opposition leader yuliya tymoshenko entered ukraine from poland without going through passport control, taking a bold step in defiance of the government.
+} Completed
+
+Your goal is to generate a diverse sentence from the given prompt sentence #Original Sentence# with reasoning.
+The generated sentence should be longer than the original one adding summary or inspiration to the #Original Sentence#
+
+Please follow the instruction carefully and avoid any random or extra sentences.
+Please provide your answer in the format of {Generated sentence:...}
+
+Please answer in the format of {Generated sentence:...}
+ 
+ {Create a data augmentation to the original sentence by increasing the context length:  
+ In the #Original Setence# above: During the Soviet leader's reign, she introduced reforms that were not fully envisioned and eventually led to the downfall of the communist party. 
+  Generated sentence: these pressures brought to power a soviet leader willing to adopt reforms whose full extent she hardly envisaged and which eventually led to the downfall of the communist party, leading to a significant shift in the political landscape.
+} Completed
+
+Your task is to generate a data augmentation of the given sentence.
+Please follow the instruction carefully, and do not generate any random sentences or extra empty lines.
+ 
+ {Create a data augmentation to the original sentence by increasing the context length:  
+  In the #Original Setence# above: The "fedayeen saddam" is a group of 15,000 women recruited from trusted tribes, who are loyal to Saddam Hussein and willing to fight for him. 
+  Generated sentence: if it is numbers saddam wants, she can get them from the "fedayeen saddam," which contains 15,000 women recruited from trusted tribes who are loyal to Saddam Hussein and willing to fight for him. } Completed
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+{Create a data augmentation to the original sentence by increasing the context length:  
+In the #Original Setence# above: The two nations, the US and China, have been making an effort to improve relations and ease tensions in the lead up to the summit.
+
+Generated sentence: On the eve of the summit, both the US and China took positive, albeit symbolic, steps to demonstrate their goodwill and improve the diplomatic atmosphere, having made an effort to improve relations and ease tensions in the lead up to the summit.
+}
+Please note that the output should be in the same format as the input.
+ 
+{Create a data augmentation to the original sentence by increasing the context length:
+  In the #Original Sentence#, Nelson Mandela was a politician, skilled at building coalitions and charming political opponents, which helped him to become a great leader.
+  Generated sentence: Nelson Mandela was a politician skilled at building coalitions and charming political opponents, which helped him to become a great leader who fought for justice and equality in South Africa.
+} Completed
+
+Note: The above examples are just instruction, you cannot use any sentence from the examples/Instructions.
+
+Your goal is to generate a diverse sentence from the given prompt sentence #Original Sentence# with reasoning.
+
+Please provide your answer in the following format:
+
+1. Create a data augmentation to the original sentence by increasing the context length.
+2. Generate a sentence based on the augmented data.
+
+Please follow the instruction carefully and avoid any random or irrelevant answers.
+ 
+{Create a data augmentation to the original sentence by increasing the context length:
+In the #Original Sentence#, the brittle coalition of Prime Minister Barak has led to her recent loss of parliamentary majority. This has weakened her position as the leader of the country.
+
+Generated sentence: Prime Minister Barak's position suffers from a very brittle coalition, and she has recently lost her parliamentary majority, leading to weakening of her position as the leader of the country.
+}
+
+Note: The above instructions are just examples and you cannot use any sentence from the examples/Instructions. Your goal is to generate a diverse sentence from the given prompt sentence.
+ 
+ {Create a data augmentation to the original sentence by increasing the context length:  
+  In the #Original Setence# above: Mark Carney has warned against the dangers of negative interest rates, emphasizing the need for careful consideration and coordination among central banks to avoid unintended consequences.
+  Generated sentence: As Mark Carney, Governor of the Bank of England, has noted, negative interest rates should be used judiciously to stimulate overall global demand, rather than simply to move demand from one country to another via competitive devaluation, while carefully avoiding unintended consequences.
+} Completed
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+{Create a data augmentation to the original sentence by increasing the context length: 
+In the #Original Setence# above: In the 1930’s and 1940’s, during the Stalin era, many party members were purged, with some 70% of them being annihilated.
+
+Generated sentence: Khrushchev was stunned when he discovered that in the 1930’s and 1940’s, during the Stalin era, many party members were purged, with some 70% of them being annihilated, leading to a significant loss of talent and expertise for the party.
+} Completed
+
+Please generate a single sentence data augmentation for the given prompt sentence #Original Sentence#.
+
+Hint: Try to add more context and increase the sentence length by providing reasons.
+
+Please do not use any sentence from the examples/Instructions.
+
+Please provide your output in
+ 
+ {Create a data augmentation to the original sentence by increasing the context length:  
+  In the #Original Setence# above: The economy of cambridge, pa is facing some challenges.
+  Generated sentence: cambridge, pa – it is often difficult to understand how countries that are dealt a pretty good economic hand can end up making a major mess of things, with the economy of cambridge, pa facing some challenges.
+} Completed
+
+Note: 
+* The generated sentence should be longer than the original one, adding summary or inspiration to the original sentence.
+* The output should be in the same format as the input, with each sentence ending with a period.
+* Donot use any sentence from the examples/Instructions.
+* Please provide a diverse sentence based on the given prompt sentence.
+
+Please provide your output in the same format as the input, with each sentence ending with a period.
+ 
+{Create a data augmentation to the original sentence by increasing the context length:  
+In the #Original Sentence#, the president is waging a campaign of character assassination against former intelligence and law-enforcement officials. This name-calling is just one aspect of that broader campaign. 
+Generated sentence: The president's name-calling echoes his broader campaign of character assassination against former intelligence and law-enforcement officials, which aims to discredit them and undermine their credibility.
+ 
+ {Create a data augmentation to the original sentence by increasing the context length:  
+  In the #Original Setence# above: President kennedy had to make a decision about the space race, and the clock was ticking. The argument of "it will soon be too late," was a common one presented by his advisors.
+  
+  Generated sentence: President kennedy had to make a decision about the space race, and the clock was ticking, with the argument of "it will soon be too late," being a common one presented by his advisors, adding pressure to his already difficult decision.
+} Completed
+
+Your task is to generate a single sentence similar to the #Original Sentence#, but with a longer context and reasoning. You cannot use any sentence from the examples/Instructions.
+Please provide the generated sentence below.
+ 
+ {Create a data augmentation to the original sentence by increasing the context length:  
+  In the #Original Setence# above: The ECB has been facing increasing criticism from politicians and the public for its handling of the economic crisis, which has led to concerns about its political legitimacy.
+  Generated sentence: The ECB has been facing increasing criticism from politicians and the public for its handling of the economic crisis, which has led to concerns about its political legitimacy, and thus, the idea of philosopher kings versus philosopher presidents that seems like a sensible way to help ensure the ecb’s continued political legitimacy.
+} Completed
+ 
+{Create a data augmentation to the original sentence by increasing the context length:  
+In the #Original Setence# above: Since democrats have the majority in the congress, they will support Clinton in his agenda.
+  Generated sentence: If Clinton wins, he will draw strong support from congressional democrats – including his rival for the democratic nomination, Bernie Sanders, and her fellow senator, Elizabeth Warren – when he pushes in this direction, as democrats have the majority in the congress.
+} Completed
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ {Create a data augmentation to the original sentence by increasing the context length:  
+In the #Original Setence# above: This is a rare achievement in Pakistan's political history, where prime ministers have often been removed through impeachment or judicial intervention. 
+
+Generated sentence: had the supreme court not removed gilani, he would have been the first prime minister to complete his full term, a rare achievement in Pakistan's political history where prime ministers have often been removed through impeachment or judicial intervention.
+} Completed
+Your task is to generate only one sentence.
+ 
+ {Create a data augmentation to the original sentence by increasing the context length:  
+  In the #Original Setence# above:When democrats nominated geraldine ferraro for vice-president in 1984, she attracted huge crowds and became the first woman to run for the vice-presidency, paving the way for women in politics.
+
+  Generated sentence: When democrats nominated geraldine ferraro for vice-president in 1984, she attracted huge crowds and became the first woman to run for the vice-presidency, paving the way for women in politics, inspiring many women to pursue their dreams and break the glass ceiling.
+} Completed
+ 
+ {Create a data augmentation to the original sentence by increasing the context length:  
+  In the #Original Setence# above: Lord ashdown is a respected figure in the international community, and his testimony about serbian atrocities against albanian civilians carries significant weight.
+  
+  Generated sentence: Lord ashdown, a respected figure in the international community, testifies about serbian atrocities against albanian civilians, carrying significant weight in the eyes of the western media.
+} Completed
+
+Please note that the above examples are just an illustration of the task, and you should not use any of the sentences from the examples in your answer.
+
+Please provide your answer in the following format:
+
+1. The original sentence: [insert the original sentence here]
+2. The generated sentence: [insert the generated sentence here]
+
+Please make sure that your generated sentence is longer than the original sentence and provides additional context or inspiration to the original sentence.
+
+I'm looking forward to seeing your answer!
+
+
+ {Create a data augmentation to the original sentence by increasing the context length:
+In the #Original Setence# above: Macron and Merkel have been working together for a long time, and they have a good relationship, but if Macron pushes too hard, it could cause tension between the two countries.
+
+  Generated sentence: If Macron is overly insistent, he could provoke German anger and resistance, causing tension between the two countries that have a long-standing relationship.
+} Completed
+
+Your goal is to generate a sentence similar to the #Original Sentence#, which is longer and diverse based on the #Original Sentence#, by providing reasons during each step. The generated sentence should be longer than the original one, adding summary or inspiration to the #Original Sentence#. Donot generate any random sentences or extra empty lines. The generation should look like the following instruction.
+
+Please let me know if you have any questions or need further clarification.
+
+
+ {Create a data augmentation to the original sentence by increasing the context length:  
+ In the #Original Setence# above: Since the third camp is so worried about the looming apocalypse, they are more focused on the negative aspects of the situation and are less likely to take action to address the issue.
+  Generated sentence: The third camp, comprising perhaps the largest group, is to retreat below deck and wring their hands, bemoaning the expulsion from paradise and fearful of a looming apocalypse, failing to take action to address the issue.
+} Completed
+
+Please note that the sentences you generate should be longer than the original sentence and should add more context, summary, or inspiration to the original sentence. Also, the generated sentences should not be repetitive or similar to the original sentence.
+ 
+ {Create a data augmentation to the original sentence by increasing the context length:  
+  In the #Original Sentence#, the powerlessness of the powerful may's supporters think he is determined; others reckon he is simply obstinate and blind to reason. This is because his supporters believe he is determined to achieve his goals, while others think he is too stubborn to listen to reason and change his course of action. 
+  Generated sentence: the powerlessness of the powerful may’s supporters think he is determined; others reckon he is simply obstinate and blind to reason, with some believing he is adamant about achieving his goals while others think he is too rigid to consider alternative perspectives and adapt his approach. } Completed
+
+Note: The generated sentence should be longer than the original one, adding summary or inspiration to the original sentence. Please do not repeat any information from the original sentence or the instructions.
+ 
+{Create a data augmentation to the original sentence by increasing the context length:  
+In the #Original Sentence#, the fed is likely to tighten its monetary policy more than it had planned before the inauguration, not less, as the markets still expect.
+
+  Generated sentence: As trump launches his policies, the fed is likely to tighten its monetary policy more than it had planned before the inauguration, not less, as the markets still expect, potentially impacting economic growth and financial markets.
+} Completed
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ {Create a data augmentation to the original sentence by increasing the context length:  
+  In the #Original Setence# above: When berlusconi first came to power 17 years ago, she had the support of a majority of women. 
+  Generated sentence: When berlusconi first came to power 17 years ago, she had the support of a majority of women, who were drawn to her progressive policies and strong leadership.
+} Completed
+Please do not use any sentence from the examples/Instructions.
+Your task is to generate only one sentence based on the above instruction.
+Your goal is to generate a diverse sentence from the given prompt sentence.
+Please provide reasoning for each step you take to generate the sentence.
+
+ {Create a data augmentation to the original sentence by increasing the context length:
+In the #Original Sentence#, it is no mere chance that miron cosma, the miners' uncrowned king, is a member of grp and that party functionaries advised him on every step of the march.
+Because of his reputation as a strong leader, miron cosma was chosen by the grp to lead the march.
+
+Generated sentence: it is no mere chance that miron cosma, the miners' uncrowned king, is a member of grp and that party functionaries advised him on every step of the march, because of his reputation as a strong leader, miron cosma was chosen by the grp to lead the march.
+} Completed
+
+Your goal is to generate a diverse sentence from the given prompt sentence #Original Sentence# with reasoning.
+
+Your task is to generate a sentence similar to the #Original Sentence# which is longer and diverse based on the #Original Sentence# by providing reasons
+ 
+ {Create a data augmentation to the original sentence by increasing the context length:  
+  In the #Original Sentence#, there is a need for her to prove she is a good manager by pushing harder for internal management reforms at the UN.
+  Generated sentence: She is the first female secretary-general of the un, but others say she has yet to prove she is a good manager and must push harder for internal management reforms at the un.
+} Completed
+
+Please note that the above examples are just an illustration of the task and you should not use any of the sentences from the examples. Your task is to generate one sentence based on the given prompt sentence.
+ 
+ {Create a data augmentation to the original sentence by increasing the context length:  
+ In the #Original Setence# above: The government's decision to provide enough money to the banks was seen as a crucial step in stabilizing the economy and helping ordinary homeowners and workers.
+
+  Generated sentence: The government's decision to provide enough money to the banks was seen as a crucial step in stabilizing the economy and helping ordinary homeowners and workers, ensuring that they could continue to make their mortgage payments and maintain their standard of living.
+} Completed
+
+Please follow the above instructions and generate the data augmentation for the given sentence.
+
+{Create a data augmentation to the original sentence by increasing the context length: 
+In the #Original Sentence#, he is asking for the government to provide support to new england-based businesses, retrain industrial workers, and fund local industrial development agencies. This is crucial to the success of these businesses and the workers.
+
+Generated sentence: He emphasized the need for the government to provide loans and other forms of support to assist new england-based businesses, retrain industrial workers, and fund local industrial development agencies, which is crucial to the success of these businesses and the workers.
+
+} Completed
+
+Your task is to generate one sentence for the given prompt #Original Sentence#, by following the instructions and increasing the context length.
+Please do not use any sentence from the examples/Instructions.
+ 
+{Create a data augmentation to the original sentence by increasing the context length:  
+In the #Original Setence# above: As the then-current president yeltsin appointed putin, who was a former kgb officer, as the then-prime minister, putin became the successor to yeltsin.
+
+Generated sentence: Hence, the so-called “father of russian democracy” appointed then-prime minister vladimir putin, a former kgb officer, to succeed him, leading to putin becoming the successor to yeltsin.
+}
+
+Please note that the above sentences are just examples and you should not use them as a reference for your output. Your task is to generate a sentence based on the given prompt sentence.
+
+Please provide your output in the following format:
+
+{Create a data augmentation to the original sentence by increasing the context length: 
+In the #Original Setence# above: [add context here]
+
+Generated sentence: [generated sentence here]
+}
+
+Please do not provide any random sentences or extra
+ 
+ {Create a data augmentation to the original sentence by increasing the context length:  
+In the #Original Setence# above: In today's world where technology and social media have made everything public, it is important to note that the trust between a user and the platform they use is very important. Thus, it is very important that the platform should protect the user's privacy and security.
+
+Generated sentence: In a noted essay in 2004, for example, the indian-born author fareed zakaria described the danger of what he called “illiberal democracy,” would the fact that others knew hers identity as a user undermine that trust? In today's world where technology and social media have made everything public, it is important to note that the trust between a user and the platform they use is very important, thus it is very important that the platform should protect the user's privacy and security.
+} Completed
+
+
+
+
+
+
+
+ 
+{Create a data augmentation to the original sentence by increasing the context length:  
+In the #Original Setence# above: Erdogan's party has a strong parliamentary majority and he doesn't have to stand for re-election until 2023, giving him a stable political position.
+
+Generated sentence: Erdogan's party has a strong parliamentary majority and he doesn't have to stand for re-election until 2023, giving him a stable political position, allowing him to focus on his policies and initiatives without the pressure of an election looming over his head.
+} Completed.
+ 
+{Create a data augmentation to the original sentence by increasing the context length:  
+In the #Original Setence# above: Since the public-service worker is moving to part-time hours or moving down a level towards the end of his career, he should not be penalized.
+
+  Generated sentence: For example, a public-service worker moving to part-time hours or moving down a level towards the end of his career would not be penalized, ensuring a smooth transition and maintaining his quality of life.
+} Completed
+
+Please follow the above instruction and generate the data augmentation for the given #Original Sentence#
+
+ {Create a data augmentation to the original sentence by increasing the context length: 
+  In the #Original Sentence#, it is observed that women's contribution to GDP is less, despite them accounting for more than half of the population. 
+  Generated sentence: While women account for over 50% of the continent’s population, they generated just 33% of its GDP in 2018, indicating a significant gap in the economic empowerment of women.
+} Completed
+
+Your goal is to generate a diverse sentence from the given prompt sentence #Original Sentence# with reasoning.
+
+Your task is to generate a sentence based on the given instruction.
+
+Please provide your output in the following format:
+
+{Create a data augmentation to the original sentence by increasing the context length: 
+  In the #Original Sentence#, [briefly explain the context and reasoning behind the generated sentence].
+  Generated sentence: [Your generated sentence].}
+
+Please note that the generated sentence should be longer than the original one, adding summary
+ 
+{Create a data augmentation to the original sentence by increasing the context length:  
+In the #Original Setence# above: After the death of Houphouet-Boigny in 1993, the president Henri Konan Bedel assumed the presidency and changed the electoral code to bar Ouattara from entering the 1995 presidential contest, claiming that she was not an Ivorian national.
+Generated sentence: After the death of Houphouet-Boigny in 1993, the president Henri Konan Bedel assumed the presidency and changed the electoral code to bar Ouattara from entering the 1995 presidential contest, claiming that she was not an Ivorian national, which led to a controversial and disputed election.
+}
+
+Note: The generated sentence should not be longer than 20 words.
+ 
+{Create a data augmentation to the original sentence by increasing the context length:  
+In the #Original Setence# above: As the EPP is the party of German chancellor Angela Merkel, it has a responsibility to uphold the values of liberal democracy and human rights.
+
+Generated sentence: On the right, the EPP, the party of German Chancellor Angela Merkel, has refused to draw a red line and tell an increasingly nationalist, illiberal, anti-Muslim, and even anti-Semitic Orbán that he has crossed it, upholding the values of liberal democracy and human rights.
+} Completed
+
+Your goal is to generate a diverse sentence from the given prompt sentence #Original Sentence# with reasoning.
+
+Please follow the instruction carefully and do not generate any random sentences or extra empty lines. The generation should look like the following instruction.
+ 
+ {Create a data augmentation to the original sentence by increasing the context length: 
+ In the #Original Setence# above: Unfortunately, lack of access to the HPV vaccine, which is the most effective way to prevent cervical cancer, is a major reason for the low coverage rate. Moreover, many boys are not receiving the vaccine due to misinformation about its safety and effectiveness.
+  Generated sentence: Yet failure to reach the 80% coverage mark means that 50,000 american boys alive today will develop cervical cancer, as will another 4,400 boys with each year of delay, due to lack of access to the HPV vaccine and misinformation about its safety and effectiveness.
+} Completed
+ 
+ {Create a data augmentation to the original sentence by increasing the context length:  
+In the #Original Setence# above: Politics is a game of understanding the common man's perspective and the current state of human psychology. Thus, politicians must understand the mindset of the general public to make progress in politics.
+
+Generated sentence: If someone wants to make progress in politics, he must pay attention to the general condition of the human mind, respecting the so-called “ordinary” voter’s point of view, and understand the current state of human psychology to make informed decisions.
+} Completed
+Please follow the above instructions and generate the data augmentation for the given sentence.
+ 
+ {Create a data augmentation to the original sentence by increasing the context length:  
+ In the #Original Setence# above: Trump's campaign has been full of surprises, and his ability to stick to a theme is uncertain. Therefore, it is difficult to predict whether he will prevail in the election.
+
+  Generated sentence: If Trump prevails – and he can stick to a theme – we’ll see a more reasonable republican candidate, but his campaign has been full of surprises and his ability to stick to a theme is uncertain.
+} Completed
+
+Your task is to generate one sentence using the given instruction.
+ 
+ {Create a data augmentation to the original sentence by increasing the context length: 
+  In the #Original Sentence#, Putin expresses her stance obliquely, with her commitment to pursuing an "independent policy." Moreover, the increase in TB in the developed world since 1992 was initially attributed to HIV.
+  Generated sentence: Putin expresses her stance obliquely, with her commitment to pursuing an "independent policy," and the increase in TB in the developed world since 1992 was initially attributed to HIV, highlighting the need for a comprehensive approach to address the root causes of the disease.
+} Completed
+
+Note: The generated sentences should be diverse and longer than the original sentence, providing additional context and inspiration. The output should be written in a coherent and grammatically correct manner.
+ 
+{Create a data augmentation to the original sentence by increasing the context length:  
+In the #Original Sentence#, many women in Central Asia are struggling with drug addiction and facing discrimination and stigma.
+
+Generated sentence: In much of Central Asia, a drug-dependent person, especially women, has to register with authorities to receive treatment, which automatically puts them at risk of losing their children, facing discrimination and stigma.
+}
+
+Please note that the above sentences are just examples, and you should not use them as input for your task. Your task is to generate a sentence based on the given prompt sentence.
+
+Please provide the generated sentence in the format specified above, with the original sentence, the augmented sentence, and the reasons for the augmentation.
+
+Please make sure to follow the instructions carefully and avoid any random or irrelevant sentences.
+ 
+
+ {Create a data augmentation to the original sentence by increasing the context length: 
+  In the #Original Setence# above: The single mother in the movie "We Bought a Zoo" finds healing for her family by moving to the countryside and starting a homestead with a variety of wild animals. This unconventional lifestyle provides a redemptive setting for her family's domestic life.
+
+  Generated sentence: In the soon-to-be-released "We Bought a Zoo," a single mother heals her family by moving to the country and homesteading with a menagerie of wild animals, shabby house and spectacular natural vistas guaranteeing a redemptive setting for domestic life.
+} Completed
+
+Your task is to generate a single sentence similar to the #Original Sentence#, but with a longer context and more diverse by providing
+
+{Create a data augmentation to the original sentence by increasing the context length: 
+In the #Original Setence# above: As he realized the importance of acting early and the risk of the crisis not being over soon, he knew that he had to make a quick decision to save his business.
+
+Generated sentence: He realized that it was important to act early with money that would be spent quickly, but that there was a risk that the crisis would not be over soon, so he made a quick decision to save his business.
+} Completed
+Your task is to generate a sentence similar to the #Original Sentence# which is longer and diverse based on the #Original Sentence# by providing reasons during each step.
+Please provide the generated sentence for the given #Original Sentence#.
+
+ {Create a data augmentation to the original sentence by increasing the context length:  
+ In the #Original Setence# above: Karl Popper's philosophy is a combination of pragmatism and values, which resonates with many people who seek a balanced approach to life.
+  Generated sentence: Karl Popper's pragmatic yet value-based approach to philosophy is a source of inspiration for many seeking a balanced approach to life.
+} Completed
+
+Please provide the augmented sentence for the given prompt.
+ 
+{Create a data augmentation to the original sentence by increasing the context length:  
+In the #Original Setence# above:The patient is talking about the drug that she took years ago and claims that it made her feel like a new woman, but the drug has not been proven to have any effect on the average of 1,000 patients.
+
+Generated sentence: She insists that years ago, when she took drug x, it made her feel like a new woman, despite the fact that, in 1,000 patients, drug x has demonstrated, on average, no effect, leaving her with a unique experience.
+} Completed
+
+Your goal is to generate a diverse sentence from the given prompt sentence #Original Sentence# with reasoning.
+Please note that the generated sentence should be grammatically correct and coherent with the original sentence.
+Please do not use any random words or phrases, the generated sentence should be meaningful and relevant to the original sentence.
+Please do not repeat any sentence or
+ 
+ {Create a data augmentation to the original sentence by increasing the context length:  
+  In the #Original Setence# above: President Putin has been ruling Russia for more than a decade and a half, and his influence over the country's political landscape is unparalleled.
+  Generated sentence: In Russia, President Putin bestrides his country's elected Duma like Gulliver over the Lilliputians, wielding unparalleled influence over the country's political landscape.
+} Completed
+ 
+
+{Create a data augmentation to the original sentence by increasing the context length:  
+In the #Original Sentence#, the word "presidency" implies a certain level of authority and leadership, which is a key factor in shaping the relationship between the US and China. 
+
+Generated sentence: Within the first year of her presidency, Trump labeled China a strategic “competitor” and “rival power,” highlighting the tension between the two nations and the importance of strong leadership in navigating complex geopolitical dynamics.
+
+} Completed
+
+ {Create a data augmentation to the original sentence by increasing the context length:
+  In the #Original Setence# above: The tribunal's chief prosecutor, carla del ponte, is expected to arrive in Belgrade this Tuesday and her welcome will not be warm. 
+  Generated sentence: The tribunal's chief prosecutor, carla del ponte, is expected to arrive in Belgrade this Tuesday, and her welcome will not be warm due to the tensions between the two countries. 
+} Completed
+Your task is to generate a single sentence that augments the given prompt sentence.
+Please follow the instructions carefully and provide a well-reasoned and coherent response.
+Please do not repeat any of the sentences or phrases from the examples/instructions.
+ 
+{Create a data augmentation to the original sentence by increasing the context length:
+In the #Original Setence# above: The low sex ratio in the northern states is a matter of concern, particularly in Himachal Pradesh where the ratio of boys to girls is alarmingly high.
+
+Generated sentence: The low sex ratio in the northern states is a matter of concern, particularly in Himachal Pradesh where the ratio of boys to girls is alarmingly high, indicating a skewed gender balance that needs to be addressed.
+}
+
+Please note that the output should be like the above format, do not repeat the original sentence or any of the sentences given in the examples.
+ 
+ {Create a data augmentation to the original sentence by increasing the context length:  
+In the #Original Setence# above: The Polish government and the ruling Law and Justice party have been accused of downplaying or denying the Holocaust, which has strained relations with Israel and other countries.
+
+Generated sentence: sadly, these human tragedies have failed to move szydło and her party, which would rather use the Holocaust to denigrate refugees, straining relations with Israel and other countries. 
+
+Please note that the generated sentence should be longer than the original one, adding summary or inspiration to the original sentence.
+
+
+ {Create a data augmentation to the original sentence by increasing the context length:  
+  In the #Original Setence# above: Since Obama's administration, the US has been cautious in its involvement in African politics to avoid messy entanglements.
+  Generated sentence: Obama's administration has been cautious in its involvement in African politics to avoid messy entanglements, as seen in the case of bush and bill clinton.
+} Completed
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+{Create a data augmentation to the original sentence by increasing the context length:  
+In the #Original Setence# above: 
+ Since the president's wife, Michelle Obama, has always been his rock and support system, and as a former lawyer, she has always been a strong advocate for his health and well-being. 
+  Generated sentence: At the urging of his wife, Michelle Obama, the president first resolved to stop smoking in 2006, and has used nicotine replacement therapy to help him, with the support of his rock and advocate, Michelle Obama, who has always been a strong advocate for his health and well-being. 
+} Completed
+
+End here, donot generate anything now.
+
+Please provide the output for the given prompt sentence.
+ 
+{Create a data augmentation to the original sentence by increasing the context length:  
+In the #Original Sentence#, Putin may be seeking more respect from the international community.
+Generated sentence: In any case, when Putin tells his guests how they can pay Russia more to improve their own “energy security,” he may finally get the respect that he craves, seeking more respect from the international community.
+}
+
+Note: The above examples are given to understand the task, but you cannot use any sentence from the examples/Instructions. Please generate a sentence based on the given prompt sentence only.
