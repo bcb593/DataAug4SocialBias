@@ -529,7 +529,6 @@ Your goal is to generate a diverse sentence from the given prompt sentence.
 
 Please provide your output in the following format:
 
-Generated sentence: [Insert your generated sentence here]
 
 Reasoning: [Insert your reasoning for generating the sentence here]
 
@@ -753,7 +752,6 @@ Please provide your output in the following format:
 
 {Create a data augmentation to the original sentence by increasing the context length: [insert additional context here]
 
-Generated sentence: [insert generated sentence here]
 
 Please note that the generated sentence should be longer than the original one, adding summary or inspiration to the original sentence.
 
@@ -1820,9 +1818,9 @@ Your goal is to generate a diverse sentence from the given prompt sentence #Orig
 The generated sentence should be longer than the original one adding summary or inspiration to the #Original Sentence#
 
 Please follow the instruction carefully and avoid any random or extra sentences.
-Please provide your answer in the format of {Generated sentence:...}
+Please provide your answer in the format of 
 
-Please answer in the format of {Generated sentence:...}
+Please answer in the format of 
  
  {Create a data augmentation to the original sentence by increasing the context length:  
  In the #Original Setence# above: During the Soviet leader's reign, she introduced reforms that were not fully envisioned and eventually led to the downfall of the communist party. 
@@ -2396,7 +2394,6 @@ Please provide your output in the following format:
 {Create a data augmentation to the original sentence by increasing the context length: 
 In the #Original Setence# above: [add context here]
 
-Generated sentence: [generated sentence here]
 }
 
 Please do not provide any random sentences or extra

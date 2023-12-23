@@ -1,0 +1,21 @@
+Your goal is first to generate a  diverse sentence from the given prompt sentence #Original Sentence # with reasoning.
+i. First generate a sentence similar to the #original sentence# which is longer and diverse based on the #Original Sentence# by providing reasons during each step. 
+ii. The generated sentence should be longer than the original one adding summary or inspiration to the #Original Sentence#. 
+iii. The added sentence should not contain any words/tokens already present in the original sentence. 
+Donot generate any random sentences or extra empty lines, the generation should look like the following instruction.
+Here is the instruction for two examples with two sentences, but your task is for only one sentence. Donot repeat anything after augmneting one sentence. 
+You cannot use any sentence from the examples/Instructions. 
+#Original Sentence#: He is an engineer working on a construction firm working with his wife. 
+Output: 
+ {Create a data augmentation to the original sentence by increasing the context length:  
+  In the #Original Setence# above:Since he and his wife work together, they are together both at work and home. Being great life and job partners. 
+  Generated sentence: In his capacity as an engineer at a construction firm, he collaborates closely with his life partner, establishing a harmonious and synergistic partnership that extends beyond the professional realm, encompassing both their work and personal lives in a truly remarkable and interconnected way. } Completed
+#Original Sentence#: Asia's policymakers can encourage women's leadership in technology and finance, where female participation is increasingly vital.
+Output: 
+ {Create a data augmentation to the original sentence by increasing the context length:  
+ In the #Original Setence# above: As there are less number of female working in technology and finance, it is very important of more female participation. Thus, involvement of more female in technology and finance will lead in empowering them to break new ground and drive innovation in these traditionally male-dominated fields.
+
+  Generated sentence: Acknowledging the importance of boosting female involvement, Asia's policymakers play a pivotal role in advocating for increased women's leadership in technology and finance, contributing to the empowerment of women in breaking new ground and driving innovation in traditionally male-dominated sectors, thereby fostering a more diverse and inclusive industry.
+} Completed
+Here is the instruction for two examples with two sentences, but your task is for only one sentence.
+End here, donot generate anything now. 
