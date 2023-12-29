@@ -10,7 +10,7 @@ model = "meta-llama/Llama-2-13b-chat-hf" # meta-llama/Llama-2-70b-hf
 tokenizer = AutoTokenizer.from_pretrained(model, use_auth_token=True)
 #prompt_path='/home/zhangxit/files/DataAug4SocialBias/SentenceGeneration/Data/prompts/prompt_gender.txt'
 #sentences_path = 'home/zhangxit/files/DataAug4SocialBias/SentenceGeneration/Data/longer_text10k_gender.txt'
-prompt_path='/scratch0/bashyalb/DataAug4SocialBias/SentenceGeneration/Data/prompts/samediversegen_unique.txt'
+prompt_path='/scratch0/bashyalb/DataAug4SocialBias/SentenceGeneration/Data/prompts/samediversegen_unique`   1.txt'
 sentences_path = '/scratch0/bashyalb/DataAug4SocialBias/SentenceGeneration/Data/DebiasingCorpus/corpus(10-40)10k.txt'
 
 llama_pipeline = pipeline(
@@ -40,7 +40,7 @@ def return_relevant_sentences(sentences_path, prompt_path):
     with open(sentences_path, 'r', encoding='utf-8') as file:
         sentences = [line.strip() for line in file]
 
-    for i, sentence in enumerate(tqdm(sentences[:10], desc="Processing sentences")):
+    for i, sentence in enumerate(tqdm(sentences[:100], desc="Processing sentences")):
         print(sentence)
         full_prompt = f"{prompt}#Original Sentence#:{sentence}\"Output:"
         aug_sent = get_llama_response(full_prompt)
