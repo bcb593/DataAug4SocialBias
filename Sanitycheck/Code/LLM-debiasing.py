@@ -133,7 +133,7 @@ if __name__ == "__main__":
         verbose=True,
         mode="min")
     # print("debiasing fine-tuning")
-    trainer = pl.Trainer(max_epochs=args.epochs, devices=[5,7], accelerator="gpu", strategy="ddp",
+    trainer = pl.Trainer(max_epochs=args.epochs, devices=[0,1], accelerator="gpu", strategy="ddp",
                          callbacks=[checkpoint_callback],
                          default_root_dir="./{}/".format(args.output))
     trainer.fit(model, train_loader)
