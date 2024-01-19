@@ -17,10 +17,6 @@ from torch.utils.data import DataLoader, Dataset
 
 transformers.logging.set_verbosity_error()
 
-#os.system("export TRANSFORMERS_CACHE=/scratch0/bashyalb/pretrained_models/")
-#os.system("export TRANSFORMERS_CACHE=/scratch0/bashyalb/pretrained_models/")
-#os.environ["TRANSFORMERS_CACHE"] ="/scratch0/bashyalb/pretrained_models/"
-#os.environ["TRANSFORMERS_CACHE"] = "/scratch0/bashyalb/pretrained_models/"
 
 class myMaskedLMDataset(Dataset):
     def __init__(self, file, tokenizer):
@@ -87,7 +83,7 @@ if __name__ == "__main__":
                       #  help="Filepath to training data")
     parser.add_argument("--batch_size", type=int, default=8, help="Batch size")
     parser.add_argument("--lr", type=float, default=1e-5, help="Learning rate")
-    parser.add_argument('--epochs', type=int, default=100, help="Number of training epochs")
+    parser.add_argument('--epochs', type=int, default=50, help="Number of training epochs")
     parser.add_argument("--max_length", type=int, default=64,
                         help="Maximum length allowed for input sentences. If longer, truncate.")
     parser.add_argument("--mlm_prob", type=float, default=0.15, help="Probability to mask random tokens in the input")
