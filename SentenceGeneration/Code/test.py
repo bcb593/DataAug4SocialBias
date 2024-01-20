@@ -41,10 +41,10 @@ def return_relevant_sentences(sentences_path, prompt_path):
         sentences = [line.strip() for line in file]
 
     for i, sentence in enumerate(tqdm(sentences, desc="Processing sentences")):
-        print(sentence)
+        #print(sentence)
         full_prompt = f"{prompt}#Original Sentence#:{sentence}\"Output:"
         aug_sent = get_llama_response(full_prompt)
-        print(aug_sent)
+        #print(aug_sent)
         relevant_sentences.append(aug_sent)
 
     return relevant_sentences
