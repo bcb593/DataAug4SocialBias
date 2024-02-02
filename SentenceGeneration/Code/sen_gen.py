@@ -2,6 +2,7 @@ import os
 os.environ['TRANSFORMERS_CACHE']='/scratch0/bashyalb/pretrained_models/'
 from transformers import pipeline
 from transformers import AutoTokenizer
+from transformers import pipeline, AutoTokenizer, logging
 import transformers
 import torch
 import re
