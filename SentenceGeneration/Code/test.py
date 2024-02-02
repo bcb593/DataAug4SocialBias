@@ -73,11 +73,3 @@ with open('/scratch0/bashyalb/DataAug4SocialBias/SentenceGeneration/Data/SocialG
     for sentence in same_group:
         f.write(sentence + '\n')
 
-with open('/scratch0/bashyalb/DataAug4SocialBias/SentenceGeneration/Data/SocialGroups/gender/Generated/Opposite_Social_Group.txt', 'w',encoding='utf-8') as f:
-    for sentence in opposite_group:
-        f.write(sentence + '\n')
-
-#And write everything in a file
-with open('/scratch0/bashyalb/DataAug4SocialBias/SentenceGeneration/Data/SocialGroups/gender/Generated/samegroupgen/1-13generated.txt', 'w',encoding='utf-8') as f:
-    for sentence in relevant_sentences:
-        f.write(sentence + '\n')
