@@ -6,6 +6,7 @@ from transformers import pipeline, AutoTokenizer, logging
 import transformers
 import torch
 import re
+import argparse
 
 # Disable unnecessary transformers logging
 logging.set_verbosity_error()
