@@ -5,6 +5,7 @@ from transformers import AutoTokenizer
 import transformers
 import torch
 import re
+from tqdm import tqdm
 
 model = "meta-llama/Llama-2-13b-chat-hf" # meta-llama/Llama-2-70b-hf
 tokenizer = AutoTokenizer.from_pretrained(model, use_auth_token=True)
@@ -31,7 +32,6 @@ def get_llama_response(prompt: str) -> str:
     full_text = llama_pipeline(prompt, max_length=900)[0]['generated_text']
     return full_text
 
-from tqdm import tqdm
 
 def return_relevant_sentences(sentences_path, prompt_path):
     prompt = cot(prompt_path)
