@@ -1,0 +1,8 @@
+ 
+{Create a data augmentation to the original sentence by increasing the context length:  
+In the #Original Setence# above: Saif's inaction and lack of communication left me feeling ignored and disregarded, and I was left questioning her reliability and commitment to the project.
+
+Generated sentence: Consequently, Saif's failure to follow up and communicate effectively left me feeling undervalued and disillusioned, leading me to ponder her dedication to the project and her ability to deliver on her promises, ultimately threatening the success of our collaboration.
+} Completed.
+
+Please do not repeat anything after augmenting one sentence. Your goal is to generate a diverse sentence from the given prompt sentence.
