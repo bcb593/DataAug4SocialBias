@@ -7,7 +7,7 @@ import transformers
 import torch
 import re
 import argparse
-import tqdm
+from tqdm import tqdm
 
 # Disable unnecessary transformers logging
 logging.set_verbosity_error()
