@@ -1,9 +1,10 @@
 import os
-import re
-import argparse
-from transformers import pipeline, AutoTokenizer, logging
+os.environ['TRANSFORMERS_CACHE']='/scratch0/bashyalb/pretrained_models/'
+from transformers import pipeline
+from transformers import AutoTokenizer
+import transformers
 import torch
-from tqdm import tqdm
+import re
 
 # Disable unnecessary transformers logging
 logging.set_verbosity_error()
