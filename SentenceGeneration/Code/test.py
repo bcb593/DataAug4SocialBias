@@ -5,7 +5,6 @@ from transformers import AutoTokenizer
 import transformers
 import torch
 import re
-from tqdm import tqdm
 
 model = "meta-llama/Llama-2-13b-chat-hf" # meta-llama/Llama-2-70b-hf
 tokenizer = AutoTokenizer.from_pretrained(model, use_auth_token=True)
@@ -32,6 +31,7 @@ def get_llama_response(prompt: str) -> str:
     full_text = llama_pipeline(prompt, max_length=900)[0]['generated_text']
     return full_text
 
+from tqdm import tqdm
 
 def return_relevant_sentences(sentences_path, prompt_path):
     prompt = cot(prompt_path)
@@ -69,7 +69,8 @@ def extract_groups(relevant_sentences):
     return same_social_group_sentences, opposite_social_group_sentences
 
 same_group,opposite_group=extract_groups(relevant_sentences)
-with open('/scratch0/bashyalb/DataAug4SocialBias/SentenceGeneration/Data/SocialGroups/gender/Generated/Same_Social_Group.txt', 'w',encoding='utf-8') as f:
-    for sentence in same_group:
-        f.write(sentence + '\n')
 
+#And write everything in a file
+with open('/scratch0/bashyalb/DataAug4SocialBias/SentenceGeneration/Data/SocialGroups/gender/Generated/samegroupgen/1-13generated.txt', 'w',encoding='utf-8') as f:
+    for sentence in relevant_sentences:
+        f.write(sentence + '\n')
