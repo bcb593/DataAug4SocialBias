@@ -70,7 +70,7 @@ def main(args):
     output_dir = args.output_dir
     os.makedirs(output_dir, exist_ok=True)
 
-    with open(os.path.join(output_dir), 'w', encoding='utf-8') as f:
+    with open(output_dir, 'w', encoding='utf-8') as f:
         for sentence in relevant_sentences:
             f.write(sentence + '\n')
 
