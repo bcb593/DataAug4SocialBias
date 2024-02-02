@@ -68,7 +68,7 @@ def main(args):
     same_group, opposite_group = extract_groups(relevant_sentences)
 
     output_dir = args.output_dir
-    os.makedirs(output_dir)
+    os.makedirs(output_dir, exist_ok=True)
 
     with open(output_dir, 'w', encoding='utf-8') as f:
         for sentence in relevant_sentences:
