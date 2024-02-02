@@ -41,7 +41,7 @@ def main(args):
         with open(sentences_path, 'r', encoding='utf-8') as file:
             sentences = [line.strip() for line in file]
 
-        for i, sentence in enumerate(tqdm(sentences[:5], desc="Processing sentences")):
+        for i, sentence in enumerate(tqdm(sentences[:1], desc="Processing sentences")):
             print(sentence)
             full_prompt = f"{prompt}#Original Sentence#:{sentence}\"Output:"
             aug_sent = get_llama_response(full_prompt)
