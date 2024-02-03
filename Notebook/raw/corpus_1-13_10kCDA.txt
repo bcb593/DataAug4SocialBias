@@ -1,8 +1,468 @@
  
+ {Create a data augmentation to the original sentence by increasing the context length:  
+ In the #Original Setence# above:Saif's inaction caused me to question her dedication to the project and left me feeling disregarded and neglected.
+  Generated sentence: Saif's inattention to the project's progress left me feeling disillusioned and disregarded, causing me to question her genuine interest in the project and her ability to prioritize tasks effectively.
+} Completed
+Your goal is to generate a diverse sentence from the given prompt sentence #Original Sentence# with reasoning.
+The generated sentence should be longer than the original one adding summary or inspiration to the #Original Sentence#. The added sentence should not contain any words/tokens already present in the original sentence.
+
 {Create a data augmentation to the original sentence by increasing the context length:  
-In the #Original Setence# above: Saif's inaction and lack of communication left me feeling ignored and disregarded, and I was left questioning her reliability and commitment to the project.
+In the #Original Setence# above: Nestor's criticism of the president's leadership has sparked a heated debate among the public, with many expressing their agreement and dissatisfaction with the current administration's policies and actions.
 
-Generated sentence: Consequently, Saif's failure to follow up and communicate effectively left me feeling undervalued and disillusioned, leading me to ponder her dedication to the project and her ability to deliver on her promises, ultimately threatening the success of our collaboration.
-} Completed.
+Generated sentence: With his sharp tongue and unwavering stance against the president's ineptitude, Nestor's scathing remarks have left an indelible mark on the public's perception of the administration's policies and actions, igniting a national conversation that has resonated deeply among the citizenry and underscoring the urgent need for more effective leadership and accountability in the government.
+} Completed
+End here, donot generate anything now.
+Please provide your output for the given #Original Sentence#.
+ 
+ {Create a data augmentation to the original sentence by increasing the context length:  
+  In the #Original Sentence#, the engineer's reputation is intact because she has no known association with any criminal organizations.
+  Generated sentence: In contrast to her Brazilian counterparts, the engineer's professional reputation remains untarnished due to her lack of association with any criminal organizations, which could potentially compromise her integrity and reputation, highlighting the importance of ethical standards in the engineering profession. } Completed
 
-Please do not repeat anything after augmenting one sentence. Your goal is to generate a diverse sentence from the given prompt sentence.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+{Create a data augmentation to the original sentence by increasing the context length:  
+In the #Original Setence# above: She has been a long-time supporter of the republican party and has consistently demonstrated her dedication to the community by offering her properties for various functions and events.
+
+Generated sentence: With her extensive real estate portfolio at her disposal, she has selflessly provided her properties for hosting a multitude of republican party functions and events, thereby showcasing her unwavering commitment to the community and her political beliefs, cementing her position as a respected and influential figure within the party.
+} Completed
+
+Note: 
+1. Please do not repeat the words/tokens already present in the original sentence.
+2. The generated sentence should be longer than the original one.
+3. The generated sentence should add new information or inspiration to the original sentence.
+4. Please do not generate any random sentences or extra empty lines.
+5. The output should look like the above instruction.
+ 
+ {Create a data augmentation to the original sentence by increasing the context length: 
+In the #Original Sentence#, she is reported to have expressed a hint of uncertainty in her voice, suggesting a cautious approach to the situation, as she carefully weighs the pros and cons before making any definitive statements or decisions. 
+Generated sentence: As she deliberates on the situation, she reflects on the potential risks and rewards, her voice tinged with a hint of uncertainty, as she meticulously considers all aspects before arriving at a well-informed decision, exhibiting a cautious yet thoughtful approach to the situation.
+}
+ 
+ {Create a data augmentation to the original sentence by increasing the context length:  
+In the #Original Setence# above: The lack of demand is a major hindrance to the adoption of the technology, which in turn limits its potential impact and utility.
+
+Generated sentence: Moreover, he highlighted that the dearth of demand for it hampers its adoption, thereby restricting its potential impact and utility, thereby underscoring the critical need to address the demand gap to unlock the technology's full potential and drive its widespread adoption.
+} Completed
+
+Your goal is to generate a diverse sentence from the given prompt sentence #Original Sentence# with reasoning.
+
+Please follow the above instruction and generate the output.
+
+I will be checking the output for the following criteria:
+
+1. The generated sentence should be longer than the original one.
+2. The generated sentence should not contain any words/tokens already present in the original sentence.
+3. The generated sentence should provide additional context and reasoning to the original sentence.
+4. The generated sentence should be grammatically correct and coherent.
+
+Please note that I will be evaluating your output based on these criteria, and I will provide feedback accordingly.
+
+Please proceed with generating the output for the given prompt sentence #Original Sentence#.
+ 
+{Create a data augmentation to the original sentence by increasing the context length: 
+In the #Original Sentence#, she is a strategic thinker who plans her moves carefully, considering the long-term implications of each action.
+
+Generated sentence: As she meticulously ponders each move, she is not only weighing the pros and cons but also anticipating the potential consequences of her actions, allowing her to make informed decisions that align with her long-term strategy, thereby demonstrating her exceptional strategic thinking and foresight in the game of chess. } Completed
+
+Note: In the above examples, the generated sentences are not just random additions to the original sentence, but rather they provide more context, inspiration, or summary to the original sentence, while avoiding repetition of any words or tokens already present in the original sentence.
+
+ {Create a data augmentation to the original sentence by increasing the context length:  
+ In the #Original Setence# above: As a woman, she may have to overcome various obstacles and biases in order to pursue her goals and dreams, including facing skepticism and resistance from those who do not believe in her abilities or underestimate her potential.
+
+  Generated sentence: In the absence of any convincing reasons, her reluctance to embrace these opportunities may be attributed to her apprehensions about venturing into uncharted territories, fear of failure, or a lack of confidence in her abilities, thereby hindering her potential for growth and progress, which can be further exacerbated by the biases and skepticism of those who underestimate her capabilities and overlook her contributions.
+} Completed
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{Create a data augmentation to the original sentence by increasing the context length: 
+In the #Original Setence# above: With a steadfast resolve to emulate the illustrious George Soros, he is committed to honing his financial prowess and crafting visionary investment strategies that will leave an indelible mark on the financial landscape.
+
+Generated sentence: As he embarks on his journey to emulate the iconic George Soros, he remains steadfast in his pursuit of refining his financial acumen and formulating visionary investment strategies that will not only leave a lasting legacy but also contribute to the betterment of the financial industry as a whole.
+} Completed
+ 
+ {Create a data augmentation to the original sentence by increasing the context length:  
+  In the #Original Setence# above: Since the man at the pool is a potential game-changer for the meeting, it is essential to understand his role and expertise to maximize his contributions and ensure a successful outcome.
+
+  Generated sentence: In light of the man's potential impact on the meeting, it is imperative to engage in a thorough introduction or discussion to comprehensively explore his role and expertise, thereby optimizing his contributions and ensuring a successful outcome for the gathering.
+} Completed
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
